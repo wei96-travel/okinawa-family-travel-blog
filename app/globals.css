@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fffdf8;
+  --surface: #f6efe4;
+  --surface-soft: #fbf6ee;
+  --text: #34302b;
+  --muted: #756e65;
+  --line: #eadfce;
+  --accent: #9a6b43;
+  --accent-dark: #694624;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+  line-height: 1.75;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.prose-travel {
+  color: var(--text);
+  font-size: 1.0625rem;
+  line-height: 1.95;
+}
+
+.prose-travel h2 {
+  margin-top: 2.75rem;
+  margin-bottom: 0.9rem;
+  font-size: 1.45rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.prose-travel h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+.prose-travel p {
+  margin: 1.15rem 0;
+}
+
+.prose-travel ul,
+.prose-travel ol {
+  margin: 1.2rem 0;
+  padding-left: 1.4rem;
+}
+
+.prose-travel li {
+  margin: 0.45rem 0;
+}
+
+.prose-travel strong {
+  color: var(--accent-dark);
+}
+
+.prose-travel a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #d7c7af;
+  text-underline-offset: 0.22em;
+}
+
+.prose-travel blockquote {
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--accent);
+  background: var(--surface-soft);
+  padding: 0.85rem 1rem;
+  color: var(--muted);
+}

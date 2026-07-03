@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩親子旅行筆記插畫</title>
+  <desc id="desc">海邊、筆記本、行李與家庭旅行物件的溫暖插畫。</desc>
+  <rect width="960" height="720" fill="#fff8ec"/>
+  <path d="M0 505c98-52 188-61 270-28 92 37 178 32 258-14 112-64 253-63 432 2v255H0V505z" fill="#e6efe8"/>
+  <path d="M0 564c111-37 218-37 321 0 97 35 189 35 276 0 98-40 219-39 363 2v154H0V564z" fill="#d9e8ef"/>
+  <circle cx="770" cy="126" r="62" fill="#f2c879"/>
+  <rect x="118" y="168" width="416" height="380" rx="28" fill="#ffffff" stroke="#eadfce" stroke-width="10"/>
+  <path d="M168 246h304M168 306h232M168 366h282" stroke="#9a6b43" stroke-width="18" stroke-linecap="round"/>
+  <path d="M175 444c46-39 92-39 138 0 42 36 83 36 123 0" fill="none" stroke="#6f9a8d" stroke-width="18" stroke-linecap="round"/>
+  <rect x="610" y="338" width="178" height="198" rx="28" fill="#f3dfc3" stroke="#9a6b43" stroke-width="10"/>
+  <path d="M653 338v-34c0-28 20-48 47-48s47 20 47 48v34" fill="none" stroke="#9a6b43" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="651" cy="585" r="22" fill="#694624"/>
+  <circle cx="747" cy="585" r="22" fill="#694624"/>
+  <path d="M642 444h114" stroke="#fff8ec" stroke-width="16" stroke-linecap="round"/>
+  <path d="M672 486h54" stroke="#fff8ec" stroke-width="16" stroke-linecap="round"/>
+  <path d="M561 217c35-38 85-38 120 0 35-38 85-38 120 0" fill="none" stroke="#9a6b43" stroke-width="14" stroke-linecap="round"/>
+  <path d="M641 154c24-24 58-24 82 0" fill="none" stroke="#9a6b43" stroke-width="12" stroke-linecap="round"/>
+</svg>
