@@ -17,7 +17,7 @@ const starterPath = [
     href: "/blog/first-okinawa-where-to-stay"
   },
   {
-    title: "那霸適合親子住嗎？",
+    title: "那霸適合家庭住嗎？",
     description: "判斷第一晚或最後一晚要不要放那霸。",
     href: "/blog/naha-family-stay-guide"
   },
