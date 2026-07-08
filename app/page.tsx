@@ -41,7 +41,7 @@ export default function HomePage() {
                 第一次帶孩子去沖繩，也可以慢慢來。
               </h1>
               <p className="mt-5 max-w-xl text-lg leading-9 text-[#5f594f]">
-                這裡整理住宿區域、移動節奏、親子景點和旅途中那些容易累壞的小細節，寫給第一次出發的台灣家庭。
+                這裡整理住宿區域、移動節奏、親子景點和旅途中那些容易累壞的小細節，寫給第一次出發的家庭。
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <Link
