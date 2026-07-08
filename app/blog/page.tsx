@@ -76,12 +76,15 @@ export default function BlogPage() {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
           {categoryDefinitions.map((category) => (
             <Link
-              className="rounded-lg border border-[#eadfce] bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              className="overflow-hidden rounded-lg border border-[#eadfce] bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
               href={"/category/" + category.slug}
               key={category.slug}
             >
-              <h3 className="font-bold text-[#34302b]">{category.name}</h3>
-              <p className="mt-3 text-sm leading-7 text-[#5f594f]">{category.description}</p>
+              <img alt="" className="aspect-[4/3] w-full object-cover" src={category.image} />
+              <div className="p-5">
+                <h3 className="font-bold text-[#34302b]">{category.name}</h3>
+                <p className="mt-3 text-sm leading-7 text-[#5f594f]">{category.description}</p>
+              </div>
             </Link>
           ))}
         </div>

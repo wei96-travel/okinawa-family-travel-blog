@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Okinawa accommodation notebook cover">
+  <rect width="1200" height="900" fill="#fbf6ee"/>
+  <rect x="78" y="86" width="1044" height="720" rx="28" fill="#fffdf8" stroke="#eadfce" stroke-width="8"/>
+  <path d="M78 648c162-74 266-74 420 0s278 74 624 0v158H78z" fill="#d8e7df"/>
+  <path d="M78 690c182-58 312-58 462 0s288 58 582 0v116H78z" fill="#c7dcd3"/>
+  <rect x="228" y="256" width="430" height="330" rx="16" fill="#e8d1b7"/>
+  <rect x="270" y="298" width="82" height="92" rx="6" fill="#fffdf8"/>
+  <rect x="386" y="298" width="82" height="92" rx="6" fill="#fffdf8"/>
+  <rect x="502" y="298" width="82" height="92" rx="6" fill="#fffdf8"/>
+  <rect x="270" y="424" width="82" height="92" rx="6" fill="#fffdf8"/>
+  <rect x="386" y="424" width="82" height="92" rx="6" fill="#fffdf8"/>
+  <rect x="502" y="424" width="82" height="92" rx="6" fill="#fffdf8"/>
+  <path d="M202 254h482l-62-86H266z" fill="#9a6b43"/>
+  <rect x="716" y="356" width="230" height="230" rx="18" fill="#fffdf8" stroke="#d7c7af" stroke-width="8"/>
+  <path d="M750 456h162" stroke="#9a6b43" stroke-width="12" stroke-linecap="round"/>
+  <path d="M750 510h128" stroke="#d7c7af" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="918" cy="198" r="62" fill="#f2c98b"/>
+  <path d="M872 642c42-40 96-40 138 0" fill="none" stroke="#9a6b43" stroke-width="14" stroke-linecap="round"/>
+  <path d="M178 704h858" stroke="#694624" stroke-width="8" stroke-linecap="round" opacity=".18"/>
+</svg>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArticleCard } from "@/components/article-card";
 import { CategoryPill } from "@/components/category-pill";
 import { getAllPosts } from "@/lib/posts";
-import { categories } from "@/lib/site";
+import { categories, getCategoryByName } from "@/lib/site";
 
 const readingPath = [
   {
@@ -29,6 +29,7 @@ export default function HomePage() {
   const posts = getAllPosts().slice(0, 5);
   const featuredPost = posts[0];
   const secondaryPosts = posts.slice(1);
+  const featuredImage = featuredPost ? getCategoryByName(featuredPost.category)?.image ?? "/images/okinawa-family-hero.png" : "";
 
   return (
     <div>
@@ -68,7 +69,7 @@ export default function HomePage() {
                   <img
                     alt="沖繩親子旅行筆記封面"
                     className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
-                    src="/images/okinawa-family-hero.png"
+                    src={featuredImage}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#2f2a22]/60 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 rounded-sm bg-white/90 px-3 py-2 text-xs font-semibold tracking-[0.12em] text-[#5f594f] shadow-sm">

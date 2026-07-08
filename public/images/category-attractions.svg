@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Okinawa family attractions notebook cover">
+  <rect width="1200" height="900" fill="#fbf6ee"/>
+  <rect x="84" y="82" width="1032" height="724" rx="28" fill="#fffdf8" stroke="#eadfce" stroke-width="8"/>
+  <path d="M84 612c144-68 246-76 372-28 112 42 218 88 372 22 100-42 176-44 288 4v196H84z" fill="#c7dcd3"/>
+  <path d="M184 574c108-84 216-84 324 0" fill="none" stroke="#9a6b43" stroke-width="14" stroke-linecap="round"/>
+  <path d="M282 470c90-54 222-52 318 0" fill="none" stroke="#9a6b43" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="308" cy="398" r="18" fill="#694624"/>
+  <circle cx="566" cy="398" r="18" fill="#694624"/>
+  <path d="M760 284c90-50 184-8 206 88-74 26-162 12-206-88z" fill="#d8e7df" stroke="#694624" stroke-width="8"/>
+  <circle cx="930" cy="358" r="10" fill="#694624"/>
+  <path d="M778 520c64-54 154-54 218 0" fill="none" stroke="#9a6b43" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="208" cy="220" r="54" fill="#f2c98b"/>
+  <path d="M178 704h858" stroke="#694624" stroke-width="8" stroke-linecap="round" opacity=".18"/>
+</svg>

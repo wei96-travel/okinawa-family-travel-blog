@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Post } from "@/lib/posts";
+import { getCategoryByName } from "@/lib/site";
 
 type ArticleCardProps = {
   post: Post;
@@ -8,6 +9,7 @@ type ArticleCardProps = {
 
 export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
   const isFeatured = variant === "featured";
+  const coverImage = getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
 
   return (
     <article
@@ -27,7 +29,7 @@ export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
         <img
           alt=""
           className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
-          src="/images/okinawa-family-hero.png"
+          src={coverImage}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#2f2a22]/55 via-[#2f2a22]/10 to-transparent" />
         <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-[#694624] shadow-sm">

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Okinawa travel gear notebook cover">
+  <rect width="1200" height="900" fill="#fbf6ee"/>
+  <rect x="86" y="84" width="1028" height="720" rx="28" fill="#fffdf8" stroke="#eadfce" stroke-width="8"/>
+  <rect x="332" y="300" width="430" height="306" rx="28" fill="#e8d1b7" stroke="#694624" stroke-width="10"/>
+  <path d="M448 300v-54c0-54 44-98 98-98s98 44 98 98v54" fill="none" stroke="#694624" stroke-width="16" stroke-linecap="round"/>
+  <path d="M448 300v306M646 300v306" stroke="#9a6b43" stroke-width="10" opacity=".5"/>
+  <rect x="424" y="382" width="246" height="82" rx="16" fill="#fffdf8" stroke="#d7c7af" stroke-width="8"/>
+  <path d="M466 424h160" stroke="#9a6b43" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="828" cy="300" r="56" fill="#f2c98b"/>
+  <path d="M814 300h28M828 286v28" stroke="#694624" stroke-width="10" stroke-linecap="round"/>
+  <rect x="218" y="522" width="150" height="122" rx="18" fill="#d8e7df" stroke="#694624" stroke-width="8"/>
+  <path d="M250 560h86M250 604h58" stroke="#694624" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+  <path d="M178 704h858" stroke="#694624" stroke-width="8" stroke-linecap="round" opacity=".18"/>
+</svg>

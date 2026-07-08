@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Okinawa car transport notebook cover">
+  <rect width="1200" height="900" fill="#fffdf8"/>
+  <rect x="82" y="86" width="1036" height="716" rx="28" fill="#fbf6ee" stroke="#eadfce" stroke-width="8"/>
+  <path d="M174 650c186-70 372-70 558 0 118 44 232 44 342 0" fill="none" stroke="#d7c7af" stroke-width="34" stroke-linecap="round"/>
+  <path d="M174 650c186-70 372-70 558 0 118 44 232 44 342 0" fill="none" stroke="#fffdf8" stroke-width="8" stroke-linecap="round" stroke-dasharray="44 40"/>
+  <rect x="302" y="394" width="520" height="156" rx="44" fill="#d8e7df" stroke="#694624" stroke-width="10"/>
+  <path d="M396 394l68-96h196l80 96z" fill="#c7dcd3" stroke="#694624" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="488" y="326" width="118" height="58" rx="8" fill="#fffdf8"/>
+  <circle cx="414" cy="558" r="48" fill="#694624"/>
+  <circle cx="710" cy="558" r="48" fill="#694624"/>
+  <circle cx="414" cy="558" r="18" fill="#fbf6ee"/>
+  <circle cx="710" cy="558" r="18" fill="#fbf6ee"/>
+  <circle cx="910" cy="246" r="58" fill="#f2c98b"/>
+  <path d="M218 248h152M218 302h98" stroke="#9a6b43" stroke-width="12" stroke-linecap="round"/>
+</svg>

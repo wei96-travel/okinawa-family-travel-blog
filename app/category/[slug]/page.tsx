@@ -41,12 +41,17 @@ export default async function CategoryPage({ params }: PageProps) {
   return (
     <div>
       <section className="bg-[#f6efe4]">
-        <div className="mx-auto max-w-6xl px-5 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 sm:px-6 lg:grid-cols-[1fr_0.62fr] lg:items-center lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold tracking-[0.16em] text-[#9a6b43]">CATEGORY GUIDE</p>
             <h1 className="mt-3 text-3xl font-bold text-[#34302b] sm:text-4xl">{category.name}</h1>
             <p className="mt-4 text-lg leading-9 text-[#5f594f]">{category.description}</p>
           </div>
+          <img
+            alt=""
+            className="aspect-[4/3] w-full rounded-lg border border-[#eadfce] bg-white object-cover shadow-sm"
+            src={category.image}
+          />
         </div>
       </section>
 
