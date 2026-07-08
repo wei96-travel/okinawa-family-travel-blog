@@ -2,7 +2,7 @@ export const categoryDefinitions = [
   {
     name: "沖繩住宿",
     slug: "accommodation",
-    image: "/images/category-accommodation.svg",
+    image: "/images/okinawa-realistic-cover.png",
     description: "飯店區域、親子房型、那霸與海邊住宿選擇。",
     audience: "正在決定第一晚住哪裡、要不要換飯店、想比較那霸與海邊飯店的新手家庭。"
   },
