@@ -26,53 +26,82 @@ const readingPath = [
 ];
 
 export default function HomePage() {
-  const posts = getAllPosts().slice(0, 3);
+  const posts = getAllPosts().slice(0, 5);
   const featuredPost = posts[0];
   const secondaryPosts = posts.slice(1);
 
   return (
     <div>
-      <section className="bg-[#fffdf8]">
-        <div className="mx-auto max-w-6xl px-5 py-8 sm:px-6 lg:px-8">
-          <div className="grid overflow-hidden rounded-lg border border-[#eadfce] bg-white shadow-sm lg:grid-cols-[0.92fr_1.08fr]">
-            <div className="relative min-h-[360px] bg-[#f6efe4] lg:min-h-[560px]">
-              <img
-                className="absolute inset-0 h-full w-full object-cover"
-                src="/images/okinawa-family-hero.png"
-                alt="沖繩海邊親子旅行筆記封面"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#2f2a22]/55 via-[#2f2a22]/10 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white sm:p-8">
-                <p className="text-xs font-semibold tracking-[0.22em]">OKINAWA FAMILY NOTES</p>
-                <p className="mt-3 max-w-sm text-sm leading-7 text-white/90">
-                  住宿、行程、親子景點與租車交通，寫給第一次出發的家庭。
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-col justify-center px-6 py-10 sm:px-10 lg:px-12">
-              <p className="text-sm font-semibold text-[#9a6b43]">日本親子旅遊</p>
+      <section className="border-b border-[#eadfce] bg-[#fffdf8]">
+        <div className="mx-auto max-w-6xl px-5 py-8 sm:px-6 sm:py-12 lg:px-8">
+          <div className="grid gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:items-end">
+            <div className="pb-2">
+              <p className="text-sm font-semibold tracking-[0.18em] text-[#9a6b43]">OKINAWA FAMILY NOTES</p>
               <h1 className="mt-4 max-w-xl text-4xl font-bold leading-tight text-[#34302b] sm:text-5xl">
                 第一次帶孩子去沖繩，也可以慢慢來。
               </h1>
               <p className="mt-5 max-w-xl text-lg leading-9 text-[#5f594f]">
-                不追逐打卡清單，而是把住宿區域、移動節奏、孩子作息和大人的疲勞感，一起放進旅行規劃裡。
+                這裡整理住宿區域、移動節奏、親子景點和旅途中那些容易累壞的小細節，寫給第一次出發的台灣家庭。
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-7 flex flex-wrap gap-3">
                 <Link
                   className="rounded-full bg-[#694624] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#543719]"
                   href="/blog"
                 >
-                  看最新文章
+                  看所有筆記
                 </Link>
                 <Link
                   className="rounded-full border border-[#d7c7af] px-5 py-3 text-sm font-semibold text-[#694624] transition hover:bg-[#fbf6ee]"
-                  href="/about"
+                  href="/blog/first-okinawa-where-to-stay"
                 >
-                  關於這份筆記
+                  從住宿開始
                 </Link>
               </div>
             </div>
+
+            {featuredPost ? (
+              <Link
+                className="group grid overflow-hidden rounded-lg border border-[#eadfce] bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:grid-cols-[0.9fr_1fr]"
+                href={"/blog/" + featuredPost.slug}
+              >
+                <div className="relative min-h-[260px] bg-[#f6efe4]">
+                  <img
+                    alt="沖繩親子旅行筆記封面"
+                    className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                    src="/images/okinawa-family-hero.png"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2f2a22]/60 via-transparent to-transparent" />
+                  <div className="absolute bottom-4 left-4 rounded-sm bg-white/90 px-3 py-2 text-xs font-semibold tracking-[0.12em] text-[#5f594f] shadow-sm">
+                    LATEST NOTE
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center p-6 sm:p-7">
+                  <div className="flex flex-wrap items-center gap-2 text-xs text-[#756e65]">
+                    <span className="font-semibold text-[#9a6b43]">{featuredPost.category}</span>
+                    <span aria-hidden="true">/</span>
+                    <time dateTime={featuredPost.date}>{featuredPost.formattedDate}</time>
+                  </div>
+                  <h2 className="mt-3 text-2xl font-bold leading-snug text-[#34302b] sm:text-3xl">
+                    {featuredPost.title}
+                  </h2>
+                  <p className="mt-4 text-base leading-8 text-[#5f594f]">{featuredPost.description}</p>
+                  <span className="mt-5 text-sm font-semibold text-[#694624]">閱讀這篇</span>
+                </div>
+              </Link>
+            ) : null}
+          </div>
+
+          <div className="mt-8 grid gap-3 border-t border-[#eadfce] pt-5 sm:grid-cols-3">
+            {secondaryPosts.slice(0, 3).map((post) => (
+              <Link
+                className="rounded-lg bg-[#fbf6ee] px-4 py-4 transition hover:bg-[#f6efe4]"
+                href={"/blog/" + post.slug}
+                key={post.slug}
+              >
+                <p className="text-xs font-semibold text-[#9a6b43]">{post.category}</p>
+                <h2 className="mt-2 text-base font-bold leading-snug text-[#34302b]">{post.title}</h2>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -131,7 +160,7 @@ export default function HomePage() {
           <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
             <ArticleCard post={featuredPost} variant="featured" />
             <div className="grid gap-5">
-              {secondaryPosts.map((post) => (
+              {secondaryPosts.slice(0, 2).map((post) => (
                 <ArticleCard key={post.slug} post={post} />
               ))}
             </div>
