@@ -23,7 +23,7 @@
 - Build Command 使用 `npm run build` 或 Vercel 預設 Next.js build。
 - 設定環境變數：
   - `NEXT_PUBLIC_SITE_URL`
-  - `NEXT_PUBLIC_GA_ID`，先空著，等 GA 建好再填。
+  - `NEXT_PUBLIC_GA_ID`，填入 GA4 網站資料串流的評估 ID。
 
 ## 網域
 
@@ -38,6 +38,6 @@
 
 - 設定 Google Search Console。
 - 送出 sitemap。
-- 設定 Google Analytics。
+- 確認 Google Analytics 即時報表收到正式網站的 `page_view`。
 - 每週固定新增或重寫 1 到 2 篇文章。
 - 優先補完住宿與行程兩個主題群。

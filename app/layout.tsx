@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Footer } from "@/components/footer";
+import { GoogleAnalytics } from "@/components/google-analytics";
 import { Header } from "@/components/header";
 import "./globals.css";
 
@@ -32,16 +32,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="zh-Hant-TW">
       <body className="min-h-screen antialiased">
-        {gaId ? (
-          <>
-            <Script async src={"https://www.googletagmanager.com/gtag/js?id=" + gaId} />
-            <Script id="google-analytics">
-              {"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '" +
-                gaId +
-                "');"}
-            </Script>
-          </>
-        ) : null}
+        {gaId ? <GoogleAnalytics measurementId={gaId} /> : null}
         <Header />
         <main>{children}</main>
         <Footer />
