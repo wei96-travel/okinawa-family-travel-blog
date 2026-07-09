@@ -17,6 +17,11 @@ const starterPath = [
     href: "/blog/first-okinawa-where-to-stay"
   },
   {
+    title: "恩納海邊飯店值得住兩晚嗎？",
+    description: "想住海邊度假飯店，先確認自駕、晚餐與停留時間。",
+    href: "/blog/onna-family-stay-guide"
+  },
+  {
     title: "那霸適合家庭住嗎？",
     description: "判斷第一晚或最後一晚要不要放那霸。",
     href: "/blog/naha-family-stay-guide"
@@ -49,9 +54,9 @@ export default function BlogPage() {
       <section className="mx-auto max-w-6xl px-5 py-10 sm:px-6 lg:px-8">
         <div className="mb-6">
           <p className="text-sm font-semibold text-[#9a6b43]">STARTER PATH</p>
-          <h2 className="mt-1 text-2xl font-bold text-[#34302b]">新手建議先看這 3 篇</h2>
+          <h2 className="mt-1 text-2xl font-bold text-[#34302b]">第一次出發，建議照這 4 步讀</h2>
         </div>
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {starterPath.map((item, index) => (
             <Link
               className="rounded-lg border border-[#eadfce] bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function renderBold(text: string) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
 
@@ -17,6 +19,14 @@ function renderInline(text: string) {
     const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
 
     if (match) {
+      if (match[2].startsWith("/")) {
+        return (
+          <Link href={match[2]} key={index}>
+            {match[1]}
+          </Link>
+        );
+      }
+
       return (
         <a href={match[2]} key={index} rel="noreferrer" target="_blank">
           {match[1]}

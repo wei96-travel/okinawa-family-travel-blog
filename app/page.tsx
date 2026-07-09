@@ -13,15 +13,15 @@ const readingPath = [
   },
   {
     step: "02",
-    title: "再挑適合家庭的飯店",
-    description: "不要只看海景，也要看房型、停車、早餐和洗衣。",
-    href: "/blog/how-to-choose-family-hotel"
+    title: "想住海邊，先看恩納",
+    description: "判斷度假飯店是否值得住兩晚，以及晚餐、自駕怎麼安排。",
+    href: "/blog/onna-family-stay-guide"
   },
   {
     step: "03",
-    title: "最後安排南部或那霸收尾",
-    description: "把最後一天交通壓力降下來，旅程會舒服很多。",
-    href: "/blog/south-okinawa-family-stay"
+    title: "想住市區，再看那霸",
+    description: "確認第一晚或最後一晚放那霸，能不能讓交通更輕鬆。",
+    href: "/blog/naha-family-stay-guide"
   }
 ];
 
@@ -113,7 +113,7 @@ export default function HomePage() {
             <p className="text-sm font-semibold text-[#9a6b43]">START HERE</p>
             <h2 className="mt-2 text-2xl font-bold text-[#34302b]">先從最需要的主題開始</h2>
             <p className="mt-3 text-base leading-8 text-[#5f594f]">
-              第一次規劃沖繩親子自由行，先把住宿、交通和孩子能不能好好休息想清楚，行程自然會變簡單。
+              第一次規劃沖繩家庭旅行，先把住宿、交通和孩子能不能好好休息想清楚，行程自然會變簡單。
             </p>
           </div>
           <div className="flex flex-wrap content-start gap-2">
@@ -150,7 +150,7 @@ export default function HomePage() {
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <p className="text-sm font-semibold text-[#9a6b43]">LATEST NOTES</p>
-            <h2 className="mt-1 text-2xl font-bold text-[#34302b]">新手爸媽的沖繩筆記</h2>
+            <h2 className="mt-1 text-2xl font-bold text-[#34302b]">第一次出發的家庭筆記</h2>
           </div>
           <Link className="hidden text-sm font-semibold text-[#694624] sm:inline" href="/blog">
             全部文章
