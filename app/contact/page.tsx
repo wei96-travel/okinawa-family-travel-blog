@@ -21,7 +21,7 @@ export default function ContactPage() {
         <p>
           目前聯絡信箱與表單還在規劃中，暫時不放不存在的信箱，避免讀者寄出後收不到回覆。
         </p>
-        <blockquote>之後建議使用獨立信箱，例如 contact@okinawafamilynotes.com，或改用簡單表單服務。</blockquote>
+        <blockquote>聯絡信箱尚未啟用。之後開通正式聯絡方式時，會在這裡公布。</blockquote>
         <h2>可以聯絡什麼</h2>
         <ul>
           <li>文章內容有錯誤或需要更新。</li>
