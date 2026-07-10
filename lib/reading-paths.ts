@@ -59,6 +59,34 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
       slug: "okinawa-change-hotels-family",
       reason: "如果你還在猶豫要不要換飯店，回來看這篇會比較安心。"
     }
+  ],
+  "okinawa-4-days-family-itinerary": [
+    {
+      slug: "churaumi-aquarium-family-time",
+      reason: "4 天 3 夜如果要排北部水族館，先抓好停留時間，行程會更穩。"
+    },
+    {
+      slug: "okinawa-rainy-day-family-spots",
+      reason: "短天數最怕天氣打亂，先準備雨天備案比較安心。"
+    },
+    {
+      slug: "first-okinawa-where-to-stay",
+      reason: "如果還沒決定住哪裡，先回頭比較那霸、中部和北部的差別。"
+    }
+  ],
+  "churaumi-aquarium-family-time": [
+    {
+      slug: "okinawa-4-days-family-itinerary",
+      reason: "看完水族館停留時間後，可以把它放回 4 天 3 夜的完整節奏裡。"
+    },
+    {
+      slug: "onna-family-stay-guide",
+      reason: "如果想讓北部行程輕鬆一點，住恩納村或中北部會比較好安排。"
+    },
+    {
+      slug: "okinawa-rental-car-family-guide",
+      reason: "水族館距離那霸較遠，租車、安全座椅和取還車時間都要先想好。"
+    }
   ]
 };
 
