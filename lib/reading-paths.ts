@@ -88,6 +88,20 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
       reason: "如果你正在排 4 天 3 夜，這篇可以把最後一天放回完整節奏裡。"
     }
   ],
+  "okinawa-driving-rest-stops-family": [
+    {
+      slug: "okinawa-rental-car-family-guide",
+      reason: "中途休息點排好後，租車、加油、還車和安全座椅也要一起確認。"
+    },
+    {
+      slug: "churaumi-aquarium-family-time",
+      reason: "如果要開去水族館，這篇可以幫你抓北部長距離移動的節奏。"
+    },
+    {
+      slug: "okinawa-last-day-family-plan",
+      reason: "最後一天也需要補水、加油和廁所備案，回程日會更安心。"
+    }
+  ],
   "churaumi-aquarium-family-time": [
     {
       slug: "okinawa-4-days-family-itinerary",
@@ -100,6 +114,20 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
     {
       slug: "okinawa-rental-car-family-guide",
       reason: "水族館距離那霸較遠，租車、安全座椅和取還車時間都要先想好。"
+    }
+  ],
+  "okinawa-rental-car-family-guide": [
+    {
+      slug: "okinawa-driving-rest-stops-family",
+      reason: "租車上路後，便利商店、公廁和中途休息點會直接影響行程舒適度。"
+    },
+    {
+      slug: "okinawa-last-day-family-plan",
+      reason: "還車日最容易太趕，先抓好加油、接駁和機場時間。"
+    },
+    {
+      slug: "okinawa-4-days-family-itinerary",
+      reason: "如果你正在排短天數自駕，這篇可以把租車節奏放進完整行程。"
     }
   ]
 };
