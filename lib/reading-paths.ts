@@ -4,6 +4,20 @@ export type ReadingPathItem = {
 };
 
 export const readingPaths: Record<string, ReadingPathItem[]> = {
+  "okinawa-3-days-family-itinerary": [
+    {
+      slug: "okinawa-family-itinerary-not-too-tired",
+      reason: "短天數最怕硬塞景點，這篇會幫你檢查一天一主題和車程節奏。"
+    },
+    {
+      slug: "churaumi-aquarium-family-time",
+      reason: "3 天 2 夜如果一定想去水族館，先看這篇抓北部行程會不會太重。"
+    },
+    {
+      slug: "okinawa-rainy-day-family-spots",
+      reason: "短旅行遇到下雨很容易亂掉，先準備同區備案會比較安心。"
+    }
+  ],
   "naha-family-stay-guide": [
     {
       slug: "onna-family-stay-guide",
@@ -48,19 +62,51 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
   ],
   "okinawa-5-days-family-itinerary": [
     {
+      slug: "okinawa-family-itinerary-not-too-tired",
+      reason: "如果想知道所有天數共通的排法，這篇會把一天一主題、車程和雨天備案講清楚。"
+    },
+    {
       slug: "okinawa-rainy-day-family-spots",
       reason: "行程排好後，最好先準備雨天備案，遇到天氣變化才不會慌。"
     },
     {
       slug: "okinawa-rental-car-family-guide",
       reason: "5 天 4 夜多半會租車，安全座椅、取還車和停車要先確認。"
+    }
+  ],
+  "okinawa-6-days-family-itinerary": [
+    {
+      slug: "okinawa-family-itinerary-not-too-tired",
+      reason: "6 天 5 夜排好後，可以回來檢查每天是不是都有一個清楚主題。"
     },
     {
-      slug: "okinawa-change-hotels-family",
-      reason: "如果你還在猶豫要不要換飯店，回來看這篇會比較安心。"
+      slug: "churaumi-aquarium-family-time",
+      reason: "如果中段要放水族館，先抓好北部這天的停留時間和回程節奏。"
+    },
+    {
+      slug: "okinawa-last-day-family-plan",
+      reason: "天數越長，最後一天越容易鬆懈，先把還車和機場時間抓穩。"
+    }
+  ],
+  "okinawa-family-itinerary-not-too-tired": [
+    {
+      slug: "okinawa-4-days-family-itinerary",
+      reason: "如果是短天數，先看 4 天 3 夜的不換飯店版本，會比較好上手。"
+    },
+    {
+      slug: "okinawa-5-days-family-itinerary",
+      reason: "如果想多一點餘裕，5 天 4 夜可以把住宿和行程切成前後兩段。"
+    },
+    {
+      slug: "okinawa-6-days-family-itinerary",
+      reason: "如果時間拉到 6 天 5 夜，這篇會把北中南分區慢慢玩的排法接起來。"
     }
   ],
   "okinawa-4-days-family-itinerary": [
+    {
+      slug: "okinawa-family-itinerary-not-too-tired",
+      reason: "看完 4 天 3 夜，可以用這篇檢查每天是不是排得太滿。"
+    },
     {
       slug: "okinawa-last-day-family-plan",
       reason: "4 天 3 夜最容易緊張的是最後一天，先抓好還車和機場時間會安心很多。"
@@ -68,10 +114,6 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
     {
       slug: "churaumi-aquarium-family-time",
       reason: "4 天 3 夜如果要排北部水族館，先抓好停留時間，行程會更穩。"
-    },
-    {
-      slug: "okinawa-rainy-day-family-spots",
-      reason: "短天數最怕天氣打亂，先準備雨天備案比較安心。"
     }
   ],
   "okinawa-last-day-family-plan": [
