@@ -130,10 +130,10 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
       reason: "如果你正在排 4 天 3 夜，這篇可以把最後一天放回完整節奏裡。"
     }
   ],
-  "okinawa-driving-rest-stops-family": [
+  "okinawa-family-drive-toilet-convenience-store": [
     {
       slug: "okinawa-rental-car-family-guide",
-      reason: "中途休息點排好後，租車、加油、還車和安全座椅也要一起確認。"
+      reason: "自駕途中會遇到停車、導航、還車與休息節奏，租車前可以先把基本觀念補齊。"
     },
     {
       slug: "churaumi-aquarium-family-time",
@@ -142,20 +142,6 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
     {
       slug: "okinawa-last-day-family-plan",
       reason: "最後一天也需要補水、加油和廁所備案，回程日會更安心。"
-    }
-  ],
-  "okinawa-family-drive-toilet-convenience-store": [
-    {
-      slug: "okinawa-driving-rest-stops-family",
-      reason: "如果你想把廁所、放電和中途停靠一起排，這篇可以接著看休息站怎麼安排。"
-    },
-    {
-      slug: "okinawa-rental-car-family-guide",
-      reason: "自駕途中會遇到停車、導航、還車與休息節奏，租車前可以先把基本觀念補齊。"
-    },
-    {
-      slug: "okinawa-6-days-family-itinerary",
-      reason: "如果你準備玩比較多天，這篇可以看長天數行程怎麼把北中南排得不太趕。"
     }
   ],
   "churaumi-aquarium-family-time": [
@@ -182,13 +168,13 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
       reason: "想把古宇利島放進完整旅程，可以參考 6 天 5 夜的節奏，北部那天會比較好安排。"
     },
     {
-      slug: "okinawa-driving-rest-stops-family",
+      slug: "okinawa-family-drive-toilet-convenience-store",
       reason: "古宇利島通常會牽涉比較長的自駕路線，休息點先想好，小孩狀態會差很多。"
     }
   ],
   "okinawa-rental-car-family-guide": [
     {
-      slug: "okinawa-driving-rest-stops-family",
+      slug: "okinawa-family-drive-toilet-convenience-store",
       reason: "租車上路後，便利商店、公廁和中途休息點會直接影響行程舒適度。"
     },
     {
