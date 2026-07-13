@@ -144,6 +144,20 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
       reason: "最後一天也需要補水、加油和廁所備案，回程日會更安心。"
     }
   ],
+  "okinawa-family-drive-toilet-convenience-store": [
+    {
+      slug: "okinawa-driving-rest-stops-family",
+      reason: "如果你想把廁所、放電和中途停靠一起排，這篇可以接著看休息站怎麼安排。"
+    },
+    {
+      slug: "okinawa-rental-car-family-guide",
+      reason: "自駕途中會遇到停車、導航、還車與休息節奏，租車前可以先把基本觀念補齊。"
+    },
+    {
+      slug: "okinawa-6-days-family-itinerary",
+      reason: "如果你準備玩比較多天，這篇可以看長天數行程怎麼把北中南排得不太趕。"
+    }
+  ],
   "churaumi-aquarium-family-time": [
     {
       slug: "okinawa-4-days-family-itinerary",
