@@ -7,7 +7,10 @@ import { categories, categoryDefinitions } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "文章閱讀中心",
-  description: "第一次去沖繩的親子旅遊閱讀中心，依住宿、行程、景點、租車交通與旅遊用品整理。"
+  description: "第一次去沖繩的親子旅遊閱讀中心，依住宿、行程、景點、租車交通與旅遊用品整理。",
+  alternates: {
+    canonical: "/blog"
+  }
 };
 
 const starterPath = [
@@ -85,7 +88,7 @@ export default function BlogPage() {
               href={"/category/" + category.slug}
               key={category.slug}
             >
-              <img alt="" className="aspect-[4/3] w-full object-cover" src={category.image} />
+              <img alt={category.name} className="aspect-[4/3] w-full object-cover" src={category.image} />
               <div className="p-5">
                 <h3 className="font-bold text-[#34302b]">{category.name}</h3>
                 <p className="mt-3 text-sm leading-7 text-[#5f594f]">{category.description}</p>

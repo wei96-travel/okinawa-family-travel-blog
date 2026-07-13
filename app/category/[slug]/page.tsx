@@ -23,7 +23,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: category.name,
-    description: category.description
+    description: category.description,
+    alternates: {
+      canonical: "/category/" + category.slug
+    },
+    openGraph: {
+      title: category.name,
+      description: category.description,
+      url: "/category/" + category.slug,
+      images: [
+        {
+          url: category.image,
+          width: 1536,
+          height: 1024,
+          alt: category.name
+        }
+      ]
+    }
   };
 }
 
@@ -48,7 +64,7 @@ export default async function CategoryPage({ params }: PageProps) {
             <p className="mt-4 text-lg leading-9 text-[#5f594f]">{category.description}</p>
           </div>
           <img
-            alt=""
+            alt={category.name}
             className="aspect-[4/3] w-full rounded-lg border border-[#eadfce] bg-white object-cover shadow-sm"
             src={category.image}
           />

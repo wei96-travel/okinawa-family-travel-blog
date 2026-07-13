@@ -4,8 +4,12 @@ import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { ArticleToc } from "@/components/article-toc";
 import { MarkdownContent } from "@/components/markdown-content";
+import { JsonLd } from "@/components/json-ld";
 import { ReadingNextSteps } from "@/components/reading-next-steps";
 import { getAllPosts, getPostBySlug, getPostHeadings, getRelatedPosts } from "@/lib/posts";
+import { getCategoryByName } from "@/lib/site";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -26,11 +30,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: "/blog/" + post.slug
+    },
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
-      publishedTime: post.date
+      publishedTime: post.date,
+      url: "/blog/" + post.slug,
+      images: [
+        {
+          url: getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png",
+          width: 1536,
+          height: 1024,
+          alt: post.title
+        }
+      ]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png"]
     }
   };
 }
@@ -46,9 +68,33 @@ export default async function BlogPostPage({ params }: PageProps) {
   const allPosts = getAllPosts();
   const headings = getPostHeadings(post.content);
   const relatedPosts = getRelatedPosts(post, 2);
+  const coverImage = getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "@id": siteUrl + "/blog/" + post.slug + "#article",
+          headline: post.title,
+          description: post.description,
+          image: siteUrl + coverImage,
+          datePublished: post.date,
+          dateModified: post.date,
+          articleSection: post.category,
+          keywords: post.tags ?? [],
+          mainEntityOfPage: siteUrl + "/blog/" + post.slug,
+          author: {
+            "@type": "Organization",
+            name: "Okinawa Family Notes",
+            url: siteUrl
+          },
+          publisher: {
+            "@id": siteUrl + "/#organization"
+          }
+        }}
+      />
       <Link className="text-sm font-semibold text-[#694624]" href="/blog">
         回文章列表
       </Link>

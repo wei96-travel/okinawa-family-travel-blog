@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "聯盟行銷揭露",
-  description: "沖繩親子旅遊筆記的聯盟行銷揭露說明。"
+  description: "沖繩親子旅遊筆記的聯盟行銷揭露說明。",
+  alternates: {
+    canonical: "/affiliate-disclosure"
+  }
 };
 
 export default function AffiliateDisclosurePage() {

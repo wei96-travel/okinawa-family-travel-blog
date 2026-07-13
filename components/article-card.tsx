@@ -27,7 +27,7 @@ export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
         href={"/blog/" + post.slug}
       >
         <img
-          alt=""
+          alt={post.title}
           className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
           src={coverImage}
         />

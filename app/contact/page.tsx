@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "聯絡",
-  description: "沖繩親子慢旅筆記的聯絡頁，提供內容勘誤、資料補充與合作洽詢說明。"
+  description: "沖繩親子慢旅筆記的聯絡頁，提供內容勘誤、資料補充與合作洽詢說明。",
+  alternates: {
+    canonical: "/contact"
+  }
 };
 
 export default function ContactPage() {

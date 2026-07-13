@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "關於我",
-  description: "關於沖繩親子旅遊筆記，以及這個網站如何陪伴第一次去沖繩的家庭規劃旅行。"
+  description: "關於沖繩親子旅遊筆記，以及這個網站如何陪伴第一次去沖繩的家庭規劃旅行。",
+  alternates: {
+    canonical: "/about"
+  }
 };
 
 export default function AboutPage() {

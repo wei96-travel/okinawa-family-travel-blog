@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "隱私權政策",
-  description: "沖繩親子旅遊筆記的隱私權政策。"
+  description: "沖繩親子旅遊筆記的隱私權政策。",
+  alternates: {
+    canonical: "/privacy"
+  }
 };
 
 export default function PrivacyPage() {
