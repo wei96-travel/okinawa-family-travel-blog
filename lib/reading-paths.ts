@@ -158,6 +158,20 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
       reason: "水族館距離那霸較遠，租車、安全座椅和取還車時間都要先想好。"
     }
   ],
+  "kouri-island-family-guide": [
+    {
+      slug: "churaumi-aquarium-family-time",
+      reason: "如果古宇利島要和美麗海排同一天，先抓好水族館停留時間，北部行程才不會一路趕。"
+    },
+    {
+      slug: "okinawa-6-days-family-itinerary",
+      reason: "想把古宇利島放進完整旅程，可以參考 6 天 5 夜的節奏，北部那天會比較好安排。"
+    },
+    {
+      slug: "okinawa-driving-rest-stops-family",
+      reason: "古宇利島通常會牽涉比較長的自駕路線，休息點先想好，小孩狀態會差很多。"
+    }
+  ],
   "okinawa-rental-car-family-guide": [
     {
       slug: "okinawa-driving-rest-stops-family",
