@@ -11,8 +11,8 @@ const gaId = process.env.NEXT_PUBLIC_GA_ID;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "沖繩親子慢旅筆記",
-    template: "%s | 沖繩親子慢旅筆記"
+    default: "沖繩親子旅遊筆記",
+    template: "%s | 沖繩親子旅遊筆記"
   },
   description: "給第一次去沖繩的家庭：用慢一點、安心一點的方式整理住宿、行程、景點、租車交通與旅遊用品。",
   alternates: {
@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     icon: "/icon.svg"
   },
   openGraph: {
-    title: "沖繩親子慢旅筆記",
+    title: "沖繩親子旅遊筆記",
     description: "陪第一次帶孩子去沖繩的家庭，慢慢做出適合自己的旅行選擇。",
     url: siteUrl,
-    siteName: "沖繩親子慢旅筆記",
+    siteName: "沖繩親子旅遊筆記",
     locale: "zh_TW",
     type: "website",
     images: [

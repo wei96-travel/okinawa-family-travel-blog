@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "聯絡",
-  description: "沖繩親子慢旅筆記的聯絡頁，提供內容勘誤、資料補充與合作洽詢說明。",
+  description: "沖繩親子旅遊筆記的聯絡頁，提供內容勘誤、資料補充與合作洽詢說明。",
   alternates: {
     canonical: "/contact"
   }
@@ -12,7 +12,7 @@ export default function ContactPage() {
   return (
     <section className="mx-auto max-w-3xl px-5 py-12 sm:px-6 lg:px-8">
       <p className="text-sm font-semibold text-[#9a6b43]">CONTACT</p>
-      <h1 className="mt-2 text-3xl font-bold text-[#34302b] sm:text-4xl">聯絡沖繩親子慢旅筆記</h1>
+      <h1 className="mt-2 text-3xl font-bold text-[#34302b] sm:text-4xl">聯絡沖繩親子旅遊筆記</h1>
       <div className="prose-travel mt-8">
         <p>
           如果你正在規劃沖繩家庭旅行，發現文章裡有需要更新的地方，或想補充實際旅行經驗，之後可以透過這裡聯絡。
