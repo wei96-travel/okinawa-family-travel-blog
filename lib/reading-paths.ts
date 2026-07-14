@@ -4,6 +4,20 @@ export type ReadingPathItem = {
 };
 
 export const readingPaths: Record<string, ReadingPathItem[]> = {
+  "okinawa-car-seat-rental-guide": [
+    {
+      slug: "okinawa-rental-car-family-guide",
+      reason: "安全座椅確定後，可以回來把取還車、加油和停車一起排進租車流程。"
+    },
+    {
+      slug: "okinawa-family-drive-toilet-convenience-store",
+      reason: "上路之後的休息安排，跟安全座椅一樣是自駕途中容易忽略的細節。"
+    },
+    {
+      slug: "first-okinawa-where-to-stay",
+      reason: "還沒決定住宿區域的話，先看這篇會更好安排整趟租車路線。"
+    }
+  ],
   "how-to-choose-family-hotel": [
     {
       slug: "first-okinawa-where-to-stay",
@@ -216,16 +230,16 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
   ],
   "okinawa-rental-car-family-guide": [
     {
+      slug: "okinawa-car-seat-rental-guide",
+      reason: "安全座椅是法律要求，訂車時最好跟取還車一起確認清楚。"
+    },
+    {
       slug: "okinawa-family-drive-toilet-convenience-store",
       reason: "租車上路後，便利商店、公廁和中途休息點會直接影響行程舒適度。"
     },
     {
       slug: "okinawa-last-day-family-plan",
       reason: "還車日最容易太趕，先抓好加油、接駁和機場時間。"
-    },
-    {
-      slug: "okinawa-4-days-family-itinerary",
-      reason: "如果你正在排短天數自駕，這篇可以把租車節奏放進完整行程。"
     }
   ]
 };
