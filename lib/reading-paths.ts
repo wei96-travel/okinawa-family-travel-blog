@@ -4,6 +4,48 @@ export type ReadingPathItem = {
 };
 
 export const readingPaths: Record<string, ReadingPathItem[]> = {
+  "how-to-choose-family-hotel": [
+    {
+      slug: "first-okinawa-where-to-stay",
+      reason: "先決定要住北部、中部還是南部，再回來看飯店細節會更有方向。"
+    },
+    {
+      slug: "okinawa-rental-car-family-guide",
+      reason: "飯店停車場好不好用，通常要跟租車安排一起確認。"
+    },
+    {
+      slug: "okinawa-5-days-family-itinerary",
+      reason: "決定好飯店類型後，可以直接套進 5 天 4 夜的完整節奏。"
+    }
+  ],
+  "okinawa-rainy-day-family-spots": [
+    {
+      slug: "onna-family-stay-guide",
+      reason: "住恩納村這類海邊飯店，雨天備案會少一點，先確認飯店本身的室內設施。"
+    },
+    {
+      slug: "okinawa-family-itinerary-not-too-tired",
+      reason: "雨天備案最好排進每天的節奏裡，這篇可以幫你檢查整體行程會不會太滿。"
+    },
+    {
+      slug: "okinawa-5-days-family-itinerary",
+      reason: "如果正在排 5 天 4 夜，可以把雨天備案直接放進行程表。"
+    }
+  ],
+  "south-okinawa-family-stay": [
+    {
+      slug: "onna-family-stay-guide",
+      reason: "如果前段想住北部海邊飯店，這篇可以幫你判斷恩納村適不適合。"
+    },
+    {
+      slug: "churaumi-aquarium-family-time",
+      reason: "住南部通常代表水族館車程會拉長，先抓好停留時間比較不趕。"
+    },
+    {
+      slug: "okinawa-last-day-family-plan",
+      reason: "南部很適合排在最後一晚，這篇可以把還車和機場時間一起接起來。"
+    }
+  ],
   "okinawa-3-days-family-itinerary": [
     {
       slug: "okinawa-family-itinerary-not-too-tired",
