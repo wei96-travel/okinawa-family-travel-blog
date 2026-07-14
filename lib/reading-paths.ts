@@ -4,6 +4,20 @@ export type ReadingPathItem = {
 };
 
 export const readingPaths: Record<string, ReadingPathItem[]> = {
+  "okinawa-family-beach-guide": [
+    {
+      slug: "churaumi-aquarium-family-time",
+      reason: "海灘常常會跟水族館排同一天，先抓好水族館停留時間比較不趕。"
+    },
+    {
+      slug: "south-okinawa-family-stay",
+      reason: "如果海灘排在南部或最後幾天，可以先看南部住宿適不適合你的節奏。"
+    },
+    {
+      slug: "okinawa-rental-car-family-guide",
+      reason: "海灘大多要自駕才方便到，租車細節可以先確認清楚。"
+    }
+  ],
   "okinawa-car-seat-rental-guide": [
     {
       slug: "okinawa-rental-car-family-guide",
