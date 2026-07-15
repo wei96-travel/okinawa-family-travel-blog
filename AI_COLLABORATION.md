@@ -33,6 +33,7 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 - Content plan: `content/content-plan.md`
 - SEO growth roadmap: `content/seo-growth-roadmap.md`
 - Google status table: `content/google-seo-status.md`
+- Affiliate product workflow: `content/affiliate-product-workflow.md`
 - Blog posts: `content/blog/`
 - Article loading and metadata: `lib/posts.ts`, `app/blog/[slug]/page.tsx`, `app/sitemap.ts`
 
@@ -107,6 +108,12 @@ Possible affiliate products:
 - Kids raincoat
 - Packing cubes
 
+## Affiliate Product Workflow
+
+Use `content/affiliate-product-workflow.md` before adding Shopee products or asking Claude Code to research product categories.
+
+Codex controls strategy and final review. Claude Code can help build candidate product-category tables. wei96 chooses the actual Shopee affiliate links.
+
 ## Short Video Pattern
 
 Each article should generate 2 short videos first, not 3 to 4 until the workflow is stable.
@@ -143,3 +150,4 @@ If Codex takes over:
 3. Keep the writing human, practical, and parent-focused.
 4. Keep technical SEO changes conservative.
 5. Push to GitHub after clean builds.
+
