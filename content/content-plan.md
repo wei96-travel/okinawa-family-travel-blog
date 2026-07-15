@@ -96,7 +96,7 @@
     - 狀態：已完成，文章：/blog/okinawa-car-seat-rental-guide
     - 搜尋意圖：帶嬰幼兒租車前確認規定
 
-22. 沖繩親子自駕途中哪裡上廁所？便利商店、道之驛、休息站怎麼安排
+22. 沖繩親子自駕休息點怎麼排？便利商店、道之驛、休息站與廁所備案
     - 分類：租車交通
     - 狀態：已完成，文章：/blog/okinawa-family-drive-toilet-convenience-store
     - 搜尋意圖：自駕途中需要廁所、便利商店、補水與休息備案

@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: post.description,
       type: "article",
       publishedTime: post.date,
+      modifiedTime: post.modifiedDate,
       url: "/blog/" + post.slug,
       images: [
         {
@@ -81,7 +82,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           description: post.description,
           image: siteUrl + coverImage,
           datePublished: post.date,
-          dateModified: post.date,
+          dateModified: post.modifiedDate,
           articleSection: post.category,
           keywords: post.tags ?? [],
           mainEntityOfPage: siteUrl + "/blog/" + post.slug,

@@ -9,6 +9,7 @@ type PostMatter = {
   title: string;
   description: string;
   date: string;
+  updated?: string;
   category: Category;
   tags?: string[];
 };
@@ -17,6 +18,7 @@ export type Post = PostMatter & {
   slug: string;
   content: string;
   formattedDate: string;
+  modifiedDate: string;
   readingTime: string;
 };
 
@@ -46,6 +48,7 @@ function readPostFile(fileName: string): Post {
     slug,
     content,
     formattedDate: formatDate(frontMatter.date),
+    modifiedDate: frontMatter.updated ?? frontMatter.date,
     readingTime: getReadingTime(content)
   };
 }
