@@ -1,6 +1,6 @@
 ﻿# Shopee Affiliate Product Workflow
 
-Updated: 2026-07-15
+Updated: 2026-07-16
 
 This file defines how Okinawa Family Notes handles product research, affiliate placement, and short-video product angles. The goal is to avoid random product stuffing and make affiliate links useful for family travelers.
 
@@ -62,7 +62,7 @@ Claude Code should create or update a table like this:
 | Trash piles up in the car | Waterproof small trash bag / zip bag | `旅行垃圾袋 防水` | Temporary storage for wrappers and wet wipes | Avoid encouraging trash left in rental car |
 | Wet swimwear has nowhere to go | Wet bag | `濕衣袋 防水 旅行` | Useful after beach, pool, or rain | Avoid claiming every bag is fully waterproof |
 
-Claude Code should not choose one final product as `best`. It only prepares candidates.
+Claude Code may create a provisional ranking after Codex supplies normalized candidate data, but it does not approve a final product or publish a link.
 
 ### Step 3: wei96 picks actual products
 
@@ -75,6 +75,39 @@ The human owner chooses actual Shopee affiliate items based on:
 - Product really matches the article problem
 
 Do not pick medical, safety-critical, or legally sensitive products without extra checking.
+
+### Optional: compare actual Shopee candidates
+
+Use this only after the product category already fits the article.
+
+1. Codex collects no more than three current Shopee search cards.
+2. Codex normalizes only visible facts: title, price, displayed rating, review count, sales count, location, size, material, claimed inspection information, and product URL.
+3. Missing information stays `unknown`. It must never be rewritten as `not included`, `inferior`, or `unsafe`.
+4. Claude Code compares the supplied table offline with Haiku. Do not give Claude Code `WebSearch` or `WebFetch` for this task.
+5. Codex rejects any result that treats seller claims as verified facts, invents missing features, calculates unsupported percentages, or says a link is ready before the hard checks pass.
+6. wei96 opens the provisional winner and confirms the live product page before attaching the affiliate link.
+
+Use these comparison weights:
+
+| Criterion | Weight |
+| --- | ---: |
+| Family-travel usefulness | 30 |
+| Size and product-information completeness | 25 |
+| Verifiable trust signals | 20 |
+| Portability and storage | 15 |
+| Price | 10 |
+
+Hard checks before an affiliate link can be approved:
+
+- Live product page opens and matches the candidate title.
+- Current price and variants are visible.
+- Size chart fits the intended child age or height range.
+- Material and included items are stated clearly.
+- Rating includes a meaningful review count; a score without a count is not enough.
+- Sales and reviews do not show an obvious mismatch or repeated quality complaint.
+- Any inspection or certification claim includes information that can be verified.
+
+Until all relevant checks pass, the status must be `confirm before linking`, never `ready to publish`.
 
 ### Step 4: Codex writes placement copy
 
@@ -156,6 +189,21 @@ For the next article topic, do not write the article yet.
 Create a product candidate table only.
 For each family-travel pain point, suggest 3 to 5 Shopee search keywords, explain why the category fits, and list risks or claims to avoid.
 Do not pick final products. Do not add affiliate links. Do not change site code.
+```
+
+For actual-product comparison, use Haiku and disable browsing. Supply the normalized candidate table directly, then use this prompt:
+
+```text
+Compare only the supplied Shopee candidate data. Do not browse, read files, or fill in missing facts.
+
+Rules:
+- Missing means unknown, not absent.
+- Seller claims are unverified until supporting details are checked.
+- Call the ranking provisional.
+- Do not calculate percentages unless the inputs and formula are provided.
+- The affiliate status can only be "confirm before linking" until the live page, size, material, review count, sales, and relevant inspection details are checked.
+
+Return a scoring table, provisional first choice, reasons, and a human verification checklist.
 ```
 
 ## What To Bring Back To Codex
