@@ -87,3 +87,45 @@ a {
   padding: 0.85rem 1rem;
   color: var(--muted);
 }
+
+.prose-travel .table-scroll {
+  margin: 1.65rem 0;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffaf2;
+}
+
+.prose-travel table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.prose-travel th,
+.prose-travel td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.8rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-travel th {
+  background: var(--surface-soft);
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.prose-travel tr:last-child td {
+  border-bottom: 0;
+}
+
+.prose-travel code {
+  border-radius: 4px;
+  background: var(--surface);
+  padding: 0.12rem 0.3rem;
+  color: var(--accent-dark);
+  font-size: 0.92em;
+}

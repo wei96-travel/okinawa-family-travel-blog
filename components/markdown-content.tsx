@@ -12,6 +12,18 @@ function renderBold(text: string) {
   });
 }
 
+function renderText(text: string) {
+  const parts = text.split(/(`[^`]+`)/g);
+
+  return parts.map((part, index) => {
+    if (part.startsWith("`") && part.endsWith("`")) {
+      return <code key={index}>{part.slice(1, -1)}</code>;
+    }
+
+    return renderBold(part);
+  });
+}
+
 function renderInline(text: string) {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
 
@@ -34,8 +46,25 @@ function renderInline(text: string) {
       );
     }
 
-    return renderBold(part);
+    return renderText(part);
   });
+}
+
+function isTableBlock(lines: string[]) {
+  return (
+    lines.length >= 3 &&
+    lines.every((line) => line.trim().startsWith("|") && line.trim().endsWith("|")) &&
+    /^\|\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|$/.test(lines[1].trim())
+  );
+}
+
+function parseTableRow(line: string) {
+  return line
+    .trim()
+    .replace(/^\|/, "")
+    .replace(/\|$/, "")
+    .split("|")
+    .map((cell) => cell.trim());
 }
 
 type MarkdownContentProps = {
@@ -50,6 +79,34 @@ export function MarkdownContent({ content }: MarkdownContentProps) {
       {blocks.map((block, index) => {
         const lines = block.split("\n");
         const firstLine = lines[0];
+
+        if (isTableBlock(lines)) {
+          const headers = parseTableRow(lines[0]);
+          const rows = lines.slice(2).map(parseTableRow);
+
+          return (
+            <div className="table-scroll" key={index}>
+              <table>
+                <thead>
+                  <tr>
+                    {headers.map((header) => (
+                      <th key={header}>{renderInline(header)}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map((row, rowIndex) => (
+                    <tr key={rowIndex}>
+                      {row.map((cell, cellIndex) => (
+                        <td key={cellIndex}>{renderInline(cell)}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          );
+        }
 
         if (firstLine.startsWith("### ")) {
           return <h3 key={index}>{renderInline(firstLine.replace(/^### /, ""))}</h3>;
