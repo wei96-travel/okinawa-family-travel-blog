@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">日本加油站常見三種油的日文與顏色對照</title>
+  <desc id="desc">紅色是レギュラー普通無鉛汽油，黃色是ハイオク高辛烷值汽油，綠色是軽油柴油。軽油不是輕型車專用油。</desc>
+  <rect width="1200" height="675" fill="#fffdf8"/>
+  <rect x="48" y="42" width="1104" height="591" rx="24" fill="#ffffff" stroke="#eadfce" stroke-width="2"/>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Noto Sans TC', 'Noto Sans JP', sans-serif" fill="#34302b">
+    <text x="600" y="108" font-size="46" font-weight="700" text-anchor="middle">日本加油站先認這三種油</text>
+    <text x="600" y="148" font-size="23" fill="#756e65" text-anchor="middle">先看租車公司指定油種，再用顏色核對</text>
+
+    <g transform="translate(86 190)">
+      <rect width="316" height="266" rx="16" fill="#fff7f5" stroke="#d94f45" stroke-width="3"/>
+      <rect width="316" height="18" rx="9" fill="#d94f45"/>
+      <g transform="translate(116 48)" fill="none" stroke="#d94f45" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="0" width="62" height="83" rx="8"/>
+        <path d="M14 20h34v25H14z"/>
+        <path d="M62 22h15l17 18v45c0 13 17 13 17 0V55"/>
+      </g>
+      <text x="158" y="171" font-size="31" font-weight="700" text-anchor="middle">レギュラー</text>
+      <text x="158" y="211" font-size="25" text-anchor="middle">普通無鉛汽油</text>
+      <text x="158" y="244" font-size="20" fill="#9a6b43" text-anchor="middle">常見標示：紅色</text>
+    </g>
+
+    <g transform="translate(442 190)">
+      <rect width="316" height="266" rx="16" fill="#fffbeb" stroke="#d9a514" stroke-width="3"/>
+      <rect width="316" height="18" rx="9" fill="#d9a514"/>
+      <g transform="translate(116 48)" fill="none" stroke="#b48300" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="0" width="62" height="83" rx="8"/>
+        <path d="M14 20h34v25H14z"/>
+        <path d="M62 22h15l17 18v45c0 13 17 13 17 0V55"/>
+      </g>
+      <text x="158" y="171" font-size="31" font-weight="700" text-anchor="middle">ハイオク</text>
+      <text x="158" y="211" font-size="25" text-anchor="middle">高辛烷值汽油</text>
+      <text x="158" y="244" font-size="20" fill="#9a6b43" text-anchor="middle">常見標示：黃色</text>
+    </g>
+
+    <g transform="translate(798 190)">
+      <rect width="316" height="266" rx="16" fill="#f3faf6" stroke="#2f8b57" stroke-width="3"/>
+      <rect width="316" height="18" rx="9" fill="#2f8b57"/>
+      <g transform="translate(116 48)" fill="none" stroke="#2f8b57" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="0" width="62" height="83" rx="8"/>
+        <path d="M14 20h34v25H14z"/>
+        <path d="M62 22h15l17 18v45c0 13 17 13 17 0V55"/>
+      </g>
+      <text x="158" y="171" font-size="31" font-weight="700" text-anchor="middle">軽油</text>
+      <text x="158" y="211" font-size="25" text-anchor="middle">柴油</text>
+      <text x="158" y="244" font-size="20" fill="#9a6b43" text-anchor="middle">常見標示：綠色</text>
+    </g>
+
+    <g transform="translate(86 490)">
+      <rect width="1028" height="96" rx="14" fill="#eef6fb" stroke="#b8d5e6" stroke-width="2"/>
+      <circle cx="57" cy="48" r="24" fill="#246b91"/>
+      <text x="57" y="57" font-size="29" font-weight="700" fill="#ffffff" text-anchor="middle">!</text>
+      <text x="102" y="42" font-size="27" font-weight="700">「軽油」不是輕型車專用油</text>
+      <text x="102" y="74" font-size="21" fill="#4e6572">取車時先拍下指定油種，還車前再拿照片核對。</text>
+    </g>
+  </g>
+</svg>

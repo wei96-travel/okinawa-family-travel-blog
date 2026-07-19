@@ -79,6 +79,20 @@ export function MarkdownContent({ content }: MarkdownContentProps) {
       {blocks.map((block, index) => {
         const lines = block.split("\n");
         const firstLine = lines[0];
+        const imageMatch = block.match(
+          /^!\[([^\]]*)\]\((\/[^\s)]+)(?:\s+"([^"]+)")?\)$/,
+        );
+
+        if (imageMatch) {
+          const [, alt, src, caption] = imageMatch;
+
+          return (
+            <figure className="article-figure" key={index}>
+              <img alt={alt} decoding="async" loading="lazy" src={src} />
+              {caption ? <figcaption>{caption}</figcaption> : null}
+            </figure>
+          );
+        }
 
         if (isTableBlock(lines)) {
           const headers = parseTableRow(lines[0]);
