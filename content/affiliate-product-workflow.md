@@ -60,7 +60,7 @@ Claude Code should create or update a table like this:
 | --- | --- | --- | --- | --- |
 | Snacks spill in the rental car | Kids snack container | `兒童零食盒 防漏` | Keeps snacks portioned and easier to clean | Avoid saying it is leak-proof unless product page proves it |
 | Trash piles up in the car | Waterproof small trash bag / zip bag | `旅行垃圾袋 防水` | Temporary storage for wrappers and wet wipes | Avoid encouraging trash left in rental car |
-| Wet swimwear has nowhere to go | Wet bag | `濕衣袋 防水 旅行` | Useful after beach, pool, or rain | Avoid claiming every bag is fully waterproof |
+| Wet swimwear has nowhere to go | Waterproof storage bag / large zip bag | `乾濕分離袋 泳衣`、`大型夾鏈袋 旅行` | Useful after beach, pool, or rain | Avoid claiming every bag is fully waterproof |
 
 Claude Code may create a provisional ranking after Codex supplies normalized candidate data, but it does not approve a final product or publish a link.
 
