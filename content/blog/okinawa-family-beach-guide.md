@@ -5,6 +5,13 @@ date: "2026-07-14"
 updated: "2026-07-15"
 category: "親子景點"
 tags: ["沖繩海灘", "親子景點", "沖繩親子自駕"]
+coverImage: "/images/articles/okinawa-family-beach-guide/okinawa-beach-real.jpg"
+coverAlt: "沖繩藍天白雲下的沙灘與清澈海水"
+coverCaption: "沖繩海灘實景；是否開放戲水、救生員與防水母網，仍以當日現場公告為準。"
+coverCreditText: "Sei／Unsplash"
+coverCreditUrl: "https://unsplash.com/photos/a-sandy-beach-under-a-blue-sky-with-clouds-Tkzy4US_AtE"
+coverLicenseText: "Unsplash License"
+coverLicenseUrl: "https://unsplash.com/license"
 ---
 
 沖繩海很藍，但不是每片海灘都適合帶小孩下水。有些海灘風浪大、沒有救生員，也沒有防止水母的圍網，玩起來要一直提心吊膽。

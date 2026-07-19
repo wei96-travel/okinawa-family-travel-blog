@@ -12,6 +12,13 @@ type PostMatter = {
   updated?: string;
   category: Category;
   tags?: string[];
+  coverImage?: string;
+  coverAlt?: string;
+  coverCaption?: string;
+  coverCreditText?: string;
+  coverCreditUrl?: string;
+  coverLicenseText?: string;
+  coverLicenseUrl?: string;
 };
 
 export type Post = PostMatter & {

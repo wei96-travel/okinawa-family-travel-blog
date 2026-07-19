@@ -5,6 +5,13 @@ date: "2026-07-13"
 updated: "2026-07-15"
 category: "親子景點"
 tags: ["古宇利島", "沖繩親子景點", "沖繩北部", "親子自由行"]
+coverImage: "/images/articles/kouri-island-family-guide/kouri-bridge-real.jpg"
+coverAlt: "從古宇利島岸邊望向海面與古宇利大橋"
+coverCaption: "古宇利島岸邊與古宇利大橋實景。"
+coverCreditText: "kaori kubota／Unsplash"
+coverCreditUrl: "https://unsplash.com/photos/dpYQaocLI3M"
+coverLicenseText: "Unsplash License"
+coverLicenseUrl: "https://unsplash.com/license"
 ---
 
 古宇利島很漂亮，這點通常不用懷疑。真正要想的是：帶小孩去沖繩時，它到底該不該放進行程？

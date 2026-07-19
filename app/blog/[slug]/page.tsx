@@ -27,6 +27,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {};
   }
 
+  const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
+
   return {
     title: post.title,
     description: post.description,
@@ -42,10 +44,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: "/blog/" + post.slug,
       images: [
         {
-          url: getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png",
-          width: 1536,
-          height: 1024,
-          alt: post.title
+          url: coverImage,
+          width: 1600,
+          height: 900,
+          alt: post.coverAlt ?? post.title
         }
       ]
     },
@@ -53,7 +55,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: "summary_large_image",
       title: post.title,
       description: post.description,
-      images: [getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png"]
+      images: [coverImage]
     }
   };
 }
@@ -69,7 +71,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const allPosts = getAllPosts();
   const headings = getPostHeadings(post.content);
   const relatedPosts = getRelatedPosts(post, 2);
-  const coverImage = getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
+  const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
@@ -108,6 +110,52 @@ export default async function BlogPostPage({ params }: PageProps) {
           <span>{post.readingTime}</span>
         </div>
       </header>
+
+      {post.coverImage ? (
+        <figure className="mt-8">
+          <img
+            alt={post.coverAlt ?? post.title}
+            className="aspect-video w-full rounded-lg border border-[#eadfce] object-cover"
+            decoding="async"
+            fetchPriority="high"
+            height="900"
+            src={post.coverImage}
+            width="1600"
+          />
+          {post.coverCaption || post.coverCreditUrl ? (
+            <figcaption className="mt-2 text-center text-sm leading-6 text-[#756e65]">
+              {post.coverCaption ? <span>{post.coverCaption}</span> : null}
+              {post.coverCreditUrl ? (
+                <span>
+                  {post.coverCaption ? " " : ""}
+                  來源：
+                  <a
+                    className="underline decoration-[#cbb89f] underline-offset-4 hover:text-[#9a6b43]"
+                    href={post.coverCreditUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    {post.coverCreditText ?? "原始照片"}
+                  </a>
+                  {post.coverLicenseUrl ? (
+                    <>
+                      {" · "}
+                      <a
+                        className="underline decoration-[#cbb89f] underline-offset-4 hover:text-[#9a6b43]"
+                        href={post.coverLicenseUrl}
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        {post.coverLicenseText ?? "授權說明"}
+                      </a>
+                    </>
+                  ) : null}
+                </span>
+              ) : null}
+            </figcaption>
+          ) : null}
+        </figure>
+      ) : null}
 
       <ArticleToc headings={headings} />
       <MarkdownContent content={post.content} />

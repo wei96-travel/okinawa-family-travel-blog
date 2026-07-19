@@ -4,6 +4,13 @@ description: "美麗海水族館是沖繩家庭旅遊常見重點，但停留時
 date: "2026-07-10"
 category: "親子景點"
 tags: ["美麗海水族館", "沖繩親子景點", "沖繩北部", "家庭旅遊"]
+coverImage: "/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg"
+coverAlt: "沖繩美麗海水族館黑潮之海水槽前的鯨鯊與參觀人群"
+coverCaption: "美麗海水族館「黑潮之海」水槽實景。"
+coverCreditText: "Rick Wallace／Unsplash"
+coverCreditUrl: "https://unsplash.com/photos/people-standing-near-fish-tank-HiMStI7qyQA"
+coverLicenseText: "Unsplash License"
+coverLicenseUrl: "https://unsplash.com/license"
 ---
 
 美麗海水族館常被放進沖繩行程清單，但家庭旅行要問的不是「水族館值不值得去」，而是「這一天要怎麼排才不累」。

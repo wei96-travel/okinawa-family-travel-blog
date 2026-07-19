@@ -4,6 +4,13 @@ description: "第一次在沖繩租車自駕，不確定日本加油站怎麼用
 date: "2026-07-19"
 category: "租車交通"
 tags: ["沖繩租車加油", "日本自助加油", "沖繩親子自駕", "沖繩滿油還車"]
+coverImage: "/images/articles/okinawa-rental-car-refueling-guide/refueling-car-real.jpg"
+coverAlt: "旅途中把加油槍放進汽車油箱的操作情境"
+coverCaption: "加油操作情境示意；油槍顏色與操作方式仍以沖繩現場及租車公司指示為準。"
+coverCreditText: "Engin Akyurt／Pexels"
+coverCreditUrl: "https://www.pexels.com/photo/close-up-of-a-person-refueling-the-car-at-a-gas-station-20500733/"
+coverLicenseText: "Pexels License"
+coverLicenseUrl: "https://www.pexels.com/legal-pages/license/"
 ---
 
 第一次在沖繩租車，真正讓人緊張的常常不是開車，而是還車前第一次走進日本加油站。

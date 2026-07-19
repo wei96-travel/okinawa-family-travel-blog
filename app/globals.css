@@ -103,6 +103,12 @@ a {
   object-fit: contain;
 }
 
+.prose-travel .article-figure img[src*="pickup-safety-checklist"] {
+  width: min(100%, 560px);
+  aspect-ratio: auto;
+  margin-inline: auto;
+}
+
 .prose-travel .article-figure figcaption {
   margin-top: 0.55rem;
   color: var(--muted);

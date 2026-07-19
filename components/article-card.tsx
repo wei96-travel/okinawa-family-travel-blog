@@ -9,7 +9,7 @@ type ArticleCardProps = {
 
 export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
   const isFeatured = variant === "featured";
-  const coverImage = getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
+  const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
 
   return (
     <article
@@ -27,7 +27,7 @@ export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
         href={"/blog/" + post.slug}
       >
         <img
-          alt={post.title}
+          alt={post.coverAlt ?? post.title}
           className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
           src={coverImage}
         />
