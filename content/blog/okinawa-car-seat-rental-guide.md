@@ -55,7 +55,7 @@ tags: ["沖繩租車", "安全座椅", "親子自駕", "沖繩親子自駕"]
 - 到現場後，安裝完自己再檢查一次是否牢固。
 - 如果考慮自帶座椅，先確認航空公司規定與租車車型是否相容。
 
-租車本身的取還車、加油和停車細節，可以搭配[沖繩親子租車要注意什麼？安全座椅、取車還車與停車整理](/blog/okinawa-rental-car-family-guide)一起看。上路之後的休息安排，也可以參考[沖繩親子自駕休息點怎麼排？便利商店、道之驛、休息站與廁所備案](/blog/okinawa-family-drive-toilet-convenience-store)。如果還沒決定住宿區域，可以先看[第一次去沖繩住哪裡？北部、中部、南部怎麼選](/blog/first-okinawa-where-to-stay)。
+租車本身的取還車和停車細節，可以搭配[沖繩親子租車要注意什麼？安全座椅、取車還車與停車整理](/blog/okinawa-rental-car-family-guide)一起看。還車前不確定油種和自助加油流程，可以接著看[沖繩租車怎麼加油？油種、自助加油、滿油還車與收據整理](/blog/okinawa-rental-car-refueling-guide)。上路之後的休息安排，也可以參考[沖繩親子自駕休息點怎麼排？便利商店、道之驛、休息站與廁所備案](/blog/okinawa-family-drive-toilet-convenience-store)。
 
 ## 小結
 
