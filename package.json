@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "content:audit": "node scripts/content-audit.mjs",
+    "content:audit:strict": "node scripts/content-audit.mjs --strict",
+    "check:publish": "npm run content:audit:strict && next build"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
