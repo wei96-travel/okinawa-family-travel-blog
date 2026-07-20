@@ -1,8 +1,21 @@
 ﻿# Okinawa Family Notes AI Collaboration
 
-Last updated: 2026-07-15
+Last updated: 2026-07-20
 
 This project is maintained with both Codex and Claude Code. Use this file as the shared handoff before making content, SEO, or site changes.
+
+Permanent rules live here. Current task status lives in `AI_HANDOFF.md`. Both agents must read both files before starting.
+
+## Single Source Of Truth
+
+- `origin/main` is the shared source of truth. Chat history is context only and must not be treated as the project record.
+- Before starting, check `git status --short`, read `AI_HANDOFF.md`, then sync with `git pull --ff-only origin main` only when doing so will not overwrite local work.
+- If the worktree contains changes from the other agent or the user, preserve them. Read the diff and work around them; never reset or discard them.
+- Do not let Codex and Claude Code edit the same files at the same time. The active owner and file scope must be written in `AI_HANDOFF.md`.
+- Either agent may become the lead when the user asks. The permanent role split is a default, not a reason to block a handoff.
+- One finished task should have one clear commit when practical. Build or test status must be recorded before handoff.
+- When work finishes, pauses, changes owner, or reaches a quota limit, update `AI_HANDOFF.md` in the same commit or immediately before stopping.
+- A handoff is complete only after the work commit is pushed and `AI_HANDOFF.md` names that exact work commit. The handoff-file update may be a later documentation commit. Unpushed chat promises do not count.
 
 ## Current Goal
 
@@ -19,6 +32,7 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 ## Shared Rules
 
 - Write in natural Traditional Chinese for Taiwan readers.
+- When showing image previews, save the image in the project and attach the latest version directly in every review message so it works on mobile. Do not rely on an earlier preview, an OS temp file, or a `C:\...` local path; those are backups only and are not sufficient by themselves.
 - Avoid AI-sounding filler, generic travel copy, and exaggerated titles.
 - Research factual claims before writing, especially transport, safety, laws, opening hours, and facilities.
 - Prefer official sources first: tourism boards, venue sites, government pages, store/location search pages.
@@ -30,6 +44,7 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 
 ## Where To Look First
 
+- Live handoff: `AI_HANDOFF.md`
 - Content plan: `content/content-plan.md`
 - SEO growth roadmap: `content/seo-growth-roadmap.md`
 - Google status table: `content/google-seo-status.md`
@@ -48,10 +63,10 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 
 ## Recently Completed
 
-- Expanded `okinawa-family-drive-toilet-convenience-store` into the main family self-drive rest-stop guide.
-- Added `updated` frontmatter support so sitemap `lastmod` and JSON-LD `dateModified` can reflect article updates.
-- Added `content/google-seo-status.md` to track GA / GSC / indexing checks.
-- Added quick facts and FAQ sections to key family attraction posts.
+- Published the convenience-store family shopping, beach packing, rental-car refueling, stroller, and child-seat guides.
+- Created a six-image Facebook carousel for the child-seat guide with original generated scenes.
+- Added the short URL `https://okinawafamilynotes.com/car-seat` and a mobile preview page.
+- Kept generated social previews out of Google indexing.
 
 ## Recommended 30-Day Plan
 
@@ -85,28 +100,27 @@ Priority content lines:
 
 Recommended next article:
 
-`沖繩便利商店親子採買攻略：小孩餓了、尿急、下雨時怎麼用超商補位`
+`沖繩夏季親子旅行行李清單：家庭共用、孩子隨身包與颱風備案`
 
 Why:
-- It links naturally from the rest-stop article.
-- It can support Shopee items without becoming a product page.
-- It can become short videos about snacks, emergency items, rain, and family self-drive.
+- It is the next item in `content/content-plan.md`.
+- It can become the main packing-list entry page without repeating the stroller and beach articles.
+- It can support Shopee product categories naturally after the useful checklist is complete.
 
 Suggested sections:
-- 出發前先知道：便利商店是補位，不是萬能
-- 親子自駕途中，超商適合買什麼
-- 小孩突然餓了，先買哪些比較穩
-- 下雨天 / 海邊後 / 回飯店前可以補什麼
-- 哪些東西建議台灣先買，不要到沖繩才找
-- 便利商店廁所與停車注意
+- 家庭共用行李、孩子隨身包、車上備用包分開收
+- 夏季衣物、防曬補水與冷氣室內備用薄外套
+- 尿布、備用衣物、孩子熟悉的用品與藥品
+- 颱風或大雨時哪些行程與用品要調整
+- 航空托運、行動電源與液體規定以實際航空公司為準
 - FAQ
 
 Possible affiliate products:
-- Waterproof phone pouch
-- Small wet bag
-- Travel tissue / wet wipes
-- Kids raincoat
 - Packing cubes
+- Small wet wipes
+- Zip bags or waterproof storage bags
+- Kids raincoat
+- Luggage scale
 
 ## Affiliate Product Workflow
 
@@ -133,21 +147,22 @@ Avoid:
 If Claude Code takes over:
 
 1. Read this file first.
-2. Check `git status --short` before editing.
-3. Read the target article and nearby internal links.
-4. Research externally before factual travel claims.
-5. Keep changes scoped.
-6. Run `next build`.
-7. Commit with a clear message and push.
-8. Update this file or `content/google-seo-status.md` when a durable decision changes.
+2. Read `AI_HANDOFF.md` and continue from its last verified commit.
+3. Check `git status --short` before editing and preserve existing changes.
+4. Read the target article and nearby internal links.
+5. Research externally before factual travel claims.
+6. Keep changes within the assigned files.
+7. Run `next build` when site output changes.
+8. Update `AI_HANDOFF.md`, commit with a clear message, and push.
 
 ## Codex Handoff
 
 If Codex takes over:
 
-1. Continue from this shared plan rather than restarting strategy.
-2. Use open-seo-advisor and speak-human-tw when drafting SEO articles.
-3. Keep the writing human, practical, and parent-focused.
-4. Keep technical SEO changes conservative.
-5. Push to GitHub after clean builds.
+1. Read `AI_HANDOFF.md` and continue from its last verified commit rather than restarting strategy.
+2. Check the worktree and preserve Claude Code or user changes.
+3. Use open-seo-advisor and speak-human-tw when drafting SEO articles.
+4. Keep the writing human, practical, and parent-focused.
+5. Keep technical SEO changes conservative.
+6. Update `AI_HANDOFF.md`, run the required checks, commit, and push.
 
