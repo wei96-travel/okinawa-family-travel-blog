@@ -11,3 +11,7 @@ Before working on this repository, read:
 Key rule: this site is currently in the Traditional Chinese traffic-building phase. Do not prioritize multilingual expansion, affiliate-button optimization, or major redesign before the core content and indexing foundation is stronger.
 
 Always check `git status --short` before editing. Treat `origin/main` plus `AI_HANDOFF.md` as the shared source of truth with Codex. Do not edit files claimed by Codex in the handoff. Update the handoff, run `next build`, commit, and push before returning ownership.
+
+## Quick Code
+
+When the user's entire message is exactly `1`, treat it as: sync safely, read `AI_COLLABORATION.md` and `AI_HANDOFF.md`, claim the recorded next task as Claude Code, continue it without asking the user to repeat context, then update the handoff, run required checks, commit, and push. Do not trigger this rule when `1` appears inside another sentence or list.

@@ -17,6 +17,16 @@ Permanent rules live here. Current task status lives in `AI_HANDOFF.md`. Both ag
 - When work finishes, pauses, changes owner, or reaches a quota limit, update `AI_HANDOFF.md` in the same commit or immediately before stopping.
 - A handoff is complete only after the work commit is pushed and `AI_HANDOFF.md` names that exact work commit. The handoff-file update may be a later documentation commit. Unpushed chat promises do not count.
 
+## Quick Handoff Codes
+
+The codes trigger only when the user's entire message is exactly one number. A number inside a sentence, list, filename, date, or article does not trigger them.
+
+- `1` in Claude Code: take over from `AI_HANDOFF.md`. Check the worktree, sync `origin/main` when safe, read the required project files, claim the task and files, then continue the recorded next task without asking the user to repeat context.
+- `2` in Codex: take over from `AI_HANDOFF.md` using the same sequence.
+- `1` is not a Codex action, and `2` is not a Claude Code action.
+- After either code is used, the active agent must finish or pause cleanly: update `AI_HANDOFF.md`, record checks, commit, and push before returning ownership.
+- If the worktree is unsafe to sync, a required login is unavailable, or the handoff is genuinely ambiguous, report the exact blocker instead of guessing or overwriting work.
+
 ## Current Goal
 
 Build Okinawa Family Notes into a Traditional Chinese family-travel site first. The next 90 days should focus on traffic, not monetization polish.
