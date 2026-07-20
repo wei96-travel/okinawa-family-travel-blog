@@ -109,6 +109,11 @@ a {
   margin-inline: auto;
 }
 
+.prose-travel .article-figure img[src*="three-bag-packing-system"],
+.prose-travel .article-figure img[src*="north-day-route-options"] {
+  aspect-ratio: auto;
+}
+
 .prose-travel .article-figure figcaption {
   margin-top: 0.55rem;
   color: var(--muted);

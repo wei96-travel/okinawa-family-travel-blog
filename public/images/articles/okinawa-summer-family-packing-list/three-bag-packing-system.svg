@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩親子旅行三包分法</title>
+  <desc id="desc">把行李分成家庭共用行李、孩子隨身包與租車備用包，依使用時機收納。</desc>
+  <rect width="1080" height="1350" fill="#f7f5ef"/>
+  <text x="60" y="94" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="52" font-weight="700">沖繩親子旅行，先分三包</text>
+  <text x="60" y="143" fill="#5d6b70" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28">需要時拿得到，比帶得多更重要。</text>
+
+  <g transform="translate(60 195)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#c8d9d1" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#4f8a72"/>
+    <text x="54" y="68" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">1　家庭共用行李</text>
+    <text x="54" y="112" fill="#35705a" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">到飯店才需要</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="187" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">衣物、盥洗用品、備用鞋、收納袋</text>
+    <text x="54" y="234" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">隔天才會用的用品，也放這一包</text>
+    <text x="54" y="281" fill="#35705a" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">放行李箱，不必一路翻找</text>
+  </g>
+
+  <g transform="translate(60 545)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#efcf9d" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#d99039"/>
+    <text x="54" y="68" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">2　孩子隨身包</text>
+    <text x="54" y="112" fill="#a85f18" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">機場到第一站會用</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="187" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">一套替換衣物、尿布、濕紙巾</text>
+    <text x="54" y="234" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">點心、水壺、雨衣、安撫小物</text>
+    <text x="54" y="281" fill="#a85f18" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">放座位旁，照顧孩子時能拿</text>
+  </g>
+
+  <g transform="translate(60 895)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#b9d5e5" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#4f8fb2"/>
+    <text x="54" y="68" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">3　租車備用包</text>
+    <text x="54" y="112" fill="#357895" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">自駕途中臨時會用</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="187" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">小包濕紙巾、空袋、毛巾</text>
+    <text x="54" y="234" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">替換衣物、飲用水、輕便雨衣</text>
+    <text x="54" y="281" fill="#357895" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">放前座附近，別壓在行李下</text>
+  </g>
+
+  <text x="60" y="1286" fill="#718087" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="24">okinawafamilynotes.com｜沖繩親子旅遊筆記</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩北部親子一日遊三種排法</title>
+  <desc id="desc">依住宿地點和孩子體力，選擇美麗海為主、兩地各留一段，或整天只選一個主角。</desc>
+  <rect width="1080" height="1350" fill="#f5f7f4"/>
+  <text x="60" y="94" fill="#20353c" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="52" font-weight="700">北部一天，先選一個主角</text>
+  <text x="60" y="143" fill="#617176" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28">住宿越遠、孩子越小，行程刪得越乾脆。</text>
+
+  <g transform="translate(60 195)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#b8d3dd" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#3f88a5"/>
+    <text x="54" y="68" fill="#20353c" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">那霸當天來回</text>
+    <text x="54" y="112" fill="#397e99" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">美麗海當主行程</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e0e7e8" stroke-width="2"/>
+    <text x="54" y="187" fill="#34494f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">早上北上＋途中休息</text>
+    <text x="54" y="234" fill="#34494f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">中午先吃飯，下午逛水族館</text>
+    <text x="54" y="281" fill="#397e99" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">古宇利島只留作臨場加點</text>
+  </g>
+
+  <g transform="translate(60 545)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#bcd5c6" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#4e906c"/>
+    <text x="54" y="68" fill="#20353c" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">住恩納、名護或本部</text>
+    <text x="54" y="112" fill="#3e7d5b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">一個主行程＋一個短停</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e0e7e8" stroke-width="2"/>
+    <text x="54" y="187" fill="#34494f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">上午美麗海，中午坐下休息</text>
+    <text x="54" y="234" fill="#34494f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">下午只排古宇利橋與海灘</text>
+    <text x="54" y="281" fill="#3e7d5b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">心形岩依體力決定要不要去</text>
+  </g>
+
+  <g transform="translate(60 895)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#ead0a8" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#d38937"/>
+    <text x="54" y="68" fill="#20353c" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">幼兒或午睡不穩</text>
+    <text x="54" y="112" fill="#ad6720" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">整天只選一個主角</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e0e7e8" stroke-width="2"/>
+    <text x="54" y="187" fill="#34494f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">上午選水族館或古宇利島</text>
+    <text x="54" y="234" fill="#34494f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">中午好好吃飯，下午回飯店</text>
+    <text x="54" y="281" fill="#ad6720" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">少一站，通常會多一點好心情</text>
+  </g>
+
+  <text x="60" y="1286" fill="#718087" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="24">okinawafamilynotes.com｜沖繩親子旅遊筆記</text>
+</svg>
