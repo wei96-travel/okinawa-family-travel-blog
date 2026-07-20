@@ -18,7 +18,8 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - All six images display `okinawafamilynotes.com/car-seat`.
 - `https://okinawafamilynotes.com/car-seat` redirects to `/blog/okinawa-car-seat-rental-guide`.
 - Mobile review page: `https://okinawafamilynotes.com/previews/car-seat-carousel/index.html`
-- The carousel has not been posted to Facebook yet.
+- The six-card carousel was published publicly to the `Wei Fan` Facebook profile on 2026-07-20.
+- Facebook carousel: `https://www.facebook.com/photo/?fbid=122113947333290857&set=pcb.122113947789290857`
 
 ## Next Task
 
@@ -42,7 +43,6 @@ Required approach:
 
 ## Pending User Decisions
 
-- User still needs to approve the child-seat carousel before it is posted to Facebook.
 - Shopee product links remain user-selected; agents may prepare product categories and search terms only.
 
 ## Handoff Template
