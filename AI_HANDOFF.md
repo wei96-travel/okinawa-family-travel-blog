@@ -6,44 +6,40 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: none; waiting for the next user instruction.
+- Active owner: none; two new articles are complete and ready for deployment.
 - Shared branch: `main`
-- Last completed work commit: `12bc393 Add short URL to carousel`
+- Last completed work commit: `9f8b636 Add summer packing and northern Okinawa guides`
 - Last build: passed with Next.js 15.5.20 on 2026-07-20.
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
 
-- Child-seat Facebook carousel now uses six different original generated scenes.
-- All six images display `okinawafamilynotes.com/car-seat`.
-- `https://okinawafamilynotes.com/car-seat` redirects to `/blog/okinawa-car-seat-rental-guide`.
-- Mobile review page: `https://okinawafamilynotes.com/previews/car-seat-carousel/index.html`
-- The six-card carousel was published publicly to the `Wei Fan` Facebook profile on 2026-07-20.
-- Facebook carousel: `https://www.facebook.com/photo/?fbid=122113947333290857&set=pcb.122113947789290857`
+- Added `/blog/okinawa-summer-family-packing-list` with official typhoon, aviation-security, and power-bank sources.
+- Added `/blog/okinawa-north-family-day-trip` to connect the Churaumi, Kouri Island, and family-driving cluster.
+- Added an original cover and a mobile-first vertical infographic for each article.
+- Reused two licensed real photos in the northern itinerary article with visible credit captions.
+- Both articles passed mobile and desktop visual review; all article images loaded successfully.
+- Strict content audit: 0 critical findings. Next.js 15.5.20 production build: passed, 42 static pages generated.
 
 ## Next Task
 
-Write the next planned article:
+Keep blog writing and social production in separate tasks. For the social task:
 
-`沖繩夏季親子旅行行李清單：家庭共用、孩子隨身包與颱風備案`
-
-Required approach:
-
-- Use `open-seo-advisor`, `speak-human-tw`, `draft-travel-content`, and `research-travel-info`.
-- Read `content/content-plan.md` and the existing stroller, beach-packing, convenience-store, and rainy-day articles first.
-- Verify current travel and airline claims with official sources.
-- Avoid repeating the detailed stroller and beach packing sections; link to those articles instead.
-- Run the content audit and `next build` before publishing.
+- Run `git pull` and read this handoff first.
+- Start with one six-card FB / IG carousel based on `/blog/okinawa-north-family-day-trip`.
+- Use the article's main idea: one northern main attraction plus one optional stop.
+- Prepare a preview first; do not publish until the user approves it.
 
 ## File Ownership
 
 - No files are currently claimed.
-- Before editing, replace this line with the active agent, objective, and exact files being changed.
+- Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
 ## Pending User Decisions
 
 - Shopee product links remain user-selected; agents may prepare product categories and search terms only.
+- User still needs to choose whether the first new social carousel promotes the northern itinerary or summer packing article.
 
 ## Handoff Template
 
