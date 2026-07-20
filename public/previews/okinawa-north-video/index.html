@@ -36,6 +36,16 @@
         box-shadow: 0 20px 48px rgba(0, 0, 0, .38);
       }
       video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; background: #000; }
+      .audio-test {
+        margin-top: 22px;
+        padding: 18px;
+        border: 1px solid rgba(255, 255, 255, .1);
+        border-radius: 16px;
+        background: rgba(255, 255, 255, .04);
+      }
+      .audio-test h2 { margin: 0 0 6px; font-size: 18px; }
+      .audio-test p { margin-bottom: 12px; }
+      audio { display: block; width: 100%; }
       .download {
         display: block;
         margin-top: 16px;
@@ -61,6 +71,14 @@
           你的瀏覽器不支援影片播放，請使用下方下載按鈕。
         </video>
       </div>
+      <section class="audio-test">
+        <h2>自然聊天版配音試聽</h2>
+        <p>語速稍慢、音調微降，並完成輕度人聲後製。</p>
+        <audio controls preload="metadata">
+          <source src="okinawa-north-voiceover-natural-mastered.mp3" type="audio/mpeg" />
+          你的瀏覽器不支援音訊播放。
+        </audio>
+      </section>
       <a class="download" href="okinawa-north-carousel-with-my-voice.mp4" download>下載 MP4 影片</a>
       <small>此頁僅供手機與電腦預覽，尚未發布至 Facebook 或 Instagram。</small>
     </main>
