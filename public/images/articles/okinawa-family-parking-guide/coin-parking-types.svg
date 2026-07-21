@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩投幣停車場三種型式</title>
+  <desc id="desc">沖繩常見的投幣式停車場主要有鎖板式、柵欄式與車牌辨識式三種，認出是哪一種就知道怎麼付款。</desc>
+  <rect width="1080" height="1350" fill="#f7f5ef"/>
+  <text x="60" y="94" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="52" font-weight="700">沖繩投幣停車場，三種型式</text>
+  <text x="60" y="143" fill="#5d6b70" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28">認出是哪一種，操作就不難。</text>
+
+  <g transform="translate(60 195)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#c8d9d1" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#4f8a72"/>
+    <text x="54" y="68" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">1　鎖板式（フラップ）</text>
+    <text x="54" y="112" fill="#35705a" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">最常見</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="187" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">停好後地面鎖板升起卡住車輪</text>
+    <text x="54" y="234" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">精算機輸入車格號、付款後鎖板降下</text>
+    <text x="54" y="281" fill="#35705a" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">開走前先確認鎖板已降下</text>
+  </g>
+
+  <g transform="translate(60 545)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#efcf9d" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#d99039"/>
+    <text x="54" y="68" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">2　柵欄式（ゲート）</text>
+    <text x="54" y="112" fill="#a85f18" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">進出有柵欄</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="187" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">進場抽停車券，柵欄升起才進得去</text>
+    <text x="54" y="234" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">離場把票放進精算機付款</text>
+    <text x="54" y="281" fill="#a85f18" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">停車券別弄丟，弄丟要按規定補繳</text>
+  </g>
+
+  <g transform="translate(60 895)">
+    <rect width="960" height="310" rx="10" fill="#fff" stroke="#b9d5e5" stroke-width="3"/>
+    <rect width="14" height="310" rx="7" fill="#4f8fb2"/>
+    <text x="54" y="68" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">3　車牌辨識式（ロックレス）</text>
+    <text x="54" y="112" fill="#357895" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="700">沒有鎖板柵欄</text>
+    <line x1="54" y1="137" x2="906" y2="137" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="187" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">攝影機辨識車牌，車子進出不受阻擋</text>
+    <text x="54" y="234" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="31">離場到精算機輸入車格或車牌付款</text>
+    <text x="54" y="281" fill="#357895" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="26">沒有實體阻擋，付款步驟別忘了</text>
+  </g>
+
+  <text x="60" y="1286" fill="#718087" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="24">費率與規則以現場公告為準｜okinawafamilynotes.com</text>
+</svg>

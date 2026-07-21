@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩親子防蚊年齡分級</title>
+  <desc id="desc">依衛福部疾管署建議，防蚊產品要看孩子年齡選擇：未滿兩個月改物理防護，兩個月以上可用低濃度 DEET，兩歲以上可用派卡瑞丁或 IR3535，成人可用較高濃度 DEET。</desc>
+  <rect width="1080" height="1350" fill="#f7f5ef"/>
+  <text x="60" y="94" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="52" font-weight="700">沖繩親子防蚊，先看孩子年齡</text>
+  <text x="60" y="143" fill="#5d6b70" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="28">濃度高只是撐得久，不是效果強；選對年齡更重要。</text>
+
+  <g transform="translate(60 185)">
+    <rect width="960" height="250" rx="10" fill="#fff" stroke="#e6b7ad" stroke-width="3"/>
+    <rect width="14" height="250" rx="7" fill="#c0574a"/>
+    <text x="54" y="70" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="40" font-weight="700">未滿 2 個月</text>
+    <text x="54" y="114" fill="#a8412f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="27" font-weight="700">不建議化學防蚊劑</text>
+    <line x1="54" y1="140" x2="906" y2="140" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="192" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30">改用物理防護：淺色長袖衣褲、蚊帳</text>
+  </g>
+
+  <g transform="translate(60 453)">
+    <rect width="960" height="250" rx="10" fill="#fff" stroke="#efcf9d" stroke-width="3"/>
+    <rect width="14" height="250" rx="7" fill="#d99039"/>
+    <text x="54" y="70" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="40" font-weight="700">2 個月以上孩童</text>
+    <text x="54" y="114" fill="#a85f18" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="27" font-weight="700">可用 DEET</text>
+    <line x1="54" y1="140" x2="906" y2="140" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="192" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30">濃度 10% 至 30% 為建議範圍</text>
+  </g>
+
+  <g transform="translate(60 721)">
+    <rect width="960" height="250" rx="10" fill="#fff" stroke="#c8d9d1" stroke-width="3"/>
+    <rect width="14" height="250" rx="7" fill="#4f8a72"/>
+    <text x="54" y="70" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="40" font-weight="700">2 歲以上孩童</text>
+    <text x="54" y="114" fill="#35705a" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="27" font-weight="700">多一個選擇</text>
+    <line x1="54" y1="140" x2="906" y2="140" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="192" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30">可選派卡瑞丁（picaridin）或 IR3535 產品</text>
+  </g>
+
+  <g transform="translate(60 989)">
+    <rect width="960" height="250" rx="10" fill="#fff" stroke="#b9d5e5" stroke-width="3"/>
+    <rect width="14" height="250" rx="7" fill="#4f8fb2"/>
+    <text x="54" y="70" fill="#24343b" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="40" font-weight="700">成人</text>
+    <text x="54" y="114" fill="#357895" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="27" font-weight="700">可用 DEET</text>
+    <line x1="54" y1="140" x2="906" y2="140" stroke="#e2e6e3" stroke-width="2"/>
+    <text x="54" y="192" fill="#33464d" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30">濃度 50% 以下</text>
+  </g>
+
+  <text x="60" y="1286" fill="#718087" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="24">資料依衛福部疾管署建議整理｜okinawafamilynotes.com</text>
+</svg>
