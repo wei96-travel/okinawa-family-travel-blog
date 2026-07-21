@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>輪播預覽｜投幣停車場三種型式</title>
+<style>
+  :root{
+    --cream:#FFFDF8; --sand:#F6EFE4; --sand2:#FBF6EE; --line:#EADFCE;
+    --brown:#694624; --caramel:#9A6B43; --ink:#34302B; --body:#5F594F; --alert:#B4552F;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#3a3632;font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif;
+    display:flex;flex-direction:column;align-items:center;gap:24px;padding:24px}
+  .slide{width:1080px;height:1350px;position:relative;overflow:hidden;
+    background:var(--cream);color:var(--ink);flex:none;display:flex;flex-direction:column}
+
+  /* 固定頁腳 */
+  .brand{position:absolute;left:86px;bottom:60px;display:flex;align-items:center;gap:14px;z-index:5}
+  .brand .dot{width:34px;height:34px;border-radius:9px;background:var(--brown);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-size:19px;font-weight:700}
+  .brand span{font-size:26px;color:var(--caramel);font-weight:700}
+  .pg{position:absolute;right:86px;top:84px;font-size:26px;color:var(--caramel);font-weight:700;z-index:5}
+  .site{position:absolute;right:86px;bottom:62px;font-size:25px;color:var(--caramel);font-weight:700;
+    letter-spacing:.01em;z-index:5}
+  .tag{position:absolute;left:86px;top:78px;background:var(--brown);color:#fff;
+    font-size:24px;font-weight:700;padding:12px 22px;border-radius:999px;letter-spacing:.04em;z-index:5}
+
+  /* 影像橫幅 */
+  .band{position:relative;flex:none;overflow:hidden}
+  .band img{width:100%;height:100%;object-fit:cover;display:block}
+  .band .fade{position:absolute;left:0;right:0;bottom:0;height:190px;
+    background:linear-gradient(180deg,rgba(255,253,248,0) 0%,var(--cream) 100%)}
+  .cap{position:absolute;left:34px;bottom:26px;background:rgba(52,48,43,.72);color:#fff;
+    font-size:22px;padding:9px 18px;border-radius:8px;z-index:3}
+
+  /* 內容區 */
+  .body{flex:1;padding:62px 86px 150px;display:flex;flex-direction:column;min-height:0}
+  .kicker{font-size:28px;font-weight:700;color:var(--caramel);letter-spacing:.14em}
+  h2{font-size:64px;line-height:1.3;font-weight:700;margin-top:18px}
+  .jp{font-size:32px;color:var(--caramel);margin-top:12px;font-weight:700}
+  .lead{font-size:40px;line-height:1.75;color:var(--body);margin-top:32px}
+  .lead b{color:var(--ink);font-weight:700}
+
+  /* P1 */
+  .cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .cover .veil{position:absolute;inset:0;
+    background:linear-gradient(180deg,
+      rgba(255,253,248,.97) 0%,
+      rgba(255,253,248,.94) 42%,
+      rgba(255,253,248,.26) 62%,
+      rgba(255,253,248,.10) 80%,
+      rgba(255,253,248,.90) 96%,
+      rgba(255,253,248,.96) 100%)}
+  .cover .wrap{position:absolute;left:86px;right:86px;top:150px;z-index:2}
+  .cover h1{font-size:104px;line-height:1.22;font-weight:700;letter-spacing:-.01em}
+  .cover .sub{margin-top:32px;font-size:46px;color:var(--body)}
+  .cover .rule{width:118px;height:9px;border-radius:5px;background:var(--brown);margin-top:42px}
+
+  /* 步驟 */
+  .num{display:inline-flex;align-items:center;justify-content:center;width:58px;height:58px;
+    border-radius:50%;background:var(--caramel);color:#fff;font-size:31px;font-weight:700;flex:none}
+  .step{display:flex;gap:24px;align-items:flex-start;margin-top:26px}
+  .step p{font-size:37px;line-height:1.5;color:var(--body);padding-top:7px}
+  .warn{margin-top:auto;background:#FBEEE7;border-left:11px solid var(--alert);
+    border-radius:0 18px 18px 0;padding:30px 34px}
+  .warn p{font-size:34px;line-height:1.6;color:var(--alert);font-weight:700}
+
+  /* 插畫框 */
+  .art{background:var(--sand);border:3px solid var(--line);border-radius:22px;
+    display:flex;align-items:center;justify-content:center;flex:none}
+
+  .card{background:var(--sand);border:3px solid var(--line);border-radius:22px;padding:40px 44px}
+  .card p{font-size:37px;line-height:1.7;color:var(--body)}
+
+  table{width:100%;border-collapse:collapse;margin-top:32px;
+    border:3px solid var(--line);border-radius:18px;overflow:hidden}
+  th{background:var(--brown);color:#fff;font-size:33px;font-weight:700;padding:24px 26px;text-align:left}
+  td{font-size:33px;line-height:1.48;padding:27px 26px;border-top:2px solid var(--line);
+    color:var(--body);vertical-align:top}
+  td.k{font-weight:700;color:var(--ink);white-space:nowrap;width:290px}
+  tr:nth-child(even) td{background:var(--sand2)}
+  .src{margin-top:26px;font-size:23px;color:#8b8378;line-height:1.6}
+
+  .cta{background:var(--sand);align-items:center;justify-content:center;text-align:center;padding:0 130px 60px}
+  .cta .msg{font-size:60px;line-height:1.58;font-weight:700}
+  .cta .url{margin-top:46px;font-size:34px;color:var(--caramel);font-weight:700}
+  .cta .badge{width:100px;height:100px;border-radius:26px;background:var(--brown);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-size:44px;font-weight:700;margin-bottom:48px}
+
+  /* 深色收尾頁 */
+    /* 車子在原圖中下方，會被文字區蓋住；放大並上移，讓車體露在文字之上 */
+  .closing img{position:absolute;left:0;top:-24%;width:100%;height:130%;object-fit:cover}
+  .closing .scrim{position:absolute;inset:0;background:linear-gradient(180deg,
+      rgba(28,24,20,.10) 0%, rgba(28,24,20,.28) 38%,
+      rgba(28,24,20,.80) 66%, rgba(28,24,20,.94) 84%, rgba(28,24,20,.96) 100%)}
+  .closing .wrap{position:absolute;left:86px;right:86px;bottom:170px;z-index:3}
+  .closing .kick{font-size:28px;font-weight:700;color:#E0B075;letter-spacing:.14em}
+  .closing h2{font-size:86px;line-height:1.24;font-weight:700;color:#FFFDF8;margin-top:24px}
+  .closing h2 .hl{color:#E8B877}
+  .closing p{margin-top:30px;font-size:38px;line-height:1.68;color:rgba(255,253,248,.86)}
+  .closing .rule{width:100%;height:2px;background:rgba(255,253,248,.22);margin:44px 0 30px}
+  .closing .small{font-size:26px;font-weight:700;color:#E0B075;letter-spacing:.06em}
+  .closing .link{margin-top:12px;font-size:44px;font-weight:700;color:#FFFDF8;letter-spacing:.01em}
+  .closing .brand span{color:rgba(255,253,248,.78)}
+  .closing .brand .dot{background:rgba(255,253,248,.92);color:#34302B}
+  .closing .pg{color:rgba(255,253,248,.78)}
+
+  .label{color:#c9c2b7;font-size:15px;font-family:ui-monospace,monospace}
+</style>
+</head>
+<body>
+
+<!-- ============ P1 封面：照片 ============ -->
+<div class="label">P1 封面（照片）</div>
+<section class="slide cover" id="p1">
+  <img src="/public/images/articles/okinawa-family-parking-guide/parking-cover.jpg" alt="">
+  <div class="veil"></div>
+  <div class="tag">租車交通</div>
+  <div class="wrap">
+    <h1>沖繩投幣<br>停車場有三種</h1>
+    <div class="sub">看懂一種，其他都一樣</div>
+    <div class="rule"></div>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="site">okinawafamilynotes.com</div>
+  <div class="pg">1 / 8</div>
+</section>
+
+<!-- ============ P2 卡住的地方：照片 ============ -->
+<div class="label">P2 為什麼會卡住（照片）</div>
+<section class="slide" id="p2">
+  <div class="band" style="height:600px">
+    <img src="/public/images/articles/okinawa-family-parking-guide/parking-family-getout.jpg" alt="">
+    <div class="fade"></div>
+  </div>
+  <div class="body">
+    <div class="kicker">為什麼會卡住</div>
+    <h2>停車場的機器<br>都是日文</h2>
+    <p class="lead">帶著孩子、後面還有車在等，站在精算機前面看不懂要按哪個，那幾秒特別焦慮。</p>
+    <p class="lead" style="margin-top:26px">但其實沖繩的投幣停車場<b>主要就這三種。</b></p>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="site">okinawafamilynotes.com</div>
+  <div class="pg">2 / 8</div>
+</section>
+
+<!-- ============ P3 結論：插畫（費率看板） ============ -->
+<div class="label">P3 先講結論（插畫）</div>
+<section class="slide" id="p3">
+  <div class="body" style="padding-top:86px">
+    <div class="kicker">不管哪一種，先做這件事</div>
+    <h2 style="font-size:88px;color:var(--brown);margin-top:22px">先看費率看板</h2>
+
+    <div class="art" style="height:470px;margin-top:44px">
+      <svg width="620" height="400" viewBox="0 0 620 400" fill="none">
+        <!-- 立柱 -->
+        <rect x="292" y="250" width="36" height="140" rx="8" fill="#D9C7AE"/>
+        <rect x="238" y="380" width="144" height="20" rx="10" fill="#C9B79C"/>
+        <!-- 看板 -->
+        <rect x="70" y="20" width="480" height="252" rx="18" fill="#FFFDF8" stroke="#694624" stroke-width="7"/>
+        <rect x="70" y="20" width="480" height="60" rx="18" fill="#694624"/>
+        <rect x="70" y="62" width="480" height="18" fill="#694624"/>
+        <!-- 看板內容（用色塊代表，不放可讀文字） -->
+        <rect x="104" y="112" width="200" height="20" rx="10" fill="#C9B79C"/>
+        <rect x="380" y="106" width="136" height="32" rx="10" fill="#9A6B43"/>
+        <rect x="104" y="168" width="248" height="20" rx="10" fill="#C9B79C"/>
+        <rect x="380" y="162" width="136" height="32" rx="10" fill="#9A6B43"/>
+        <line x1="104" y1="214" x2="516" y2="214" stroke="#EADFCE" stroke-width="4"/>
+        <rect x="104" y="230" width="150" height="22" rx="11" fill="#B4552F"/>
+        <rect x="380" y="226" width="136" height="30" rx="10" fill="#B4552F"/>
+      </svg>
+    </div>
+
+    <div class="card" style="margin-top:36px">
+      <p>每 30 分鐘或每小時多少、當日最高上限多少，先看清楚再決定停多久。<br>
+      <span style="color:var(--alert);font-weight:700">有些停車場過夜會另外計費。</span></p>
+    </div>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="site">okinawafamilynotes.com</div>
+  <div class="pg">3 / 8</div>
+</section>
+
+<!-- ============ P4 鎖板式：照片 ============ -->
+<div class="label">P4 鎖板式（照片）</div>
+<section class="slide" id="p4">
+  <div class="band" style="height:560px">
+    <img src="/work/social/okinawa-family-parking-guide/images/r1-flap-plate-v2.jpg" alt=""
+         style="object-position:center 42%">
+    <div class="fade"></div>
+  </div>
+  <div class="body" style="padding-top:44px">
+    <div class="kicker">1 / 3　最常見</div>
+    <h2>鎖板式</h2>
+    <div class="jp">フラップ／ロック板式</div>
+    <div class="step"><div class="num">1</div><p>停進車格，地面鎖板自動升起卡住車輪</p></div>
+    <div class="step"><div class="num">2</div><p>離開前到精算機，輸入車格號碼</p></div>
+    <div class="step"><div class="num">3</div><p>付款後鎖板才會降下</p></div>
+    <div class="warn"><p>付完款一定要親眼確認鎖板降下去，再開走。</p></div>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="site">okinawafamilynotes.com</div>
+  <div class="pg">4 / 8</div>
+</section>
+
+<!-- ============ P5 柵欄式：照片 ============ -->
+<div class="label">P5 柵欄式（照片）</div>
+<section class="slide" id="p5">
+  <div class="band" style="height:560px">
+    <img src="/work/social/okinawa-family-parking-guide/images/p5-gate.jpg" alt=""
+         style="object-position:center 46%">
+    <div class="fade"></div>
+  </div>
+  <div class="body" style="padding-top:44px">
+    <div class="kicker">2 / 3　進出有柵欄</div>
+    <h2>柵欄式</h2>
+    <div class="jp">ゲート式</div>
+    <div class="step"><div class="num">1</div><p>進場抽一張停車券，柵欄升起才進得去</p></div>
+    <div class="step"><div class="num">2</div><p>離場把停車券放進精算機</p></div>
+    <div class="step"><div class="num">3</div><p>付款後柵欄升起才出得去</p></div>
+    <div class="warn"><p>停車券不能弄丟，弄丟通常要按規定補繳。</p></div>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="site">okinawafamilynotes.com</div>
+  <div class="pg">5 / 8</div>
+</section>
+
+<!-- ============ P6 車牌辨識式：照片 ============ -->
+<div class="label">P6 車牌辨識式（照片）</div>
+<section class="slide" id="p6">
+  <div class="band" style="height:560px">
+    <!-- 攝影機在原圖上緣，裁切點要往上拉，否則只剩車、看不到攝影機 -->
+    <img src="/work/social/okinawa-family-parking-guide/images/p6-camera.jpg" alt=""
+         style="object-position:center 15%">
+    <div class="fade"></div>
+  </div>
+  <div class="body" style="padding-top:44px">
+    <div class="kicker">3 / 3　沒有鎖板柵欄</div>
+    <h2>車牌辨識式</h2>
+    <div class="jp">ロックレス式</div>
+    <div class="step"><div class="num">1</div><p>沒有鎖板也沒有柵欄，靠攝影機辨識車牌</p></div>
+    <div class="step"><div class="num">2</div><p>離場前到精算機，輸入車格或車牌</p></div>
+    <div class="step"><div class="num">3</div><p>付款完成</p></div>
+    <div class="warn"><p>沒有實體阻擋，最容易忘記付款這一步。</p></div>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="site">okinawafamilynotes.com</div>
+  <div class="pg">6 / 8</div>
+</section>
+
+<!-- ============ P7 踩雷表 ============ -->
+<div class="label">P7 踩雷表（可單獨截圖）</div>
+<section class="slide" id="p7">
+  <div class="body" style="padding-top:86px">
+    <div class="kicker">收藏這一張</div>
+    <h2 style="font-size:56px">三種各自最容易<br>出事的地方</h2>
+    <table>
+      <tr><th>型式</th><th>最容易踩的雷</th></tr>
+      <tr><td class="k">鎖板式</td><td>付完款沒確認鎖板降下<br>就開走，會刮到車底</td></tr>
+      <tr><td class="k">柵欄式</td><td>停車券弄丟，<br>要按規定補繳</td></tr>
+      <tr><td class="k">車牌辨識式</td><td>沒有東西擋你，<br>最容易忘記付款</td></tr>
+      <tr><td class="k">三種共通</td><td>沒看當日最高上限<br>就停一整天</td></tr>
+    </table>
+    <p class="src">費率與規定以現場公告為準</p>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="site">okinawafamilynotes.com</div>
+  <div class="pg">7 / 8</div>
+</section>
+
+<!-- ============ P8 收尾（滿版照片） ============ -->
+<div class="label">P8 收尾（照片）</div>
+<section class="slide closing" id="p8">
+  <img src="/work/social/okinawa-family-parking-guide/images/p8-dusk.jpg" alt="">
+  <div class="scrim"></div>
+  <div class="wrap">
+    <div class="kick">最後提醒</div>
+    <h2><span class="hl">先收藏</span><br>停車前再看一次</h2>
+    <p>免費停車場、那霸市區停車<br>和國際通週日交通管制，<br>完整行程整理在個人檔案首頁。</p>
+    <div class="rule"></div>
+    <div class="small">完整內容</div>
+    <div class="link">okinawafamilynotes.com</div>
+  </div>
+  <div class="brand"><div class="dot">沖</div><span>沖繩親子旅遊筆記</span></div>
+  <div class="pg">8 / 8</div>
+</section>
+
+</body>
+</html>
