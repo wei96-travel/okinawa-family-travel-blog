@@ -16,22 +16,27 @@
 | `p2-payment-machine.jpg` | ❌ 棄用 | 鍵盤 1–9、0、Enter 全部可讀；色調偏冷灰藍；像歐洲街頭繳費機 |
 | `r1-flap-plate.jpg` | ❌ 棄用 | 鎖板像生鏽斜坡鐵板，辨識度不足（已由 v2 取代） |
 | `r2-parking-wide.jpg` | ❌ 棄用 | VW 廠徽可見、有白色車牌、地中海式白牆紅瓦背景 |
-| `r1-flap-plate-v2.jpg` | ✅ **採用** |
+| `r1-flap-plate-v2.jpg` | ✅ **採用** | 乾淨的鎖板鉸鏈結構、白色現代小車、日式住宅背景 |
 | `p5-gate.jpg` | ✅ **採用** | 柵欄升起 + 取票柱 + 等待的車，日式住宅街景 |
 | `p6-camera.jpg` | ✅ **採用** | 桿上攝影機 + 停好的車，無柵欄無鎖板 |
-| `p8-dusk.jpg` | ✅ **採用** | 黃昏海邊停車場、後車廂開啟、行李與草帽 | 乾淨的鎖板鉸鏈結構、白色現代小車、日式住宅背景、無廠徽無車牌無可讀文字 |
+| `p8-dusk.jpg` | ✅ **採用** | 黃昏海邊停車場、後車廂開啟、行李與草帽 |
 
 **最終採用素材**
 
 | 用途 | 檔案 | 來源 |
 | --- | --- | --- |
-| 輪播 P1 封面底圖 | `public/images/articles/okinawa-family-parking-guide/parking-cover.jpg` | **既有素材重用** |
-| 輪播 P2 配圖 | 取消（改為純文字版面） | —— |
-| 輪播 P4–P6 插畫 | `coin-parking-types.svg` 拆用 | **既有素材重用** |
-| Reels Hook（0–5s） | `r1-flap-plate-v2.jpg` | 本次生成 |
-| Reels 拉遠鏡頭 | `public/images/articles/okinawa-family-parking-guide/parking-cover.jpg` | **既有素材重用** |
+| 輪播 P1 封面 | `public/images/articles/.../parking-cover.jpg` | **既有素材重用** |
+| 輪播 P2 | `public/images/articles/.../parking-family-getout.jpg` | **既有素材重用** |
+| 輪播 P3 | 費率看板 SVG（內嵌） | 新製向量 |
+| 輪播 P4 | `r1-flap-plate-v2.jpg` | 本次生成 |
+| 輪播 P5 | `p5-gate.jpg` | 本次生成 |
+| 輪播 P6 | `p6-camera.jpg` | 本次生成 |
+| 輪播 P7 | 踩雷對照表（內嵌） | 新製向量 |
+| 輪播 P8 | `p8-dusk.jpg` | 本次生成 |
+| Reels Hook（0–5s） | `r1-flap-plate-v2.jpg` | 沿用 P4 |
+| Reels 拉遠鏡頭 | `parking-cover.jpg` | **既有素材重用** |
 
-**結論：5 個用途裡有 3 個靠既有素材解決，只有 1 個真的需要生圖。** 這是 Step 1a 補進 SOP 的原因。
+**10 個用途裡有 3 個靠既有素材、2 個靠向量解決，實際生圖 4 張。** 先盤點既有素材（SOP Step 1a）就是為了壓低這個數字。
 
 ---
 
@@ -146,14 +151,12 @@ low buildings and palm trees behind, warm daylight, no signage, no license plate
 
 | 用途 | 原因 | 做法 |
 | --- | --- | --- |
-| P4 鎖板式插畫 | 需要精確的操作結構 | 從 `public/images/articles/okinawa-family-parking-guide/coin-parking-types.svg` 拆用 |
-| P5 柵欄式插畫 | 同上 | 同上 |
-| P6 車牌辨識式插畫 | 同上 | 同上 |
+| P3 費率看板 | 照片會出現編造的價錢，讀者可能照著抓預算 | 新製 SVG，數字用色塊代替 |
 | P7 踩雷對照表 | 純文字表格 | 新製 SVG |
 | Pinterest A/B | 文字佔比高 | 新製 SVG |
-| Reels 資訊卡 A/B/C | 需與輪播一致 | 由 P4–P6 改 9:16 |
+| Reels 資訊卡 | 需與輪播一致 | 由輪播頁改 9:16 |
 
-**這是刻意的設計**：只有 3–4 張需要 AI 生圖，其餘全部用既有 SVG 拆用或新製向量。既省成本，也確保與網站文章的視覺完全一致。
+**判準**：只要畫面裡需要出現「具體數字、法規、費率」，就不要用 AI 照片。模型一定會編，而且編得很像真的。
 
 ---
 
@@ -165,7 +168,7 @@ low buildings and palm trees behind, warm daylight, no signage, no license plate
 - [ ] 色調為米白／沙色／木質棕，無高飽和藍綠
 - [ ] 光線柔和，無 HDR
 - [ ] 沒有冒充特定停車場或特定業者
-- [ ] 使用時已標「情境示意」
+- [ ] 貼文文案已加 AI 揭露句（圖上不壓標籤）
 - [ ] 四張看起來像同一天、同一台相機拍的
 
 
