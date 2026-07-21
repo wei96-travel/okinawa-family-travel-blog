@@ -76,7 +76,10 @@ identifiable child face, direct eye contact of children, crowded tourists, clutt
 1. **不出現可辨識的兒童正臉。** 一律用背影、側身、低頭、局部（手、腳、背包、帽子）。
 2. **不出現可辨識商標、店招、車牌、包裝字樣。** prompt 明確加 `no logos, no readable text`。
 3. **不冒充特定景點。** 不寫 `Churaumi Aquarium`、`Kouri Bridge` 等具體名稱，改寫地貌特徵（`long coastal bridge over turquoise shallow water`）。要指涉具體地點時，用資訊圖／插畫地圖，不用 AI 照片。
-4. **所有 AI 圖標「情境示意」。** 社群圖在圖上或文案標，文章圖在圖說標。
+4. **所有 AI 圖都要揭露，但標在文案、不標在圖上**（2026-07-21 決定）。
+   - 社群：圖面保持乾淨，改在貼文文案加一句「圖片為 AI 製作的情境示意」。
+   - 網站文章：維持原本做法，標在圖說（`content/editorial-standards.md` 的規則不變）。
+   - **不可以完全不揭露。** 這個網站的差異化建立在誠實與保守，讀者是正在做決定的家長；社群不揭露、網站有揭露，落差本身就會傷信任。
 5. **不生成醫療、藥品包裝、法規文件的擬真畫面。** 這類一律改用自製 SVG 資訊圖。
 6. **人物不超過 4 人**，避免手部與臉部崩壞。
 7. **AI 圖不做「實測」「開箱」用途。**
