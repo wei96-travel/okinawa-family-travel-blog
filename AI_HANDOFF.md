@@ -32,7 +32,10 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 Three open tracks:
 
-0. Social system — the planning docs are done and awaiting the user's direction on what to execute first. Candidates the user was offered: (a) a full trial run of one topic (suggested #62 投幣式停車場有三種, since `okinawa-family-parking-guide` is the newest article with fresh assets), or (b) write the family-restaurant article to close the largest Future Content gap. Do not start mass content production without the user's choice.
+0. Social system — the docs are done and topic #62 (投幣式停車場有三種) has been run end to end as a trial, under `work/social/okinawa-family-parking-guide/`. All copy is final: an 8-page carousel spec, 30s and 15s Reels storyboards, and Facebook / Instagram / Threads / Pinterest text. **Nothing has been published to any platform, and no social account has been touched.** Still open: rendering the carousel and Reels from the specs, and the user's decision on whether to publish. Do not publish anything without the user saying so.
+   - Trial run findings were already folded back into `docs/social/`: always inventory `public/images/articles/{slug}/` before generating images (the carousel ended up needing zero new AI renders); the palette governs UI and charts only, not photos; general image models add real car emblems and render legible keypad digits, so machine panels must be vector art.
+   - Image generation cost 300 w-ai points for 5 renders, only 1 accepted (`r1-flap-plate-v2.jpg`). The four rejected files stay on disk untracked; see `work/social/okinawa-family-parking-guide/images/README.md`.
+   - Largest Future Content gap remains the family-restaurant article, which would unlock 5 social topics at once.
 
 
 1. Blog content — continue the weekly cadence (about 2 articles/week). Most numbered content-plan items are done; the next agent should pick an under-served cluster angle (e.g. accommodation decision guides, more family-attraction guides) rather than repeat existing topics. After the two 2026-07-21 articles deploy, consider submitting manual indexing for their URLs.
