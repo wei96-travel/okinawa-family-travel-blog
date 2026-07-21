@@ -4,7 +4,7 @@
 **規範來源**：`docs/social/ai-image-style-guide.md`
 **使用時**：主體 prompt + 風格尾綴 + 負向提示，三段一起貼
 **模型**：Nano Banana 2（w-ai），2K，jpg
-**成本**：5 次生成共 300 點（2815 → 2515）
+**成本**：8 次生成共 480 點（2815 → 2335）
 
 ---
 
@@ -16,7 +16,10 @@
 | `p2-payment-machine.jpg` | ❌ 棄用 | 鍵盤 1–9、0、Enter 全部可讀；色調偏冷灰藍；像歐洲街頭繳費機 |
 | `r1-flap-plate.jpg` | ❌ 棄用 | 鎖板像生鏽斜坡鐵板，辨識度不足（已由 v2 取代） |
 | `r2-parking-wide.jpg` | ❌ 棄用 | VW 廠徽可見、有白色車牌、地中海式白牆紅瓦背景 |
-| `r1-flap-plate-v2.jpg` | ✅ **採用** | 乾淨的鎖板鉸鏈結構、白色現代小車、日式住宅背景、無廠徽無車牌無可讀文字 |
+| `r1-flap-plate-v2.jpg` | ✅ **採用** |
+| `p5-gate.jpg` | ✅ **採用** | 柵欄升起 + 取票柱 + 等待的車，日式住宅街景 |
+| `p6-camera.jpg` | ✅ **採用** | 桿上攝影機 + 停好的車，無柵欄無鎖板 |
+| `p8-dusk.jpg` | ✅ **採用** | 黃昏海邊停車場、後車廂開啟、行李與草帽 | 乾淨的鎖板鉸鏈結構、白色現代小車、日式住宅背景、無廠徽無車牌無可讀文字 |
 
 **最終採用素材**
 
@@ -164,3 +167,40 @@ low buildings and palm trees behind, warm daylight, no signage, no license plate
 - [ ] 沒有冒充特定停車場或特定業者
 - [ ] 使用時已標「情境示意」
 - [ ] 四張看起來像同一天、同一台相機拍的
+
+
+---
+
+## #6　`p5-gate.jpg`（P5 柵欄式）4:5
+
+```
+A modern Japanese coin parking lot entrance photographed in daylight. A white barrier gate arm is
+raised at an angle, and a slim ticket dispenser column stands beside the driveway. A clean white
+compact hatchback waits at the entrance. Smooth dark asphalt with crisp freshly painted white lines.
+Low residential buildings and a few palm trees blurred behind. Warm late afternoon daylight.
+```
+
+## #7　`p6-camera.jpg`（P6 車牌辨識式）4:5
+
+```
+Low angle daylight photo of a modern Japanese open-air parking lot. In the foreground left, a slim grey
+pole carries a small white surveillance camera angled down toward the parking bays. A clean white
+compact hatchback is parked between crisp freshly painted white bay lines on smooth dark asphalt.
+No barrier arm, no gate, no metal plate on the ground. Low Japanese residential houses and a few palm
+trees blurred in the background. Warm late afternoon daylight.
+```
+
+**注意**：這張第一次裁切時把攝影機切出畫面，只剩一台車，整頁重點就沒了。版面用 `object-position:center 15%` 把裁切點往上拉。
+
+## #8　`p8-dusk.jpg`（P8 收尾）4:5
+
+```
+Dusk photo of a white compact hatchback parked at the edge of a quiet seaside parking lot in Okinawa.
+The rear door is open, a small suitcase and a straw hat rest on the asphalt beside it. Calm sea and low
+islands on the horizon, warm golden sunset light raking across the ground, long soft shadows. Painted
+white parking lines on the asphalt. No people.
+```
+
+**注意**：車子在原圖中下方，會被收尾頁的文字區蓋住。版面用 `height:130%; top:-24%` 放大上移，讓車體露在文字之上。
+
+三張都沿用同一組負向提示，並額外加入 `any emblem or badge on the car`。
