@@ -8,7 +8,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: none; Claude Code published two new articles on 2026-07-21. The northern short video is still awaiting the user's publish decision (separate track).
 - Shared branch: `main`
-- Latest pushed commit: `85d30dc Publish medicine and parking family guides`
+- Latest pushed commit: `dd6df61 Add images to medicine and parking family guides`
 - Last full site build: passed with Next.js 15.5.20 on 2026-07-21 (44 static pages).
 - Live site: `https://okinawafamilynotes.com`
 
