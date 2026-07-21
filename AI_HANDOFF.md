@@ -1,34 +1,35 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-21 (Claude Code, after short-video review)
+Last updated: 2026-07-21 (Claude Code, published two travel-gear/car-transport articles)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none; Claude Code finished the short-video review on 2026-07-21 and is waiting for the user's publish decision.
+- Active owner: none; Claude Code published two new articles on 2026-07-21. The northern short video is still awaiting the user's publish decision (separate track).
 - Shared branch: `main`
-- Latest pushed commit: `26fe1ab Fix preview media 404 on trailing-slash redirect and record video review`
-- Last full site build: passed with Next.js 15.5.20 on 2026-07-21.
+- Latest pushed commit: see the two-article commit on `main` (after `26fe1ab`); exact hash recorded in the follow-up documentation commit.
+- Last full site build: passed with Next.js 15.5.20 on 2026-07-21 (44 static pages).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
 
-- Published `/blog/okinawa-summer-family-packing-list` and `/blog/okinawa-north-family-day-trip` with article images and internal links.
-- Reworded the summer packing article so carry-on liquid rules use concrete examples such as drinks, sunscreen, lotion, toothpaste, and sprays.
-- Created the northern itinerary carousel and several short-video preview iterations.
-- Current selected preview uses the island-chill music version from commit `b5c8311`.
-- Google Analytics check on 2026-07-20 showed 40 active users, 90 page views, and 8 Organic Search sessions in the previous 7 days.
-- Search Console showed 5 clicks, 153 impressions, 3.3% CTR, and average position 10.5 for data through 2026-07-18.
-- Manual indexing requests were successfully submitted for both new article URLs on 2026-07-20.
+- Published two new articles on 2026-07-21 (Claude Code, no images yet, text-only like other image-less posts):
+  - `/blog/okinawa-family-medicine-sunscreen-repellent` (旅遊用品): medicine carry limits (MHLW + Japan Customs), reef-safe sunscreen, mosquito-repellent age tiers (Taiwan CDC). Internal links to summer packing list, beach packing list, convenience-store guide.
+  - `/blog/okinawa-family-parking-guide` (租車交通): free lots at Churaumi/Kouri, three coin-parking types, Naha hotel fees, Kokusai-dori Sunday transit-mall restriction. Internal links to rental-car, refueling, drive-toilet, last-day, north-day-trip, Churaumi, Kouri.
+- Updated `content/content-plan.md`: marked #21 done; added #28 parking as a car-transport cluster fill (not an original numbered item, user-approved).
+- Content audit (strict) passed: 0 critical issues. `next build` passed (44 static pages).
+- Earlier on 2026-07-21: fixed the northern short-video preview media 404 (absolute paths).
+- Prior context: summer packing list and north day-trip articles published with images; GA on 2026-07-20 showed 40 active users / 90 page views / 8 organic sessions (7 days); Search Console 5 clicks, 153 impressions, 3.3% CTR, avg position 10.5 through 2026-07-18; manual indexing submitted for the two prior article URLs on 2026-07-20.
 
 ## Next Task
 
-Waiting on the user:
+Two open tracks:
 
-- The user must approve or reject the D island-chill northern itinerary short video before any Facebook or Instagram publishing.
-- After approval, the publishing agent should use the download link on `https://okinawafamilynotes.com/previews/okinawa-north-video/index.html`.
-- If rejected, iterate on music or scenes per user feedback before returning to the next blog article.
+1. Blog content — continue the weekly cadence (about 2 articles/week). Most numbered content-plan items are done; the next agent should pick an under-served cluster angle (e.g. accommodation decision guides, more family-attraction guides) rather than repeat existing topics. After the two 2026-07-21 articles deploy, consider submitting manual indexing for their URLs.
+2. Short video — the D island-chill northern itinerary video still needs the user's approve/reject before any Facebook or Instagram publishing. After approval, use the download link on `https://okinawafamilynotes.com/previews/okinawa-north-video/index.html`.
+
+Keep social production separate from blog writing.
 
 ## Review Result (Claude Code, 2026-07-21)
 
