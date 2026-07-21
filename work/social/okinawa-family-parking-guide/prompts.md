@@ -1,8 +1,34 @@
 # AI 生圖 Prompt 紀錄｜投幣停車場三種型式
 
-**狀態**：prompt 已定稿，**圖片尚未生成**（待使用者確認是否用 w-ai 生圖，會消耗點數）
+**狀態**：已生圖並驗收完畢（2026-07-21）
 **規範來源**：`docs/social/ai-image-style-guide.md`
 **使用時**：主體 prompt + 風格尾綴 + 負向提示，三段一起貼
+**模型**：Nano Banana 2（w-ai），2K，jpg
+**成本**：5 次生成共 300 點（2815 → 2515）
+
+---
+
+## 驗收結果總表
+
+| 檔名 | 判定 | 說明 |
+| --- | --- | --- |
+| `p1-parking-lot.jpg` | ❌ 棄用 | 車頭出現可辨識 FIAT 廠徽 |
+| `p2-payment-machine.jpg` | ❌ 棄用 | 鍵盤 1–9、0、Enter 全部可讀；色調偏冷灰藍；像歐洲街頭繳費機 |
+| `r1-flap-plate.jpg` | ❌ 棄用 | 鎖板像生鏽斜坡鐵板，辨識度不足（已由 v2 取代） |
+| `r2-parking-wide.jpg` | ❌ 棄用 | VW 廠徽可見、有白色車牌、地中海式白牆紅瓦背景 |
+| `r1-flap-plate-v2.jpg` | ✅ **採用** | 乾淨的鎖板鉸鏈結構、白色現代小車、日式住宅背景、無廠徽無車牌無可讀文字 |
+
+**最終採用素材**
+
+| 用途 | 檔案 | 來源 |
+| --- | --- | --- |
+| 輪播 P1 封面底圖 | `public/images/articles/okinawa-family-parking-guide/parking-cover.jpg` | **既有素材重用** |
+| 輪播 P2 配圖 | 取消（改為純文字版面） | —— |
+| 輪播 P4–P6 插畫 | `coin-parking-types.svg` 拆用 | **既有素材重用** |
+| Reels Hook（0–5s） | `r1-flap-plate-v2.jpg` | 本次生成 |
+| Reels 拉遠鏡頭 | `public/images/articles/okinawa-family-parking-guide/parking-cover.jpg` | **既有素材重用** |
+
+**結論：5 個用途裡有 3 個靠既有素材解決，只有 1 個真的需要生圖。** 這是 Step 1a 補進 SOP 的原因。
 
 ---
 
@@ -57,7 +83,35 @@ shallow depth of field, hand only, no readable text, no numbers on the screen, n
 
 ---
 
-## #3　`r1-flap-plate.jpg`
+## #5　`r1-flap-plate-v2.jpg`　✅ 採用版
+
+**用途**：Reels 0–5 秒開場
+**尺寸**：1080 × 1920（9:16）
+
+```
+Low angle close crop in a clean modern Japanese coin parking lot. A flat rectangular steel flap plate
+is hinged from the asphalt and tilted upward at about 45 degrees, positioned directly beneath the car
+body just behind the front tire, blocking the car from moving. The plate is clean painted metal, not
+rusty. A modern white compact hatchback front wheel fills the left of the frame. Crisp freshly painted
+white bay lines on smooth dark asphalt. Warm late afternoon daylight, blurred neutral background.
+```
+
+負向提示額外加入：
+```
+any emblem or badge on the car, rust, damaged metal, ramp shape, wheel clamp
+```
+
+**成功關鍵**（可套用到其他生圖）：
+1. 明寫 `modern Japanese`，避免模型跑去生地中海街景。
+2. 明寫 `no emblem or badge on the car`，這是廠徽問題的唯一有效對策。
+3. 描述具體地貌（`smooth dark asphalt`、`crisp freshly painted white bay lines`）比抽象形容詞有效。
+4. 明寫 `not rusty`、`ramp shape` 排除，才拿到正確的鎖板結構。
+
+---
+
+## 以下為棄用版本，保留供對照
+
+## #3　`r1-flap-plate.jpg`（棄用）
 
 **用途**：Reels 0–5 秒開場
 **尺寸**：1080 × 1920（9:16）

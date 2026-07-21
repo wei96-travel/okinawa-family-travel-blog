@@ -28,7 +28,9 @@
 | `#F6EFE4` 淺沙 | `soft sand beige` |
 | `#694624` 深棕 | `warm wood brown` |
 | `#9A6B43` 焦糖 | `caramel brown accents` |
-| 低飽和海藍 | `muted turquoise`, `desaturated ocean blue`（**不要** `vivid`, `tropical blue`） |
+| 沖繩的海與天 | `natural turquoise sea`, `clear blue sky`（可以有藍，但**不要** `vivid`, `hyper-saturated`, `HDR`） |
+
+**注意**（2026-07-21 修正）：色票規範 UI、文字與圖表；情境照片可以有沖繩自然的藍天碧海。判準是「像隨手拍的，不像修圖過的旅遊廣告」。
 
 ---
 
@@ -78,6 +80,19 @@ identifiable child face, direct eye contact of children, crowded tourists, clutt
 5. **不生成醫療、藥品包裝、法規文件的擬真畫面。** 這類一律改用自製 SVG 資訊圖。
 6. **人物不超過 4 人**，避免手部與臉部崩壞。
 7. **AI 圖不做「實測」「開箱」用途。**
+
+### 生圖前先做一件事
+
+**先看 `public/images/articles/{slug}/` 有沒有能重用的圖。** 每篇文章通常已有 2–3 張經過審核的素材，重用零成本且視覺一致。只生既有素材沒有的畫面。
+
+### 通用模型的兩個已知弱點（2026-07-21 實測）
+
+| 弱點 | 對策 |
+| --- | --- |
+| 車輛會長出真實廠徽（FIAT、VW 都出現過） | prompt 明寫 `no emblem or badge on the car`；車輛盡量用側面、局部或遠景，避免正面車頭特寫 |
+| 「日本場景」先驗很弱，容易生成地中海／歐洲街景 | prompt 明寫 `modern Japanese`，並描述具體地貌（`smooth dark asphalt`, `crisp white bay lines`）；生出白牆紅瓦民宅就重生 |
+
+另外，機器面板、鍵盤、螢幕幾乎一定會生出可讀數字。**需要出現機器操作的畫面，直接改用向量插畫，不要用 AI 照片。**
 
 ---
 

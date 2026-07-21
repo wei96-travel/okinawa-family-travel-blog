@@ -16,7 +16,7 @@
 | --- | --- |
 | 主標 | 沖繩投幣停車場有三種 |
 | 副標 | 看懂一種，其他都一樣 |
-| 底圖 | AI 情境圖 `p1-parking-lot.jpg`（見 `prompts.md` #1），上方壓 55% `#FFFDF8` 半透明色塊 |
+| 底圖 | **重用文章封面** `public/images/articles/okinawa-family-parking-guide/parking-cover.jpg`（白色小型租車、沖繩海景），上方壓 55% `#FFFDF8` 半透明色塊 |
 | 字級 | 主標 96px Bold `#34302B`／副標 44px `#5F594F` |
 | 角標 | 右上小標籤 `租車交通`，底 `#694624` 白字 |
 
@@ -37,7 +37,9 @@
 　　　　主要就這三種。
 ```
 
-版面：純文字左對齊，右下放小張 AI 圖 `p2-payment-machine.jpg`（局部，佔 35%）。
+版面：純文字左對齊，右下留白。
+
+**原本規劃在此放一張精算機 AI 照片，已取消。** 生圖時鍵盤數字必定可讀（違反無可讀文字規則），且模型生不出日本精算機的樣子。這頁改為純文字版面即可，資訊本來就以文字為主。
 
 ---
 
@@ -143,14 +145,16 @@
 
 ## 素材清單
 
-| 檔名 | 型態 | 來源 |
-| --- | --- | --- |
-| `p1-parking-lot.jpg` | AI 生成 | `prompts.md` #1 |
-| `p2-payment-machine.jpg` | AI 生成 | `prompts.md` #2 |
-| P4/P5/P6 型式插畫 | 向量 | 可從 `public/images/articles/okinawa-family-parking-guide/coin-parking-types.svg` 拆用既有元素 |
-| P7 表格 | 向量 | 新製 |
+| 頁 | 素材 | 型態 | 來源 |
+| --- | --- | --- | --- |
+| P1 | `parking-cover.jpg` | 照片 | **重用** `public/images/articles/okinawa-family-parking-guide/` |
+| P2 | 無 | —— | 純文字版面 |
+| P3 | 無 | —— | 純文字 + 色塊 |
+| P4/P5/P6 | 三種型式插畫 | 向量 | **重用** `coin-parking-types.svg` 拆用元素 |
+| P7 | 踩雷對照表 | 向量 | 新製 |
+| P8 | 無 | —— | 純文字 + 色塊 |
 
-**可重複利用**：文章既有的 `coin-parking-types.svg` 已經畫過三種型式，P4–P6 的插畫直接從那份拆，不用重畫，也確保與網站視覺一致。
+**8 頁裡有 0 張需要新生 AI 圖。** 封面重用文章封面，三種型式插畫重用文章既有的 SVG，其餘都是文字與表格。
 
 ---
 
