@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: "沖繩親子旅遊筆記",
     template: "%s | 沖繩親子旅遊筆記"
   },
-  description: "給第一次去沖繩的家庭：用慢一點、安心一點的方式整理住宿、行程、景點、租車交通與旅遊用品。",
+  description: "給第一次去沖繩的家庭：用慢一點、安心一點的方式整理住宿、行程、景點、租車交通、旅遊用品與親子美食。",
   alternates: {
     canonical: "/"
   },

@@ -152,11 +152,11 @@
 | 77 | 便利商店能幫小孩補到什麼 | 美食推薦 | `okinawa-convenience-store-family-shopping-guide` |
 | 78 | 小孩餓了、下雨、玩完水的三種補位法 | 知識型 | `okinawa-convenience-store-family-shopping-guide` |
 | 79 | 哪些東西台灣先買比較好 | 比較型 | `okinawa-convenience-store-family-shopping-guide` |
-| 80 | 帶小孩在沖繩吃飯的三個現實限制 | 知識型 | Future Content |
-| 81 | 沖繩適合帶小孩的餐廳類型 | 美食推薦 | Future Content |
-| 82 | 沖繩美食小孩吃得慣嗎 | FAQ | Future Content |
-| 83 | 飯店外賣與超市熟食的取捨 | 比較型 | Future Content |
-| 84 | 過敏、辣度、生食要注意什麼 | 知識型 | Future Content |
+| 80 | 帶小孩在沖繩吃飯的三個現實限制 | 知識型 | `okinawa-family-restaurant-dining-guide` |
+| 81 | 沖繩適合帶小孩的餐廳類型 | 美食推薦 | `okinawa-family-restaurant-dining-guide` |
+| 82 | 沖繩美食小孩吃得慣嗎 | FAQ | `okinawa-family-restaurant-dining-guide` |
+| 83 | 飯店外帶與超市熟食的取捨 | 比較型 | `okinawa-family-restaurant-dining-guide` |
+| 84 | 過敏、辣度、生食要注意什麼 | 知識型 | `okinawa-family-restaurant-dining-guide` |
 
 ---
 
@@ -197,19 +197,18 @@
 
 ---
 
-## Future Content 彙整（32 個）
+## Future Content 彙整（27 個）
 
 依「補一篇文章能解鎖幾個社群主題」排序，作為之後的選題參考：
 
 | 優先 | 建議文章 | 可解鎖社群主題 |
 | --- | --- | --- |
-| 1 | 沖繩親子餐廳與吃飯攻略 | 80、81、82、83、84（5 個） |
-| 2 | 沖繩親子購物與伴手禮 | 85、86、87、90（4 個） |
-| 3 | 沖繩親子夜間與傍晚安排 | 97、98、99（3 個） |
-| 4 | 沖繩親子公園與體驗景點 | 52、53、54（3 個） |
-| 5 | 沖繩親子旅遊預算怎麼抓 | 10（1 個） |
-| 6 | 飯店泳池與早餐的親子判斷 | 27、29（2 個） |
-| 7 | 沖繩民宿與公寓式住宿 | 22（1 個） |
+| 1 | 沖繩親子購物與伴手禮 | 85、86、87、90（4 個） |
+| 2 | 沖繩親子夜間與傍晚安排 | 97、98、99（3 個） |
+| 3 | 沖繩親子公園與體驗景點 | 52、53、54（3 個） |
+| 4 | 沖繩親子旅遊預算怎麼抓 | 10（1 個） |
+| 5 | 飯店泳池與早餐的親子判斷 | 27、29（2 個） |
+| 6 | 沖繩民宿與公寓式住宿 | 22（1 個） |
 
 其餘 Future Content 可先用「不導流」的方式在 Threads 發，測試題目反應，再決定要不要寫成文章。
 

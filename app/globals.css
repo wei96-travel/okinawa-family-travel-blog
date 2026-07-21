@@ -110,7 +110,8 @@ a {
 }
 
 .prose-travel .article-figure img[src*="three-bag-packing-system"],
-.prose-travel .article-figure img[src*="north-day-route-options"] {
+.prose-travel .article-figure img[src*="north-day-route-options"],
+.prose-travel .article-figure img[src*="dining-backup-plan"] {
   aspect-ratio: auto;
 }
 

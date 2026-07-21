@@ -7,7 +7,7 @@ import { categories, categoryDefinitions } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "文章閱讀中心",
-  description: "第一次去沖繩的親子旅遊閱讀中心，依住宿、行程、景點、租車交通與旅遊用品整理。",
+  description: "第一次去沖繩的親子旅遊閱讀中心，依住宿、行程、景點、租車交通、旅遊用品與親子美食整理。",
   alternates: {
     canonical: "/blog"
   }
@@ -81,7 +81,7 @@ export default function BlogPage() {
           <p className="text-sm font-semibold text-[#9a6b43]">TOPICS</p>
           <h2 className="mt-1 text-2xl font-bold text-[#34302b]">依照你現在最煩惱的問題讀</h2>
         </div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {categoryDefinitions.map((category) => (
             <Link
               className="overflow-hidden rounded-lg border border-[#eadfce] bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"

@@ -33,6 +33,13 @@ export const categoryDefinitions = [
     image: "/images/okinawa-gear-cover.webp",
     description: "推車、防曬、防蚊、藥品與親子旅行用品清單。",
     audience: "準備打包行李，想知道孩子用品、夏天防曬與常備藥怎麼帶的家庭。"
+  },
+  {
+    name: "沖繩美食",
+    slug: "family-food",
+    image: "/images/articles/okinawa-family-restaurant-dining-guide/restaurant-cover.jpg",
+    description: "帶孩子吃沖繩料理、選餐廳與臨時用餐備案。",
+    audience: "擔心孩子吃不慣、餐廳排隊，或需要處理食物過敏與外帶備案的家庭。"
   }
 ] as const;
 

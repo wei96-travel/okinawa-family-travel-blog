@@ -1,18 +1,25 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-22 (Codex, claimed the family restaurant article)
+Last updated: 2026-07-22 (Codex, family restaurant article completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: Codex; writing the family restaurant and dining guide recorded as the largest content gap. Social publishing remains a separate track.
+- Active owner: none. Codex completed the family restaurant article and released all claimed files.
 - Shared branch: `main`
 - Latest pushed commit: `4c9ce13 Unify the carousel on one dark full-bleed system`
-- Last full site build: passed with Next.js 15.5.20 on 2026-07-21 (44 static pages).
+- Last full site build: passed with Next.js 15.5.20 on 2026-07-22 (46 static pages).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+- Published the family dining decision guide on 2026-07-22 (Codex): `/blog/okinawa-family-restaurant-dining-guide`.
+  - Covers restaurant choice, child-friendly Okinawa foods, a three-level backup plan, food-allergy checks, takeout and eight FAQ items. The article avoids pretending to be a restaurant ranking or personal dining review.
+  - Added two original AI-assisted photos and one hand-written SVG backup-plan infographic under `public/images/articles/okinawa-family-restaurant-dining-guide/`. Desktop and 390px mobile previews were checked; the vertical infographic no longer inherits the 16:9 crop.
+  - Added the `沖繩美食` category, refreshed site metadata/about copy, marked content-plan item #29 complete and mapped social topics #80-84 to the new article. Future Content topics dropped from 32 to 27.
+  - `npm run content:audit:strict`: 28 articles, 0 critical issues. `next build`: passed, 46 static pages.
+- The first northern itinerary Facebook Reel was published on 2026-07-22. Its initial audience was accidentally set to Friends and was then corrected to Public. Review reach after 24-48 hours before changing the social format again.
 
 - Built the Social Media Content System on 2026-07-21 (Claude Code), planning documents only, under `docs/social/`: `README.md`, `site-analysis.md`, `social-brand-guide.md`, `carousel-system.md`, `reels-system.md`, `ai-image-style-guide.md`, `content-repurpose.md`, `cta-library.md`, `social-content-plan.md`, `social-workflow.md`.
   - Explicit scope limit from the user: do not change site architecture, Next.js, SEO, blog, sitemap, metadata, components, design, or existing article content. Verified with `git diff --stat` (empty) that zero tracked files were modified. `docs/` is outside the Next.js route tree, so no new pages and no sitemap impact. `next build` was not required because no site output changed.
@@ -64,25 +71,18 @@ Topic #62 (投幣式停車場有三種), sourced from `/blog/okinawa-family-park
 
 ### 3. Where it stopped
 
-The user approved the carousel and asked to post it to Facebook. Chrome was opened at `facebook.com` and the session was **not logged in**; the user was asked to log in themselves and to name the target (page vs personal profile vs group). Work paused there.
-
-**Nothing has been published to any platform. No social account was accessed, and no credentials were handled.**
-
-Before anyone resumes the Facebook step:
-- The posting target is still unconfirmed.
-- `file_upload` may reject the PNGs because they sit outside the session's shared folders; the user may have to attach the eight images by hand.
-- Post body carries no link. The link goes in the first comment, and it has to be added immediately after posting or the post has no route to the site at all.
+The first northern itinerary Facebook Reel is live and Public. The parking carousel remains a prepared example in `work/social/okinawa-family-parking-guide/`; do not assume it has been posted. The next useful step is to record the Reel's 24-48 hour reach, views and interactions, then decide whether the second post should be another Reel or a carousel.
 
 ## Next Task
 
 Three open tracks:
 
-0. Social — either finish publishing topic #62 to Facebook (needs the user logged in and a named target), or move to the next topic from `social-content-plan.md`. For a new topic, copy `render/` and follow `docs/social/social-workflow.md`. Do not publish anything without the user saying so in the moment.
-   - Largest Future Content gap is a family-restaurant article, which would unlock 5 social topics at once.
-   - After the first post goes live, record 7-day reach and link clicks in `work/social/progress.md`. Those numbers decide whether link-in-first-comment actually helps this account; do not keep trusting the general rule.
+0. Social — record the first Reel's 24-48 hour results, then choose the second Facebook post from `social-content-plan.md`. Do not publish anything without the user saying so in the moment.
+   - The family restaurant article now unlocks topics #80-84 for future carousels and Reels.
+   - Record 7-day reach and link clicks in `work/social/progress.md`. Those numbers decide whether link-in-first-comment helps this account.
 
-1. Blog content — continue the weekly cadence (about 2 articles/week). Codex claimed the family restaurant and dining guide on 2026-07-22. Most numbered content-plan items are done; after that one, pick an under-served cluster angle rather than repeating existing topics.
-2. Short video — the D island-chill northern itinerary video still needs the user's approve/reject before any Facebook or Instagram publishing. After approval, use the download link on `https://okinawafamilynotes.com/previews/okinawa-north-video/index.html`.
+1. Blog content — continue the weekly cadence (about 2 articles/week). The next under-served cluster is family shopping and souvenirs; research a practical decision angle before drafting, rather than another generic must-buy list.
+2. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
 
 Keep social production separate from blog writing.
 
@@ -100,20 +100,14 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## File Ownership
 
-- Codex currently claims:
-  - `content/blog/okinawa-family-restaurant-dining-guide.md`
-  - `public/images/articles/okinawa-family-restaurant-dining-guide/`
-  - `content/content-plan.md`
-  - `docs/social/social-content-plan.md`
-  - `AI_HANDOFF.md`
+- No files are currently claimed. The family restaurant article task is complete.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
 ## Pending User Decisions
 
-- User needs to approve or reject the current northern itinerary short video before social publishing.
 - Shopee product links remain user-selected; agents may prepare product categories and search terms only.
-- After the video review, user will decide whether to continue social production or return to the next article.
+- Decide the second Facebook format after the first Reel has at least 24-48 hours of data.
 - Facebook posting target for topic #62 is unconfirmed: brand page, personal profile, or an Okinawa travel group. Groups often restrict external links, so their rules need checking first.
 - The closing slide reads 完整行程整理在個人檔案首頁, wording the user specified. It was flagged twice that 行程 does not match a parking topic and that the profile link hub has to exist first, or the slide points nowhere. Unresolved.
 

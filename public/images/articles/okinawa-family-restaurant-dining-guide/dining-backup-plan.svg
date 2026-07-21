@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩親子吃飯三層備案</title>
+  <desc id="desc">第一層是原本想吃的餐廳，第二層是家庭餐廳或商場，第三層是外帶或超市熟食回飯店。</desc>
+  <rect width="800" height="1100" fill="#fffaf2"/>
+  <text x="400" y="72" text-anchor="middle" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="44" font-weight="700" fill="#34302b">親子吃飯，先存三層備案</text>
+  <text x="400" y="118" text-anchor="middle" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="25" fill="#6c6257">孩子喊餓時，不用在停車場重新找餐廳</text>
+
+  <g transform="translate(50 160)">
+    <rect width="700" height="220" rx="22" fill="#ffffff" stroke="#d9c9b2" stroke-width="3"/>
+    <circle cx="82" cy="82" r="46" fill="#dcefe8"/>
+    <text x="82" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#236a58">1</text>
+    <text x="155" y="67" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="34" font-weight="700" fill="#34302b">原本想吃的店</text>
+    <text x="155" y="112" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="27" fill="#5f594f">先查訂位、停車與休息日</text>
+    <rect x="155" y="146" width="240" height="48" rx="24" fill="#eef7f3"/>
+    <text x="275" y="178" text-anchor="middle" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="700" fill="#236a58">有位就安心吃</text>
+  </g>
+
+  <path d="M400 395 V425" stroke="#9a6b43" stroke-width="6" stroke-linecap="round"/>
+  <path d="M384 416 L400 434 L416 416" fill="none" stroke="#9a6b43" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(50 450)">
+    <rect width="700" height="220" rx="22" fill="#ffffff" stroke="#d9c9b2" stroke-width="3"/>
+    <circle cx="82" cy="82" r="46" fill="#f7e7cb"/>
+    <text x="82" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#8a5a20">2</text>
+    <text x="155" y="67" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="34" font-weight="700" fill="#34302b">附近穩定備案</text>
+    <text x="155" y="112" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="27" fill="#5f594f">家庭餐廳、商場或簡單定食</text>
+    <rect x="155" y="146" width="240" height="48" rx="24" fill="#fff4df"/>
+    <text x="275" y="178" text-anchor="middle" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="700" fill="#8a5a20">客滿就直接換</text>
+  </g>
+
+  <path d="M400 685 V715" stroke="#9a6b43" stroke-width="6" stroke-linecap="round"/>
+  <path d="M384 706 L400 724 L416 706" fill="none" stroke="#9a6b43" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(50 740)">
+    <rect width="700" height="220" rx="22" fill="#ffffff" stroke="#d9c9b2" stroke-width="3"/>
+    <circle cx="82" cy="82" r="46" fill="#e8e3f1"/>
+    <text x="82" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#5d4f7d">3</text>
+    <text x="155" y="67" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="34" font-weight="700" fill="#34302b">回飯店吃</text>
+    <text x="155" y="112" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="27" fill="#5f594f">外帶或超市熟食，孩子累了就收尾</text>
+    <rect x="155" y="146" width="285" height="48" rx="24" fill="#f3eff9"/>
+    <text x="297" y="178" text-anchor="middle" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="700" fill="#5d4f7d">累了就好好休息</text>
+  </g>
+
+  <rect x="90" y="1000" width="620" height="66" rx="33" fill="#34302b"/>
+  <text x="400" y="1042" text-anchor="middle" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="25" font-weight="700" fill="#ffffff">每個活動區域存兩間店，再留一個回飯店方案</text>
+</svg>
