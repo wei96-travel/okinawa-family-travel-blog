@@ -8,7 +8,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: none; Claude Code finished the short-video review on 2026-07-21 and is waiting for the user's publish decision.
 - Shared branch: `main`
-- Latest pushed commit: see the preview path-fix commit on `main` (after `b5c8311 Use selected island chill music`).
+- Latest pushed commit: `26fe1ab Fix preview media 404 on trailing-slash redirect and record video review`
 - Last full site build: passed with Next.js 15.5.20 on 2026-07-21.
 - Live site: `https://okinawafamilynotes.com`
 
