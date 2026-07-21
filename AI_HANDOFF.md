@@ -1,15 +1,15 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-21
+Last updated: 2026-07-21 (Claude Code, after short-video review)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none; ready for Claude Code to take over when the user sends quick code `1`.
+- Active owner: none; Claude Code finished the short-video review on 2026-07-21 and is waiting for the user's publish decision.
 - Shared branch: `main`
-- Latest pushed commit: `b5c8311 Use selected island chill music`
-- Last full site build: passed with Next.js 15.5.20 on 2026-07-20.
+- Latest pushed commit: see the preview path-fix commit on `main` (after `b5c8311 Use selected island chill music`).
+- Last full site build: passed with Next.js 15.5.20 on 2026-07-21.
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
@@ -24,13 +24,19 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Next Task
 
-Claude Code should take over the northern itinerary short-video review:
+Waiting on the user:
 
-- Run `git pull --ff-only origin main` when the worktree is safe, then read this handoff and the latest preview files.
-- Review `public/previews/okinawa-north-video/index.html` and the music video added by commit `b5c8311`.
-- Verify that the preview loads on desktop and mobile, the selected music plays, all six scenes appear, and no image or audio path is broken.
-- Report the preview result to the user first. Do not publish to Facebook or Instagram until the user explicitly approves it.
-- Keep social production separate from the next blog-writing task.
+- The user must approve or reject the D island-chill northern itinerary short video before any Facebook or Instagram publishing.
+- After approval, the publishing agent should use the download link on `https://okinawafamilynotes.com/previews/okinawa-north-video/index.html`.
+- If rejected, iterate on music or scenes per user feedback before returning to the next blog article.
+
+## Review Result (Claude Code, 2026-07-21)
+
+- Verified `okinawa-north-carousel-music-d-18s.mp4` on the live site: 18 s, 1080x1920, 9:16, all six scenes present (bridge intro, coastline, luggage/accommodation, aquarium whale shark, schedule tip, refueling tip), audio track decodes correctly.
+- All three voiceover MP3s (natural 33.1 s, bright 21.5 s, B2 12.7 s) load and play.
+- Mobile viewport 375px: no horizontal overflow; layout is single-column and correct.
+- Found and fixed a bug: visiting `/previews/okinawa-north-video/` without `index.html` triggered Next.js's trailing-slash redirect, which broke every relative media path (video, poster, and all three MP3s returned 404). All media paths in `index.html` are now absolute, so both URL forms work.
+- `next build` passed after the fix.
 
 ## File Ownership
 
