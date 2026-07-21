@@ -6,6 +6,8 @@
 | --- | --- | --- | --- | --- | --- |
 | #62 投幣式停車場有三種 | `okinawa-family-parking-guide` | ✅ | ✅ | ⬜ | ⬜ |
 
+**#62 輪播 8 張已算圖完成**：`work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，1080×1350，可直接上傳 Facebook。Reels 尚未剪。
+
 ## 圖例
 
 - ✅ 完成

@@ -121,6 +121,30 @@ ls public/images/articles/{slug}/
 
 **FB 與 IG 共用同一組圖**，不重做。
 
+### 算圖工具（2026-07-21 建立）
+
+輪播用 HTML 排版再匯出 PNG，不用設計軟體。範本在：
+
+```
+work/social/okinawa-family-parking-guide/render/carousel.html   版型範本，直接複製改內容
+work/social/okinawa-family-parking-guide/render/export.py       匯出 1080x1350 PNG
+```
+
+**流程**
+
+1. 複製 `render/` 整個資料夾到新主題底下，改 `carousel.html` 的文字。
+2. 啟動靜態伺服器（專案根目錄）：
+   ```
+   python -m http.server 4180 --directory "C:/AI/codex 部落格"
+   ```
+   （`C:\AI\cc\.claude\launch.json` 裡有一個叫 `social-render` 的設定可直接啟動）
+3. 瀏覽器開 `http://localhost:4180/work/social/{slug}/render/carousel.html` 校稿。
+4. `python export.py` → 輸出到 `render/png/01.png` ~ `08.png`（**不要用 `out/`**，專案 `.gitignore` 有 `out`，會被忽略），可直接上傳。
+
+**已知地雷**：`.pad` 是 `position:absolute` 且同時設了 `top` 與 `bottom`，**不要再加 `height:100%`**，會覆蓋 inset 的 bottom 值，導致內容溢出投影片底部。範本裡已註記。
+
+匯出後務必逐張看過再發，版面溢出在瀏覽器縮圖不一定看得出來。
+
 ---
 
 ## Step 3：Reels
