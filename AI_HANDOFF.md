@@ -1,34 +1,36 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-20
+Last updated: 2026-07-21
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none; two new articles are complete and ready for deployment.
+- Active owner: none; ready for Claude Code to take over when the user sends quick code `1`.
 - Shared branch: `main`
-- Last completed work commit: `9f8b636 Add summer packing and northern Okinawa guides`
-- Last build: passed with Next.js 15.5.20 on 2026-07-20.
+- Latest pushed commit: `b5c8311 Use selected island chill music`
+- Last full site build: passed with Next.js 15.5.20 on 2026-07-20.
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
 
-- Added `/blog/okinawa-summer-family-packing-list` with official typhoon, aviation-security, and power-bank sources.
-- Added `/blog/okinawa-north-family-day-trip` to connect the Churaumi, Kouri Island, and family-driving cluster.
-- Added an original cover and a mobile-first vertical infographic for each article.
-- Reused two licensed real photos in the northern itinerary article with visible credit captions.
-- Both articles passed mobile and desktop visual review; all article images loaded successfully.
-- Strict content audit: 0 critical findings. Next.js 15.5.20 production build: passed, 42 static pages generated.
+- Published `/blog/okinawa-summer-family-packing-list` and `/blog/okinawa-north-family-day-trip` with article images and internal links.
+- Reworded the summer packing article so carry-on liquid rules use concrete examples such as drinks, sunscreen, lotion, toothpaste, and sprays.
+- Created the northern itinerary carousel and several short-video preview iterations.
+- Current selected preview uses the island-chill music version from commit `b5c8311`.
+- Google Analytics check on 2026-07-20 showed 40 active users, 90 page views, and 8 Organic Search sessions in the previous 7 days.
+- Search Console showed 5 clicks, 153 impressions, 3.3% CTR, and average position 10.5 for data through 2026-07-18.
+- Manual indexing requests were successfully submitted for both new article URLs on 2026-07-20.
 
 ## Next Task
 
-Keep blog writing and social production in separate tasks. For the social task:
+Claude Code should take over the northern itinerary short-video review:
 
-- Run `git pull` and read this handoff first.
-- Start with one six-card FB / IG carousel based on `/blog/okinawa-north-family-day-trip`.
-- Use the article's main idea: one northern main attraction plus one optional stop.
-- Prepare a preview first; do not publish until the user approves it.
+- Run `git pull --ff-only origin main` when the worktree is safe, then read this handoff and the latest preview files.
+- Review `public/previews/okinawa-north-video/index.html` and the music video added by commit `b5c8311`.
+- Verify that the preview loads on desktop and mobile, the selected music plays, all six scenes appear, and no image or audio path is broken.
+- Report the preview result to the user first. Do not publish to Facebook or Instagram until the user explicitly approves it.
+- Keep social production separate from the next blog-writing task.
 
 ## File Ownership
 
@@ -38,8 +40,9 @@ Keep blog writing and social production in separate tasks. For the social task:
 
 ## Pending User Decisions
 
+- User needs to approve or reject the current northern itinerary short video before social publishing.
 - Shopee product links remain user-selected; agents may prepare product categories and search terms only.
-- User still needs to choose whether the first new social carousel promotes the northern itinerary or summer packing article.
+- After the video review, user will decide whether to continue social production or return to the next article.
 
 ## Handoff Template
 
