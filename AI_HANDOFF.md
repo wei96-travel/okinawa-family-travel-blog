@@ -1,18 +1,24 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-22 (Codex, parking carousel published)
+Last updated: 2026-07-22 (Codex, shopping and souvenir article pair published)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. Codex published topic #62 and released all claimed files.
+- Active owner: none. Codex completed and released the shopping and souvenir article files.
 - Shared branch: `main`
-- Latest completed work commit: `4bfa48d Publish parking carousel to Facebook`
-- Last full site build: passed with Next.js 15.5.20 on 2026-07-22 (46 static pages).
+- Latest completed work commit: `6d40863 Publish family shopping and souvenir guides`
+- Last full site build: passed with Next.js 15.5.20 on 2026-07-22 (48 static pages).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+- Published two practical family-travel articles on 2026-07-22 (Codex):
+  - `/blog/okinawa-family-shopping-guide`: separates AEON, Kokusai-dori and supermarkets by family use case instead of presenting another generic must-buy list. Includes one original cover, one hand-written SVG decision map and one selected Shopee affiliate link.
+  - `/blog/okinawa-souvenir-packing-guide`: covers Taiwan entry checks, liquids, breakables, packing order and tax-free checked baggage. Includes one original cover, one hand-written SVG packing-order guide and three selected Shopee affiliate links.
+  - Affiliate sections explain the problem solved, why the item was selected and its limitations. Prices and specifications are described as changeable; actual links were generated from the user's logged-in Shopee affiliate dashboard.
+  - Updated the content plan, SEO roadmap and social topic mapping. `npm run content:audit:strict`: 30 articles, 0 critical issues. `next build`: passed, 48 static pages. Desktop and 390px mobile previews passed with no horizontal overflow and all images loaded.
 
 - Published Facebook carousel topic #62, `投幣式停車場有三種`, on 2026-07-22 (Codex).
   - Corrected the closing slide so it points to the website parking guide instead of calling it a complete itinerary, then re-exported and visually checked all eight 1080x1350 PNGs.
@@ -81,14 +87,16 @@ The first northern itinerary Facebook Reel and topic #62 parking carousel are bo
 
 ## Next Task
 
-Three open tracks:
+Four open tracks:
 
 0. Social — record the first Reel and topic #62 carousel's 24-48 hour results, then choose the next Facebook post from `social-content-plan.md`. Do not publish anything without the user saying so in the moment.
    - The family restaurant article now unlocks topics #80-84 for future carousels and Reels.
    - Record 7-day reach and link clicks in `work/social/progress.md`. Those numbers decide whether link-in-first-comment helps this account.
 
-1. Blog content — continue the weekly cadence (about 2 articles/week). The next under-served cluster is family shopping and souvenirs; research a practical decision angle before drafting, rather than another generic must-buy list.
-2. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
+1. Google data review — use Search Console and GA4's latest 28-day data to build a page/query scorecard: URL, query, impressions, clicks, CTR, average position, organic users, internal links, derivative topic and monetization fit. Prioritize positions 5-20 and pages with impressions but low CTR.
+2. Blog content — continue at about two articles per week, but let real query data choose the next extension. Candidate branches from the new pair are Kokusai-dori with children, Okinawa supermarket souvenir selection and airport return-day packing; do not draft all three before checking the data.
+3. Monetization — keep Shopee for relevant travel gear. Separately evaluate affiliate programs for attraction tickets, eSIM, hotels, rental cars and flights before adding those links. Food stays content-first unless a genuinely useful ticket, booking or product offer fits.
+4. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
 
 Keep social production separate from blog writing.
 
@@ -106,13 +114,13 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## File Ownership
 
-- No files are currently claimed. Topic #62 is published and the handoff is complete.
+- No files are currently claimed. The shopping and souvenir article files, their image folders, `content/content-plan.md`, `content/seo-growth-roadmap.md`, `docs/social/social-content-plan.md` and this handoff file were released after commit `6d40863`.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
 ## Pending User Decisions
 
-- Shopee product links remain user-selected; agents may prepare product categories and search terms only.
+- Shopee links may be added only after the user has approved the product or explicitly asked Codex to choose from the logged-in affiliate dashboard. Record why each product fits and do not imply that price, stock or specifications are permanent.
 - Decide the next Facebook format after the first Reel and parking carousel each have at least 24-48 hours of data.
 
 ## Handoff Template
