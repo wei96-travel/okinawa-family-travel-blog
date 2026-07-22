@@ -1,18 +1,24 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-22 (Codex, family restaurant article completed)
+Last updated: 2026-07-22 (Codex, parking carousel published)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. Codex completed the family restaurant article and released all claimed files.
+- Active owner: none. Codex published topic #62 and released all claimed files.
 - Shared branch: `main`
 - Latest completed work commit: `da1aeeb Publish Okinawa family dining guide`
 - Last full site build: passed with Next.js 15.5.20 on 2026-07-22 (46 static pages).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+- Published Facebook carousel topic #62, `投幣式停車場有三種`, on 2026-07-22 (Codex).
+  - Corrected the closing slide so it points to the website parking guide instead of calling it a complete itinerary, then re-exported and visually checked all eight 1080x1350 PNGs.
+  - Published to the Wei Fan personal profile and changed the audience from Friends to Public. Added the article URL in the author's first comment.
+  - Public post: `https://www.facebook.com/permalink.php?story_fbid=122114132331290857&id=61588725730543`
+  - Next action: record 24-48 hour and 7-day reach, interactions and link clicks in `work/social/progress.md`; do not change the format before the first measurement.
 
 - Published the family dining decision guide on 2026-07-22 (Codex): `/blog/okinawa-family-restaurant-dining-guide`.
   - Covers restaurant choice, child-friendly Okinawa foods, a three-level backup plan, food-allergy checks, takeout and eight FAQ items. The article avoids pretending to be a restaurant ranking or personal dining review.
@@ -71,13 +77,13 @@ Topic #62 (投幣式停車場有三種), sourced from `/blog/okinawa-family-park
 
 ### 3. Where it stopped
 
-The first northern itinerary Facebook Reel is live and Public. The parking carousel remains a prepared example in `work/social/okinawa-family-parking-guide/`; do not assume it has been posted. The next useful step is to record the Reel's 24-48 hour reach, views and interactions, then decide whether the second post should be another Reel or a carousel.
+The first northern itinerary Facebook Reel and topic #62 parking carousel are both live and Public. The parking carousel has its website link in the author's first comment. The next useful step is to record each post's 24-48 hour reach, views and interactions, then compare Reel versus carousel performance before choosing the next format.
 
 ## Next Task
 
 Three open tracks:
 
-0. Social — record the first Reel's 24-48 hour results, then choose the second Facebook post from `social-content-plan.md`. Do not publish anything without the user saying so in the moment.
+0. Social — record the first Reel and topic #62 carousel's 24-48 hour results, then choose the next Facebook post from `social-content-plan.md`. Do not publish anything without the user saying so in the moment.
    - The family restaurant article now unlocks topics #80-84 for future carousels and Reels.
    - Record 7-day reach and link clicks in `work/social/progress.md`. Those numbers decide whether link-in-first-comment helps this account.
 
@@ -100,16 +106,14 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## File Ownership
 
-- No files are currently claimed. The family restaurant article task is complete.
+- No files are currently claimed. Topic #62 is published and the handoff is complete.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
 ## Pending User Decisions
 
 - Shopee product links remain user-selected; agents may prepare product categories and search terms only.
-- Decide the second Facebook format after the first Reel has at least 24-48 hours of data.
-- Facebook posting target for topic #62 is unconfirmed: brand page, personal profile, or an Okinawa travel group. Groups often restrict external links, so their rules need checking first.
-- The closing slide reads 完整行程整理在個人檔案首頁, wording the user specified. It was flagged twice that 行程 does not match a parking topic and that the profile link hub has to exist first, or the slide points nowhere. Unresolved.
+- Decide the next Facebook format after the first Reel and parking carousel each have at least 24-48 hours of data.
 
 ## Handoff Template
 

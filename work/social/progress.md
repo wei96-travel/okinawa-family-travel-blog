@@ -4,9 +4,11 @@
 
 | 主題 | 對應文章 | 文案 | 圖片 | 影片 | 已發佈 |
 | --- | --- | --- | --- | --- | --- |
-| #62 投幣式停車場有三種 | `okinawa-family-parking-guide` | ✅ | ✅ | ⬜ | ⬜ |
+| #62 投幣式停車場有三種 | `okinawa-family-parking-guide` | ✅ | ✅ | ⬜ | ✅ |
 
-**#62 輪播 8 張已算圖完成**：`work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，1080×1350，可直接上傳 Facebook。Reels 尚未剪。
+**#62 Facebook 輪播已於 2026-07-22 公開發佈**：8 張圖片位於 `work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，尺寸 1080×1350。網站連結放在作者的第一則留言；Reels 尚未剪。
+
+貼文：https://www.facebook.com/permalink.php?story_fbid=122114132331290857&id=61588725730543
 
 ## 圖例
 
@@ -18,7 +20,7 @@
 
 | 主題 | 發佈日 | 觸及 | 儲存 | 留言 | 連結點擊 |
 | --- | --- | --- | --- | --- | --- |
-| #62 | 尚未發佈 | — | — | — | — |
+| #62 | 2026-07-22 | 待 24–48 小時回收 | 待回收 | 待回收 | 待回收 |
 
 ---
 
