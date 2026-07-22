@@ -8,7 +8,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: none. Codex published topic #62 and released all claimed files.
 - Shared branch: `main`
-- Latest completed work commit: `da1aeeb Publish Okinawa family dining guide`
+- Latest completed work commit: `4bfa48d Publish parking carousel to Facebook`
 - Last full site build: passed with Next.js 15.5.20 on 2026-07-22 (46 static pages).
 - Live site: `https://okinawafamilynotes.com`
 
