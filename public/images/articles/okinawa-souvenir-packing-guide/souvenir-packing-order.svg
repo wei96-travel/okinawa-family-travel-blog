@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩伴手禮四步整理順序</title>
+  <desc id="desc">先確認能否帶回台灣，再分液體與易碎品，整理衣物騰出空間，最後量每件行李重量。</desc>
+  <rect width="1200" height="720" fill="#f7f4ef"/>
+  <text x="72" y="82" fill="#2f2b27" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="42" font-weight="700">伴手禮不要先塞，照這個順序整理</text>
+  <text x="72" y="126" fill="#70675f" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="23">最後一晚花 10 分鐘，機場就少一次開箱重分</text>
+
+  <rect x="72" y="178" width="488" height="176" rx="8" fill="#f3e2df" stroke="#d7afa8" stroke-width="2"/>
+  <circle cx="126" cy="232" r="29" fill="#9d524b"/>
+  <text x="126" y="242" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700">1</text>
+  <text x="174" y="235" fill="#743c37" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30" font-weight="700">先看能不能帶</text>
+  <text x="112" y="294" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">鮮果、含肉或成分不清楚</text>
+  <text x="112" y="328" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">先查台灣入境檢疫規定</text>
+
+  <path d="M580 266h40" stroke="#8b8178" stroke-width="5" stroke-linecap="round"/>
+  <path d="M610 250l18 16-18 16" fill="none" stroke="#8b8178" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="640" y="178" width="488" height="176" rx="8" fill="#e4edf5" stroke="#adc2d5" stroke-width="2"/>
+  <circle cx="694" cy="232" r="29" fill="#3d668d"/>
+  <text x="694" y="242" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700">2</text>
+  <text x="742" y="235" fill="#2f4f6e" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30" font-weight="700">液體、易碎品分開</text>
+  <text x="680" y="294" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">瓶裝物先密封，玻璃逐件包</text>
+  <text x="680" y="328" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">不要直接貼著行李箱外殼</text>
+
+  <path d="M884 374v38" stroke="#8b8178" stroke-width="5" stroke-linecap="round"/>
+  <path d="M868 400l16 18 16-18" fill="none" stroke="#8b8178" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="640" y="438" width="488" height="176" rx="8" fill="#e2eee7" stroke="#a9c6b5" stroke-width="2"/>
+  <circle cx="694" cy="492" r="29" fill="#35735a"/>
+  <text x="694" y="502" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700">3</text>
+  <text x="742" y="495" fill="#285542" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30" font-weight="700">衣物先分區整理</text>
+  <text x="680" y="554" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">收納袋負責騰出空間</text>
+  <text x="680" y="588" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">不拿來壓點心紙盒</text>
+
+  <path d="M620 526h-40" stroke="#8b8178" stroke-width="5" stroke-linecap="round"/>
+  <path d="M590 510l-18 16 18 16" fill="none" stroke="#8b8178" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="72" y="438" width="488" height="176" rx="8" fill="#f5ead7" stroke="#d6be91" stroke-width="2"/>
+  <circle cx="126" cy="492" r="29" fill="#92703b"/>
+  <text x="126" y="502" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700">4</text>
+  <text x="174" y="495" fill="#684f2c" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="30" font-weight="700">最後量每一件行李</text>
+  <text x="112" y="554" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">壓縮只減體積，不減重量</text>
+  <text x="112" y="588" fill="#4e4944" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">別剛好卡在航空公司上限</text>
+
+  <text x="600" y="676" text-anchor="middle" fill="#574f47" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="22">完整規定仍以航空公司、日本海關與台灣入境公告為準</text>
+</svg>

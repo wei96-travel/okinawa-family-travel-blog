@@ -164,12 +164,12 @@
 
 | # | 主題 | 格式 | 對應文章 |
 | --- | --- | --- | --- |
-| 85 | 沖繩的購物點分布與適合的時段 | 地圖型 | Future Content |
-| 86 | AEON、免稅店、國際通怎麼分工 | 比較型 | Future Content |
-| 87 | 帶小孩逛街的動線怎麼安排 | 知識型 | Future Content |
-| 88 | 伴手禮買多少才塞得下行李 | 知識型 | `okinawa-last-day-family-plan` |
+| 85 | 沖繩的購物點分布與適合的時段 | 地圖型 | `okinawa-family-shopping-guide` |
+| 86 | AEON、國際通、超市怎麼分工 | 比較型 | `okinawa-family-shopping-guide` |
+| 87 | 帶小孩逛街的動線怎麼安排 | 知識型 | `okinawa-family-shopping-guide` |
+| 88 | 伴手禮買多少才塞得下行李 | 知識型 | `okinawa-souvenir-packing-guide` |
 | 89 | 最後一天採買的時間怎麼抓 | 行程型 | `okinawa-last-day-family-plan` |
-| 90 | 沖繩超市買什麼最實用 | Top 5 | Future Content |
+| 90 | 沖繩超市買什麼最實用 | Top 5 | `okinawa-family-shopping-guide` |
 
 ---
 
