@@ -1,18 +1,26 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-22 (Codex, shopping and souvenir article pair published)
+Last updated: 2026-07-23 (Claude Code, car-seat SEO near-win + scorecard)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. Codex completed and released the shopping and souvenir article files.
+- Active owner: none. Claude Code took over on 2026-07-23 because Codex ran out of capacity, and completed track 1 (the car-seat near-win). No files are claimed.
 - Shared branch: `main`
-- Latest completed work commit: `6d40863 Publish family shopping and souvenir guides`
+- Latest completed work commit: `c5eca41 Add an SEO scorecard so title changes can be judged, not guessed`
 - Last full site build: passed with Next.js 15.5.20 on 2026-07-22 (48 static pages).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+- Track 1 SEO near-win closed on 2026-07-23 (Claude Code): retitled `/blog/okinawa-car-seat-rental-guide`.
+  - The page had the site's largest impression count (90) but one click, about 1.1% CTR, while the stroller and beach-packing pages sit near 9%. The difference was the title pattern: both high performers open with the reader's own question (`需要推車嗎`, `要帶什麼`), this one opened with `怎麼選`. Someone searching 沖繩 安全座椅 is asking whether one is required at all, not how to pick a model.
+  - Title is now `沖繩租車一定要安全座椅嗎？6 歲規定、三種座椅與取車檢查`; the description keeps an information gap (`滿 6 歲不一定就能改繫成人安全帶`) instead of restating the answer flat; the opening line answers the title with `要。` before explaining.
+  - **Slug and canonical untouched**, so the existing ranking history stays on the URL. No claims, sources or facts changed.
+  - `content:audit:strict` clean for this file (30 articles, 36 style reminders, all pre-existing elsewhere). `next build` passed, 48 pages. Verified in the built HTML that title, description, H1 and canonical all render correctly.
+- Added `content/seo-scorecard.md` (Claude Code): per-page baseline as of 2026-07-20 plus the change log, so the next Search Console read can attribute results instead of guessing. It records the control to watch — if average position shifts at the same time, the CTR change cannot be credited to the title.
+- Also committed Codex's uncommitted 2026-07-22 Google data review, which was sitting unstaged when capacity ran out (`23176f1`).
 
 - Reviewed live Google data on 2026-07-22 (Codex):
   - Search Console, latest 28-day view updated five hours earlier and reporting through 2026-07-20: 10 clicks, 280 impressions, 3.6% CTR and average position 8.8.
@@ -99,8 +107,9 @@ Six open tracks:
    - The family restaurant article now unlocks topics #80-84 for future carousels and Reels.
    - Record 7-day reach and link clicks in `work/social/progress.md`. Those numbers decide whether link-in-first-comment helps this account.
 
-1. SEO near-win — review `okinawa-car-seat-rental-guide` first. It has 90 impressions but one click; improve title/description, answer the child-seat-rule intent earlier and check FAQ/internal links before considering a separate article.
-2. Google data review — keep a weekly page/query scorecard: URL, query, impressions, clicks, CTR, average position, organic users, internal links, derivative topic and monetization fit. Prioritize positions 5-20 and pages with impressions but low CTR.
+1. SEO near-win — **done for the car-seat page on 2026-07-23.** Do not touch it again before 2026-07-29; it needs a full Search Console window to report. Record the result in `content/seo-scorecard.md`.
+   - Do not roll the question-form title pattern out to other articles yet. The evidence is five pages: two question titles near 9% against one non-question at 1.1%. That is a hypothesis this one page is testing, not an established rule.
+2. Google data review — keep the weekly scorecard in `content/seo-scorecard.md`. Still missing and worth pulling next: per-query data (90 impressions from which keywords?), the list of pages sitting at positions 5-20, and internal-link counts per page.
 3. Blog content — continue at about two articles per week, but let real query data choose the next extension. Candidate branches from the new pair are Kokusai-dori with children, Okinawa supermarket souvenir selection and airport return-day packing; wait for initial impressions before choosing one.
 4. Monetization — keep Shopee for relevant travel gear. Separately evaluate affiliate programs for attraction tickets, eSIM, hotels, rental cars and flights before adding those links. Food stays content-first unless a genuinely useful ticket, booking or product offer fits.
 5. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
