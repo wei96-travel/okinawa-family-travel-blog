@@ -1,18 +1,26 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-23 (Claude Code, car-seat SEO near-win + scorecard)
+Last updated: 2026-07-23 (Claude Code, licence-translation article published)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. Claude Code took over on 2026-07-23 because Codex ran out of capacity, and completed track 1 (the car-seat near-win). No files are claimed.
+- Active owner: none. Claude Code took over on 2026-07-23 because Codex ran out of capacity. Closed track 1 and published a new article. No files are claimed.
 - Shared branch: `main`
-- Latest completed work commit: `c5eca41 Add an SEO scorecard so title changes can be judged, not guessed`
-- Last full site build: passed with Next.js 15.5.20 on 2026-07-22 (48 static pages).
+- Latest completed work commit: `3ab27f0 Record the licence-translation article in the plan and scorecard`
+- Last full site build: passed on 2026-07-23 (49 static pages, 31 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+- Published `/blog/okinawa-rental-car-license-translation` on 2026-07-23 (Claude Code). **This closed a genuine content risk**: the rental hub covered seats, pickup, fuel and parking but never documents, and 駕照日文譯本 appeared once site-wide as a packing-list bullet. A reader following the site would have arrived unable to collect a car, because Taiwan's international driving permit is not valid in Japan.
+  - Topic chosen from impression data, not a wish list: the car-transport cluster is roughly half of all site impressions (165 of 339 over three months), so the cluster Google already trusts got deepened instead of opening food or shopping from zero.
+  - Every claim verified against primary sources: 公路局 臺日駕照互惠 (IDP not usable, three documents, one-year limit), 臺北市區監理所 (NT$100, required ID, one-hour turnaround), 監理服務網 (online filing), JAF (in-Japan fallback, 2-3 working days, ¥6,000, online only).
+  - Cover is generated and labelled; the card in frame carries no legible text. The three-document breakdown is hand-written SVG on purpose, since generating an image of an official document would invent one.
+  - Added inbound links from the rental hub and the summer packing list, and gave the hub the documents section it lacked.
+  - `content:audit:strict` clean for the new file, reminder count unchanged at 36. `next build` passed, 49 pages. Title, description, canonical, both images and the sitemap entry verified in the built output.
+  - Three temp images (`raw-cover.jpg`, `preview.jpg`, `zoom.jpg`) sit untracked in that image folder; deletion was declined during the session. They are not committed so they will not deploy, but they can be removed.
 
 - Track 1 SEO near-win closed on 2026-07-23 (Claude Code): retitled `/blog/okinawa-car-seat-rental-guide`.
   - The page had the site's largest impression count (90) but one click, about 1.1% CTR, while the stroller and beach-packing pages sit near 9%. The difference was the title pattern: both high performers open with the reader's own question (`需要推車嗎`, `要帶什麼`), this one opened with `怎麼選`. Someone searching 沖繩 安全座椅 is asking whether one is required at all, not how to pick a model.
@@ -110,7 +118,8 @@ Six open tracks:
 1. SEO near-win — **done for the car-seat page on 2026-07-23.** Do not touch it again before 2026-07-29; it needs a full Search Console window to report. Record the result in `content/seo-scorecard.md`.
    - Do not roll the question-form title pattern out to other articles yet. The evidence is five pages: two question titles near 9% against one non-question at 1.1%. That is a hypothesis this one page is testing, not an established rule.
 2. Google data review — keep the weekly scorecard in `content/seo-scorecard.md`. Still missing and worth pulling next: per-query data (90 impressions from which keywords?), the list of pages sitting at positions 5-20, and internal-link counts per page.
-3. Blog content — continue at about two articles per week, but let real query data choose the next extension. Candidate branches from the new pair are Kokusai-dori with children, Okinawa supermarket souvenir selection and airport return-day packing; wait for initial impressions before choosing one.
+3. Blog content — continue at about two articles per week. **Next in the same cluster: 租車保險與免責補償 (CDW/NOC).** The hub says 「先把...保險弄清楚」 but nothing on the site actually explains it, and it is the other question every first-time renter asks. Same reasoning as the licence article: the car-transport cluster already earns half the impressions.
+   - Other candidates, weaker because they start new clusters from zero: Kokusai-dori with children, supermarket souvenir selection, airport return-day packing.
 4. Monetization — keep Shopee for relevant travel gear. Separately evaluate affiliate programs for attraction tickets, eSIM, hotels, rental cars and flights before adding those links. Food stays content-first unless a genuinely useful ticket, booking or product offer fits.
 5. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
 
