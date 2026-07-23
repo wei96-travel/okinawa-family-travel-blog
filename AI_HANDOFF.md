@@ -14,6 +14,12 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Just Completed
 
+- Reviewed live Google data on 2026-07-22 (Codex):
+  - Search Console, latest 28-day view updated five hours earlier and reporting through 2026-07-20: 10 clicks, 280 impressions, 3.6% CTR and average position 8.8.
+  - Strongest pages by Search Console clicks: stroller guide 5/52, beach packing list 2/22, car-seat guide 1/90, Churaumi guide 1/19 and convenience-store shopping guide 1/4. The car-seat page is the clearest near-win because it has the largest impressions but about 1.1% CTR.
+  - GA4, latest seven days: 41 active users, 90 page views and 24 Organic Search sessions. Google / organic brought 16 active users. Highest visible article views included summer packing list 9, stroller guide 8 and convenience-store shopping guide 8.
+  - Do not create another broad convenience-store article yet. Three related URLs already share the cluster; first audit their query overlap and internal-link roles.
+
 - Published two practical family-travel articles on 2026-07-22 (Codex):
   - `/blog/okinawa-family-shopping-guide`: separates AEON, Kokusai-dori and supermarkets by family use case instead of presenting another generic must-buy list. Includes one original cover, one hand-written SVG decision map and one selected Shopee affiliate link.
   - `/blog/okinawa-souvenir-packing-guide`: covers Taiwan entry checks, liquids, breakables, packing order and tax-free checked baggage. Includes one original cover, one hand-written SVG packing-order guide and three selected Shopee affiliate links.
@@ -87,16 +93,17 @@ The first northern itinerary Facebook Reel and topic #62 parking carousel are bo
 
 ## Next Task
 
-Four open tracks:
+Six open tracks:
 
 0. Social — record the first Reel and topic #62 carousel's 24-48 hour results, then choose the next Facebook post from `social-content-plan.md`. Do not publish anything without the user saying so in the moment.
    - The family restaurant article now unlocks topics #80-84 for future carousels and Reels.
    - Record 7-day reach and link clicks in `work/social/progress.md`. Those numbers decide whether link-in-first-comment helps this account.
 
-1. Google data review — use Search Console and GA4's latest 28-day data to build a page/query scorecard: URL, query, impressions, clicks, CTR, average position, organic users, internal links, derivative topic and monetization fit. Prioritize positions 5-20 and pages with impressions but low CTR.
-2. Blog content — continue at about two articles per week, but let real query data choose the next extension. Candidate branches from the new pair are Kokusai-dori with children, Okinawa supermarket souvenir selection and airport return-day packing; do not draft all three before checking the data.
-3. Monetization — keep Shopee for relevant travel gear. Separately evaluate affiliate programs for attraction tickets, eSIM, hotels, rental cars and flights before adding those links. Food stays content-first unless a genuinely useful ticket, booking or product offer fits.
-4. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
+1. SEO near-win — review `okinawa-car-seat-rental-guide` first. It has 90 impressions but one click; improve title/description, answer the child-seat-rule intent earlier and check FAQ/internal links before considering a separate article.
+2. Google data review — keep a weekly page/query scorecard: URL, query, impressions, clicks, CTR, average position, organic users, internal links, derivative topic and monetization fit. Prioritize positions 5-20 and pages with impressions but low CTR.
+3. Blog content — continue at about two articles per week, but let real query data choose the next extension. Candidate branches from the new pair are Kokusai-dori with children, Okinawa supermarket souvenir selection and airport return-day packing; wait for initial impressions before choosing one.
+4. Monetization — keep Shopee for relevant travel gear. Separately evaluate affiliate programs for attraction tickets, eSIM, hotels, rental cars and flights before adding those links. Food stays content-first unless a genuinely useful ticket, booking or product offer fits.
+5. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
 
 Keep social production separate from blog writing.
 
