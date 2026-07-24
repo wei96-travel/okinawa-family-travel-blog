@@ -1,18 +1,26 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, rental insurance guide and licence-article cover review)
+Last updated: 2026-07-24 (Codex, redesigned the licence article infographic)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: None. Codex completed track 3 and released all claimed files.
+- Active owner: None. Codex finished the licence infographic redesign and released all files.
 - Shared branch: `main`
-- Latest completed work commit: `edc775a Publish Okinawa rental insurance guide`
+- Latest completed work commit: `ac29836 Redesign licence article infographic`
 - Last full site build: passed on 2026-07-24 (50 static pages, 32 articles). Production deployment verified live.
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Licence article infographic redesign, 2026-07-24 (Codex)
+
+- Replaced the flat-lay document graphic in `/blog/okinawa-rental-car-license-translation` after the user found it visually weak.
+- Removed the blank fake-document objects and reduced the copy. The new 1080x1350 editorial graphic leads with the single decision readers need: Taiwan-issued international driving permits do not work in Japan; bring the Japanese translation.
+- The lower half now shows only the three pickup documents — passport, original Taiwan licence and Japanese translation — plus a short application reminder. Text remains readable at the article's 335px mobile width.
+- Added `work/infographics/render-license-docs.mjs` so Codex or Claude Code can reproduce the exact JPG from the editable HTML without manual screenshots. It uses local Chrome and the bundled Playwright/Sharp packages.
+- `content:audit:strict`: 32 articles, 0 critical issues. `next build`: passed, 50 static pages. The replacement image loads at 1080x1350 and the 390px article page has no horizontal overflow.
 
 ### Rental-car insurance guide and licence cover review, 2026-07-24 (Codex)
 
@@ -184,7 +192,7 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## File Ownership
 
-- No files are currently claimed. `docs/social/social-content-plan.md` was reviewed but not changed.
+- No files are currently claimed.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
