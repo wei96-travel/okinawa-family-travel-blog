@@ -1,18 +1,27 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, indexing requests completed)
+Last updated: 2026-07-24 (Codex, Kokusai-dori carousel published)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. The approved article sequence is live and both new URLs are in Google's priority crawl queue; carousel publication and the final affiliate product check remain follow-up tasks.
+- Active owner: Codex. The approved article sequence is live, both new URLs are in Google's priority crawl queue, and the Kokusai-dori carousel is public. The final Shopee product check is waiting for the user's manual security verification.
 - Shared branch: `main`
 - Latest content commit: `84f5340 Publish rental flow and Kokusai guides`
 - Last full site build: passed on 2026-07-24 (52 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Kokusai-dori Facebook carousel publication, 2026-07-24 (Codex)
+
+- Published all eight 1080x1350 slides publicly in the intended `01.png` to `08.png` order.
+- Verified the post privacy is public and the permalink opens the correct post:
+  `https://www.facebook.com/permalink.php?story_fbid=122116930431290857&id=61588725730543`
+- Added the article URL in the author's first comment and verified Facebook generated the correct article preview card.
+- The post was new at verification time, so Facebook still showed 0 views and 0 natural interactions. Recheck after 24–48 hours instead of judging the carousel immediately.
+- Opened the provisional Shopee stroller-bag candidate again. Shopee required a manual slider verification, so no product claims or affiliate link were approved yet.
 
 ### Rental flow, Churaumi upgrade, Kokusai-dori guide, carousel and affiliate candidates, 2026-07-24 (Codex)
 
@@ -31,7 +40,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
   - Uses a real Kokusai-dori Unsplash cover with author and licence metadata plus an original route SVG.
 - Completed an eight-slide 1080x1350 Kokusai-dori carousel under `work/social/okinawa-kokusai-dori-family-guide/`.
   - Three different licensed real photos plus five information layouts; no single image repeated through the whole deck.
-  - Exported PNGs and visually checked all eight. The deck is not published and still requires user approval at publication time.
+  - Exported PNGs and visually checked all eight. The deck was later published publicly after user approval; see the publication record above.
 - Compared three Shopee stroller travel-bag candidates from the logged-in affiliate dashboard and recorded visible price, sales and commission in `100_Todo/plans/2026-07-24-stroller-bag-affiliate-candidates.md`.
   - The first candidate is provisional only. The live product page triggered Shopee security verification, so size, material and review-count hard checks remain incomplete.
   - No affiliate link was added to the article. Status remains `確認後才能放連結`.
