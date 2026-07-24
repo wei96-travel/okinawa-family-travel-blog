@@ -1,15 +1,15 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, travel gear affiliate hub built)
+Last updated: 2026-07-24 (Codex, travel gear affiliate hub live)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: Codex. The travel gear affiliate hub is built and locally verified. Push and production verification remain.
+- Active owner: none. The travel gear affiliate hub is live and verified.
 - Shared branch: `main`
-- Latest content commit: `7e9148f Add verified stroller bag affiliate link`
-- Last full site build: passed on 2026-07-24 (52 static pages, 34 articles).
+- Latest content commit: `0cbf2c9 Add family travel gear affiliate hub`
+- Last full site build: passed on 2026-07-24 (53 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
@@ -25,6 +25,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Added an `affiliate_click` GA4 event with item name, destination URL and page path for the four outbound buttons.
 - `content:audit:strict`: 34 articles, 0 critical issues and no new style reminder.
 - `next build`: passed, 53 static pages. Desktop and 390px mobile checks show no horizontal overflow, four buttons, zero broken images and white-on-brown button contrast.
+- Pushed commit `0cbf2c9` to `origin/main`. Production verification confirmed the page, four affiliate links, disclosure, canonical, choice-policy text, homepage and footer entry links, and a live sitemap entry.
 
 ### First verified Shopee affiliate placement, 2026-07-24 (Codex)
 
