@@ -14,6 +14,15 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Just Completed
 
+### Facebook carousel long-form copy rule, 2026-07-25 (Codex)
+
+- Expanded the live Kokusai-dori carousel caption from a short summary into a 698-character Facebook long-form post.
+- The long post adds the two route choices, toilet backup, Sunday Transit Mall limits, self-driving parking decision and four map locations to save before departure.
+- Kept the article URL in the author's first comment instead of the post body. Verified the edited post after reload and confirmed the original eight carousel images and comment remained in place.
+- Updated `docs/social/social-workflow.md`: every completed carousel now requires a 500–900-character Facebook long-form post. The long copy must add context, decisions and limitations rather than repeat the slide text.
+- Saved the final published copy in `work/social/okinawa-kokusai-dori-family-guide/copy-facebook.md`.
+- No Next.js build was needed because only workflow and social source files changed.
+
 ### Travel gear affiliate expansion, 2026-07-25 (Codex)
 
 - Expanded `/okinawa-family-travel-gear` from four to eight verified Shopee affiliate links.
