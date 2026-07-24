@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">日本租車保障常見四層</title>
+  <desc id="desc">從基本保障、免責補償、NOC補償到道路救援，說明訂車時要分開確認的四個項目。</desc>
+  <rect width="1200" height="820" fill="#f7f4ee"/>
+  <rect x="54" y="48" width="1092" height="724" rx="30" fill="#fffdfa" stroke="#d8d1c5" stroke-width="3"/>
+  <text x="96" y="126" fill="#26231f" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="54" font-weight="700">租車保障，分四層看</text>
+  <text x="96" y="176" fill="#6d665d" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="28">看到「含保險」，還要繼續往下確認</text>
+
+  <g font-family="Arial, 'Noto Sans TC', sans-serif">
+    <rect x="96" y="222" width="1008" height="112" rx="18" fill="#26384a"/>
+    <circle cx="158" cy="278" r="34" fill="#f3bd4b"/>
+    <text x="158" y="290" text-anchor="middle" fill="#26384a" font-size="34" font-weight="700">1</text>
+    <text x="220" y="270" fill="#ffffff" font-size="34" font-weight="700">基本保險／補償</text>
+    <text x="220" y="310" fill="#dce6ef" font-size="25">有保障範圍，但可能還有免責額</text>
+
+    <rect x="96" y="354" width="1008" height="112" rx="18" fill="#286f6c"/>
+    <circle cx="158" cy="410" r="34" fill="#ffffff"/>
+    <text x="158" y="422" text-anchor="middle" fill="#286f6c" font-size="34" font-weight="700">2</text>
+    <text x="220" y="402" fill="#ffffff" font-size="34" font-weight="700">免責補償／CDW</text>
+    <text x="220" y="442" fill="#dcf1ef" font-size="25">處理對物、車損的免責額</text>
+
+    <rect x="96" y="486" width="1008" height="112" rx="18" fill="#bf5b3d"/>
+    <circle cx="158" cy="542" r="34" fill="#ffffff"/>
+    <text x="158" y="554" text-anchor="middle" fill="#bf5b3d" font-size="34" font-weight="700">3</text>
+    <text x="220" y="534" fill="#ffffff" font-size="34" font-weight="700">NOC 補償</text>
+    <text x="220" y="574" fill="#ffe7df" font-size="25">處理車輛維修、清潔期間的停駛損失</text>
+
+    <rect x="96" y="618" width="1008" height="112" rx="18" fill="#62558a"/>
+    <circle cx="158" cy="674" r="34" fill="#ffffff"/>
+    <text x="158" y="686" text-anchor="middle" fill="#62558a" font-size="34" font-weight="700">4</text>
+    <text x="220" y="666" fill="#ffffff" font-size="34" font-weight="700">道路救援／加強方案</text>
+    <text x="220" y="706" fill="#eee9ff" font-size="25">再看拖吊、輪胎、鑰匙與後續事故</text>
+  </g>
+</svg>
