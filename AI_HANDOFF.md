@@ -6,7 +6,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: none. The travel gear affiliate expansion is complete and ready to push.
+- Active owner: none. The travel gear affiliate expansion is complete and live.
 - Shared branch: `main`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-25 (53 static pages, 34 articles).
@@ -25,6 +25,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Added explicit cautions that cleaning is not sterilization, the 120ml cleaner exceeds the common 100ml cabin-container limit, wipes do not replace handwashing and zipper bags are not guaranteed waterproof.
 - `content:audit:strict`: 34 articles, 0 critical issues; 34 existing style reminders remain in older articles.
 - `next build`: passed, 53 static pages. Browser QA confirmed four groups, eight Shopee buttons, one loaded 1600px cover and no desktop horizontal overflow.
+- Pushed `c11b44e` and handoff commit `a3c0469` to `origin/main`. Production verification confirmed the updated title, canonical, four situation groups, all eight Shopee links, zero broken images and no desktop horizontal overflow.
 
 ### Travel gear affiliate hub, 2026-07-24 (Codex)
 
