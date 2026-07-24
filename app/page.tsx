@@ -120,6 +120,14 @@ export default function HomePage() {
             {categories.map((category) => (
               <CategoryPill key={category} category={category} />
             ))}
+            <div className="mt-4 w-full border-t border-[#eadfce] pt-4">
+              <Link
+                className="text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4"
+                href="/okinawa-family-travel-gear"
+              >
+                已經開始整理行李？看核對過的用品清單
+              </Link>
+            </div>
           </div>
         </div>
       </section>

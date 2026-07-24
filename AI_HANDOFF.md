@@ -1,18 +1,30 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, first Shopee affiliate link approved)
+Last updated: 2026-07-24 (Codex, travel gear affiliate hub built)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. The first Shopee product passed the live-page checks, the stroller article update is live, and the affiliate workflow is ready for the next product category.
+- Active owner: Codex. The travel gear affiliate hub is built and locally verified. Push and production verification remain.
 - Shared branch: `main`
 - Latest content commit: `7e9148f Add verified stroller bag affiliate link`
 - Last full site build: passed on 2026-07-24 (52 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Travel gear affiliate hub, 2026-07-24 (Codex)
+
+- Added `/okinawa-family-travel-gear` as a useful product-decision page rather than a bare affiliate-link list.
+- Reused four previously verified Shopee products: stroller travel bag, luggage scale, foldable travel bag and six-piece compression packing set.
+- The hub starts with four links, then grows toward roughly 12–15 verified links. Each need may keep 2–3 choices with genuinely different tradeoffs such as lower price, clearer specifications or lighter weight; do not pad the page with unchecked alternatives.
+- Each section explains the travel problem, why the candidate was retained, what it cannot promise, and links back to the full supporting article.
+- Added inline affiliate disclosure, checked dates, canonical and Open Graph metadata.
+- Added discoverable links from the homepage and footer, plus the static route in `sitemap.xml`. The top mobile navigation was deliberately left unchanged to avoid wrapping.
+- Added an `affiliate_click` GA4 event with item name, destination URL and page path for the four outbound buttons.
+- `content:audit:strict`: 34 articles, 0 critical issues and no new style reminder.
+- `next build`: passed, 53 static pages. Desktop and 390px mobile checks show no horizontal overflow, four buttons, zero broken images and white-on-brown button contrast.
 
 ### First verified Shopee affiliate placement, 2026-07-24 (Codex)
 

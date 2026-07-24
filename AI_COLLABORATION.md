@@ -67,7 +67,7 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 ## Current Site Status
 
 - Site is deployed at `https://okinawafamilynotes.com`.
-- The latest production build contains 32 articles and 50 static pages.
+- The latest verified local build contains 34 articles and 53 static pages. Production verification for the travel gear affiliate hub is pending.
 - `robots.txt` allows crawling.
 - GA tag exists on the live site: `G-Z076ZYK89C`.
 - Latest Search Console three-month report through 2026-07-22: 18 clicks, 400 impressions, 4.5% CTR and average position 8.

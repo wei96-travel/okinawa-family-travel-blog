@@ -9,6 +9,7 @@ export function Footer() {
           <p className="mt-2">給第一次帶孩子去沖繩的家庭，一份慢慢整理的旅行規劃筆記。</p>
         </div>
         <div className="flex flex-wrap gap-4 md:justify-end">
+          <Link href="/okinawa-family-travel-gear">用品清單</Link>
           <Link href="/contact">聯絡</Link>
           <Link href="/privacy">隱私權政策</Link>
           <Link href="/affiliate-disclosure">聯盟行銷揭露</Link>
