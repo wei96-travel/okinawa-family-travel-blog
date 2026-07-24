@@ -1,18 +1,28 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, Kokusai-dori carousel published)
+Last updated: 2026-07-24 (Codex, first Shopee affiliate link approved)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: Codex. The approved article sequence is live, both new URLs are in Google's priority crawl queue, and the Kokusai-dori carousel is public. The final Shopee product check is waiting for the user's manual security verification.
+- Active owner: Codex. The first Shopee product passed the live-page checks and was added to the stroller article. Push and production verification remain.
 - Shared branch: `main`
 - Latest content commit: `84f5340 Publish rental flow and Kokusai guides`
 - Last full site build: passed on 2026-07-24 (52 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### First verified Shopee affiliate placement, 2026-07-24 (Codex)
+
+- Compared all three stroller-bag candidates in the logged-in Shopee affiliate dashboard.
+- Chose candidate 1 because its live page showed 700 reviews, 2,000+ sales, seven size variants and stated Oxford-cloth material. The two alternatives had much smaller review and sales samples and about 1% social-media commission.
+- Generated the affiliate short link `https://s.shopee.tw/9zwOmFGv6v`.
+- Added a short placement to `/blog/okinawa-family-stroller-guide` explaining why the size table is useful, telling readers to measure the folded stroller, and disclosing the affiliate relationship.
+- Did not repeat the seller's waterproof claim, call the product universal, or promise protection from checked-baggage damage.
+- `content:audit:strict`: 34 articles, 0 critical issues. The new copy adds no style reminders; 34 existing reminders remain elsewhere.
+- `next build`: passed, 52 static pages. At 390px the article has no horizontal overflow, all images load, and the affiliate copy and disclosure remain readable.
 
 ### Kokusai-dori Facebook carousel publication, 2026-07-24 (Codex)
 
