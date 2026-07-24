@@ -5,10 +5,13 @@
 | 主題 | 對應文章 | 文案 | 圖片 | 影片 | 已發佈 |
 | --- | --- | --- | --- | --- | --- |
 | #62 投幣式停車場有三種 | `okinawa-family-parking-guide` | ✅ | ✅ | ⬜ | ✅ |
+| 國際通親子動線 | `okinawa-kokusai-dori-family-guide` | ✅ | ✅ | ⬜ | ⬜ |
 
 **#62 Facebook 輪播已於 2026-07-22 公開發佈**：8 張圖片位於 `work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，尺寸 1080×1350。網站連結放在作者的第一則留言；Reels 尚未剪。
 
 貼文：https://www.facebook.com/permalink.php?story_fbid=122114132331290857&id=61588725730543
+
+**國際通親子動線輪播已於 2026-07-24 完成但尚未發佈**：8 張圖片位於 `work/social/okinawa-kokusai-dori-family-guide/render/png/01.png` ～ `08.png`，尺寸 1080×1350。三張實景各有 Unsplash 授權記錄，貼文草稿與第一則留言在同資料夾。等待使用者看過預覽並在發佈當下同意後再公開。
 
 ## 圖例
 

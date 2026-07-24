@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">美麗海水族館停留時間四種抓法</title>
+  <desc id="desc">官方平均一個半小時，親子本館兩到三小時，加周邊設施半天，那霸來回一天。</desc>
+  <rect width="1200" height="900" fill="#f3f7f7"/>
+  <text x="78" y="98" fill="#173c46" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="44" font-weight="700">美麗海水族館，要留多久？</text>
+  <text x="78" y="146" fill="#55717a" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="25">先看你要逛到哪裡，不要只抄一個時間</text>
+
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif">
+    <g transform="translate(78 205)">
+      <rect width="500" height="235" rx="16" fill="#ffffff" stroke="#bfd3d5" stroke-width="2"/>
+      <text x="38" y="62" fill="#2c6874" font-size="24" font-weight="700">官方平均</text>
+      <text x="38" y="132" fill="#173c46" font-size="48" font-weight="700">約 1.5 小時</text>
+      <text x="38" y="184" fill="#55717a" font-size="23">只算水族館本館參觀</text>
+    </g>
+    <g transform="translate(622 205)">
+      <rect width="500" height="235" rx="16" fill="#ffffff" stroke="#e2c7a7" stroke-width="2"/>
+      <text x="38" y="62" fill="#9b6031" font-size="24" font-weight="700">帶孩子只看本館</text>
+      <text x="38" y="132" fill="#173c46" font-size="48" font-weight="700">抓 2～3 小時</text>
+      <text x="38" y="184" fill="#55717a" font-size="23">把廁所、休息和商店算進去</text>
+    </g>
+    <g transform="translate(78 480)">
+      <rect width="500" height="235" rx="16" fill="#ffffff" stroke="#e2c7a7" stroke-width="2"/>
+      <text x="38" y="62" fill="#9b6031" font-size="24" font-weight="700">再看海豚、海龜或海牛</text>
+      <text x="38" y="132" fill="#173c46" font-size="48" font-weight="700">預留半天</text>
+      <text x="38" y="184" fill="#55717a" font-size="23">設施間移動時間要另外算</text>
+    </g>
+    <g transform="translate(622 480)">
+      <rect width="500" height="235" rx="16" fill="#ffffff" stroke="#bfd3d5" stroke-width="2"/>
+      <text x="38" y="62" fill="#2c6874" font-size="24" font-weight="700">從那霸當天來回</text>
+      <text x="38" y="132" fill="#173c46" font-size="48" font-weight="700">當成一日行程</text>
+      <text x="38" y="184" fill="#55717a" font-size="23">車程、吃飯與中途休息都要留</text>
+    </g>
+  </g>
+
+  <rect x="78" y="765" width="1044" height="72" rx="10" fill="#173c46"/>
+  <text x="600" y="811" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="25" font-weight="700">官方平均時間，不等於親子行程總時間</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc">
+  <title id="title">國際通親子行程三種走法</title>
+  <desc id="desc">幼兒走牧志周邊短程，想逛主要街區可從縣廳前單向走到牧志，星期日出發前先查徒步區公告。</desc>
+  <rect width="1200" height="940" fill="#f7f4ee"/>
+  <text x="74" y="94" fill="#253c3b" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="44" font-weight="700">帶孩子逛國際通，別走到底再折返</text>
+  <text x="74" y="142" fill="#687370" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="24">先選進場點，也先決定從哪裡離開</text>
+
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif">
+    <g transform="translate(74 205)">
+      <rect width="1052" height="190" rx="16" fill="#ffffff" stroke="#cad6d1" stroke-width="2"/>
+      <circle cx="88" cy="95" r="50" fill="#dfeae6"/>
+      <text x="88" y="108" text-anchor="middle" fill="#2b6257" font-size="38" font-weight="700">1</text>
+      <text x="168" y="67" fill="#253c3b" font-size="30" font-weight="700">幼兒短程：牧志周邊</text>
+      <text x="168" y="112" fill="#687370" font-size="23">牧志站進 → 市場與附近商店 → 牧志站離開</text>
+      <text x="168" y="151" fill="#9a5a2d" font-size="22" font-weight="700">孩子累了，不用再走很遠才有車站</text>
+    </g>
+
+    <g transform="translate(74 425)">
+      <rect width="1052" height="190" rx="16" fill="#ffffff" stroke="#e1c7aa" stroke-width="2"/>
+      <circle cx="88" cy="95" r="50" fill="#f0e4d4"/>
+      <text x="88" y="108" text-anchor="middle" fill="#91572b" font-size="38" font-weight="700">2</text>
+      <text x="168" y="67" fill="#253c3b" font-size="30" font-weight="700">主要街區：單向走</text>
+      <text x="168" y="112" fill="#687370" font-size="23">縣廳前站進 → 國際通 → 牧志站搭單軌離開</text>
+      <text x="168" y="151" fill="#2b6257" font-size="22" font-weight="700">不要提著購物袋原路走回停車端</text>
+    </g>
+
+    <g transform="translate(74 645)">
+      <rect width="1052" height="190" rx="16" fill="#ffffff" stroke="#cad6d1" stroke-width="2"/>
+      <circle cx="88" cy="95" r="50" fill="#dfeae6"/>
+      <text x="88" y="108" text-anchor="middle" fill="#2b6257" font-size="38" font-weight="700">3</text>
+      <text x="168" y="67" fill="#253c3b" font-size="30" font-weight="700">星期日：先查公告</text>
+      <text x="168" y="112" fill="#687370" font-size="23">Transit Mall 原則 12:00～18:00，可能臨時取消</text>
+      <text x="168" y="151" fill="#9a5a2d" font-size="22" font-weight="700">徒步區仍可能有公車經過，交叉口要牽好孩子</text>
+    </g>
+  </g>
+
+  <text x="600" y="885" text-anchor="middle" fill="#687370" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="22">okinawafamilynotes.com</text>
+</svg>

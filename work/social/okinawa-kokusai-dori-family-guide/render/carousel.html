@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>國際通親子動線輪播</title>
+<style>
+  :root{
+    --bg:#152724;
+    --ink:#fffdf8;
+    --muted:rgba(255,253,248,.78);
+    --dim:rgba(255,253,248,.54);
+    --accent:#f0aa55;
+    --mint:#a9d2c5;
+    --line:rgba(255,253,248,.18);
+    --panel:rgba(255,253,248,.07);
+    --gutter:84px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#090d0c;font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif;
+    display:flex;flex-direction:column;align-items:center;gap:20px;padding:20px}
+  .slide{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg);color:var(--ink);flex:none}
+  .head{position:absolute;top:0;left:var(--gutter);right:var(--gutter);height:132px;
+    display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--line);z-index:10}
+  .brand{font-size:29px;font-weight:700;color:var(--muted)}
+  .page{font-size:28px;font-weight:700;color:var(--dim)}
+  .foot{position:absolute;right:var(--gutter);bottom:50px;font-size:25px;font-weight:700;color:var(--dim);z-index:10}
+  .top{position:absolute;top:190px;left:var(--gutter);right:var(--gutter);z-index:6}
+  .bottom{position:absolute;left:var(--gutter);right:var(--gutter);bottom:126px;z-index:6}
+  .kicker{font-size:28px;font-weight:700;color:var(--accent);letter-spacing:0}
+  h1{font-size:94px;line-height:1.18;font-weight:800;margin-top:24px;letter-spacing:0}
+  h2{font-size:72px;line-height:1.24;font-weight:800;margin-top:22px;letter-spacing:0}
+  .hl{color:var(--accent)}
+  .mint{color:var(--mint)}
+  .sub{font-size:38px;line-height:1.55;color:var(--muted);margin-top:32px}
+  .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,39,36,.34),rgba(21,39,36,.18) 30%,rgba(21,39,36,.92) 70%,#152724 100%)}
+  .pill{display:inline-flex;align-items:center;padding:13px 22px;border-radius:6px;background:var(--accent);color:#1c2a27;font-size:25px;font-weight:800}
+  .metric{font-size:160px;line-height:1;font-weight:900;color:var(--accent);margin-top:68px}
+  .metric-note{font-size:35px;color:var(--muted);margin-top:22px}
+  .route{margin-top:70px;display:flex;align-items:center;justify-content:space-between}
+  .station{width:270px;padding:28px 18px;border:3px solid var(--mint);border-radius:10px;text-align:center}
+  .station b{font-size:38px}.station span{display:block;font-size:25px;color:var(--muted);margin-top:8px}
+  .arrow{flex:1;height:6px;background:var(--accent);margin:0 26px;position:relative}
+  .arrow:after{content:"";position:absolute;right:-3px;top:-12px;border-left:24px solid var(--accent);border-top:15px solid transparent;border-bottom:15px solid transparent}
+  .cards{display:grid;grid-template-columns:1fr;gap:22px;margin-top:48px}
+  .card{padding:26px 30px;border:2px solid var(--line);background:var(--panel);border-radius:10px;display:flex;gap:24px;align-items:flex-start}
+  .num{width:52px;height:52px;border-radius:50%;background:var(--accent);color:#1c2a27;display:flex;align-items:center;justify-content:center;flex:none;font-size:27px;font-weight:900}
+  .card p{font-size:34px;line-height:1.45;color:var(--muted)}
+  .card p b{color:var(--ink)}
+  .warn{margin-top:36px;border-left:8px solid var(--accent);padding:24px 28px;background:rgba(240,170,85,.12);font-size:31px;line-height:1.5;color:var(--accent);font-weight:700}
+  .source{margin-top:24px;font-size:22px;line-height:1.5;color:var(--dim)}
+</style>
+</head>
+<body>
+
+<section class="slide" id="p1">
+  <img class="photo" src="/work/social/okinawa-kokusai-dori-family-guide/images/kokusai-day.jpg" alt="">
+  <div class="shade"></div>
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">01 / 08</div></div>
+  <div class="bottom">
+    <div class="kicker">帶小孩逛國際通</div>
+    <h1>最累的<br><span class="hl">不是走路</span></h1>
+    <div class="sub">是走到底，才發現停車場還在另一頭。</div>
+  </div>
+  <div class="foot">okinawafamilynotes.com</div>
+</section>
+
+<section class="slide" id="p2">
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">02 / 08</div></div>
+  <div class="top">
+    <div class="kicker">先別急著從頭逛到尾</div>
+    <h2>主要街道約</h2>
+    <div class="metric">1.6 km</div>
+    <div class="metric-note">推車、購物袋、找廁所，再走回去很有感。</div>
+    <div class="route" style="margin-top:92px">
+      <div class="station"><b>縣廳前</b><span>一端</span></div>
+      <div class="arrow"></div>
+      <div class="station"><b>牧志</b><span>另一端</span></div>
+    </div>
+    <div class="warn">解法很簡單：先決定從哪一端進，也先決定在哪裡收。</div>
+  </div>
+  <div class="foot">okinawafamilynotes.com</div>
+</section>
+
+<section class="slide" id="p3">
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">03 / 08</div></div>
+  <div class="top">
+    <div class="kicker">想逛主要街區</div>
+    <h2><span class="hl">單向走</span><br>不要來回</h2>
+    <div class="route">
+      <div class="station"><b>縣廳前</b><span>進場</span></div>
+      <div class="arrow"></div>
+      <div class="station"><b>牧志</b><span>搭單軌離開</span></div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="num">1</div><p>沿國際通往牧志方向逛</p></div>
+      <div class="card"><div class="num">2</div><p>中途吃飯、進市場周邊休息</p></div>
+      <div class="card"><div class="num">3</div><p>到牧志站後搭單軌離開</p></div>
+    </div>
+  </div>
+  <div class="foot">okinawafamilynotes.com</div>
+</section>
+
+<section class="slide" id="p4">
+  <img class="photo" src="/work/social/okinawa-kokusai-dori-family-guide/images/kokusai-arcade.jpg" alt="" style="object-position:center">
+  <div class="shade"></div>
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">04 / 08</div></div>
+  <div class="bottom">
+    <div class="pill">幼兒短程版</div>
+    <h2>只逛<span class="hl">牧志周邊</span><br>也可以</h2>
+    <div class="sub">市場、附近商店和吃飯集中處理。孩子累了，直接回牧志站。</div>
+  </div>
+  <div class="foot">okinawafamilynotes.com</div>
+</section>
+
+<section class="slide" id="p5">
+  <img class="photo" src="/work/social/okinawa-kokusai-dori-family-guide/images/kokusai-day.jpg" alt="" style="object-position:center">
+  <div class="shade" style="background:linear-gradient(180deg,rgba(21,39,36,.55),rgba(21,39,36,.72) 42%,#152724 100%)"></div>
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">05 / 08</div></div>
+  <div class="bottom">
+    <div class="kicker">星期日 Transit Mall</div>
+    <h2>徒步區<br><span class="hl">不等於完全沒車</span></h2>
+    <div class="sub">原則 12:00～18:00，可能因天氣或活動取消；10 號公車仍可能經過。</div>
+    <div class="warn">到交叉口一樣牽好孩子，出發前再看當週公告。</div>
+  </div>
+  <div class="foot">okinawafamilynotes.com</div>
+</section>
+
+<section class="slide" id="p6">
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">06 / 08</div></div>
+  <div class="top">
+    <div class="kicker">不要等尿急才開始找</div>
+    <h2>先存這 <span class="hl">3 個</span><br>親子補給點</h2>
+    <div class="cards">
+      <div class="card"><div class="num">1</div><p><b>縣廳前站</b><br>電梯、多功能廁所、尿布台</p></div>
+      <div class="card"><div class="num">2</div><p><b>第一牧志公設市場</b><br>電梯、無障礙廁所、授乳室</p></div>
+      <div class="card"><div class="num">3</div><p><b>牧志站與 Saion Square</b><br>電梯、尿布台、授乳空間</p></div>
+    </div>
+    <div class="warn">市場原則每月第 4 個星期日休息，不能當成每天一定可用的備案。</div>
+  </div>
+  <div class="foot">okinawafamilynotes.com</div>
+</section>
+
+<section class="slide" id="p7">
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">07 / 08</div></div>
+  <div class="top">
+    <div class="kicker">出發前收藏這張</div>
+    <h2>先確認 <span class="hl">4 件事</span></h2>
+    <div class="cards">
+      <div class="card"><div class="num">1</div><p><b>從哪一端進場</b></p></div>
+      <div class="card"><div class="num">2</div><p><b>第一個廁所在哪裡</b></p></div>
+      <div class="card"><div class="num">3</div><p><b>吃飯的店與一間備案</b></p></div>
+      <div class="card"><div class="num">4</div><p><b>孩子累了從哪站離開</b></p></div>
+    </div>
+    <div class="warn">自駕別鑽進中段才找停車場；星期日還要確認交通管制。</div>
+    <div class="source">資料整理自國際通商店街、那霸市、沖繩都市單軌與第一牧志公設市場官方資訊。</div>
+  </div>
+  <div class="foot">okinawafamilynotes.com</div>
+</section>
+
+<section class="slide" id="p8">
+  <img class="photo" src="/work/social/okinawa-kokusai-dori-family-guide/images/kokusai-night.jpg" alt="">
+  <div class="shade"></div>
+  <div class="head"><div class="brand">沖繩親子旅遊筆記</div><div class="page">08 / 08</div></div>
+  <div class="bottom">
+    <div class="kicker">最後想跟你說</div>
+    <h2>不用走完整條<br>才算來過<span class="hl">國際通</span></h2>
+    <div class="sub">完整親子動線、停車與廁所整理，都放在網站。</div>
+    <div style="height:2px;background:var(--line);margin:38px 0 24px"></div>
+    <div style="font-size:42px;font-weight:800">okinawafamilynotes.com</div>
+  </div>
+</section>
+
+</body>
+</html>

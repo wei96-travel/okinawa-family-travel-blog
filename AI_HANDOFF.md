@@ -6,13 +6,38 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: Codex. Implementing the approved sequence: rental pickup/return article, Churaumi time upgrade, Kokusai-dori article and carousel, then one stroller-product comparison.
+- Active owner: Codex. The approved sequence is complete locally; final push, production verification and indexing follow-up are in progress.
 - Shared branch: `main`
-- Latest completed work commit: `a0329ba Plan SEO affiliate and social growth`
-- Last full site build: passed on 2026-07-24 (50 static pages, 32 articles). Production deployment verified live.
+- Latest completed work commit: `779b546 Claim article and social sequence`
+- Last full site build: passed on 2026-07-24 (52 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Rental flow, Churaumi upgrade, Kokusai-dori guide, carousel and affiliate candidates, 2026-07-24 (Codex)
+
+- Added `/blog/okinawa-rental-car-pickup-return-guide`.
+  - Checked OTS, Nippon Rent-A-Car, Toyota Rent a Car and Naha Airport first-party guidance.
+  - Separates airport shuttle, office check-in, documents, vehicle inspection, full-tank return and terminal shuttle. It does not generalize one company's bus stop or timing to every operator.
+  - Added one original airport-shuttle family cover and one mobile-first vertical five-step SVG.
+  - Linked the rental hub, licence translation, insurance/NOC, child seat, refuelling and last-day pages.
+- Upgraded `/blog/churaumi-aquarium-family-time` around the disclosed `美麗海水族館 停留時間` search intent.
+  - Official average is labelled as 1.5 hours; the editorial family recommendation is 2–3 hours for the aquarium and half a day with surrounding facilities.
+  - Corrected stroller pickup locations, 2026 extended hours, partial Wednesday opening, bus-time range and facility names. Removed unsupported MAPCODE and convenience-store ticket claims.
+  - Added a mobile-readable four-option time graphic and recorded the test baseline in `content/seo-scorecard.md`.
+- Added `/blog/okinawa-kokusai-dori-family-guide`.
+  - Uses official sources for the 1.6 km street length, monorail lifts/toilets, Transit Mall rules, parking restrictions, Makishi market facilities and closure risk.
+  - Focuses on one-way routes, a short Makishi version, toilets, stroller and exit points rather than a generic must-buy list.
+  - Uses a real Kokusai-dori Unsplash cover with author and licence metadata plus an original route SVG.
+- Completed an eight-slide 1080x1350 Kokusai-dori carousel under `work/social/okinawa-kokusai-dori-family-guide/`.
+  - Three different licensed real photos plus five information layouts; no single image repeated through the whole deck.
+  - Exported PNGs and visually checked all eight. The deck is not published and still requires user approval at publication time.
+- Compared three Shopee stroller travel-bag candidates from the logged-in affiliate dashboard and recorded visible price, sales and commission in `100_Todo/plans/2026-07-24-stroller-bag-affiliate-candidates.md`.
+  - The first candidate is provisional only. The live product page triggered Shopee security verification, so size, material and review-count hard checks remain incomplete.
+  - No affiliate link was added to the article. Status remains `確認後才能放連結`.
+- `content:audit:strict`: 34 articles, 0 critical issues. The two new articles add no style reminders; 34 reminders remain in older pages.
+- `next build`: passed, 52 static pages.
+- Mobile QA at 390px: all three pages have no horizontal overflow, all images load, and all three custom SVGs were visually checked. The rental-flow SVG was redesigned once after its first five-column version was too small on mobile.
 
 ### SEO, indexing, affiliate and social operating plan, 2026-07-24 (Codex)
 
@@ -175,13 +200,11 @@ Build passing and a 200 from curl do **not** mean the page looks right. Both wer
 
 ## Next Task
 
-Use quick code `2` in Codex to start implementation:
-
-1. Research and draft `沖繩租車取車與還車流程` with official rental-company sources. Do not add Shopee links.
-2. After that article is published and indexed, research `帶小孩逛沖繩國際通怎麼排`.
-3. Build the Kokusai-dori carousel from the eight-slide outline in the operating plan, but do not publish it without the user's approval at that moment.
+1. After the push deploys, verify both new production URLs, images, canonical tags and sitemap entries. Check Search Console and submit one indexing request per new URL only if needed.
+2. Show the Kokusai-dori carousel preview to the user. Publish only after the user approves it at that moment.
+3. Open the provisional stroller-bag winner with the user and verify size, material, review count and recurring complaints before generating or placing an affiliate link.
 4. Keep the Facebook bio unchanged for 14 days and compare profile visits, follows and website clicks.
-5. Separately compare up to three Shopee candidates for one existing high-performing page, starting with stroller, summer packing or beach packing.
+5. Do not touch the car-seat title before 2026-07-29. Check the Churaumi title change no earlier than 2026-08-07.
 
 Do not touch the car-seat title before 2026-07-29. Keep blog writing, affiliate comparison and social production as separate tracked tasks.
 
@@ -217,6 +240,8 @@ Codex claimed this file and updated the header, owner and File Ownership block w
   - `content/blog/churaumi-aquarium-family-time.md`
   - `content/blog/okinawa-kokusai-dori-family-guide.md`
   - `content/blog/okinawa-family-shopping-guide.md`
+  - `100_Todo/plans/2026-07-24-stroller-bag-affiliate-candidates.md`
+  - `public/images/articles/churaumi-aquarium-family-time/churaumi-time-options.svg`
   - `public/images/articles/okinawa-rental-car-pickup-return-guide/`
   - `public/images/articles/okinawa-kokusai-dori-family-guide/`
   - `work/social/okinawa-kokusai-dori-family-guide/`

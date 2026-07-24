@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1280" viewBox="0 0 900 1280" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩機場租車取車與還車流程</title>
+  <desc id="desc">從領行李、搭接駁車、辦理取車、驗車，到滿油還車並搭接駁車回航廈的五個步驟。</desc>
+  <rect width="900" height="1280" fill="#f7f4ee"/>
+  <rect x="42" y="40" width="816" height="1200" rx="22" fill="#fffdf9" stroke="#d9d3c8" stroke-width="3"/>
+  <text x="88" y="112" fill="#243c37" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="44" font-weight="700">機場租車，不是落地就開車</text>
+  <text x="88" y="160" fill="#586560" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="25">取車與還車，都要把接駁時間算進去</text>
+
+  <line x1="145" y1="270" x2="145" y2="1005" stroke="#cad7d2" stroke-width="10" stroke-linecap="round"/>
+
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif">
+    <g transform="translate(86 215)">
+      <circle cx="59" cy="59" r="59" fill="#e4eee9"/>
+      <text x="59" y="73" text-anchor="middle" fill="#24594e" font-size="40" font-weight="700">1</text>
+      <text x="150" y="48" fill="#243c37" font-size="34" font-weight="700">領完行李</text>
+      <text x="150" y="91" fill="#586560" font-size="25">先上廁所，拿出訂單與證件</text>
+    </g>
+
+    <g transform="translate(86 385)">
+      <circle cx="59" cy="59" r="59" fill="#f0e4d4"/>
+      <text x="59" y="73" text-anchor="middle" fill="#8a5728" font-size="40" font-weight="700">2</text>
+      <text x="150" y="48" fill="#243c37" font-size="34" font-weight="700">找接駁站</text>
+      <text x="150" y="91" fill="#586560" font-size="25">依租車公司最新指示搭車</text>
+    </g>
+
+    <g transform="translate(86 555)">
+      <circle cx="59" cy="59" r="59" fill="#e4eee9"/>
+      <text x="59" y="73" text-anchor="middle" fill="#24594e" font-size="40" font-weight="700">3</text>
+      <text x="150" y="48" fill="#243c37" font-size="34" font-weight="700">辦理取車</text>
+      <text x="150" y="91" fill="#586560" font-size="25">核對駕駛人、付款與保險</text>
+    </g>
+
+    <g transform="translate(86 725)">
+      <circle cx="59" cy="59" r="59" fill="#f0e4d4"/>
+      <text x="59" y="73" text-anchor="middle" fill="#8a5728" font-size="40" font-weight="700">4</text>
+      <text x="150" y="48" fill="#243c37" font-size="34" font-weight="700">驗車再走</text>
+      <text x="150" y="91" fill="#586560" font-size="25">拍原有傷痕，檢查安全座椅</text>
+    </g>
+
+    <g transform="translate(86 895)">
+      <circle cx="59" cy="59" r="59" fill="#e4eee9"/>
+      <text x="59" y="73" text-anchor="middle" fill="#24594e" font-size="40" font-weight="700">5</text>
+      <text x="150" y="48" fill="#243c37" font-size="34" font-weight="700">滿油還車</text>
+      <text x="150" y="91" fill="#586560" font-size="25">驗車結算，再搭接駁回航廈</text>
+    </g>
+  </g>
+
+  <rect x="88" y="1080" width="724" height="104" rx="12" fill="#243c37"/>
+  <text x="450" y="1123" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="25" font-weight="700">第一天少排一站</text>
+  <text x="450" y="1159" text-anchor="middle" fill="#ffffff" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-size="25" font-weight="700">最後一天多留一段緩衝</text>
+</svg>
