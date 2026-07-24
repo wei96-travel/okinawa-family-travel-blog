@@ -1,12 +1,12 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, SEO, affiliate, carousel and Facebook profile plan completed)
+Last updated: 2026-07-24 (Codex, implementing the approved article and social sequence)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. Planning is complete; the next implementation task can be claimed by Codex with quick code `2`.
+- Active owner: Codex. Implementing the approved sequence: rental pickup/return article, Churaumi time upgrade, Kokusai-dori article and carousel, then one stroller-product comparison.
 - Shared branch: `main`
 - Latest completed work commit: `a0329ba Plan SEO affiliate and social growth`
 - Last full site build: passed on 2026-07-24 (50 static pages, 32 articles). Production deployment verified live.
@@ -205,7 +205,23 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## File Ownership
 
-- No files are currently claimed. Codex released the planning files after commit `a0329ba`.
+- Codex currently claims:
+  - `AI_HANDOFF.md`
+  - `content/content-plan.md`
+  - `content/seo-scorecard.md`
+  - `content/blog/okinawa-rental-car-pickup-return-guide.md`
+  - `content/blog/okinawa-rental-car-family-guide.md`
+  - `content/blog/okinawa-rental-car-license-translation.md`
+  - `content/blog/okinawa-rental-car-insurance-noc-guide.md`
+  - `content/blog/okinawa-last-day-family-plan.md`
+  - `content/blog/churaumi-aquarium-family-time.md`
+  - `content/blog/okinawa-kokusai-dori-family-guide.md`
+  - `content/blog/okinawa-family-shopping-guide.md`
+  - `public/images/articles/okinawa-rental-car-pickup-return-guide/`
+  - `public/images/articles/okinawa-kokusai-dori-family-guide/`
+  - `work/social/okinawa-kokusai-dori-family-guide/`
+  - `work/social/progress.md`
+- Claude Code may research in a separate draft file only after recording that path here. It must not edit the files above while Codex owns them.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
