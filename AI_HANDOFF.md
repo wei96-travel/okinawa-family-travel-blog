@@ -29,9 +29,8 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Affiliate work is separated from new-article work. Prioritize actual Shopee candidates for the existing stroller, summer packing and beach packing pages because those three pages already account for 13 Google clicks. Do not force Shopee into licence, insurance or rental-process articles.
 - Expanded `docs/social/carousel-system.md` with a strict pain -> conclusion -> action -> saveable summary -> CTA flow, a hook quality gate and a concrete eight-slide Kokusai-dori carousel outline.
 - Recorded the first Reel baseline: 64 views, 4 viewers and 84.4% of views from non-followers. The two reactions came from the user's own test accounts, so natural reactions, comments, shares and clicks remain 0.
-- Added `docs/social/facebook-profile-plan.md`. Recommended bio:
+- Added `docs/social/facebook-profile-plan.md`. The following bio was applied to the public Wei Fan Facebook profile on 2026-07-24 and verified after reload:
   `第一次帶小孩去沖繩，行程不用排到喘。這裡整理租車、景點、住宿和行李，讓你少查一點、旅途中少慌一點。`
-  This is a plan only; the live Facebook bio has not been changed.
 - `npm.cmd run content:audit:strict`: 32 articles, 0 critical issues. Existing 36 style reminders remain. No site output changed, so a Next.js build was not required.
 
 ### Licence article infographic redesign, 2026-07-24 (Codex)
@@ -181,7 +180,7 @@ Use quick code `2` in Codex to start implementation:
 1. Research and draft `沖繩租車取車與還車流程` with official rental-company sources. Do not add Shopee links.
 2. After that article is published and indexed, research `帶小孩逛沖繩國際通怎麼排`.
 3. Build the Kokusai-dori carousel from the eight-slide outline in the operating plan, but do not publish it without the user's approval at that moment.
-4. Present the recommended Facebook bio for final approval before changing the live profile.
+4. Keep the Facebook bio unchanged for 14 days and compare profile visits, follows and website clicks.
 5. Separately compare up to three Shopee candidates for one existing high-performing page, starting with stroller, summer packing or beach packing.
 
 Do not touch the car-seat title before 2026-07-29. Keep blog writing, affiliate comparison and social production as separate tracked tasks.
