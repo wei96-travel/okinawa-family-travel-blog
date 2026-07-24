@@ -1,18 +1,38 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, redesigned the licence article infographic)
+Last updated: 2026-07-24 (Codex, SEO, affiliate, carousel and Facebook profile plan completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: None. Codex finished the licence infographic redesign and released all files.
+- Active owner: none. Planning is complete; the next implementation task can be claimed by Codex with quick code `2`.
 - Shared branch: `main`
-- Latest completed work commit: `ac29836 Redesign licence article infographic`
+- Latest completed work commit: `a0329ba Plan SEO affiliate and social growth`
 - Last full site build: passed on 2026-07-24 (50 static pages, 32 articles). Production deployment verified live.
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### SEO, indexing, affiliate and social operating plan, 2026-07-24 (Codex)
+
+- Read the latest logged-in Search Console report. The three-month view through 2026-07-22 now shows 18 clicks, 400 impressions, 4.5% CTR and average position 8.
+- Index coverage shows 18 indexed pages and 5 not indexed. HTTPS shows 22 valid pages and 0 non-HTTPS pages.
+- Checked the two newest URLs:
+  - `/blog/okinawa-rental-car-license-translation`: `已找到－目前尚未建立索引`; sitemap and referring page detected.
+  - `/blog/okinawa-rental-car-insurance-noc-guide`: initially `Google 無法辨識的網址`.
+- Sent one Search Console indexing request for each URL on 2026-07-24. Both confirmed they were added to the priority crawl queue. Do not resubmit repeatedly; check again after 7–14 days.
+- Added a permanent post-publish rule: after every new article is live, Codex verifies production URL, images, canonical and sitemap, then checks Search Console and requests indexing once when needed without waiting for the user.
+- Added `content/seo-affiliate-roadmap.md`. The next two planned articles are:
+  1. `沖繩租車取車與還車流程`
+  2. `帶小孩逛沖繩國際通怎麼排`
+- Affiliate work is separated from new-article work. Prioritize actual Shopee candidates for the existing stroller, summer packing and beach packing pages because those three pages already account for 13 Google clicks. Do not force Shopee into licence, insurance or rental-process articles.
+- Expanded `docs/social/carousel-system.md` with a strict pain -> conclusion -> action -> saveable summary -> CTA flow, a hook quality gate and a concrete eight-slide Kokusai-dori carousel outline.
+- Recorded the first Reel baseline: 64 views, 4 viewers and 84.4% of views from non-followers. The two reactions came from the user's own test accounts, so natural reactions, comments, shares and clicks remain 0.
+- Added `docs/social/facebook-profile-plan.md`. Recommended bio:
+  `第一次帶小孩去沖繩，行程不用排到喘。這裡整理租車、景點、住宿和行李，讓你少查一點、旅途中少慌一點。`
+  This is a plan only; the live Facebook bio has not been changed.
+- `npm.cmd run content:audit:strict`: 32 articles, 0 critical issues. Existing 36 style reminders remain. No site output changed, so a Next.js build was not required.
 
 ### Licence article infographic redesign, 2026-07-24 (Codex)
 
@@ -156,21 +176,15 @@ Build passing and a 200 from curl do **not** mean the page looks right. Both wer
 
 ## Next Task
 
-Six open tracks:
+Use quick code `2` in Codex to start implementation:
 
-0. Social — record the first Reel and topic #62 carousel's 24-48 hour results, then choose the next Facebook post from `social-content-plan.md`. Do not publish anything without the user saying so in the moment.
-   - The family restaurant article now unlocks topics #80-84 for future carousels and Reels.
-   - Record 7-day reach and link clicks in `work/social/progress.md`. Those numbers decide whether link-in-first-comment helps this account.
+1. Research and draft `沖繩租車取車與還車流程` with official rental-company sources. Do not add Shopee links.
+2. After that article is published and indexed, research `帶小孩逛沖繩國際通怎麼排`.
+3. Build the Kokusai-dori carousel from the eight-slide outline in the operating plan, but do not publish it without the user's approval at that moment.
+4. Present the recommended Facebook bio for final approval before changing the live profile.
+5. Separately compare up to three Shopee candidates for one existing high-performing page, starting with stroller, summer packing or beach packing.
 
-1. SEO near-win — **done for the car-seat page on 2026-07-23.** Do not touch it again before 2026-07-29; it needs a full Search Console window to report. Record the result in `content/seo-scorecard.md`.
-   - Do not roll the question-form title pattern out to other articles yet. The evidence is five pages: two question titles near 9% against one non-question at 1.1%. That is a hypothesis this one page is testing, not an established rule.
-2. Google data review — keep the weekly scorecard in `content/seo-scorecard.md`. Still missing and worth pulling next: per-query data (90 impressions from which keywords?), the list of pages sitting at positions 5-20, and internal-link counts per page.
-3. Blog content — continue at about two articles per week. The rental insurance/CDW/NOC gap is now closed. Before choosing the next article, pull the missing per-query and positions 5-20 Search Console data from track 2 so the choice is evidence-led.
-   - Current candidates: rental-car pickup/return flow if the car cluster still has an uncovered query; otherwise Kokusai-dori with children, supermarket souvenir selection or airport return-day packing.
-4. Monetization — keep Shopee for relevant travel gear. Separately evaluate affiliate programs for attraction tickets, eSIM, hotels, rental cars and flights before adding those links. Food stays content-first unless a genuinely useful ticket, booking or product offer fits.
-5. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
-
-Keep social production separate from blog writing.
+Do not touch the car-seat title before 2026-07-29. Keep blog writing, affiliate comparison and social production as separate tracked tasks.
 
 ## Concurrent edit note (2026-07-22)
 
@@ -192,7 +206,7 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## File Ownership
 
-- No files are currently claimed.
+- No files are currently claimed. Codex released the planning files after commit `a0329ba`.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
