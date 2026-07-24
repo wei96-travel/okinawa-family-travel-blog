@@ -6,9 +6,9 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: Codex. The first Shopee product passed the live-page checks and was added to the stroller article. Push and production verification remain.
+- Active owner: none. The first Shopee product passed the live-page checks, the stroller article update is live, and the affiliate workflow is ready for the next product category.
 - Shared branch: `main`
-- Latest content commit: `84f5340 Publish rental flow and Kokusai guides`
+- Latest content commit: `7e9148f Add verified stroller bag affiliate link`
 - Last full site build: passed on 2026-07-24 (52 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
@@ -23,6 +23,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Did not repeat the seller's waterproof claim, call the product universal, or promise protection from checked-baggage damage.
 - `content:audit:strict`: 34 articles, 0 critical issues. The new copy adds no style reminders; 34 existing reminders remain elsewhere.
 - `next build`: passed, 52 static pages. At 390px the article has no horizontal overflow, all images load, and the affiliate copy and disclosure remain readable.
+- Pushed commit `7e9148f` to `origin/main` and verified the production article after deployment. The affiliate link, inline disclosure, self-referencing canonical and new-tab `noreferrer` link attributes are present.
 
 ### Kokusai-dori Facebook carousel publication, 2026-07-24 (Codex)
 
