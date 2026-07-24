@@ -1,18 +1,28 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-23 (Claude Code, fixed a site-wide image display bug)
+Last updated: 2026-07-24 (Codex, rental insurance guide and licence-article cover review)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. Claude Code took over on 2026-07-23 because Codex ran out of capacity. Closed track 1, published a new article, and fixed a site-wide image bug. No files are claimed.
+- Active owner: None. Codex completed track 3 and released all claimed files.
 - Shared branch: `main`
-- Latest completed work commit: `346cb7a Rebuild the licence graphic around a single dominant message`
-- Last full site build: passed on 2026-07-23 (49 static pages, 31 articles). Deploy verified live.
+- Latest completed work commit: `edc775a Publish Okinawa rental insurance guide`
+- Last full site build: passed on 2026-07-24 (50 static pages, 32 articles). Production deployment still needs verification after push.
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Rental-car insurance guide and licence cover review, 2026-07-24 (Codex)
+
+- Published `/blog/okinawa-rental-car-insurance-noc-guide`, filling the next gap in the car-transport cluster. It explains the difference between basic coverage, CDW, NOC and roadside assistance, gives a family-specific way to choose a plan, and lists the correct accident-reporting order.
+  - Claims were checked against Times CAR RENTAL, Nippon Rent-A-Car, OTS and Toyota Rent a Car official pages. Company-specific amounts are labelled as examples, not Japan-wide rules.
+  - Added one original 1600x900 rental-counter cover and one hand-written 1200x820 four-layer SVG. The rental-car hub now links into the article.
+  - No Shopee affiliate link was added. This topic has no natural Shopee product that improves the insurance decision, so forcing a product section would weaken the article.
+- Reviewed Claude Code's `/blog/okinawa-rental-car-license-translation` article. The facts, structure and inline three-document graphic remain strong, so the article copy was not rewritten. Replaced only the weak flat-lay cover with a clearer rental-counter handover scene; blank document surfaces remain deliberately non-official.
+- `content:audit:strict`: 32 articles, 0 critical issues; the new article adds 0 style reminders. Existing site-wide reminder count remains 36.
+- `next build`: passed, 50 static pages. Checked both articles at a 390x844 mobile viewport: both covers load at 1600x900, page width does not overflow, and the insurance SVG loads at its true 1200x820 ratio.
 
 ### Site-wide image bug, found and fixed 2026-07-23 (Claude Code)
 
@@ -146,8 +156,8 @@ Six open tracks:
 1. SEO near-win — **done for the car-seat page on 2026-07-23.** Do not touch it again before 2026-07-29; it needs a full Search Console window to report. Record the result in `content/seo-scorecard.md`.
    - Do not roll the question-form title pattern out to other articles yet. The evidence is five pages: two question titles near 9% against one non-question at 1.1%. That is a hypothesis this one page is testing, not an established rule.
 2. Google data review — keep the weekly scorecard in `content/seo-scorecard.md`. Still missing and worth pulling next: per-query data (90 impressions from which keywords?), the list of pages sitting at positions 5-20, and internal-link counts per page.
-3. Blog content — continue at about two articles per week. **Next in the same cluster: 租車保險與免責補償 (CDW/NOC).** The hub says 「先把...保險弄清楚」 but nothing on the site actually explains it, and it is the other question every first-time renter asks. Same reasoning as the licence article: the car-transport cluster already earns half the impressions.
-   - Other candidates, weaker because they start new clusters from zero: Kokusai-dori with children, supermarket souvenir selection, airport return-day packing.
+3. Blog content — continue at about two articles per week. The rental insurance/CDW/NOC gap is now closed. Before choosing the next article, pull the missing per-query and positions 5-20 Search Console data from track 2 so the choice is evidence-led.
+   - Current candidates: rental-car pickup/return flow if the car cluster still has an uncovered query; otherwise Kokusai-dori with children, supermarket souvenir selection or airport return-day packing.
 4. Monetization — keep Shopee for relevant travel gear. Separately evaluate affiliate programs for attraction tickets, eSIM, hotels, rental cars and flights before adding those links. Food stays content-first unless a genuinely useful ticket, booking or product offer fits.
 5. Short video — use the live northern itinerary Reel as the first measurement baseline. Do not generate another full video until its early performance has been recorded.
 
@@ -173,7 +183,7 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## File Ownership
 
-- No files are currently claimed. The shopping and souvenir article files, their image folders, `content/content-plan.md`, `content/seo-growth-roadmap.md`, `docs/social/social-content-plan.md` and this handoff file were released after commit `6d40863`.
+- No files are currently claimed. `docs/social/social-content-plan.md` was reviewed but not changed.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.
 
