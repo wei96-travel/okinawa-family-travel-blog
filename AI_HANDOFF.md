@@ -1,18 +1,30 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, travel gear affiliate hub live)
+Last updated: 2026-07-25 (Codex, travel gear affiliate expansion verified)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. The travel gear affiliate hub is live and verified.
+- Active owner: none. The travel gear affiliate expansion is complete and ready to push.
 - Shared branch: `main`
-- Latest content commit: `0cbf2c9 Add family travel gear affiliate hub`
-- Last full site build: passed on 2026-07-24 (53 static pages, 34 articles).
+- Latest content commit: pending this handoff commit.
+- Last full site build: passed on 2026-07-25 (53 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Travel gear affiliate expansion, 2026-07-25 (Codex)
+
+- Expanded `/okinawa-family-travel-gear` from four to eight verified Shopee affiliate links.
+- Added two situation-based product pairs instead of unrelated recommendations:
+  - Hotel bottle cleaning: LIFEMATE portable seven-piece bottle-brush kit and Simba 120ml bottle/produce cleaning spray.
+  - Rental-car cleanup: Baan 20-count travel wipes and MioChieh PE zipper storage bags.
+- Cross-checked each new candidate against a manufacturer page or Shopee direct/official listing and recorded the research, short links, visible sales data and limitations in `100_Todo/plans/2026-07-25-travel-gear-affiliate-expansion.md`.
+- The page is now grouped into bottle cleaning, car cleanup, stroller check-in and return packing. Each product explains the problem it solves, why it was retained and what it cannot promise.
+- Added explicit cautions that cleaning is not sterilization, the 120ml cleaner exceeds the common 100ml cabin-container limit, wipes do not replace handwashing and zipper bags are not guaranteed waterproof.
+- `content:audit:strict`: 34 articles, 0 critical issues; 34 existing style reminders remain in older articles.
+- `next build`: passed, 53 static pages. Browser QA confirmed four groups, eight Shopee buttons, one loaded 1600px cover and no desktop horizontal overflow.
 
 ### Travel gear affiliate hub, 2026-07-24 (Codex)
 
