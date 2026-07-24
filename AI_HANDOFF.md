@@ -1,14 +1,14 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-24 (Codex, implementing the approved article and social sequence)
+Last updated: 2026-07-24 (Codex, production verification completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: Codex. The approved sequence is complete locally; final push, production verification and indexing follow-up are in progress.
+- Active owner: none. The approved article sequence is live; Search Console inspection, carousel publication and the final affiliate product check remain follow-up tasks.
 - Shared branch: `main`
-- Latest completed work commit: `779b546 Claim article and social sequence`
+- Latest completed work commit: `84f5340 Publish rental flow and Kokusai guides`
 - Last full site build: passed on 2026-07-24 (52 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
@@ -38,6 +38,8 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - `content:audit:strict`: 34 articles, 0 critical issues. The two new articles add no style reminders; 34 reminders remain in older pages.
 - `next build`: passed, 52 static pages.
 - Mobile QA at 390px: all three pages have no horizontal overflow, all images load, and all three custom SVGs were visually checked. The rental-flow SVG was redesigned once after its first five-column version was too small on mobile.
+- Pushed commit `84f5340` to `origin/main` and verified both new production URLs, the updated Churaumi page, five new image URLs, self-referencing canonicals and both new sitemap entries. All returned HTTP 200.
+- The two new URLs have not yet been inspected in Search Console. At the next authenticated browser session, inspect each URL and submit one request only when Google reports it is not indexed.
 
 ### SEO, indexing, affiliate and social operating plan, 2026-07-24 (Codex)
 
@@ -200,7 +202,7 @@ Build passing and a 200 from curl do **not** mean the page looks right. Both wer
 
 ## Next Task
 
-1. After the push deploys, verify both new production URLs, images, canonical tags and sitemap entries. Check Search Console and submit one indexing request per new URL only if needed.
+1. In the next authenticated Search Console session, inspect `/blog/okinawa-rental-car-pickup-return-guide` and `/blog/okinawa-kokusai-dori-family-guide`. Submit one indexing request per URL only if Google reports it is not indexed; record the result here.
 2. Show the Kokusai-dori carousel preview to the user. Publish only after the user approves it at that moment.
 3. Open the provisional stroller-bag winner with the user and verify size, material, review count and recurring complaints before generating or placing an affiliate link.
 4. Keep the Facebook bio unchanged for 14 days and compare profile visits, follows and website clicks.
