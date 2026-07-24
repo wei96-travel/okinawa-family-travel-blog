@@ -9,7 +9,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Active owner: None. Codex completed track 3 and released all claimed files.
 - Shared branch: `main`
 - Latest completed work commit: `edc775a Publish Okinawa rental insurance guide`
-- Last full site build: passed on 2026-07-24 (50 static pages, 32 articles). Production deployment still needs verification after push.
+- Last full site build: passed on 2026-07-24 (50 static pages, 32 articles). Production deployment verified live.
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
@@ -23,6 +23,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Reviewed Claude Code's `/blog/okinawa-rental-car-license-translation` article. The facts, structure and inline three-document graphic remain strong, so the article copy was not rewritten. Replaced only the weak flat-lay cover with a clearer rental-counter handover scene; blank document surfaces remain deliberately non-official.
 - `content:audit:strict`: 32 articles, 0 critical issues; the new article adds 0 style reminders. Existing site-wide reminder count remains 36.
 - `next build`: passed, 50 static pages. Checked both articles at a 390x844 mobile viewport: both covers load at 1600x900, page width does not overflow, and the insurance SVG loads at its true 1200x820 ratio.
+- Verified the new article, replacement licence cover and new sitemap URL on production after the GitHub push.
 
 ### Site-wide image bug, found and fixed 2026-07-23 (Claude Code)
 
