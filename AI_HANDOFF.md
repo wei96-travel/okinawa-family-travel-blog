@@ -1,12 +1,12 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-25 (Codex, travel gear affiliate expansion verified)
+Last updated: 2026-07-25 (Codex, Facebook long-form post expanded and verified)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. The travel gear affiliate expansion is complete and live.
+- Active owner: none. The Kokusai-dori Facebook long-form expansion is complete and live.
 - Shared branch: `main`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-25 (53 static pages, 34 articles).
@@ -18,10 +18,11 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Published a new standalone Kokusai-dori Facebook long-form post rather than placing the long copy inside the existing carousel caption.
 - Restored the original carousel caption and kept its article URL in the author's first comment.
-- The separate long post adds the two route choices, toilet backup, Sunday Transit Mall limits, self-driving parking decision and four map locations to save before departure.
+- Expanded the separate long post from roughly 650 characters to 1,321 characters. It now adds two route choices, hotel-location adjustments, toilet backup, Sunday Transit Mall limits, self-driving parking decisions, a meal backup and four map locations to save before departure.
 - Published the long post publicly and added the article URL in the author's first comment:
   `https://www.facebook.com/permalink.php?story_fbid=pfbid02kzqzp4apPqN5KRktypSbGknryQ5t7oPsb9B5oYtWM9DM7roWz2qa8SzDZK9rNXLVl&id=61588725730543`
-- Updated `docs/social/social-workflow.md`: every completed carousel now has a short carousel caption and a separate 500–900-character Facebook long-form post. Publish the long post on D+1 so it does not compete with the carousel on the same day.
+- Verified after editing that the post remains public, the expanded sections are visible and the first-comment article link remains present.
+- Updated `docs/social/social-workflow.md`: every completed carousel now has a short carousel caption and a separate 1,000-1,500-character Facebook long-form post. Publish the long post on D+1 so it does not compete with the carousel on the same day.
 - Saved the two versions separately as `copy-facebook.md` and `copy-facebook-long-form.md`.
 - No Next.js build was needed because only workflow and social source files changed.
 
