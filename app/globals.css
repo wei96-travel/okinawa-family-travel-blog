@@ -92,27 +92,23 @@ a {
   margin: 1.8rem 0;
 }
 
+/* 依圖片原始比例顯示。
+   原本寫死 aspect-ratio: 16 / 9 加 object-fit: contain，直式資訊圖會被塞進橫框、
+   縮到看不清字，只能靠檔名白名單逐張豁免。白名單漏掉的就默默壞掉
+   （coin-parking-types、repellent-age-guide 都是這樣）。改用原始比例，新圖不必再登記。 */
 .prose-travel .article-figure img {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #ffffff;
-  object-fit: contain;
 }
 
+/* 這張刻意窄一點，維持原設定 */
 .prose-travel .article-figure img[src*="pickup-safety-checklist"] {
   width: min(100%, 560px);
-  aspect-ratio: auto;
   margin-inline: auto;
-}
-
-.prose-travel .article-figure img[src*="three-bag-packing-system"],
-.prose-travel .article-figure img[src*="north-day-route-options"],
-.prose-travel .article-figure img[src*="dining-backup-plan"] {
-  aspect-ratio: auto;
 }
 
 .prose-travel .article-figure figcaption {

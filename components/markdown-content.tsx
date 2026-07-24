@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getImageSize } from "@/lib/image-size";
 
 function renderBold(text: string) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
@@ -85,10 +86,19 @@ export function MarkdownContent({ content }: MarkdownContentProps) {
 
         if (imageMatch) {
           const [, alt, src, caption] = imageMatch;
+          // 給真實尺寸，瀏覽器才會依原始比例保留空間，不必在 CSS 寫死 aspect-ratio
+          const size = getImageSize(src);
 
           return (
             <figure className="article-figure" key={index}>
-              <img alt={alt} decoding="async" loading="lazy" src={src} />
+              <img
+                alt={alt}
+                decoding="async"
+                height={size?.height}
+                loading="lazy"
+                src={src}
+                width={size?.width}
+              />
               {caption ? <figcaption>{caption}</figcaption> : null}
             </figure>
           );
