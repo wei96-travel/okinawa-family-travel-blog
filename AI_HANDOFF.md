@@ -8,7 +8,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: none. The travel gear affiliate expansion is complete and ready to push.
 - Shared branch: `main`
-- Latest content commit: pending this handoff commit.
+- Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-25 (53 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
