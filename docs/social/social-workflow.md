@@ -197,18 +197,19 @@ work/social/okinawa-family-parking-guide/render/export.py       匯出 1080x1350
 
 ## Step 6：文案
 
-**產出**：四份文案檔。
+**產出**：五份文案檔。
 
 依序寫，因為後面的可以縮寫前面的：
 
-1. **Facebook**（500～900 字，輪播完成後必寫）：具體處境 → 痛點展開 → 兩到四個可執行做法 → 一段收束 → 「連結放留言」→ hashtag。這篇長文不是把輪播八張逐字貼回來，而是補足圖片放不下的判斷、限制與使用情境。**貼文本體不放連結**，CTA 與連結寫成第一則留言，發文後立刻補。
-2. **Instagram**（80–200 字）：縮寫 FB 版，換成收藏型 CTA，hashtag 移到留言區。
-3. **Threads**（3 則串接）：第 1 則講處境、第 2 則講方法、第 3 則放連結。**主文不放連結。**
-4. **Pinterest**：標題 ≤40 字含關鍵字、描述 ≤100 字。
+1. **Facebook 輪播說明**（150～400 字）：處境句 → 三個重點 → 「連結放留言」→ hashtag。說明只負責帶讀者看圖，不要塞成長文。
+2. **Facebook 獨立長文**（500～900 字，輪播完成後必寫）：用同一篇網站文章另寫一篇新貼文，結構是具體處境 → 痛點展開 → 兩到四個可執行做法 → 一段收束 → 「連結放留言」→ hashtag。長文要補足圖片放不下的判斷、限制與使用情境，不能只是把輪播八張逐字貼回來。**貼文本體不放連結**，CTA 與連結寫成第一則留言，發文後立刻補。
+3. **Instagram**（80～200 字）：縮寫 FB 輪播說明，換成收藏型 CTA，hashtag 移到留言區。
+4. **Threads**（3 則串接）：第 1 則講處境、第 2 則講方法、第 3 則放連結。**主文不放連結。**
+5. **Pinterest**：標題 ≤40 字含關鍵字、描述 ≤100 字。
 
 **規則**：四個平台的第一句不要完全一樣，避免同一批人看到重複內容。
 
-存成 `copy-facebook.md`、`copy-instagram.md`、`copy-threads.md`、`copy-reels.md`。
+存成 `copy-facebook.md`、`copy-facebook-long-form.md`、`copy-instagram.md`、`copy-threads.md`、`copy-reels.md`。
 
 ---
 
@@ -237,10 +238,11 @@ work/social/okinawa-family-parking-guide/render/export.py       匯出 1080x1350
 | 天 | 平台 | 時段 |
 | --- | --- | --- |
 | D+0 | Facebook 輪播 | 21:00–22:30 |
-| D+1 | Instagram 輪播 + 限動（連結貼紙 + 投票） | 21:00–23:00 |
-| D+2 | Instagram Reels（同步 FB Reels、YouTube Shorts） | 20:00–22:00 |
-| D+3 | Threads 三則串接 | 22:00–23:30 |
-| D+3~5 | Pinterest 圖釘 ×2 | 不限 |
+| D+1 | Facebook 獨立長文貼文 | 20:30–22:00 |
+| D+2 | Instagram 輪播 + 限動（連結貼紙 + 投票） | 21:00–23:00 |
+| D+3 | Instagram Reels（同步 FB Reels、YouTube Shorts） | 20:00–22:00 |
+| D+4 | Threads 三則串接 | 22:00–23:30 |
+| D+4～6 | Pinterest 圖釘 ×2 | 不限 |
 
 **發佈後 30 分鐘內**：回覆前幾則留言（早期互動對觸及影響最大）。
 

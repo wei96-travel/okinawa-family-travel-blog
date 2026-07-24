@@ -14,13 +14,15 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Just Completed
 
-### Facebook carousel long-form copy rule, 2026-07-25 (Codex)
+### Separate Facebook long-form post rule, 2026-07-25 (Codex)
 
-- Expanded the live Kokusai-dori carousel caption from a short summary into a 698-character Facebook long-form post.
-- The long post adds the two route choices, toilet backup, Sunday Transit Mall limits, self-driving parking decision and four map locations to save before departure.
-- Kept the article URL in the author's first comment instead of the post body. Verified the edited post after reload and confirmed the original eight carousel images and comment remained in place.
-- Updated `docs/social/social-workflow.md`: every completed carousel now requires a 500–900-character Facebook long-form post. The long copy must add context, decisions and limitations rather than repeat the slide text.
-- Saved the final published copy in `work/social/okinawa-kokusai-dori-family-guide/copy-facebook.md`.
+- Published a new standalone Kokusai-dori Facebook long-form post rather than placing the long copy inside the existing carousel caption.
+- Restored the original carousel caption and kept its article URL in the author's first comment.
+- The separate long post adds the two route choices, toilet backup, Sunday Transit Mall limits, self-driving parking decision and four map locations to save before departure.
+- Published the long post publicly and added the article URL in the author's first comment:
+  `https://www.facebook.com/permalink.php?story_fbid=pfbid02kzqzp4apPqN5KRktypSbGknryQ5t7oPsb9B5oYtWM9DM7roWz2qa8SzDZK9rNXLVl&id=61588725730543`
+- Updated `docs/social/social-workflow.md`: every completed carousel now has a short carousel caption and a separate 500–900-character Facebook long-form post. Publish the long post on D+1 so it does not compete with the carousel on the same day.
+- Saved the two versions separately as `copy-facebook.md` and `copy-facebook-long-form.md`.
 - No Next.js build was needed because only workflow and social source files changed.
 
 ### Travel gear affiliate expansion, 2026-07-25 (Codex)
