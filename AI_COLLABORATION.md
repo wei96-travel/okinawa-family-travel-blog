@@ -1,6 +1,6 @@
 ﻿# Okinawa Family Notes AI Collaboration
 
-Last updated: 2026-07-20
+Last updated: 2026-07-24
 
 This project is maintained with both Codex and Claude Code. Use this file as the shared handoff before making content, SEO, or site changes.
 
@@ -51,10 +51,12 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 - Keep internal links aligned with current article titles.
 - Run `next build` before committing site changes.
 - Push completed work to GitHub after a clean build.
+- After every new article is live, verify the production URL, images, canonical and sitemap, then inspect the URL in Search Console. If it is not indexed, request indexing once and record the date in the handoff. Do this without waiting for the user to ask, and do not repeatedly resubmit a URL already in Google's queue.
 
 ## Where To Look First
 
 - Live handoff: `AI_HANDOFF.md`
+- Content operating plan and quality gates: `100_Todo/plans/2026-07-24-okinawa-content-operating-plan.md`
 - Content plan: `content/content-plan.md`
 - SEO growth roadmap: `content/seo-growth-roadmap.md`
 - Google status table: `content/google-seo-status.md`
@@ -65,11 +67,12 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 ## Current Site Status
 
 - Site is deployed at `https://okinawafamilynotes.com`.
-- Sitemap is public and lists 30 URLs.
+- The latest production build contains 32 articles and 50 static pages.
 - `robots.txt` allows crawling.
 - GA tag exists on the live site: `G-Z076ZYK89C`.
-- Search Console / GA exact traffic numbers still need a working logged-in browser view or screenshots.
-- The public Google `site:` check has not shown stable indexed results yet, so assume early indexing stage.
+- Latest Search Console three-month report through 2026-07-22: 18 clicks, 400 impressions, 4.5% CTR and average position 8.
+- Latest recorded GA4 seven-day data: 41 active users, 90 page views and 24 Organic Search sessions.
+- Indexing and traffic are still early. Use the weekly scorecard instead of reacting to day-to-day changes.
 
 ## Recently Completed
 
@@ -82,11 +85,12 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 
 Use a sustainable pace:
 
-- 3 new articles per week.
-- 2 old article upgrades per week.
-- 10 short-video scripts per week.
-- Publish 5 to 7 short videos per week.
-- Add 3 to 5 Shopee affiliate products only when relevant.
+- 2 new articles per week.
+- 1 old article upgrade per week, only when data or a clear content gap supports it.
+- 2 short-video or carousel ideas per new article.
+- Run one social-format experiment at a time and record the result before changing several variables.
+- Add up to 3 to 5 Shopee affiliate products only when they naturally solve the article's problem.
+- If the quality gate cannot be met for two consecutive weeks, reduce output instead of lowering standards.
 
 Priority content lines:
 
@@ -106,31 +110,17 @@ Priority content lines:
    - Builds decision guides.
    - Examples: Naha vs Onna, north vs south, changing hotels, family hotel criteria.
 
-## Next Best Article
+## Next Decision Gate
 
-Recommended next article:
+Do not choose the next article from the old wish list alone. First:
 
-`沖繩夏季親子旅行行李清單：家庭共用、孩子隨身包與颱風備案`
+1. Pull the missing Search Console query data.
+2. Identify pages and queries sitting at positions 5–20.
+3. Check whether existing pages already cover the same intent.
+4. Update `content/seo-scorecard.md`.
+5. Score candidate topics with the operating plan.
 
-Why:
-- It is the next item in `content/content-plan.md`.
-- It can become the main packing-list entry page without repeating the stroller and beach articles.
-- It can support Shopee product categories naturally after the useful checklist is complete.
-
-Suggested sections:
-- 家庭共用行李、孩子隨身包、車上備用包分開收
-- 夏季衣物、防曬補水與冷氣室內備用薄外套
-- 尿布、備用衣物、孩子熟悉的用品與藥品
-- 颱風或大雨時哪些行程與用品要調整
-- 航空托運、行動電源與液體規定以實際航空公司為準
-- FAQ
-
-Possible affiliate products:
-- Packing cubes
-- Small wet wipes
-- Zip bags or waterproof storage bags
-- Kids raincoat
-- Luggage scale
+If the car-transport cluster still shows an uncovered query, evaluate `沖繩租車取車與還車流程` first. Otherwise compare Kokusai-dori with children, supermarket souvenir selection and airport return-day packing. The highest evidence-backed score wins.
 
 ## Affiliate Product Workflow
 
