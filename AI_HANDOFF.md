@@ -1,12 +1,12 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-25 (Codex, two daily Facebook carousels published and distinct long-form drafts completed)
+Last updated: 2026-07-25 (Codex, Trip.com affiliate pilot completed; Facebook lodging post awaiting approval)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. The two 2026-07-25 carousels are public; their distinct long-form follow-ups are ready for D+1 publishing.
+- Active owner: none. Three Trip.com article placements are complete; the unpublished Facebook lodging visual and copy are waiting for wei96's approval.
 - Shared branch: `main`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Shared branch: `main`
@@ -15,6 +15,18 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Trip.com affiliate pilot and Facebook lodging post, 2026-07-25 (Codex)
+
+- Added three tracked Trip.com affiliate links to their matching decision points:
+  - Naha hotels in `first-okinawa-where-to-stay`.
+  - Onna hotels in `onna-family-stay-guide`.
+  - Okinawa rental cars in `okinawa-rental-car-family-guide`.
+- Each placement explains what to compare before clicking, asks readers to verify final hotel or supplier terms, and includes a visible affiliate disclosure. No temporary promotion, lowest-price claim or guaranteed saving was added.
+- Added `rel="sponsored noreferrer"` to Trip.com and Shopee affiliate links rendered inside articles, and corrected the existing travel-gear affiliate buttons to use the same sponsored signal.
+- Prepared one unpublished 1080x1350 Facebook visual and natural post draft under `work/social/trip-okinawa-stay-pilot/`. The main post contains no external URL; its first comment sends readers to the lodging article, where the Trip.com link appears after the regional decision guidance.
+- `content:audit:strict`: 36 articles, 0 critical issues; 34 existing style reminders.
+- `next build`: passed on 2026-07-25, 55 static pages. Generated HTML contains all three `trip_sub1` tracking labels.
 
 ### Two daily Facebook carousels published, 2026-07-25 (Codex)
 

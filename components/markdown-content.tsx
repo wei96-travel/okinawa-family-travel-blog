@@ -25,6 +25,12 @@ function renderText(text: string) {
   });
 }
 
+function getExternalLinkRel(href: string) {
+  const isAffiliateLink = /^https?:\/\/(?:[^/]+\.)?(?:trip\.com|shopee\.tw)\//i.test(href);
+
+  return isAffiliateLink ? "sponsored noreferrer" : "noreferrer";
+}
+
 function renderInline(text: string) {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
 
@@ -41,7 +47,7 @@ function renderInline(text: string) {
       }
 
       return (
-        <a href={match[2]} key={index} rel="noreferrer" target="_blank">
+        <a href={match[2]} key={index} rel={getExternalLinkRel(match[2])} target="_blank">
           {match[1]}
         </a>
       );

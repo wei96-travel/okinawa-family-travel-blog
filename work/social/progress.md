@@ -8,6 +8,7 @@
 | 國際通親子動線 | `okinawa-kokusai-dori-family-guide` | ✅ | ✅ | ⬜ | ✅ |
 | 親子自駕一天幾個點 | `okinawa-family-driving-pace-guide` | ✅ | ✅ | ⬜ | ✅ |
 | 沖繩颱風親子備案 | `okinawa-typhoon-family-travel-guide` | ✅ | ✅ | ⬜ | ✅ |
+| 第一次沖繩住宿區怎麼選 | `first-okinawa-where-to-stay` | ✅ | ✅ | ⬜ | ⬜ |
 
 **#62 Facebook 輪播已於 2026-07-22 公開發佈**：8 張圖片位於 `work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，尺寸 1080×1350。網站連結放在作者的第一則留言；Reels 尚未剪。
 
