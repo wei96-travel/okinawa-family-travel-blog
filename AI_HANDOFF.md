@@ -27,6 +27,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - `content:audit:strict`: 36 articles, 0 critical issues; 34 existing style reminders.
 - `next build`: passed on 2026-07-26, 56 static pages.
 - Local verification: `200`, self-referencing canonical, three sponsored links and sitemap inclusion.
+- Production verification passed after deployment. Search Console initially reported `Google 無法辨識的網址`; one index request was submitted on 2026-07-26 and confirmed in the priority crawl queue. Recheck in 7–14 days and do not resubmit before then.
 
 ### Trip.com affiliate pilot and Facebook lodging post, 2026-07-25 (Codex)
 
