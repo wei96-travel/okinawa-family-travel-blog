@@ -4,9 +4,9 @@ description: "帶小孩在沖繩自駕，不是景點越多越划算。用兩個
 date: "2026-07-25"
 category: "租車交通"
 tags: ["沖繩親子自駕", "沖繩行程安排", "沖繩租車", "沖繩親子旅遊", "沖繩北部行程"]
-coverImage: "/images/articles/okinawa-family-driving-pace-guide/driving-pace-cover.svg"
-coverAlt: "本站自製插畫：一輛親子租車、兩個行程點與中間的休息時間"
-coverCaption: "親子自駕先留休息，再決定要加幾個景點。圖片為本站製作的情境示意。"
+coverImage: "/images/articles/okinawa-family-driving-pace-guide/driving-pace-scene-v2.png"
+coverAlt: "本站 AI 自製情境圖：沖繩海岸道路旁，一名家長在租車旁伸展，後座孩子正在休息"
+coverCaption: "本站 AI 自製情境圖：把休息安排進自駕行程，往往比多塞一個景點更實際。"
 ---
 
 帶小孩在沖繩自駕，一天要排幾個景點？先給結論：**多數家庭先抓兩個主行程就夠，第三個只能當「路過就去」的備案。**

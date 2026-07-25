@@ -4,9 +4,9 @@ description: "沖繩親子旅遊碰上颱風，不要急著改行程。依官方
 date: "2026-07-25"
 category: "沖繩行程"
 tags: ["沖繩颱風", "沖繩親子旅遊", "沖繩天氣", "沖繩租車", "沖繩雨天備案"]
-coverImage: "/images/articles/okinawa-typhoon-family-travel-guide/typhoon-family-cover.svg"
-coverAlt: "本站自製插畫：親子家庭在飯店內查看颱風、航班與租車資訊"
-coverCaption: "遇到颱風先確認安全與官方通知，再處理交通和行程。圖片為本站製作的情境示意。"
+coverImage: "/images/articles/okinawa-typhoon-family-travel-guide/typhoon-family-scene-v2.png"
+coverAlt: "本站 AI 自製情境圖：沖繩飯店房間裡，一位家長查看手機、孩子畫畫，窗外有雨與棕櫚樹"
+coverCaption: "本站 AI 自製情境圖：天候有變時，先把家人的休息與下一步安排安定下來。"
 ---
 
 沖繩旅遊遇到颱風，慌亂通常來自航班、租車、飯店和孩子的需求同時冒出來。先講結論：**風雨開始變強後，不要把行程改成「室內景點衝刺」；先待在安全的室內，依官方警報與你自己的訂單通知，按安全、住宿、交通的順序處理。**
