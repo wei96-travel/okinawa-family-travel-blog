@@ -103,7 +103,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       </Link>
       <header className="mt-6 border-b border-[#eadfce] pb-8">
         <p className="text-sm font-semibold text-[#9a6b43]">{post.category}</p>
-        <h1 className="mt-3 text-3xl font-bold leading-tight text-[#34302b] sm:text-4xl">{post.title}</h1>
+        <h1 className="mt-3 break-all text-3xl font-bold leading-tight text-[#34302b] sm:text-4xl">{post.title}</h1>
         <p className="mt-4 text-lg leading-9 text-[#5f594f]">{post.description}</p>
         <div className="mt-5 flex flex-wrap gap-3 text-sm text-[#756e65]">
           <time dateTime={post.date}>{post.formattedDate}</time>

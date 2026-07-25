@@ -6,6 +6,8 @@
 | --- | --- | --- | --- | --- | --- |
 | #62 投幣式停車場有三種 | `okinawa-family-parking-guide` | ✅ | ✅ | ⬜ | ✅ |
 | 國際通親子動線 | `okinawa-kokusai-dori-family-guide` | ✅ | ✅ | ⬜ | ✅ |
+| 親子自駕一天幾個點 | `okinawa-family-driving-pace-guide` | ✅ | ✅ | ⬜ | ⬜ |
+| 沖繩颱風親子備案 | `okinawa-typhoon-family-travel-guide` | ✅ | ✅ | ⬜ | ⬜ |
 
 **#62 Facebook 輪播已於 2026-07-22 公開發佈**：8 張圖片位於 `work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，尺寸 1080×1350。網站連結放在作者的第一則留言；Reels 尚未剪。
 
@@ -14,6 +16,8 @@
 **國際通親子動線輪播已於 2026-07-24 公開發佈**：8 張圖片位於 `work/social/okinawa-kokusai-dori-family-guide/render/png/01.png` ～ `08.png`，尺寸 1080×1350，發佈順序已核對。三張實景各有 Unsplash 授權記錄；網站連結放在作者的第一則留言，Facebook 的文章預覽卡顯示正常。
 
 貼文：https://www.facebook.com/permalink.php?story_fbid=122116930431290857&id=61588725730543
+
+**親子自駕一天幾個點與沖繩颱風親子備案輪播已於 2026-07-25 完成，尚未發布**：兩組各有 8 張 1080×1350 PNG、390px 預覽與 Facebook／IG 文案，分別位於 `work/social/okinawa-family-driving-pace-guide/` 與 `work/social/okinawa-typhoon-family-travel-guide/`。均為本站自製資訊圖，沒有外部實景照片或商品素材；待 wei96 決定發布時間與平台。
 
 ## 圖例
 
@@ -27,6 +31,8 @@
 | --- | --- | --- | --- | --- | --- |
 | #62 | 2026-07-22 | 待 24–48 小時回收 | 待回收 | 待回收 | 待回收 |
 | 國際通親子動線 | 2026-07-24 | 待 24–48 小時回收 | 待回收 | 待回收 | 待回收 |
+| 親子自駕一天幾個點 | 未發布 | 待發布後回收 | 待回收 | 待回收 | 待回收 |
+| 沖繩颱風親子備案 | 未發布 | 待發布後回收 | 待回收 | 待回收 | 待回收 |
 
 ## 第一支 Reel 基準（2026-07-24 回收）
 
@@ -58,7 +64,7 @@
 ## 生圖成本紀錄
 
 | 日期 | 主題 | 模型 | 次數 | 點數 | 合格率 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 2026-07-21 | #62 | Nano Banana 2 (2K) | 5 | 300 | 1/5 |
 
 合格率偏低的原因是第一批直接生圖、沒有先盤點素材，也沒有針對廠徽與日本場景下約束。改進後第 5 次一次過關。

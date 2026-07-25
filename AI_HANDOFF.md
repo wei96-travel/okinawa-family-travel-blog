@@ -6,7 +6,8 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: none. The Kokusai-dori Facebook long-form expansion is complete and live.
+- Active owner: Codex. Daily content run in progress: two new articles and their unpublished eight-slide carousels.
+- Claimed files: `content/blog/okinawa-family-driving-pace-guide.md`, `content/blog/okinawa-typhoon-family-travel-guide.md`, their dedicated `public/images/articles/` and `work/social/` folders, `content/content-plan.md`, `content/google-seo-status.md`, `app/blog/[slug]/page.tsx` (390px heading wrap fix), and this handoff.
 - Shared branch: `main`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-25 (53 static pages, 34 articles).
