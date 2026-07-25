@@ -301,6 +301,13 @@ Build passing and a 200 from curl do **not** mean the page looks right. Both wer
 
 ## Next Task
 
+Facebook 的「第一次沖繩住宿區怎麼選」單圖貼文已於 2026-07-25 公開發佈：
+
+- 貼文：https://www.facebook.com/permalink.php?story_fbid=122117039889290857&id=61588725730543
+- 主貼文沒有外部連結。
+- 作者第一則留言已加入 `/blog/first-okinawa-where-to-stay`，Facebook 連結預覽卡顯示正常。
+- 下一次於發佈後 24–48 小時回收觸及、留言與連結點擊。
+
 1. Recheck `/blog/okinawa-rental-car-pickup-return-guide` and `/blog/okinawa-kokusai-dori-family-guide` after 7–14 days. Do not submit either URL again while it is already in the priority crawl queue.
 2. Publish the two completed 2026-07-25 standalone Facebook long-form drafts on D+1, one at a time, with the supporting article URL in the author's first comment.
 3. Open the provisional stroller-bag winner with the user and verify size, material, review count and recurring complaints before generating or placing an affiliate link.
