@@ -6,12 +6,12 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: none. The daily content run is committed; push and production verification are next.
+- Active owner: none. The daily content run is complete, pushed and production-verified.
 - Shared branch: `main`
-- Latest daily content commit: `4ef510a Publish driving pace and typhoon guides`
+- Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Shared branch: `main`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
-- Last full site build: passed on 2026-07-25 (53 static pages, 34 articles).
+- Last full site build: passed on 2026-07-25 (55 static pages, 36 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
@@ -25,7 +25,8 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Added `break-all` to the shared blog H1 after the first 390px review exposed title overflow. Browser viewport checks then verified both new pages at 390px: 375px content width, 375px document scroll width and no horizontal overflow.
 - `content:audit:strict`: 36 articles, 0 critical issues; 34 older style reminders, with none from the two new articles.
 - `next build`: passed on 2026-07-25, 55 static pages.
-- Committed as `4ef510a Publish driving pace and typhoon guides`; not yet pushed or verified in production.
+- Pushed `4ef510a` and `8fea335` to `origin/main`. Both production articles returned `200`, had self-referencing canonical tags and cover references, and both URLs were present in the live sitemap.
+- Search Console URL Inspection found both new URLs unindexed (`Google 無法辨識的網址`) with no detected sitemap or referring page. A single index request was sent for each on 2026-07-25 and both were confirmed in the priority crawl queue. Recheck in 7–14 days; do not resubmit before then.
 
 ### Separate Facebook long-form post rule, 2026-07-25 (Codex)
 
