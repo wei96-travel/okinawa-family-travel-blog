@@ -5,13 +5,13 @@ import { AffiliateServiceLink } from "@/components/affiliate-service-link";
 export const metadata: Metadata = {
   title: "沖繩親子旅行怎麼訂｜住宿、租車與用品整理",
   description:
-    "第一次帶孩子去沖繩，先依班機、作息和行程判斷住宿區，再比較租車與行前用品。整理那霸、恩納住宿、沖繩租車及親子旅行用品入口。",
+    "第一次帶孩子去沖繩，先依班機、作息和行程判斷住宿區，再處理租車與行前用品。整理那霸、恩納住宿、沖繩租車及親子旅行用品入口。",
   alternates: {
     canonical: "/okinawa-family-trip-booking"
   },
   openGraph: {
     title: "沖繩親子旅行怎麼訂",
-    description: "先判斷住宿區與移動方式，再打開訂房、租車和用品入口。",
+    description: "照班機、孩子作息和主要行程，安排住宿、租車與行前用品。",
     url: "/okinawa-family-trip-booking",
     images: [
       {
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
 const stayOptions = [
   {
     area: "那霸",
-    bestFor: "晚班機抵達、最後一天早班機，或想把市區購物排在前後兩晚",
-    check: "停車費、房型床寬、兒童入住規定、單軌或租車公司的移動方式",
+    bestFor: "晚班機抵達、最後一天早班機，或想把市區購物排在旅程前後幾晚",
+    check: "停車費、房型床寬、兒童入住規定、從機場到飯店的交通與取車安排",
     href:
       "https://tw.trip.com/hotels/naha-hotels-list-92573/?Allianceid=8075670&SID=305605448&trip_sub1=hub_stay_naha&trip_sub3=D18913050",
     articleHref: "/blog/naha-family-stay-guide",
@@ -52,12 +52,12 @@ const decisionQuestions = [
   {
     number: "02",
     title: "孩子能坐多久？",
-    description: "住宿省下的錢，如果每天換成更多車程，不一定比較輕鬆。"
+    description: "如果住宿位置會增加每天的車程，孩子的午睡和體力也要一起算進去。"
   },
   {
     number: "03",
     title: "主要行程在哪一區？",
-    description: "先抓兩個最想去的地方，再決定住宿中心，不要反過來硬湊行程。"
+    description: "先抓兩個最想去的地方，再決定住宿位置，不要反過來硬湊行程。"
   }
 ] as const;
 
@@ -74,9 +74,9 @@ export default function OkinawaFamilyTripBookingPage() {
         <div className="relative mx-auto flex min-h-[500px] max-w-6xl items-end px-5 pb-12 pt-24 sm:px-6 sm:pb-16 lg:px-8">
           <div className="max-w-2xl text-white">
             <p className="text-sm font-semibold">沖繩親子旅行預訂整理</p>
-            <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl">先想清楚怎麼玩，再打開訂房網站</h1>
+            <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl">住宿、租車，先照這個順序處理</h1>
             <p className="mt-5 max-w-xl text-lg leading-9 text-white/90">
-              這頁把住宿、租車和行前用品放在一起，但不會催你每一項都買。先看家庭的班機、作息與行程，再決定哪些入口真的用得到。
+              先用班機時間、孩子作息和主要行程決定住宿區，再處理租車，最後才整理用品。順序抓對，比一次開很多分頁更好整理。
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function OkinawaFamilyTripBookingPage() {
       <section className="border-b border-[#eadfce] bg-[#fffdf8]">
         <div className="mx-auto max-w-4xl px-5 py-7 sm:px-6 lg:px-8">
           <p className="border-l-4 border-[#9a6b43] bg-[#fbf6ee] px-4 py-3 text-sm leading-7 text-[#5f594f]">
-            本頁含 Trip.com 與蝦皮聯盟連結。若你透過連結完成預訂或購買，本站可能取得分潤，但不會增加你的價格。房價、車價、商品規格、庫存與取消條件都可能變動，請以平台、飯店、租車公司與賣場的最新資料為準。
+            本頁的住宿與租車按鈕含 Trip.com 聯盟連結。若你透過連結完成預訂，本站可能取得分潤，但不會增加你的價格。房價、車價、房型、車型與取消條件都可能變動，請以平台、飯店與租車公司的最新資料為準。
           </p>
         </div>
       </section>
@@ -120,9 +120,9 @@ export default function OkinawaFamilyTripBookingPage() {
           <div className="mx-auto max-w-6xl px-5 py-12 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold text-[#9a6b43]">住宿</p>
-              <h2 className="mt-2 text-3xl font-bold text-[#34302b]">先選區域，再比較兩三間</h2>
+              <h2 className="mt-2 text-3xl font-bold text-[#34302b]">先選住宿區，再開始找房</h2>
               <p className="mt-4 text-base leading-8 text-[#5f594f]">
-                訂房平台適合縮小範圍，不適合替你做最後確認。看到合適房型後，還要回飯店官網核對兒童入住、停車、接駁與設施開放時間。
+                如果還在比較北部、中部、南部或那霸，先看上方的完整區域攻略。如果選擇已經縮小到那霸和恩納，就從下面查看房型和空房，並回飯店官網核對兒童入住、停車、接駁與設施開放時間。
               </p>
             </div>
 
@@ -132,7 +132,7 @@ export default function OkinawaFamilyTripBookingPage() {
                   <p className="text-sm font-semibold text-[#9a6b43]">{option.area}住宿</p>
                   <h3 className="mt-3 text-2xl font-bold text-[#34302b]">什麼家庭比較適合？</h3>
                   <p className="mt-4 text-base leading-8 text-[#5f594f]">{option.bestFor}</p>
-                  <h4 className="mt-6 text-sm font-bold text-[#34302b]">打開房型前先看</h4>
+                  <h4 className="mt-6 text-sm font-bold text-[#34302b]">搜尋時一起確認</h4>
                   <p className="mt-2 text-sm leading-7 text-[#5f594f]">{option.check}</p>
                   <div className="mt-6 flex flex-wrap items-center gap-4">
                     <AffiliateServiceLink
@@ -189,9 +189,9 @@ export default function OkinawaFamilyTripBookingPage() {
           <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8">
             <div>
               <p className="text-sm font-semibold text-[#9a6b43]">行前用品</p>
-              <h2 className="mt-2 text-3xl font-bold leading-tight text-[#34302b]">用品另外整理，不跟訂房混在一起</h2>
+              <h2 className="mt-2 text-3xl font-bold leading-tight text-[#34302b]">住宿和租車確定後，再回頭整理用品</h2>
               <p className="mt-4 text-base leading-8 text-[#5f594f]">
-                奶瓶清潔、車上整理、推車托運和回程收納，已經依旅行情境放在用品頁。每項都會說明用途與限制，不需要在這頁重新看一排商品。
+                奶瓶清潔、車上整理、推車托運和回程收納，可以等行程大致確定後再檢查。租車家庭和住度假飯店的家庭，需要準備的東西不一定相同，按自己的情境挑就好。
               </p>
               <Link
                 className="mt-7 inline-flex min-h-11 items-center justify-center rounded-md border border-[#b99a76] px-5 py-3 text-sm font-semibold text-[#694624] transition hover:bg-[#fbf6ee]"
