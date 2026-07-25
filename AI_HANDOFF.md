@@ -1,20 +1,32 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-25 (Codex, Trip.com affiliate pilot completed; Facebook lodging post awaiting approval)
+Last updated: 2026-07-26 (Codex, booking hub completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. Three Trip.com article placements are complete; the unpublished Facebook lodging visual and copy are waiting for wei96's approval.
+- Active owner: none. The booking hub is complete and ready for the next content or social task.
 - Shared branch: `main`
+- Latest site commit: `972b4d6 Add Okinawa family booking hub`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
-- Shared branch: `main`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
-- Last full site build: passed on 2026-07-25 (55 static pages, 36 articles).
+- Last full site build: passed on 2026-07-26 (56 static pages, 36 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Okinawa family booking hub, 2026-07-26 (Codex)
+
+- Added `/okinawa-family-trip-booking` as a decision-first booking hub for Naha and Onna accommodation, Okinawa rental cars and the existing checked travel-gear page.
+- Reused only the three Trip.com deep links already verified in matching articles. Each uses a separate `trip_sub1` value for hub click attribution and `rel="sponsored noreferrer"`.
+- Added a visible affiliate disclosure and avoided hotel rankings, personal-stay claims, temporary prices and unchecked attraction tickets.
+- Added booking-hub entry points to the home page, blog reading center, footer and sitemap.
+- Added GA4 `affiliate_click` tracking for Trip.com hub buttons.
+- Visual QA at 1440×900 and 390×844 found one button-color override; fixed it and confirmed white text, 44px minimum height and no horizontal overflow.
+- `content:audit:strict`: 36 articles, 0 critical issues; 34 existing style reminders.
+- `next build`: passed on 2026-07-26, 56 static pages.
+- Local verification: `200`, self-referencing canonical, three sponsored links and sitemap inclusion.
 
 ### Trip.com affiliate pilot and Facebook lodging post, 2026-07-25 (Codex)
 
