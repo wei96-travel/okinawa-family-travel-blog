@@ -21,6 +21,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Added `/okinawa-family-trip-booking` as a decision-first booking hub for Naha and Onna accommodation, Okinawa rental cars and the existing checked travel-gear page.
 - Reused only the three Trip.com deep links already verified in matching articles. Each uses a separate `trip_sub1` value for hub click attribution and `rel="sponsored noreferrer"`.
 - Added a visible affiliate disclosure and avoided hotel rankings, personal-stay claims, temporary prices and unchecked attraction tickets.
+- Removed the public-facing placeholder that explained why attraction tickets were absent; that was an internal planning note and weakened the page ending.
 - Added booking-hub entry points to the home page, blog reading center, footer and sitemap.
 - Added GA4 `affiliate_click` tracking for Trip.com hub buttons.
 - Visual QA at 1440×900 and 390×844 found one button-color override; fixed it and confirmed white text, 44px minimum height and no horizontal overflow.

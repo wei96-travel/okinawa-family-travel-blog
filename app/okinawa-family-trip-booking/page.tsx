@@ -208,15 +208,6 @@ export default function OkinawaFamilyTripBookingPage() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-3xl px-5 py-12 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-[#34302b]">景點票券為什麼還沒放？</h2>
-          <p className="mt-4 text-base leading-8 text-[#5f594f]">
-            票券要先核對適用日期、兒童年齡、取消方式與現場兌換規則。第一版先保留空間，不為了讓頁面看起來豐富就放入還沒確認的連結；完成核對後再逐項增加。
-          </p>
-          <p className="mt-5 text-sm leading-7 text-[#756e65]">
-            最後更新：2026 年 7 月 26 日。預訂前請再確認平台與服務提供者的最新條件。
-          </p>
-        </section>
       </main>
     </div>
   );
