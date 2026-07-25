@@ -6,8 +6,8 @@
 | --- | --- | --- | --- | --- | --- |
 | #62 投幣式停車場有三種 | `okinawa-family-parking-guide` | ✅ | ✅ | ⬜ | ✅ |
 | 國際通親子動線 | `okinawa-kokusai-dori-family-guide` | ✅ | ✅ | ⬜ | ✅ |
-| 親子自駕一天幾個點 | `okinawa-family-driving-pace-guide` | ✅ | ✅ | ⬜ | ⬜ |
-| 沖繩颱風親子備案 | `okinawa-typhoon-family-travel-guide` | ✅ | ✅ | ⬜ | ⬜ |
+| 親子自駕一天幾個點 | `okinawa-family-driving-pace-guide` | ✅ | ✅ | ⬜ | ✅ |
+| 沖繩颱風親子備案 | `okinawa-typhoon-family-travel-guide` | ✅ | ✅ | ⬜ | ✅ |
 
 **#62 Facebook 輪播已於 2026-07-22 公開發佈**：8 張圖片位於 `work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，尺寸 1080×1350。網站連結放在作者的第一則留言；Reels 尚未剪。
 
@@ -17,7 +17,13 @@
 
 貼文：https://www.facebook.com/permalink.php?story_fbid=122116930431290857&id=61588725730543
 
-**親子自駕一天幾個點與沖繩颱風親子備案輪播已於 2026-07-25 完成，尚未發布**：兩組各有 8 張 1080×1350 PNG、390px 預覽與 Facebook／IG 文案，分別位於 `work/social/okinawa-family-driving-pace-guide/` 與 `work/social/okinawa-typhoon-family-travel-guide/`。均為本站自製資訊圖，沒有外部實景照片或商品素材；待 wei96 決定發布時間與平台。
+**親子自駕一天幾個點與沖繩颱風親子備案輪播已於 2026-07-25 公開發佈**：兩組各有 8 張 1080×1350 PNG，發佈前已逐張核對 `01.png` ～ `08.png` 的順序，分享對象均為「所有人」。兩篇網站文章分別放在作者的第一則留言，連結預覽顯示正常。
+
+親子自駕貼文：https://www.facebook.com/permalink.php?story_fbid=122116987677290857&id=61588725730543
+
+沖繩颱風貼文：https://www.facebook.com/permalink.php?story_fbid=122116988355290857&id=61588725730543
+
+兩篇獨立 Facebook 長文也已完成，角度不重複輪播：自駕篇聚焦親子移動的隱形時間與下午狀態檢查；颱風篇聚焦六小時、今晚到明天、孩子 24 小時需求三層決策。依 `social-workflow.md` 安排 D+1 發佈，避免和同日輪播互搶觸及。
 
 ## 圖例
 
@@ -31,8 +37,8 @@
 | --- | --- | --- | --- | --- | --- |
 | #62 | 2026-07-22 | 待 24–48 小時回收 | 待回收 | 待回收 | 待回收 |
 | 國際通親子動線 | 2026-07-24 | 待 24–48 小時回收 | 待回收 | 待回收 | 待回收 |
-| 親子自駕一天幾個點 | 未發布 | 待發布後回收 | 待回收 | 待回收 | 待回收 |
-| 沖繩颱風親子備案 | 未發布 | 待發布後回收 | 待回收 | 待回收 | 待回收 |
+| 親子自駕一天幾個點 | 2026-07-25 | 待 24–48 小時回收 | 待回收 | 待回收 | 待回收 |
+| 沖繩颱風親子備案 | 2026-07-25 | 待 24–48 小時回收 | 待回收 | 待回收 | 待回收 |
 
 ## 第一支 Reel 基準（2026-07-24 回收）
 

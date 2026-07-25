@@ -1,12 +1,12 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-25 (Codex, two daily articles and unpublished carousels completed)
+Last updated: 2026-07-25 (Codex, two daily Facebook carousels published and distinct long-form drafts completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. The visual refresh is committed; Chrome repair is awaiting a user-approved browser restart.
+- Active owner: none. The two 2026-07-25 carousels are public; their distinct long-form follow-ups are ready for D+1 publishing.
 - Shared branch: `main`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Shared branch: `main`
@@ -15,6 +15,19 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Two daily Facebook carousels published, 2026-07-25 (Codex)
+
+- Published the family-driving-pace carousel publicly with all eight 1080×1350 slides in `01.png` to `08.png` order:
+  `https://www.facebook.com/permalink.php?story_fbid=122116987677290857&id=61588725730543`
+- Published the typhoon family-travel carousel publicly with all eight 1080×1350 slides in `01.png` to `08.png` order:
+  `https://www.facebook.com/permalink.php?story_fbid=122116988355290857&id=61588725730543`
+- Verified both posts show `分享對象：所有人`. Added each supporting article URL in the author's first comment and verified the Facebook article preview card.
+- Rewrote both standalone Facebook long-form drafts so they do not stretch or repeat the carousel captions:
+  - Driving: hidden family-transition time, a four-question afternoon state check and when to drop the third stop.
+  - Typhoon: decisions split into the next six hours, tonight-to-tomorrow transport and the child's next 24 hours of needs.
+- The long-form bodies are 1,087 and 1,256 Chinese characters. Keep them as D+1 follow-ups; do not publish them on the same day as these carousels.
+- No Next.js build was required because this task changed only social copy, progress tracking and the handoff.
 
 ### Daily articles and carousels, 2026-07-25 (Codex)
 
@@ -277,7 +290,7 @@ Build passing and a 200 from curl do **not** mean the page looks right. Both wer
 ## Next Task
 
 1. Recheck `/blog/okinawa-rental-car-pickup-return-guide` and `/blog/okinawa-kokusai-dori-family-guide` after 7–14 days. Do not submit either URL again while it is already in the priority crawl queue.
-2. Show the Kokusai-dori carousel preview to the user. Publish only after the user approves it at that moment.
+2. Publish the two completed 2026-07-25 standalone Facebook long-form drafts on D+1, one at a time, with the supporting article URL in the author's first comment.
 3. Open the provisional stroller-bag winner with the user and verify size, material, review count and recurring complaints before generating or placing an affiliate link.
 4. Keep the Facebook bio unchanged for 14 days and compare profile visits, follows and website clicks.
 5. Do not touch the car-seat title before 2026-07-29. Check the Churaumi title change no earlier than 2026-08-07.
