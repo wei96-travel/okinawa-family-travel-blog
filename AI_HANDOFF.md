@@ -1,19 +1,31 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-25 (Codex, Facebook long-form post expanded and verified)
+Last updated: 2026-07-25 (Codex, two daily articles and unpublished carousels completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: Codex. Daily content run in progress: two new articles and their unpublished eight-slide carousels.
-- Claimed files: `content/blog/okinawa-family-driving-pace-guide.md`, `content/blog/okinawa-typhoon-family-travel-guide.md`, their dedicated `public/images/articles/` and `work/social/` folders, `content/content-plan.md`, `content/google-seo-status.md`, `app/blog/[slug]/page.tsx` (390px heading wrap fix), and this handoff.
+- Active owner: none. The daily content run is committed; push and production verification are next.
+- Shared branch: `main`
+- Latest daily content commit: `4ef510a Publish driving pace and typhoon guides`
 - Shared branch: `main`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-25 (53 static pages, 34 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Daily articles and carousels, 2026-07-25 (Codex)
+
+- Added `/blog/okinawa-family-driving-pace-guide`: a rent-car cluster article that turns the family pacing question into two main stops, a rest window and a removable third stop. It uses JAF's two-hour rest guidance as a driving-safety baseline and labels the two-stop rule as an editorial recommendation.
+- Added `/blog/okinawa-typhoon-family-travel-guide`: separates ordinary rainy-day changes from strong-wind or warning conditions, and prioritizes safety, lodging and transport. It uses Okinawa Meteorological Observatory, the official Okinawa travel guide and OTS terms; it does not generalize any airline, hotel or car-rental policy.
+- Both articles include self-made SVG covers, source lists, FAQs and natural internal links. No products or unverified Shopee links were added.
+- Created two unpublished 8-slide 1080×1350 Facebook／IG carousels with source files, PNGs, copy and 390px previews under their corresponding `work/social/` folders. All visuals are self-made information graphics; `work/social/progress.md` records both as awaiting wei96's publishing decision.
+- Added `break-all` to the shared blog H1 after the first 390px review exposed title overflow. Browser viewport checks then verified both new pages at 390px: 375px content width, 375px document scroll width and no horizontal overflow.
+- `content:audit:strict`: 36 articles, 0 critical issues; 34 older style reminders, with none from the two new articles.
+- `next build`: passed on 2026-07-25, 55 static pages.
+- Committed as `4ef510a Publish driving pace and typhoon guides`; not yet pushed or verified in production.
 
 ### Separate Facebook long-form post rule, 2026-07-25 (Codex)
 
