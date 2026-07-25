@@ -4,7 +4,16 @@ import { categoryDefinitions } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
-  const staticRoutes = ["", "/blog", "/about", "/contact", "/privacy", "/affiliate-disclosure", "/okinawa-family-travel-gear"].map(
+  const staticRoutes = [
+    "",
+    "/blog",
+    "/about",
+    "/contact",
+    "/privacy",
+    "/affiliate-disclosure",
+    "/okinawa-family-trip-booking",
+    "/okinawa-family-travel-gear"
+  ].map(
     (route) => ({
       url: siteUrl + route,
       lastModified: new Date()

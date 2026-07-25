@@ -76,6 +76,27 @@ export default function BlogPage() {
         </div>
       </section>
 
+      <section className="border-y border-[#eadfce] bg-[#fffdf8]">
+        <div className="mx-auto grid max-w-6xl gap-4 px-5 py-8 sm:px-6 md:grid-cols-2 lg:px-8">
+          <Link
+            className="rounded-lg border border-[#eadfce] bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            href="/okinawa-family-trip-booking"
+          >
+            <p className="text-sm font-semibold text-[#9a6b43]">準備預訂</p>
+            <h2 className="mt-2 text-xl font-bold text-[#34302b]">住宿、租車和用品從哪裡開始？</h2>
+            <p className="mt-3 text-sm leading-7 text-[#5f594f]">先判斷家庭需求，再使用已核對的預訂與用品入口。</p>
+          </Link>
+          <Link
+            className="rounded-lg border border-[#eadfce] bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            href="/okinawa-family-travel-gear"
+          >
+            <p className="text-sm font-semibold text-[#9a6b43]">準備行李</p>
+            <h2 className="mt-2 text-xl font-bold text-[#34302b]">真正派得上用場的親子用品</h2>
+            <p className="mt-3 text-sm leading-7 text-[#5f594f]">按奶瓶清潔、車上整理、推車托運與回程收納來找。</p>
+          </Link>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-6xl px-5 pb-10 sm:px-6 lg:px-8">
         <div className="mb-6">
           <p className="text-sm font-semibold text-[#9a6b43]">TOPICS</p>
