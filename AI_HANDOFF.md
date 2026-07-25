@@ -6,7 +6,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: none. The daily content run is complete, pushed and production-verified.
+- Active owner: none. The visual refresh is committed; Chrome repair is awaiting a user-approved browser restart.
 - Shared branch: `main`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Shared branch: `main`
@@ -27,6 +27,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - `next build`: passed on 2026-07-25, 55 static pages.
 - Pushed `4ef510a` and `8fea335` to `origin/main`. Both production articles returned `200`, had self-referencing canonical tags and cover references, and both URLs were present in the live sitemap.
 - Search Console URL Inspection found both new URLs unindexed (`Google 無法辨識的網址`) with no detected sitemap or referring page. A single index request was sent for each on 2026-07-25 and both were confirmed in the priority crawl queue. Recheck in 7–14 days; do not resubmit before then.
+- Visual refresh: replaced both article covers and both 8-slide carousels with original GPT-generated, project-local family-travel scenes plus varied itinerary/checklist cards. Added one unpublished Facebook long-form draft per article. `7508efb Refresh family travel visuals`; strict audit still has 0 critical issues and the Next.js build passed (55 static pages).
 
 ### Separate Facebook long-form post rule, 2026-07-25 (Codex)
 
