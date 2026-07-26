@@ -8,7 +8,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: Codex for SEO and content strategy. Claude Code may research hotel and emergency-toilet product candidates only after receiving the plan; it should not edit public articles yet.
 - Shared branch: `main`
-- Latest site commit: `f34b269 Coordinate daily SEO and affiliate research`
+- Latest site commit: `d422064 Add hotel affiliate choices`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-26 (58 static pages, 38 articles).
@@ -27,6 +27,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Mobile QA at 390px found and fixed one long Rizzan button label. Final buttons are 44px high, all text fits, and no horizontal overflow was detected on the hub or either article.
 - `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 existing style reminders remain.
 - `next build`: passed, 58 static pages.
+- Production verification passed after deployment: the booking hub shows all four hotels, and both lodging articles expose their expected Trip.com `trip_sub1` values with sponsored link attributes.
 - Emergency-toilet product links remain on hold because exact product specifications are not yet verified.
 
 ### First hotel affiliate links, 2026-07-26 (Codex)
