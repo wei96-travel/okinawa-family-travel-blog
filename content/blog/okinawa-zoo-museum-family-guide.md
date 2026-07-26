@@ -5,7 +5,7 @@ date: "2026-07-26"
 category: "親子景點"
 tags: ["沖繩兒童王國", "沖繩親子景點", "沖繩雨天備案", "沖繩中部行程", "沖繩動物園"]
 coverImage: "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide-cover-ai-v2.png"
-coverAlt: "本站自製資訊圖：以動物園、室內互動館與親子休息節奏呈現沖繩兒童王國"
+coverAlt: "家長帶著孩子走在綠意園區步道上"
 coverCaption: "把動物園與室內館排在同一天，親子行程就多一個天氣備案。"
 ---
 
