@@ -50,7 +50,7 @@ for ($i = 0; $i -lt $slides.Count; $i++) {
   $fBody = [Drawing.Font]::new('Microsoft JhengHei', 35)
   $fNote = [Drawing.Font]::new('Microsoft JhengHei', 29, [Drawing.FontStyle]::Bold)
   $fmt = [Drawing.StringFormat]::new(); $fmt.Trimming = 'EllipsisWord'
-  Text $g 'OKINAWA FAMILY NOTES' $fHead $white ([Drawing.RectangleF]::new(58, 67, 630, 50)) $fmt
+  Text $g '沖繩親子旅遊筆記' $fHead $white ([Drawing.RectangleF]::new(58, 67, 630, 50)) $fmt
   Text $g ('0{0} / 08' -f ($i + 1)) $fHead $white ([Drawing.RectangleF]::new(855, 67, 170, 50)) $fmt
   Text $g $s.tag $fTag $gold ([Drawing.RectangleF]::new(58, 220, 880, 55)) $fmt
   Text $g $s.title $fTitle $white ([Drawing.RectangleF]::new(58, 300, 900, 245)) $fmt

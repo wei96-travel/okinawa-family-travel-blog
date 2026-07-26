@@ -32,6 +32,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Rebuilt both unpublished 8-slide carousels to use three distinct GPT-generated, photorealistic family-travel scenes each; all slides now have full-bleed photo backgrounds, and the closing slide remains photographic. The 390px stacked previews were manually reviewed.
 - Added `prompts.md` records for both Facebook drafts. Public-facing captions and carousel footers follow the site's existing style and do not add AI-image wording. No social post was uploaded or published.
 - Follow-up check: replaced the stale “本站自製資訊圖” cover alt text left from the original SVG assets with plain visual descriptions matching the new photographic covers.
+- Carousel follow-up: restored the established top watermark, `沖繩親子旅遊筆記`, on every slide instead of the English brand label; the website URL remains in the footer.
 - Added a mandatory social-image quality gate: at least three distinct GPT photo scenes per eight-slide carousel, with photographic cover and CTA slides; SVG information graphics are only for facts that photos cannot honestly convey.
 - Commit: `e8e361a Replace guide graphics with GPT travel scenes`.
 - `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 older style reminders remain. `next build`: passed, 58 static pages. Production verification after deployment: both new cover files return `200`, both articles have self-referencing canonicals, and `sitemap.xml` contains both slugs. A 390px browser check confirmed the new Yui Rail cover renders correctly.
