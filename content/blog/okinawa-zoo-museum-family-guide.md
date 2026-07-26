@@ -4,9 +4,9 @@ description: "沖繩兒童王國不是只看動物。整理動物園、神奇博
 date: "2026-07-26"
 category: "親子景點"
 tags: ["沖繩兒童王國", "沖繩親子景點", "沖繩雨天備案", "沖繩中部行程", "沖繩動物園"]
-coverImage: "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide.svg"
+coverImage: "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide-cover-ai-v2.png"
 coverAlt: "本站自製資訊圖：以動物園、室內互動館與親子休息節奏呈現沖繩兒童王國"
-coverCaption: "本站自製資訊圖：先把室內外兩段行程分開，雨天或炎熱天都比較好調整。"
+coverCaption: "本站以 GPT 生成的親子園區情境圖；非實拍、非特定園區現場畫面。"
 ---
 
 沖繩兒童王國（Okinawa Zoo & Museum）適不適合帶小孩去？**如果你想在沖繩中部安排一個能看動物、能進室內、又能隨孩子狀態縮短或延長的景點，它很值得列入候選。**

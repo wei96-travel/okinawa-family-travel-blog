@@ -17,7 +17,7 @@
 - `work/social/okinawa-yui-rail-family-guide/render/01.png` ～ `08.png`
 - `work/social/okinawa-zoo-museum-family-guide/render/01.png` ～ `08.png`
 
-兩組皆為 1080×1350 的本站自製資訊圖，含 390px 手機預覽與發布文案；未上傳或發布到 Facebook、Instagram 或其他平台。單軌電車組聚焦先選移動節奏再選票種；兒童王國組聚焦戶外、休息、室內三段切換。發布時沿用現有規則：主貼文不放外部連結，文章網址放作者第一則留言。
+兩組皆為 1080×1350 的 GPT 寫實親子旅行情境圖輪播，採 3 個不同場景交替，含 390px 手機預覽、prompt 紀錄與 AI 情境示意揭露文案；未上傳或發布到 Facebook、Instagram 或其他平台。文章封面另採 16:9 GPT 寫實情境圖並在圖說揭露。單軌電車組聚焦先選移動節奏再選票種；兒童王國組聚焦戶外、休息、室內三段切換。發布時沿用現有規則：主貼文不放外部連結，文章網址放作者第一則留言。
 
 **#62 Facebook 輪播已於 2026-07-22 公開發佈**：8 張圖片位於 `work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，尺寸 1080×1350。網站連結放在作者的第一則留言；Reels 尚未剪。
 
