@@ -6,15 +6,26 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: Codex. Daily content run in progress: two new, source-checked family-travel articles and their unpublished carousels.
+- Active owner: none. Daily content run is complete; both articles and unpublished carousels are ready for the next review or social-publishing task.
 - Shared branch: `main`
-- Latest site commit: `972b4d6 Add Okinawa family booking hub`
+- Latest site commit: `37bbd8c Publish Yui Rail and zoo family guides`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
-- Last full site build: passed on 2026-07-26 (56 static pages, 36 articles).
+- Last full site build: passed on 2026-07-26 (58 static pages, 38 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Daily articles and unpublished carousels, 2026-07-26 (Codex)
+
+- Published in source and committed as `37bbd8c Publish Yui Rail and zoo family guides`:
+  - `/blog/okinawa-yui-rail-family-guide` covers deciding whether to use Yui Rail, child ticket rules, 24/48-hour ticket tradeoffs, elevators and a Naha family route.
+  - `/blog/okinawa-zoo-museum-family-guide` covers Okinawa Zoo & Museum as a middle-island family main stop, indoor/outdoor pacing, current official admission guidance, stroller facilities and rain/typhoon boundaries.
+- Both articles use only self-made SVG covers, natural internal links, FAQs and official first-party source lists. No affiliate or unverified Shopee link was added.
+- Created two unpublished 8-slide 1080×1350 PNG carousels with source files, Facebook copy, 390px previews and in-page mobile screenshots under their matching `work/social/` folders. All carousel imagery is self-made information graphics; neither set was uploaded or published.
+- `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 older style reminders remain.
+- `next build`: passed, 58 static pages. Local checks: both URLs return `200`, have self-referencing canonicals and appear in `/sitemap.xml`. The 390px first-screen capture has no horizontal visual overflow.
+- Production and Search Console status are not yet verified; after the pushed deployment is available, check both URLs, covers, canonical and sitemap. Request indexing only if Search Console says a new URL is unindexed and it is not already queued.
 
 ### Okinawa family booking hub, 2026-07-26 (Codex)
 
@@ -352,12 +363,6 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 ## File Ownership
 
 - Codex currently claims:
-  - `content/blog/okinawa-yui-rail-family-guide.md`
-  - `content/blog/okinawa-zoo-museum-family-guide.md`
-  - `public/images/articles/okinawa-yui-rail-family-guide/`
-  - `public/images/articles/okinawa-zoo-museum-family-guide/`
-  - `work/social/okinawa-yui-rail-family-guide/`
-  - `work/social/okinawa-zoo-museum-family-guide/`
   - `AI_HANDOFF.md`
   - `content/content-plan.md`
   - `content/seo-scorecard.md`
