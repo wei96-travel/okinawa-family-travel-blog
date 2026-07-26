@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, standalone Facebook post published)
+Last updated: 2026-07-26 (Codex, baby-bottle hotel guide completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -11,10 +11,21 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Latest site commit: `d422064 Add hotel affiliate choices`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
-- Last full site build: passed on 2026-07-26 (58 static pages, 38 articles).
+- Last full site build: passed on 2026-07-26 (59 static pages, 39 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Baby-bottle hotel cleaning guide, 2026-07-26 (Codex)
+
+- Added `/blog/okinawa-baby-bottle-hotel-cleaning-guide` for first-time parents who need a practical hotel routine for washing, sanitizing, drying and carrying bottles during an Okinawa trip.
+- The article separates cleaning from sanitizing, explains why a dedicated wash basin and air-drying area matter, and covers infant formula, milk and cleaning-liquid baggage rules without treating all baby-related liquids as exempt.
+- Checked the health and flight-safety guidance against Taiwan HPA, the U.S. CDC and EVA Air. The article tells readers to confirm their bottle material, child's health needs, airline and airport rules before travel.
+- Added two verified Shopee choices only where they solve a matching problem: a LIFEMATE portable bottle-brush kit and Simba 120ml bottle-cleaning spray. The article includes one affiliate disclosure, limitations and the 120ml checked-baggage warning.
+- Generated and optimized an original 16:9 hotel bottle-cleaning cover. No third-party photo attribution is required.
+- Added natural internal links to the driving rest-stop guide, summer packing list, travel-gear page and first-stay guide.
+- `content:audit:strict`: passed, 39 articles and 0 critical issues; 34 existing reminders remain, with none from the new article.
+- `next build`: passed, 59 static pages. Production verification and one Search Console inspection are pending deployment.
 
 ### Standalone Facebook long-form post, 2026-07-26 (Codex)
 
