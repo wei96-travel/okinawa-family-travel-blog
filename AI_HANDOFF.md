@@ -18,12 +18,13 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ### Daily-content visual correction, 2026-07-26 (Codex)
 
-- Replaced the two new articles' self-made SVG covers with 16:9 GPT-generated, photorealistic family-travel scenes and visible article-level AI image disclosures. The images are deliberately generic situations, not claims of a named station or venue.
+- Replaced the two new articles' self-made SVG covers with 16:9 GPT-generated, photorealistic family-travel scenes and natural cover captions. The images are deliberately generic situations, not claims of a named station or venue.
 - Rebuilt both unpublished 8-slide carousels to use three distinct GPT-generated, photorealistic family-travel scenes each; all slides now have full-bleed photo backgrounds, and the closing slide remains photographic. The 390px stacked previews were manually reviewed.
-- Added `prompts.md` records and an explicit AI-situation disclosure to both Facebook drafts. No social post was uploaded or published.
+- Added `prompts.md` records for both Facebook drafts. Public-facing captions and carousel footers follow the site's existing style and do not add AI-image wording. No social post was uploaded or published.
 - Added a mandatory social-image quality gate: at least three distinct GPT photo scenes per eight-slide carousel, with photographic cover and CTA slides; SVG information graphics are only for facts that photos cannot honestly convey.
 - Commit: `e8e361a Replace guide graphics with GPT travel scenes`.
-- `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 older style reminders remain. `next build`: passed, 58 static pages. Production verification after deployment: both new cover files return `200`, both articles have self-referencing canonicals, and `sitemap.xml` contains both slugs. A 390px browser check confirmed the new Yui Rail cover and AI-image caption render correctly.
+- `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 older style reminders remain. `next build`: passed, 58 static pages. Production verification after deployment: both new cover files return `200`, both articles have self-referencing canonicals, and `sitemap.xml` contains both slugs. A 390px browser check confirmed the new Yui Rail cover renders correctly.
+- Search Console was checked while signed in: both URLs were discovered through the sitemap but not indexed, and each was submitted once. Search Console confirmed both are in the priority crawl queue; do not resubmit unless the user explicitly requests it.
 
 ### Daily articles and unpublished carousels, 2026-07-26 (Codex)
 

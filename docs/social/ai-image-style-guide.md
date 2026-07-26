@@ -93,7 +93,7 @@ identifiable child face, direct eye contact of children, crowded tourists, clutt
 - 8 張 IG／Facebook 輪播至少要有 **3 個不同的 GPT 寫實情境場景**；封面與 CTA 頁必須使用滿版情境照片，不能用純色、SVG 或資訊卡替代。
 - SVG／資訊圖只用在費率、規則、時間軸、地圖或比較表等「照片無法誠實表達」的資訊；不得成為整組輪播的大多數視覺。
 - 每張實際採用的圖都要人工檢視人物、手部、文字、商標與場景可信度；不合格就重生，不以「先做完」取代審核。
-- 完成前必須在 `work/social/{slug}/prompts.md` 記錄實際 prompt、檔名與 AI 情境示意揭露文字，並實際查看 390px 手機預覽。
+- 完成前必須在 `work/social/{slug}/prompts.md` 記錄實際 prompt、檔名，並實際查看 390px 手機預覽；公開文案延續既有網站風格，不另加 AI 圖片標示。
 
 ### 通用模型的兩個已知弱點（2026-07-21 實測）
 

@@ -56,7 +56,7 @@ for ($i = 0; $i -lt $slides.Count; $i++) {
   Text $g $s.title $fTitle $white ([Drawing.RectangleF]::new(58, 300, 900, 245)) $fmt
   Text $g $s.body $fBody $muted ([Drawing.RectangleF]::new(95, 830, 850, 170)) $fmt
   Text $g $s.note $fNote $gold ([Drawing.RectangleF]::new(95, 1035, 850, 55)) $fmt
-  Text $g 'okinawafamilynotes.com｜本站 AI 生成情境圖' $fHead $muted ([Drawing.RectangleF]::new(58, 1240, 850, 45)) $fmt
+  Text $g 'okinawafamilynotes.com' $fHead $muted ([Drawing.RectangleF]::new(58, 1240, 850, 45)) $fmt
   $bmp.Save((Join-Path $out ('{0:D2}.png' -f ($i + 1))), [Drawing.Imaging.ImageFormat]::Png)
   $g.Dispose(); $bmp.Dispose()
 }
