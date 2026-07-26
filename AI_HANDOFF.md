@@ -22,9 +22,13 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Current search signals center on child car-seat rules, rental-car safety seats, refueling, aquarium duration, rain plans and Onna accommodation.
 - Highest-opportunity pages are the child car-seat guide (2 clicks / 124 impressions), driving rest-stop guide (2 / 27), toilet and convenience-store guide (0 / 24), and refueling guide (0 / 29).
 - Chosen operating rhythm: one new article plus one existing-article improvement, rather than two unrelated new articles every day.
+- The 08:00 daily automation now reads `content/seo-scorecard.md` and the search-led plan before selecting work. Pages inside an active SEO experiment must remain unchanged until their recorded verification date; if no old page is eligible, the automation performs research or an internal-link audit instead.
+- The child car-seat title was changed by Claude Code on 2026-07-23 and must remain unchanged through 2026-07-29. Codex briefly prepared another edit, found the hold in the scorecard before committing, and fully removed the local change.
 - Accommodation content will compare 3–5 price-friendly, conveniently located candidates per area without claiming a permanently lowest price.
 - Affiliate disclosure remains mandatory but appears once near the first affiliate action; Trip.com stays in booking decisions and Shopee stays inside matching gear situations.
 - Full plan: `100_Todo/plans/2026-07-26-search-led-affiliate-growth.md`.
+- Added the same daily decision rules to `content/content-plan.md`, so the 08:00 automation, Codex and Claude Code all consult the scorecard before changing an existing article.
+- Completed the first shared candidate sheet at `100_Todo/plans/2026-07-26-hotel-and-emergency-product-candidates.md`: four Naha hotels, three Onna hotels and six mid-drive toilet-emergency product categories, all with reader fit, limitations and official hotel sources. No unverified Trip.com or Shopee link was added.
 
 ### Daily-content visual correction, 2026-07-26 (Codex)
 

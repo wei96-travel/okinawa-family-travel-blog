@@ -166,8 +166,8 @@ export default function OkinawaFamilyTravelGearPage() {
             <p className="mt-5 text-lg leading-9 text-[#5f594f]">
               這頁不把所有用品都列一遍，而是按旅行情境整理。奶瓶喝完怎麼洗、後座弄髒怎麼收、推車怎麼托運、回程怎麼分行李，先看自己遇到哪個問題，再決定需不需要買。
             </p>
-            <p className="mt-5 border-l-4 border-[#9a6b43] bg-[#fbf6ee] px-4 py-3 text-sm leading-7 text-[#5f594f]">
-              以下含蝦皮分潤連結。透過連結購買不會增加你的售價，本站可能獲得分潤。商品價格、規格與庫存會變動，請以賣場頁面為準。
+            <p className="mt-5 text-sm leading-7 text-[#736b60]">
+              部分商品按鈕為合作連結；你透過連結購買時，本站可能取得分潤，售價不會因此增加。
             </p>
           </div>
           <img
@@ -232,18 +232,10 @@ export default function OkinawaFamilyTravelGearPage() {
       </main>
 
       <section className="mx-auto max-w-3xl px-5 py-12 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold text-[#34302b]">這頁怎麼挑商品？</h2>
+        <h2 className="text-2xl font-bold text-[#34302b]">下單前再確認</h2>
         <div className="mt-5 space-y-4 text-base leading-8 text-[#5f594f]">
-          <p>商品要先解決文章裡已經出現的旅行問題，拿掉購買連結後，原本的攻略仍然要成立。</p>
-          <p>同一類用品之後會保留 2～3 個不同方向，例如價格較低、規格較完整或重量較輕。讀者不必只能選一個賣場，但每個連結都要先完成核對，不會為了湊數把搜尋結果整排放上來。</p>
-          <p>我們會核對商品頁、尺寸、材質、評價數與可見銷量，也會把限制寫出來。賣場寫的「通用」、「防水」或其他宣傳文字，不會直接改寫成本站保證。</p>
-          <p>
-            這批資料核對於 2026 年 7 月 22～25 日。奶瓶清潔、濕紙巾與密實袋另有品牌官方資料交叉核對。更完整的合作說明可看
-            <Link className="font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4" href="/affiliate-disclosure">
-              聯盟行銷揭露
-            </Link>
-            。
-          </p>
+          <p>價格、庫存、尺寸和材質都可能調整，請以你打開商品頁當下看到的資料為準。推車袋、收納袋這類用品，先量自己的物品尺寸再選，不要只看「通用」兩個字。</p>
+          <p>這批資料核對於 2026 年 7 月 22～25 日。商品頁寫的「防水」或其他宣傳文字，不代表任何情況都能完全防水；文章中列出的限制仍要一起看。</p>
         </div>
       </section>
     </div>

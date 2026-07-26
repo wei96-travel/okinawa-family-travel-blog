@@ -83,9 +83,9 @@ export default function OkinawaFamilyTripBookingPage() {
       </section>
 
       <section className="border-b border-[#eadfce] bg-[#fffdf8]">
-        <div className="mx-auto max-w-4xl px-5 py-7 sm:px-6 lg:px-8">
-          <p className="border-l-4 border-[#9a6b43] bg-[#fbf6ee] px-4 py-3 text-sm leading-7 text-[#5f594f]">
-            本頁的住宿與租車按鈕含 Trip.com 聯盟連結。若你透過連結完成預訂，本站可能取得分潤，但不會增加你的價格。房價、車價、房型、車型與取消條件都可能變動，請以平台、飯店與租車公司的最新資料為準。
+        <div className="mx-auto max-w-4xl px-5 py-5 sm:px-6 lg:px-8">
+          <p className="text-sm leading-7 text-[#736b60]">
+            住宿與租車按鈕含合作連結；若你完成預訂，本站可能取得分潤，價格不會因此增加。房價、車型與取消條件請以平台和供應商為準。
           </p>
         </div>
       </section>
