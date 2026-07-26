@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, search-led growth plan ready)
+Last updated: 2026-07-26 (Codex, daily SEO coordination and candidate research ready)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -8,7 +8,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: Codex for SEO and content strategy. Claude Code may research hotel and emergency-toilet product candidates only after receiving the plan; it should not edit public articles yet.
 - Shared branch: `main`
-- Latest site commit: `c96584d Refine booking hub reader guidance`
+- Latest site commit: `f34b269 Coordinate daily SEO and affiliate research`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-26 (58 static pages, 38 articles).
