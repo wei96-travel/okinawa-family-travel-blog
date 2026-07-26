@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, daily articles and Facebook carousels published)
+Last updated: 2026-07-26 (Codex, Facebook long-form topic rule clarified)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -15,6 +15,12 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Facebook long-form topic rule, 2026-07-26 (Codex)
+
+- Facebook long-form posts must use a new situation, question or angle that has not just been published as a carousel.
+- A long post may link to a related site article, but it must not stretch the same carousel copy into 1,000-1,500 characters or repeat the same Hook on the following day.
+- Updated `docs/social/social-workflow.md` and `content/content-plan.md` so Codex and Claude Code follow the same rule.
 
 ### Hotel affiliate placement, 2026-07-26 (Codex)
 
