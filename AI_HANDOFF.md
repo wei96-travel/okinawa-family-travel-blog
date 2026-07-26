@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, public Facebook contact enabled)
+Last updated: 2026-07-26 (Codex, standalone Facebook post published)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -15,6 +15,13 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Standalone Facebook long-form post, 2026-07-26 (Codex)
+
+- Published a new long-form post from the Wei Fan professional profile about deciding whether to wake a child who falls asleep just before arriving at the next stop.
+- The post uses a different situation and structure from the driving-pace carousel instead of stretching the carousel into a longer caption.
+- Confirmed the post audience is public. The main post contains no external URL; the matching driving-pace article was added in the author's first comment.
+- Permalink: `https://www.facebook.com/permalink.php?story_fbid=pfbid0guKFYxDNJP5s1AhVZLRvd7CHd5dc74F9fXYcjYZw8K2U9mx2u7KC3Jt9Q69iZKpDl&id=61588725730543`
 
 ### Public contact channel, 2026-07-26 (Codex)
 
