@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, daily SEO coordination and candidate research ready)
+Last updated: 2026-07-26 (Codex, daily articles and Facebook carousels published)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -15,6 +15,15 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Daily Facebook publication, 2026-07-26 (Codex)
+
+- Published the Yui Rail and Okinawa Zoo & Museum 8-slide carousels from the Wei Fan personal professional account. Each was individually set to `所有人` before publication and the upload editor confirmed `01.png` through `08.png`.
+- Added the matching live article URL in the author's first comment for each carousel:
+  - `https://okinawafamilynotes.com/blog/okinawa-yui-rail-family-guide`
+  - `https://okinawafamilynotes.com/blog/okinawa-zoo-museum-family-guide`
+- The user approved changing the global audience default. Codex enabled `設為預設分享對象` with `所有人`, closed the empty draft and reopened the composer to confirm future posts now default to public.
+- Updated `work/social/progress.md`. No Instagram target was identified or used in this publication run.
 
 ### Search-led content and affiliate plan, 2026-07-26 (Codex)
 
