@@ -8,9 +8,9 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: Codex for SEO and content strategy. Claude Code may research hotel and emergency-toilet product candidates only after receiving the plan; it should not edit public articles yet.
 - Shared branch: `main`
-- Latest site commit: `d422064 Add hotel affiliate choices`
+- Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
-- Latest content commit: `c11b44e Expand travel gear affiliate choices`
+- Latest content commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Last full site build: passed on 2026-07-26 (59 static pages, 39 articles).
 - Live site: `https://okinawafamilynotes.com`
 
@@ -25,7 +25,9 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Generated and optimized an original 16:9 hotel bottle-cleaning cover. No third-party photo attribution is required.
 - Added natural internal links to the driving rest-stop guide, summer packing list, travel-gear page and first-stay guide.
 - `content:audit:strict`: passed, 39 articles and 0 critical issues; 34 existing reminders remain, with none from the new article.
-- `next build`: passed, 59 static pages. Production verification and one Search Console inspection are pending deployment.
+- `next build`: passed, 59 static pages. Production verification passed: the article and WebP cover return `200`, the page has a self-referencing canonical, and the live sitemap contains the slug.
+- Search Console reported the new URL as unknown and unindexed. One index request was submitted on 2026-07-26 and Google confirmed it entered the priority crawl queue; do not submit it again before the normal recheck window.
+- Commit: `8a55a85 Publish baby bottle hotel cleaning guide`.
 
 ### Standalone Facebook long-form post, 2026-07-26 (Codex)
 
