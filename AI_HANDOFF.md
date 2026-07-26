@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, 700ml emergency urine bag links added)
+Last updated: 2026-07-26 (Codex, public Facebook contact enabled)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -15,6 +15,12 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Public contact channel, 2026-07-26 (Codex)
+
+- Replaced the unfinished contact-page placeholder with the user's public Facebook profile as the current contact channel.
+- Added clear guidance for article corrections, travel experience additions and collaboration enquiries without exposing a private phone number, address or LINE account.
+- Updated the privacy page to link to the live contact page.
 
 ### 700ml emergency urine bag affiliate links, 2026-07-26 (Codex)
 

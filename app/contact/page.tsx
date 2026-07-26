@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "聯絡",
-  description: "沖繩親子旅遊筆記的聯絡頁，提供內容勘誤、資料補充與合作洽詢說明。",
+  description: "聯絡沖繩親子旅遊筆記，提供文章勘誤、資料補充、旅行經驗分享與合作洽詢方式。",
   alternates: {
     canonical: "/contact"
   }
@@ -15,22 +15,35 @@ export default function ContactPage() {
       <h1 className="mt-2 text-3xl font-bold text-[#34302b] sm:text-4xl">聯絡沖繩親子旅遊筆記</h1>
       <div className="prose-travel mt-8">
         <p>
-          如果你正在規劃沖繩家庭旅行，發現文章裡有需要更新的地方，或想補充實際旅行經驗，之後可以透過這裡聯絡。
+          如果你發現文章裡有需要更新的地方、想補充實際旅行經驗，或有合作提案，可以透過 Facebook 私訊聯絡。
         </p>
         <p>
-          網站目前先不開放留言，避免垃圾留言和審核負擔。現階段會優先把文章內容整理得穩、資料來源清楚，再慢慢建立讀者互動。
+          傳訊息時，請附上文章名稱或網址，再簡單說明想補充的內容，這樣會比較快找到你提到的位置。
         </p>
-        <h2>聯絡管道準備中</h2>
-        <p>
-          目前聯絡信箱與表單還在規劃中，暫時不放不存在的信箱，避免讀者寄出後收不到回覆。
-        </p>
-        <blockquote>聯絡信箱尚未啟用。之後開通正式聯絡方式時，會在這裡公布。</blockquote>
+        <h2>目前聯絡方式</h2>
+        <div className="not-prose mt-5 border-l-4 border-[#b77a4f] bg-[#fbf6ee] px-5 py-5">
+          <p className="text-base font-semibold text-[#34302b]">Facebook 私訊</p>
+          <p className="mt-2 text-sm leading-7 text-[#5f594f]">
+            進入 Wei Fan 的 Facebook 個人檔案後，點選「訊息」即可聯絡。
+          </p>
+          <a
+            className="mt-4 inline-flex min-h-11 items-center justify-center rounded-md bg-[#694624] px-5 py-3 text-sm font-semibold !text-white transition hover:bg-[#543719] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#694624]"
+            href="https://www.facebook.com/profile.php?id=61588725730543"
+            rel="noreferrer"
+            target="_blank"
+          >
+            前往 Facebook 聯絡
+          </a>
+        </div>
         <h2>可以聯絡什麼</h2>
         <ul>
           <li>文章內容有錯誤或需要更新。</li>
           <li>想補充家庭旅行經驗或問題。</li>
           <li>合作、聯盟行銷或媒體洽詢。</li>
         </ul>
+        <p>
+          目前不公開私人電話、住址或 LINE。網站專用信箱與其他聯絡管道建立後，會再補到這一頁。
+        </p>
       </div>
     </section>
   );
