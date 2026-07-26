@@ -1,20 +1,30 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, booking hub completed)
+Last updated: 2026-07-26 (Codex, search-led growth plan ready)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: none. The daily-content visual correction is complete; both unpublished carousels are ready for the user's social-publishing decision.
+- Active owner: Codex for SEO and content strategy. Claude Code may research hotel and emergency-toilet product candidates only after receiving the plan; it should not edit public articles yet.
 - Shared branch: `main`
-- Latest site commit: `37bbd8c Publish Yui Rail and zoo family guides`
+- Latest site commit: `c96584d Refine booking hub reader guidance`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
 - Latest content commit: `c11b44e Expand travel gear affiliate choices`
 - Last full site build: passed on 2026-07-26 (58 static pages, 38 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Search-led content and affiliate plan, 2026-07-26 (Codex)
+
+- Search Console for 2026-07-08 to 2026-07-23 reports 22 clicks, 472 impressions, 4.7% CTR and average position 8.
+- Current search signals center on child car-seat rules, rental-car safety seats, refueling, aquarium duration, rain plans and Onna accommodation.
+- Highest-opportunity pages are the child car-seat guide (2 clicks / 124 impressions), driving rest-stop guide (2 / 27), toilet and convenience-store guide (0 / 24), and refueling guide (0 / 29).
+- Chosen operating rhythm: one new article plus one existing-article improvement, rather than two unrelated new articles every day.
+- Accommodation content will compare 3–5 price-friendly, conveniently located candidates per area without claiming a permanently lowest price.
+- Affiliate disclosure remains mandatory but appears once near the first affiliate action; Trip.com stays in booking decisions and Shopee stays inside matching gear situations.
+- Full plan: `100_Todo/plans/2026-07-26-search-led-affiliate-growth.md`.
 
 ### Daily-content visual correction, 2026-07-26 (Codex)
 
