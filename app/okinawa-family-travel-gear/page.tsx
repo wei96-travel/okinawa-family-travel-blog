@@ -3,9 +3,9 @@ import Link from "next/link";
 import { AffiliateProductLink } from "@/components/affiliate-product-link";
 
 export const metadata: Metadata = {
-  title: "沖繩親子旅行用品清單｜奶瓶清潔、車上整理與回程收納",
+  title: "沖繩親子旅行用品清單｜奶瓶清潔、車上整理與自駕備案",
   description:
-    "整理帶小孩去沖繩時真正派得上用場的用品：奶瓶清潔、隨身濕紙巾、密實袋、推車托運與回程收納。每項都說明用途、限制與購買前要注意的地方。",
+    "整理帶小孩去沖繩時真正派得上用場的用品：奶瓶清潔、車上整理、臨時如廁、推車托運與回程收納。每項都說明用途、限制與購買前要注意的地方。",
   alternates: {
     canonical: "/okinawa-family-travel-gear"
   },
@@ -88,6 +88,39 @@ const productGroups = [
     ]
   },
   {
+    id: "toilet-backup",
+    eyebrow: "途中突然尿急",
+    title: "先找廁所；真的來不及，再用應急用品",
+    summary:
+      "尿袋不是讓孩子在行進中的車上使用，也不能取代休息點安排。它比較像最後一層備案：先把車安全停好、顧到孩子隱私，使用後密封收妥，再找地方洗手和依規定處理。",
+    products: [
+      {
+        category: "品牌應急尿袋",
+        problem: "想先核對材料與容量，不想只看賣場標題",
+        name: "MINONO 米諾諾應急尿袋 700ml",
+        reason:
+          "這款在蝦皮商城可找到，商品頁列出 700ml、加大開口與夾鏈封口，材料包含高吸水性樹脂、木漿纖維紙、聚乙烯泡棉與 LDPE。查詢時顯示 5.0 分、2 則評價與 4 件銷量；規格完整，但評價樣本仍少。",
+        caution:
+          "商品頁的固化時間與不外漏屬於賣家規格，不是本站實測。下單前再看庫存，使用時必須先安全停車，也要準備第二層垃圾袋暫時收納。",
+        href: "https://s.shopee.tw/30mhF0ID2q",
+        articleHref: "/blog/okinawa-family-drive-toilet-convenience-store",
+        articleLabel: "先看自駕休息點怎麼排"
+      },
+      {
+        category: "平價應急尿袋",
+        problem: "只想在租車上放一兩包當最後備案",
+        name: "台灣現貨應急尿袋 700ml",
+        reason:
+          "商品頁列出 700ml、單包約 15 公克與 PE、IXPE 材質，查詢時顯示 4.9 分、117 則評價與 1,000+ 銷量。體積小，適合分放在租車用品袋裡。",
+        caution:
+          "117 則評價中有 1 則低分反映吸水性不理想，因此這裡只把它當平價備選，不宣稱一定快速凝固或完全不漏。使用後仍要密封並妥善處理。",
+        href: "https://s.shopee.tw/8V7dmjkyZo",
+        articleHref: "/blog/okinawa-family-drive-toilet-convenience-store",
+        articleLabel: "先安排道之驛與廁所備案"
+      }
+    ]
+  },
+  {
     id: "stroller-travel",
     eyebrow: "推車托運",
     title: "推車要托運，先處理尺寸和零件",
@@ -164,7 +197,7 @@ export default function OkinawaFamilyTravelGearPage() {
               沖繩親子旅行用品清單
             </h1>
             <p className="mt-5 text-lg leading-9 text-[#5f594f]">
-              這頁不把所有用品都列一遍，而是按旅行情境整理。奶瓶喝完怎麼洗、後座弄髒怎麼收、推車怎麼托運、回程怎麼分行李，先看自己遇到哪個問題，再決定需不需要買。
+              這頁不把所有用品都列一遍，而是按旅行情境整理。奶瓶喝完怎麼洗、後座弄髒怎麼收、途中突然尿急怎麼備用、推車怎麼托運、回程怎麼分行李，先看自己遇到哪個問題，再決定需不需要買。
             </p>
             <p className="mt-5 text-sm leading-7 text-[#736b60]">
               部分商品按鈕為合作連結；你透過連結購買時，本站可能取得分潤，售價不會因此增加。
@@ -235,7 +268,7 @@ export default function OkinawaFamilyTravelGearPage() {
         <h2 className="text-2xl font-bold text-[#34302b]">下單前再確認</h2>
         <div className="mt-5 space-y-4 text-base leading-8 text-[#5f594f]">
           <p>價格、庫存、尺寸和材質都可能調整，請以你打開商品頁當下看到的資料為準。推車袋、收納袋這類用品，先量自己的物品尺寸再選，不要只看「通用」兩個字。</p>
-          <p>這批資料核對於 2026 年 7 月 22～25 日。商品頁寫的「防水」或其他宣傳文字，不代表任何情況都能完全防水；文章中列出的限制仍要一起看。</p>
+          <p>這批資料核對於 2026 年 7 月 22～26 日。商品頁寫的「防水」、「不漏」或其他宣傳文字，不代表任何情況都能完全防水；文章中列出的限制仍要一起看。</p>
         </div>
       </section>
     </div>

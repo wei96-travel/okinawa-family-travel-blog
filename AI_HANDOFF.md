@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, Facebook long-form topic rule clarified)
+Last updated: 2026-07-26 (Codex, 700ml emergency urine bag links added)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -15,6 +15,13 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### 700ml emergency urine bag affiliate links, 2026-07-26 (Codex)
+
+- Replaced the weak child-urinal direction with two verified 700ml disposable emergency urine bag choices.
+- The primary option is a MINONO product in Shopee Mall with complete material and capacity details; the backup has 1,000+ sales and 117 reviews but one low review reported poor absorption.
+- Added both links to `/okinawa-family-travel-gear` and the drive-toilet article with safe-stop, privacy, disposal and seller-claim limitations. The article still prioritizes planned toilets, roadside stations and rest stops.
+- Updated `100_Todo/plans/2026-07-26-hotel-and-emergency-product-candidates.md` with the observed product data and short links.
 
 ### Facebook long-form topic rule, 2026-07-26 (Codex)
 
