@@ -25,7 +25,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Created two unpublished 8-slide 1080×1350 PNG carousels with source files, Facebook copy, 390px previews and in-page mobile screenshots under their matching `work/social/` folders. All carousel imagery is self-made information graphics; neither set was uploaded or published.
 - `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 older style reminders remain.
 - `next build`: passed, 58 static pages. Local checks: both URLs return `200`, have self-referencing canonicals and appear in `/sitemap.xml`. The 390px first-screen capture has no horizontal visual overflow.
-- Production and Search Console status are not yet verified; after the pushed deployment is available, check both URLs, covers, canonical and sitemap. Request indexing only if Search Console says a new URL is unindexed and it is not already queued.
+- Production verification passed after `03a2907` was pushed: both URLs return `200`, each has a self-referencing canonical and `sitemap.xml` contains both slugs. Search Console is not available in this run, so no index request was submitted; request it once only if a URL is shown unindexed and not already queued.
 
 ### Okinawa family booking hub, 2026-07-26 (Codex)
 
