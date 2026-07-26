@@ -6,7 +6,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: none. Daily content run is complete; both articles and unpublished carousels are ready for the next review or social-publishing task.
+- Active owner: none. The daily-content visual correction is complete; both unpublished carousels are ready for the user's social-publishing decision.
 - Shared branch: `main`
 - Latest site commit: `37bbd8c Publish Yui Rail and zoo family guides`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
@@ -15,6 +15,15 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Live site: `https://okinawafamilynotes.com`
 
 ## Just Completed
+
+### Daily-content visual correction, 2026-07-26 (Codex)
+
+- Replaced the two new articles' self-made SVG covers with 16:9 GPT-generated, photorealistic family-travel scenes and visible article-level AI image disclosures. The images are deliberately generic situations, not claims of a named station or venue.
+- Rebuilt both unpublished 8-slide carousels to use three distinct GPT-generated, photorealistic family-travel scenes each; all slides now have full-bleed photo backgrounds, and the closing slide remains photographic. The 390px stacked previews were manually reviewed.
+- Added `prompts.md` records and an explicit AI-situation disclosure to both Facebook drafts. No social post was uploaded or published.
+- Added a mandatory social-image quality gate: at least three distinct GPT photo scenes per eight-slide carousel, with photographic cover and CTA slides; SVG information graphics are only for facts that photos cannot honestly convey.
+- Commit: `e8e361a Replace guide graphics with GPT travel scenes`.
+- `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 older style reminders remain. `next build`: passed, 58 static pages. The local in-app-browser connection could not reach the isolated localhost preview, so website 390px verification remains a production check after deployment.
 
 ### Daily articles and unpublished carousels, 2026-07-26 (Codex)
 
