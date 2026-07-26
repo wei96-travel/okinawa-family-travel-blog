@@ -16,6 +16,14 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Just Completed
 
+### First hotel affiliate links, 2026-07-26 (Codex)
+
+- Generated four Trip.com hotel deep links in the signed-in affiliate dashboard, each with a separate `trip_sub1` value: Tokyu Stay Okinawa Naha, Mercure Okinawa Naha, Rizzan Sea-Park Hotel Tancha Bay and Hotel Miyuki Beach.
+- Recorded the exact links, intended reader situation and placement order in `100_Todo/plans/2026-07-26-hotel-and-emergency-product-candidates.md`.
+- Searched Shopee Affiliate for child car urinals. Several listings show 1,000+ sold, but the available affiliate view does not confirm enough information about material, capacity, opening size, seal or gender fit. The direct product page triggered Shopee security verification, so no product link was generated or approved.
+- Do not publish a child-urinal affiliate link until an official or otherwise reliable specification source can be matched to the exact Shopee listing. Continue with a branded child urinal or a clearly specified solidifying emergency urine bag.
+- No public article or booking-page content changed in this step.
+
 ### Daily Facebook publication, 2026-07-26 (Codex)
 
 - Published the Yui Rail and Okinawa Zoo & Museum 8-slide carousels from the Wei Fan personal professional account. Each was individually set to `所有人` before publication and the upload editor confirmed `01.png` through `08.png`.
@@ -374,6 +382,8 @@ Facebook 的「第一次沖繩住宿區怎麼選」單圖貼文已於 2026-07-25
 3. Open the provisional stroller-bag winner with the user and verify size, material, review count and recurring complaints before generating or placing an affiliate link.
 4. Keep the Facebook bio unchanged for 14 days and compare profile visits, follows and website clicks.
 5. Do not touch the car-seat title before 2026-07-29. Check the Churaumi title change no earlier than 2026-08-07.
+6. Add the four verified hotel deep links only to matching lodging decisions and the booking hub, then run reader-view, affiliate-link, mobile and build checks before publishing.
+7. Keep the emergency-toilet product links on hold until the exact product specifications are verified; sales count alone is not enough.
 
 Do not touch the car-seat title before 2026-07-29. Keep blog writing, affiliate comparison and social production as separate tracked tasks.
 

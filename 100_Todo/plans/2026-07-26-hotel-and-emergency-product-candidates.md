@@ -33,6 +33,24 @@
 - 大型度假飯店與小型公寓式住宿分開看，避免只比較房價。
 - 正式推薦前，用同一組日期、2 大 1 小或 2 大 2 小、同樣含稅與取消條件比較。
 
+## 已建立的 Trip.com 飯店深層連結
+
+以下連結已於 2026-07-26 在 Trip.com 聯盟後台建立。正式放進網站時，按鈕旁仍要提醒讀者比較入住日期、房型、早餐、停車、稅費與取消條件，不能把即時價格寫成固定優惠。
+
+| 飯店 | 適合放的位置 | 追蹤代碼 | Trip.com 分潤連結 | 狀態 |
+| --- | --- | --- | --- | --- |
+| 東急 STAY 沖繩那霸 | 那霸連住、洗衣與簡易加熱需求 | `hotel_tokyu_stay_naha` | [查看指定飯店](https://tw.trip.com/hotels/naha-hotel-detail-45987505/tokyu-stay-okinawa-naha/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_tokyu_stay_naha&trip_sub3=D18926539) | 已建立並開啟核對 |
+| 美居沖繩那霸酒店 | 單軌方便、三人房需求 | `hotel_mercure_naha` | [查看指定飯店](https://tw.trip.com/hotels/naha-hotel-detail-1572595/mercure-okinawa-naha/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_mercure_naha&trip_sub3=D18926581) | 已建立 |
+| Rizzan Sea-Park Hotel 谷茶灣 | 恩納海灘度假、館內活動與用餐 | `hotel_rizzan_onna` | [查看指定飯店](https://tw.trip.com/hotels/uruma-hotel-detail-703619/rizzan-sea-park-hotel-tancha-bay/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_rizzan_onna&trip_sub3=D18926609) | 已建立 |
+| Hotel Miyuki Beach | 恩納自駕、海景與停車需求 | `hotel_miyuki_onna` | [查看指定飯店](https://tw.trip.com/hotels/onna-hotel-detail-704228/miyuki-beach-hotel-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_miyuki_onna&trip_sub3=D18926616) | 已建立 |
+
+### 連結使用順序
+
+1. 先補進住宿文章的相符段落，每間飯店只放一個清楚的行動按鈕。
+2. 再補進 `/okinawa-family-trip-booking`，按「那霸連住」、「單軌方便」、「恩納度假」、「恩納自駕」分情境呈現。
+3. 不用四間一起塞進每篇文章；與讀者當下問題無關的飯店不出現。
+4. 所有按鈕使用 `rel="sponsored noreferrer"`，並保留一次清楚但不搶畫面的分潤說明。
+
 ## 親子自駕途中臨時如廁用品候選
 
 安全原則：用品只能當臨時備案。孩子說想上廁所時，先找能安全停車的位置，不能在行進中的車內使用，也不能因此忽略休息站、道之驛或有開放廁所的設施。
@@ -53,8 +71,16 @@
 3. 至少保留 2 個價位選項，但文章最多主推 1～2 種類別，其餘放在旅行用品整理頁。
 4. 沒有核對尺寸、材質與限制前，不寫「防漏」、「適合所有孩子」或「放安全座椅就沒問題」。
 
+### 2026-07-26 蝦皮搜尋結果
+
+- 「兒童 車用 尿壺」可找到多個已售出 1,000 件以上的候選，但多為無品牌或規格不完整的賣場。
+- 目前看到的售價約為 NT$59～75、分潤率多為 1%，銷量不能代替材質、容量、瓶口、密封與適用性別的確認。
+- 嘗試開啟商品頁時遇到蝦皮安全驗證；尚未完整核對規格，因此沒有生成或放置分潤連結。
+- 下一輪優先找有品牌官網或完整原廠規格的兒童尿壺；若仍找不到，改找規格較容易核對的凝固型拋棄式尿袋，並清楚標示只供安全停車後緊急使用。
+
 ## 下一步
 
-- 先在 Trip.com 聯盟後台為 7 間候選建立並測試深層連結，再決定哪些進正式文章。
-- 蝦皮先試找「兒童攜帶式尿壺」與「凝固型拋棄式尿袋」，各留 3 個候選給使用者挑。
-- 連結確認後，補進 `/okinawa-family-trip-booking`、`/okinawa-family-travel-gear` 與相符文章；同一篇不要塞滿所有商品。
+- 先把 4 個已核對的 Trip.com 深層連結補進相符住宿文章與 `/okinawa-family-trip-booking`，上線前逐一測試。
+- 其餘 3 間飯店只有在文章真的需要更多選擇時才建立連結，不為了湊數增加按鈕。
+- 蝦皮繼續找「兒童攜帶式尿壺」與「凝固型拋棄式尿袋」，規格與限制核對完成後各留 2～3 個候選給使用者挑。
+- 商品連結確認後再補進 `/okinawa-family-travel-gear` 與相符文章；同一篇不要塞滿所有商品。
