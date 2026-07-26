@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩兒童王國親子行程資訊圖</title><desc id="desc">以長頸鹿、室內互動館和雨天節奏呈現親子景點規劃。</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123d35"/><stop offset="1" stop-color="#2c795c"/></linearGradient></defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/><path d="M0 720C280 610 460 735 760 680s480 10 840-100v420H0z" fill="#e4c56b" opacity=".85"/>
+  <g transform="translate(1040 180)"><rect x="120" y="140" width="115" height="430" rx="50" fill="#e8b85e"/><path d="M145 155c-20-160 230-180 245-10 10 122-112 190-205 100" fill="#e8b85e"/><circle cx="205" cy="80" r="14" fill="#263c35"/><circle cx="175" cy="240" r="21" fill="#a56d35"/><circle cx="190" cy="320" r="22" fill="#a56d35"/><circle cx="185" cy="410" r="24" fill="#a56d35"/><path d="M150 570v155m70-155v155" stroke="#263c35" stroke-width="25" stroke-linecap="round"/></g>
+  <g transform="translate(170 390)"><rect width="550" height="350" rx="34" fill="#f3f0e8"/><rect x="55" y="65" width="440" height="215" rx="20" fill="#4b9aaa"/><circle cx="185" cy="175" r="57" fill="#f7d66f"/><path d="M300 240c32-105 130-120 165 0" fill="none" stroke="#d9f0ed" stroke-width="26" stroke-linecap="round"/><path d="M80 310h390" stroke="#b5763a" stroke-width="20"/></g>
+  <g font-family="Arial, Microsoft JhengHei, sans-serif" fill="#fff"><text x="120" y="145" font-size="58" font-weight="700">中部親子日</text><text x="120" y="220" font-size="58" font-weight="700">戶外＋室內切著玩</text><text x="120" y="920" font-size="34">本站自製資訊圖｜沖繩兒童王國行前規劃</text></g>
+</svg>

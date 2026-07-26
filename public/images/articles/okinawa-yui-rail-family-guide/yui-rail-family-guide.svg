@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩親子單軌電車規劃資訊圖</title><desc id="desc">以單軌列車、推車和那霸三站節奏呈現親子移動。</desc>
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a3458"/><stop offset="1" stop-color="#1d7b9d"/></linearGradient></defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/><circle cx="1320" cy="170" r="88" fill="#ffd67d" opacity=".9"/>
+  <path d="M0 700C290 610 520 780 800 700s510-75 800 15v285H0z" fill="#08314b" opacity=".75"/>
+  <path d="M0 790H1600" stroke="#f2c66d" stroke-width="24"/><path d="M0 845H1600" stroke="#c4e1df" stroke-width="10" opacity=".7"/>
+  <g transform="translate(310 315)"><rect x="0" y="50" width="960" height="260" rx="92" fill="#f6f0e2"/><rect x="22" y="75" width="916" height="115" rx="44" fill="#1a5374"/><rect x="65" y="100" width="170" height="48" rx="18" fill="#95d5d4"/><rect x="280" y="100" width="170" height="48" rx="18" fill="#95d5d4"/><rect x="495" y="100" width="170" height="48" rx="18" fill="#95d5d4"/><rect x="710" y="100" width="170" height="48" rx="18" fill="#95d5d4"/><circle cx="200" cy="330" r="56" fill="#162c3d"/><circle cx="760" cy="330" r="56" fill="#162c3d"/></g>
+  <g transform="translate(170 635)" fill="none" stroke="#f6f0e2" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"><circle cx="75" cy="130" r="42"/><circle cx="250" cy="130" r="42"/><path d="M75 85 115 20h90l65 195M115 20 50 20M150 215h130"/></g>
+  <g font-family="Arial, Microsoft JhengHei, sans-serif" fill="#fff"><text x="120" y="150" font-size="58" font-weight="700">帶孩子搭單軌</text><text x="120" y="225" font-size="58" font-weight="700">先選今天的節奏</text><text x="120" y="920" font-size="34">本站自製資訊圖｜Yui Rail × 親子那霸行程</text></g>
+</svg>

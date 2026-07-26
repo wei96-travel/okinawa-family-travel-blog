@@ -9,6 +9,15 @@
 | 親子自駕一天幾個點 | `okinawa-family-driving-pace-guide` | ✅ | ✅ | ⬜ | ✅ |
 | 沖繩颱風親子備案 | `okinawa-typhoon-family-travel-guide` | ✅ | ✅ | ⬜ | ✅ |
 | 第一次沖繩住宿區怎麼選 | `first-okinawa-where-to-stay` | ✅ | ✅ | ⬜ | ✅ |
+| 那霸親子單軌電車動線 | `okinawa-yui-rail-family-guide` | ✅ | ✅ | ⬜ | ⬜ |
+| 沖繩兒童王國雨天節奏 | `okinawa-zoo-museum-family-guide` | ✅ | ✅ | ⬜ | ⬜ |
+
+**2026-07-26 兩組未發布輪播已完成**：
+
+- `work/social/okinawa-yui-rail-family-guide/render/01.png` ～ `08.png`
+- `work/social/okinawa-zoo-museum-family-guide/render/01.png` ～ `08.png`
+
+兩組皆為 1080×1350 的本站自製資訊圖，含 390px 手機預覽與發布文案；未上傳或發布到 Facebook、Instagram 或其他平台。單軌電車組聚焦先選移動節奏再選票種；兒童王國組聚焦戶外、休息、室內三段切換。發布時沿用現有規則：主貼文不放外部連結，文章網址放作者第一則留言。
 
 **#62 Facebook 輪播已於 2026-07-22 公開發佈**：8 張圖片位於 `work/social/okinawa-family-parking-guide/render/png/01.png` ~ `08.png`，尺寸 1080×1350。網站連結放在作者的第一則留言；Reels 尚未剪。
 

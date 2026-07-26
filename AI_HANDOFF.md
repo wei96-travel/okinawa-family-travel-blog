@@ -6,7 +6,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
-- Active owner: none. The booking hub is complete and ready for the next content or social task.
+- Active owner: Codex. Daily content run in progress: two new, source-checked family-travel articles and their unpublished carousels.
 - Shared branch: `main`
 - Latest site commit: `972b4d6 Add Okinawa family booking hub`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
@@ -352,6 +352,12 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 ## File Ownership
 
 - Codex currently claims:
+  - `content/blog/okinawa-yui-rail-family-guide.md`
+  - `content/blog/okinawa-zoo-museum-family-guide.md`
+  - `public/images/articles/okinawa-yui-rail-family-guide/`
+  - `public/images/articles/okinawa-zoo-museum-family-guide/`
+  - `work/social/okinawa-yui-rail-family-guide/`
+  - `work/social/okinawa-zoo-museum-family-guide/`
   - `AI_HANDOFF.md`
   - `content/content-plan.md`
   - `content/seo-scorecard.md`
