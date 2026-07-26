@@ -16,6 +16,19 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Just Completed
 
+### Hotel affiliate placement, 2026-07-26 (Codex)
+
+- Added the four verified Trip.com hotel links to reader-matched decisions instead of showing a generic affiliate list:
+  - Tokyu Stay Okinawa Naha and Mercure Okinawa Naha in `/blog/first-okinawa-where-to-stay`.
+  - Rizzan Sea-Park Hotel Tancha Bay and Hotel Miyuki Beach in `/blog/onna-family-stay-guide`.
+  - All four on `/okinawa-family-trip-booking`, separated by Naha and Onna family situations.
+- Each hotel gives one useful fit and one limitation before the button. The area-level hotel list remains available only as a fallback.
+- All article links render with `rel="sponsored noreferrer"`. The booking-hub buttons retain GA4 `affiliate_click` tracking and separate `trip_sub1` values.
+- Mobile QA at 390px found and fixed one long Rizzan button label. Final buttons are 44px high, all text fits, and no horizontal overflow was detected on the hub or either article.
+- `content:audit:strict`: passed, 38 articles and 0 critical issues; 34 existing style reminders remain.
+- `next build`: passed, 58 static pages.
+- Emergency-toilet product links remain on hold because exact product specifications are not yet verified.
+
 ### First hotel affiliate links, 2026-07-26 (Codex)
 
 - Generated four Trip.com hotel deep links in the signed-in affiliate dashboard, each with a separate `trip_sub1` value: Tokyu Stay Okinawa Naha, Mercure Okinawa Naha, Rizzan Sea-Park Hotel Tancha Bay and Hotel Miyuki Beach.
@@ -382,7 +395,7 @@ Facebook 的「第一次沖繩住宿區怎麼選」單圖貼文已於 2026-07-25
 3. Open the provisional stroller-bag winner with the user and verify size, material, review count and recurring complaints before generating or placing an affiliate link.
 4. Keep the Facebook bio unchanged for 14 days and compare profile visits, follows and website clicks.
 5. Do not touch the car-seat title before 2026-07-29. Check the Churaumi title change no earlier than 2026-08-07.
-6. Add the four verified hotel deep links only to matching lodging decisions and the booking hub, then run reader-view, affiliate-link, mobile and build checks before publishing.
+6. Recheck Trip.com `affiliate_click` events after the new hotel buttons receive real traffic; do not add more hotel buttons just to increase link count.
 7. Keep the emergency-toilet product links on hold until the exact product specifications are verified; sales count alone is not enough.
 
 Do not touch the car-seat title before 2026-07-29. Keep blog writing, affiliate comparison and social production as separate tracked tasks.

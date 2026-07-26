@@ -30,7 +30,25 @@ const stayOptions = [
     href:
       "https://tw.trip.com/hotels/naha-hotels-list-92573/?Allianceid=8075670&SID=305605448&trip_sub1=hub_stay_naha&trip_sub3=D18913050",
     articleHref: "/blog/naha-family-stay-guide",
-    articleLabel: "先看那霸親子住宿判斷"
+    articleLabel: "先看那霸親子住宿判斷",
+    hotels: [
+      {
+        name: "東急 STAY 沖繩那霸",
+        buttonLabel: "查看東急 STAY 房型",
+        fit: "連住兩晚以上，希望房內能洗衣、簡單加熱食物。",
+        reminder: "家庭房型、人數上限和停車條件要依日期重新確認。",
+        href:
+          "https://tw.trip.com/hotels/naha-hotel-detail-45987505/tokyu-stay-okinawa-naha/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_tokyu_stay_naha&trip_sub3=D18926539"
+      },
+      {
+        name: "美居沖繩那霸酒店",
+        buttonLabel: "查看美居那霸房型",
+        fit: "想靠近單軌站，或一家三口需要三人房。",
+        reminder: "國際通不是下樓就到，開車家庭還要把停車費算進去。",
+        href:
+          "https://tw.trip.com/hotels/naha-hotel-detail-1572595/mercure-okinawa-naha/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_mercure_naha&trip_sub3=D18926581"
+      }
+    ]
   },
   {
     area: "恩納",
@@ -39,7 +57,25 @@ const stayOptions = [
     href:
       "https://tw.trip.com/hotels/onna-hotels-list-35725/?Allianceid=8075670&SID=305605448&trip_sub1=hub_stay_onna&trip_sub3=D18913057",
     articleHref: "/blog/onna-family-stay-guide",
-    articleLabel: "先看恩納住兩晚是否適合"
+    articleLabel: "先看恩納住兩晚是否適合",
+    hotels: [
+      {
+        name: "Rizzan Sea-Park Hotel 谷茶灣",
+        buttonLabel: "查看 Rizzan 房型",
+        fit: "想把海灘、泳池和吃飯集中在飯店，減少來回開車。",
+        reminder: "飯店範圍大，還要一起比較早餐、停車和取消條件。",
+        href:
+          "https://tw.trip.com/hotels/uruma-hotel-detail-703619/rizzan-sea-park-hotel-tancha-bay/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_rizzan_onna&trip_sub3=D18926609"
+      },
+      {
+        name: "Hotel Miyuki Beach",
+        buttonLabel: "查看 Miyuki Beach 房型",
+        fit: "自駕為主，想住海邊又在意停車安排。",
+        reminder: "周邊較安靜，晚餐和採買要先跟當天行程一起規劃。",
+        href:
+          "https://tw.trip.com/hotels/onna-hotel-detail-704228/miyuki-beach-hotel-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_miyuki_onna&trip_sub3=D18926616"
+      }
+    ]
   }
 ] as const;
 
@@ -134,11 +170,31 @@ export default function OkinawaFamilyTripBookingPage() {
                   <p className="mt-4 text-base leading-8 text-[#5f594f]">{option.bestFor}</p>
                   <h4 className="mt-6 text-sm font-bold text-[#34302b]">搜尋時一起確認</h4>
                   <p className="mt-2 text-sm leading-7 text-[#5f594f]">{option.check}</p>
+
+                  <h4 className="mt-7 text-sm font-bold text-[#34302b]">先看兩種不同選擇</h4>
+                  <div className="mt-3 divide-y divide-[#eadfce] border-y border-[#eadfce]">
+                    {option.hotels.map((hotel) => (
+                      <div className="py-5" key={hotel.name}>
+                        <h5 className="text-base font-bold text-[#34302b]">{hotel.name}</h5>
+                        <p className="mt-2 text-sm leading-7 text-[#5f594f]">{hotel.fit}</p>
+                        <p className="mt-1 text-xs leading-6 text-[#736b60]">先注意：{hotel.reminder}</p>
+                        <div className="mt-4">
+                          <AffiliateServiceLink
+                            href={hotel.href}
+                            itemName={hotel.name}
+                            label={hotel.buttonLabel}
+                            network="Trip.com"
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
                   <div className="mt-6 flex flex-wrap items-center gap-4">
                     <AffiliateServiceLink
                       href={option.href}
                       itemName={`${option.area}飯店列表`}
-                      label={`查看${option.area}住宿`}
+                      label={`比較更多${option.area}住宿`}
                       network="Trip.com"
                     />
                     <Link
