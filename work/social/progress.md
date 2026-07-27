@@ -14,10 +14,7 @@
 | 租車行李、推車與汽座怎麼裝 | `okinawa-rental-car-luggage-stroller-guide` | ✅ | ✅ | ⬜ | 🟡 |
 | 沖繩親子推車怎麼帶 | `okinawa-family-stroller-guide` | ✅ | ✅ | ⬜ | 🟡 |
 
-**2026-07-27 兩組待發輪播的實際狀態**：已在 Wei Fan 個人專業帳號的 Facebook 撰寫視窗確認發文對象為「所有人」，也已填入「租車行李、推車與汽座怎麼裝」的主文；但 Chrome 的 ChatGPT 擴充功能尚未取得本機檔案 URL 存取權，Facebook 拒絕上傳 `01.png`～`08.png`。因此兩組尚未發布，沒有假稱已發或補寫網址。解除後要先發：
-
-- `work/social/okinawa-rental-car-luggage-stroller-guide/render/01.png` ～ `08.png`，再於作者第一則留言加上 `https://okinawafamilynotes.com/blog/okinawa-rental-car-luggage-stroller-guide`。
-- `work/social/okinawa-family-stroller-guide/render/01.png` ～ `08.png`，再於作者第一則留言加上 `https://okinawafamilynotes.com/blog/okinawa-family-stroller-guide`。
+**2026-07-27 最新輪播狀態**：租車行李輪播已透過 Codex 內建瀏覽器公開發布，並在作者第一則留言放入文章網址。推車輪播尚未發布：內建瀏覽器的詳細附件編輯畫面列出 `01.png` 至 `08.png` 共八張，但最終貼文設定預覽顯示 `01.png +8`。依發布規則，這個數量標示尚未釐清前不得按發布；草稿保留在最終設定畫面。
 
 **2026-07-26 兩組 Facebook 輪播已公開發布**：
 

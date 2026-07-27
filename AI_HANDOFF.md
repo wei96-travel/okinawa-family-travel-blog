@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-27 (Codex, Facebook in-app publishing rule reinforced)
+Last updated: 2026-07-27 (Codex, stroller carousel stopped for final-preview count ambiguity)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -13,6 +13,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
   `https://www.facebook.com/permalink.php?story_fbid=122117308761290857&id=61588725730543`
 - Permanent correction: Facebook posts, carousels, Reels, first comments and insights must use the Codex in-app browser unless the user explicitly requests Chrome in that task. If the in-app browser fails, stop before publishing and report the problem; never silently switch browsers or claim success.
 - The stroller carousel remains second in line and is not yet published. Before publishing it, attach `01.png` through `08.png`, verify all eight in the preview, confirm `所有人`, and obtain the user's final publication confirmation.
+- On 2026-07-27, the in-app editor listed exactly `01.png` through `08.png`, but the final Facebook settings preview summarized the set as `01.png +8`. Treat that display as an unresolved count ambiguity rather than assuming it means eight total; the user-authorized post was not published and the draft is preserved at the final settings screen.
 - Shared branch: `main`
 - Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
