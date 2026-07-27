@@ -32,11 +32,11 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 
 ### Public carousel previews and cross-device acceptance rule, 2026-07-27 (Codex)
 
-- Added two noindex public preview pages for the unpublished rental-luggage and stroller carousels. Each contains eight web-optimized images, uses a single-column mobile layout and a three-column desktop layout, and has a stable short preview URL.
+- Added two noindex public preview pages for the unpublished rental-luggage and stroller carousels. Each contains eight web-optimized images, uses a single-column mobile layout and a three-column desktop layout, and has a stable short preview URL. The initial mobile check found that deferred image loading left lower slides unloaded; the follow-up commit `840df30 Eager load carousel preview images` removes that delay so all eight load immediately.
 - Added redirects from each clean preview URL to its static `index.html`, so the preview does not depend on a local `C:\...` path or a chat attachment.
 - Added a permanent content-plan acceptance rule: a carousel must load at both desktop and 390px mobile width with all eight images present and no horizontal overflow before it can be handed off or scheduled.
 - The old driving-rest URL remains a permanent 301 to the current page. No old-URL links were added; the waiting period is only for Google to consolidate the URL signals.
-- Work commit: `d4eb3dc Add public carousel previews`. Pending: push, then verify both live preview URLs from the production domain.
+- Work commits: `d4eb3dc Add public carousel previews`, `840df30 Eager load carousel preview images`. Pending: push, then verify both live preview URLs from the production domain.
 
 ### Rental-car luggage decision guide and stroller refresh, 2026-07-27 (Codex)
 
