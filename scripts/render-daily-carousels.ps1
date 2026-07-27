@@ -7,7 +7,7 @@ $photos = @(
   (Join-Path $root 'public/images/articles/okinawa-rental-car-luggage-stroller-guide/packing-layout.png')
 )
 $sets = @(
-  @{ Slug='okinawa-rental-car-luggage-stroller-guide'; Tag='沖繩親子租車'; Cards=@(
+  @{ Slug='okinawa-rental-car-luggage-stroller-guide'; PreviewSlug='okinawa-rental-car-luggage-stroller-carousel'; Tag='沖繩親子租車'; Cards=@(
     @('後車廂不是魔術箱','兩大一小不代表租 5 人座就一定夠。','先算汽座、推車與行李'),
     @('先把不會消失的東西列出來','人數、汽座、推車收折尺寸、行李箱，少一個都會誤判。','不要只看可坐幾人'),
     @('兩張汽座，先想第三排','汽座會影響進出與座位配置；訂車前要先問。','先問能否指定座位數'),
@@ -16,7 +16,7 @@ $sets = @(
     @('取車現場先試裝 5 分鐘','先汽座、再最大行李、最後推車；關一次尾門再出發。','放不下要在營業所就問'),
     @('路上會用的東西別壓最底','尿布包、水、雨具留在好拿的位置。','後車廂也要留撤退空間'),
     @('收藏這張','先算人、汽座、推車、行李，再選車。完整攻略在網站。','沖繩親子旅遊筆記') ) },
-  @{ Slug='okinawa-family-stroller-guide'; Tag='沖繩親子推車'; Cards=@(
+  @{ Slug='okinawa-family-stroller-guide'; PreviewSlug='okinawa-family-stroller-carousel'; Tag='沖繩親子推車'; Cards=@(
     @('推車不是帶了就好','自駕很方便，但後車廂能不能關才是重點。','午睡備案也要放得下'),
     @('先看孩子，不只看年齡','還會午睡、走累討抱，推車才有明確用途。','不要為出國硬帶'),
     @('折起來再量一次','旅行前要量的是收折後的長、寬、高。','記下三個數字'),
@@ -28,6 +28,18 @@ $sets = @(
 )
 
 function Draw-Cover($g, $path) { $im=[Drawing.Image]::FromFile($path); $s=[Math]::Max(1080/$im.Width,1350/$im.Height); $w=[int]($im.Width*$s);$h=[int]($im.Height*$s);$g.DrawImage($im,[int]((1080-$w)/2),[int]((1350-$h)/2),$w,$h);$im.Dispose() }
+function Save-WebPreview($source, $target) {
+  $sourceImage = [Drawing.Image]::FromFile($source)
+  $previewImage = New-Object Drawing.Bitmap 540,675
+  $previewGraphics = [Drawing.Graphics]::FromImage($previewImage)
+  $previewGraphics.InterpolationMode = [Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+  $previewGraphics.DrawImage($sourceImage, 0, 0, 540, 675)
+  $jpegCodec = [Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object { $_.MimeType -eq 'image/jpeg' }
+  $encoderParams = New-Object Drawing.Imaging.EncoderParameters 1
+  $encoderParams.Param[0] = New-Object Drawing.Imaging.EncoderParameter([Drawing.Imaging.Encoder]::Quality, 84L)
+  $previewImage.Save($target, $jpegCodec, $encoderParams)
+  $encoderParams.Dispose(); $previewGraphics.Dispose(); $previewImage.Dispose(); $sourceImage.Dispose()
+}
 foreach($set in $sets){
   $out=Join-Path $root ('work/social/'+$set.Slug+'/render'); New-Item -ItemType Directory -Force -Path $out|Out-Null
   for($i=0;$i -lt 8;$i++){
@@ -39,5 +51,10 @@ foreach($set in $sets){
     $bmp.Save((Join-Path $out ('{0:D2}.png' -f ($i+1))),[Drawing.Imaging.ImageFormat]::Png);$g.Dispose();$bmp.Dispose()
   }
   $preview=New-Object Drawing.Bitmap 390,3904;$pg=[Drawing.Graphics]::FromImage($preview);for($i=1;$i -le 8;$i++){$im=[Drawing.Image]::FromFile((Join-Path $out ('{0:D2}.png' -f $i)));$pg.DrawImage($im,0,(($i-1)*488),390,488);$im.Dispose()};$preview.Save((Join-Path $out 'mobile-preview.png'),[Drawing.Imaging.ImageFormat]::Png);$pg.Dispose();$preview.Dispose()
+  $webOut = Join-Path $root ('public/previews/'+$set.PreviewSlug)
+  New-Item -ItemType Directory -Force -Path $webOut | Out-Null
+  for($i=1;$i -le 8;$i++) {
+    Save-WebPreview (Join-Path $out ('{0:D2}.png' -f $i)) (Join-Path $webOut ('{0:D2}.jpg' -f $i))
+  }
 }
 
