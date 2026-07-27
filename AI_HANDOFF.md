@@ -36,7 +36,7 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Added redirects from each clean preview URL to its static `index.html`, so the preview does not depend on a local `C:\...` path or a chat attachment.
 - Added a permanent content-plan acceptance rule: a carousel must load at both desktop and 390px mobile width with all eight images present and no horizontal overflow before it can be handed off or scheduled.
 - The old driving-rest URL remains a permanent 301 to the current page. No old-URL links were added; the waiting period is only for Google to consolidate the URL signals.
-- Work commits: `d4eb3dc Add public carousel previews`, `840df30 Eager load carousel preview images`. Pending: push, then verify both live preview URLs from the production domain.
+- Work commits: `d4eb3dc Add public carousel previews`, `840df30 Eager load carousel preview images`. Production verification passed: both preview URLs load all eight images at desktop and the 390px mobile viewport, with no horizontal overflow.
 
 ### Rental-car luggage decision guide and stroller refresh, 2026-07-27 (Codex)
 
