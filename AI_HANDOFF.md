@@ -1,13 +1,13 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, added Claude Code Instagram organic-growth research assignment)
+Last updated: 2026-07-27 (Codex, added public carousel preview verification)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
-- Active Codex task (2026-07-27): improve the already-visible stroller guide with a rental-luggage decision link; publish the distinct rental-car luggage/stroller article and its two unpublished carousels. Claimed files: `content/blog/okinawa-family-stroller-guide.md`, `content/blog/okinawa-rental-car-luggage-stroller-guide.md`, `content/content-plan.md`, `content/seo-scorecard.md`, `work/social/okinawa-family-stroller-guide/`, `work/social/okinawa-rental-car-luggage-stroller-guide/`, `public/images/articles/okinawa-rental-car-luggage-stroller-guide/`, and this handoff.
+- Active Codex task: no active article edit. The latest carousel deliverable is the public-preview verification below; its only follow-up is deployed-site verification.
 - Shared branch: `main`
 - Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
@@ -29,6 +29,14 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Do not change the active daily 20:30 Instagram automation, public-account settings, social assets, article content, or files currently claimed by Codex.
 
 ## Just Completed
+
+### Public carousel previews and cross-device acceptance rule, 2026-07-27 (Codex)
+
+- Added two noindex public preview pages for the unpublished rental-luggage and stroller carousels. Each contains eight web-optimized images, uses a single-column mobile layout and a three-column desktop layout, and has a stable short preview URL.
+- Added redirects from each clean preview URL to its static `index.html`, so the preview does not depend on a local `C:\...` path or a chat attachment.
+- Added a permanent content-plan acceptance rule: a carousel must load at both desktop and 390px mobile width with all eight images present and no horizontal overflow before it can be handed off or scheduled.
+- The old driving-rest URL remains a permanent 301 to the current page. No old-URL links were added; the waiting period is only for Google to consolidate the URL signals.
+- Work commit: `d4eb3dc Add public carousel previews`. Pending: push, then verify both live preview URLs from the production domain.
 
 ### Rental-car luggage decision guide and stroller refresh, 2026-07-27 (Codex)
 
