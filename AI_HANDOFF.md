@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-27 (Codex, stroller carousel stopped for final-preview count ambiguity)
+Last updated: 2026-07-27 (Codex, stroller carousel v2 ready for user review)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -12,8 +12,8 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - The rental-car luggage carousel was published successfully through the Codex in-app browser with all eight images, public visibility and the article URL in the author's first comment:
   `https://www.facebook.com/permalink.php?story_fbid=122117308761290857&id=61588725730543`
 - Permanent correction: Facebook posts, carousels, Reels, first comments and insights must use the Codex in-app browser unless the user explicitly requests Chrome in that task. If the in-app browser fails, stop before publishing and report the problem; never silently switch browsers or claim success.
-- The stroller carousel remains second in line and is not yet published. Before publishing it, attach `01.png` through `08.png`, verify all eight in the preview, confirm `所有人`, and obtain the user's final publication confirmation.
-- On 2026-07-27, the in-app editor listed exactly `01.png` through `08.png`, but the final Facebook settings preview summarized the set as `01.png +8`. Treat that display as an unresolved count ambiguity rather than assuming it means eight total; the user-authorized post was not published and the draft is preserved at the final settings screen.
+- The stroller carousel was rebuilt as v2 with eight distinct stroller-decision scenes and no repeated rental-luggage sequence. All eight images load at 390px mobile and desktop widths without horizontal overflow; the Facebook copy keeps the article URL out of the main post. It is not published and still requires the user's visual approval and final publication confirmation.
+- The earlier Facebook draft with an ambiguous `01.png +8` summary is retired. When v2 is approved, start a fresh in-app-browser upload, attach exactly `01.png` through `08.png`, verify all eight thumbnails, confirm `所有人`, and place the article URL in the author's first comment.
 - Shared branch: `main`
 - Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`

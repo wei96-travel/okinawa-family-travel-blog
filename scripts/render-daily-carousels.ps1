@@ -1,13 +1,23 @@
 ﻿Add-Type -AssemblyName System.Drawing
 
 $root = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
-$photos = @(
+$rentalPhotos = @(
   (Join-Path $root 'public/images/articles/okinawa-rental-car-luggage-stroller-guide/rental-luggage-stroller-cover.png'),
   (Join-Path $root 'public/images/articles/okinawa-rental-car-luggage-stroller-guide/car-seat-interior.png'),
   (Join-Path $root 'public/images/articles/okinawa-rental-car-luggage-stroller-guide/packing-layout.png')
 )
+$strollerPhotos = @(
+  (Join-Path $root 'public/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide-cover-ai-v2.png'),
+  (Join-Path $root 'public/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-rest-ai-v2.png'),
+  (Join-Path $root 'public/images/articles/okinawa-family-parking-guide/parking-family-getout.jpg'),
+  (Join-Path $root 'public/images/articles/okinawa-yui-rail-family-guide/yui-rail-elevator-ai-v2.png'),
+  (Join-Path $root 'public/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide-cover-ai-v2.png'),
+  (Join-Path $root 'public/images/articles/okinawa-rental-car-pickup-return-guide/airport-shuttle-family.png'),
+  (Join-Path $root 'public/images/articles/okinawa-yui-rail-family-guide/yui-rail-carriage-ai-v2.png'),
+  (Join-Path $root 'public/images/articles/okinawa-yui-rail-family-guide/yui-rail-family-guide-cover-ai-v2.png')
+)
 $sets = @(
-  @{ Slug='okinawa-rental-car-luggage-stroller-guide'; PreviewSlug='okinawa-rental-car-luggage-stroller-carousel'; Tag='沖繩親子租車'; Cards=@(
+  @{ Slug='okinawa-rental-car-luggage-stroller-guide'; PreviewSlug='okinawa-rental-car-luggage-stroller-carousel'; Tag='沖繩親子租車'; Photos=$rentalPhotos; Cards=@(
     @('後車廂不是魔術箱','兩大一小不代表租 5 人座就一定夠。','先算汽座、推車與行李'),
     @('先把不會消失的東西列出來','人數、汽座、推車收折尺寸、行李箱，少一個都會誤判。','不要只看可坐幾人'),
     @('兩張汽座，先想第三排','汽座會影響進出與座位配置；訂車前要先問。','先問能否指定座位數'),
@@ -16,15 +26,15 @@ $sets = @(
     @('取車現場先試裝 5 分鐘','先汽座、再最大行李、最後推車；關一次尾門再出發。','放不下要在營業所就問'),
     @('路上會用的東西別壓最底','尿布包、水、雨具留在好拿的位置。','後車廂也要留撤退空間'),
     @('收藏這張','先算人、汽座、推車、行李，再選車。完整攻略在網站。','沖繩親子旅遊筆記') ) },
-  @{ Slug='okinawa-family-stroller-guide'; PreviewSlug='okinawa-family-stroller-carousel'; Tag='沖繩親子推車'; Cards=@(
-    @('推車不是帶了就好','自駕很方便，但後車廂能不能關才是重點。','午睡備案也要放得下'),
-    @('先看孩子，不只看年齡','還會午睡、走累討抱，推車才有明確用途。','不要為出國硬帶'),
-    @('折起來再量一次','旅行前要量的是收折後的長、寬、高。','記下三個數字'),
-    @('汽座會先吃掉座位','兩張汽座時，推車與第三排進出都要重算。','座位數不是舒適人數'),
-    @('景點借用只是備案','數量、年齡和使用範圍都有限，不能當整趟計畫。','自己的推車更有彈性'),
-    @('取車先做裝載測試','行李、推車、隨身包都裝一次，確認尾門能正常關。','別等到飯店才發現'),
-    @('大的東西放後車廂','不要放在駕駛周邊，也別擋住後方視線。','安全比塞滿重要'),
-    @('收藏這張','孩子會睡嗎？推車收折多大？車子放得下嗎？完整攻略在網站。','沖繩親子旅遊筆記') ) }
+  @{ Slug='okinawa-family-stroller-guide'; PreviewSlug='okinawa-family-stroller-carousel'; Tag='沖繩親子推車'; Photos=$strollerPhotos; Cards=@(
+    @('推車要不要帶？先看 3 件事','午睡、走路耐力和交通方式，比只看孩子幾歲更重要。','先別急著看年齡'),
+    @('還會午睡，就有帶的理由','走累會討抱、每天在外時間長，輕便推車通常比較有退路。','平常不坐就別勉強'),
+    @('自駕先量收折尺寸','長、寬、高連同行李與汽座張數，一起交給租車公司確認。','訂車前先問'),
+    @('不自駕，更要看重量','單軌、公車和階梯轉乘，收折快、自己提得動更重要。','大型推車上下車更累'),
+    @('景點借用不能當唯一計畫','數量、年齡、體重和使用範圍都有限，也不一定借得到。','出發前再查官方規定'),
+    @('托運規定每家不同','免費託運、登機門交運和聯營航班，都要看實際承運航空。','不要只看別人的經驗'),
+    @('三種做法怎麼選','常午睡：偏向自帶。只逛短景點：先查借用。階梯多：背巾備用。','先看行程，再選工具'),
+    @('收藏這張','先問：還會午睡嗎？平常願意坐嗎？大人能提得動嗎？','完整攻略在第一則留言') ) }
 )
 
 function Draw-Cover($g, $path) { $im=[Drawing.Image]::FromFile($path); $s=[Math]::Max(1080/$im.Width,1350/$im.Height); $w=[int]($im.Width*$s);$h=[int]($im.Height*$s);$g.DrawImage($im,[int]((1080-$w)/2),[int]((1350-$h)/2),$w,$h);$im.Dispose() }
@@ -43,7 +53,7 @@ function Save-WebPreview($source, $target) {
 foreach($set in $sets){
   $out=Join-Path $root ('work/social/'+$set.Slug+'/render'); New-Item -ItemType Directory -Force -Path $out|Out-Null
   for($i=0;$i -lt 8;$i++){
-    $c=$set.Cards[$i];$bmp=New-Object Drawing.Bitmap 1080,1350;$g=[Drawing.Graphics]::FromImage($bmp);$g.SmoothingMode='AntiAlias';$g.TextRenderingHint='ClearTypeGridFit';Draw-Cover $g $photos[$i%3]
+    $c=$set.Cards[$i];$bmp=New-Object Drawing.Bitmap 1080,1350;$g=[Drawing.Graphics]::FromImage($bmp);$g.SmoothingMode='AntiAlias';$g.TextRenderingHint='ClearTypeGridFit';Draw-Cover $g $set.Photos[$i % $set.Photos.Count]
     $g.FillRectangle([Drawing.SolidBrush]::new([Drawing.Color]::FromArgb(150,4,24,38)),0,0,1080,1350);$g.FillRectangle([Drawing.SolidBrush]::new([Drawing.Color]::FromArgb(215,4,24,38)),0,0,1080,180);$g.FillRectangle([Drawing.SolidBrush]::new([Drawing.Color]::FromArgb(215,4,24,38)),55,740,970,405)
     $white=[Drawing.SolidBrush]::new([Drawing.Color]::White);$muted=[Drawing.SolidBrush]::new([Drawing.Color]::FromArgb(242,239,234));$gold=[Drawing.SolidBrush]::new([Drawing.ColorTranslator]::FromHtml('#F6D782'));$fmt=[Drawing.StringFormat]::new();$fmt.Trimming='EllipsisWord'
     $head=[Drawing.Font]::new('Microsoft JhengHei',27,[Drawing.FontStyle]::Bold);$tag=[Drawing.Font]::new('Microsoft JhengHei',31,[Drawing.FontStyle]::Bold);$title=[Drawing.Font]::new('Microsoft JhengHei',73,[Drawing.FontStyle]::Bold);$body=[Drawing.Font]::new('Microsoft JhengHei',37);$note=[Drawing.Font]::new('Microsoft JhengHei',30,[Drawing.FontStyle]::Bold)
