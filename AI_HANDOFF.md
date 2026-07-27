@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-27 (Codex, Facebook publishing browser rule corrected)
+Last updated: 2026-07-27 (Codex, Facebook in-app publishing rule reinforced)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -9,9 +9,10 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
 - Active Codex task: execute `100_Todo/plans/2026-07-27-serp-affiliate-execution-plan.md`. First deliverable is three dated Google top-10 SERP affiliate-layout maps (rental car, family stay, family gear); do not edit public article titles or active experiment pages before the maps and current Search Console review are complete.
 - First map is now at `research/serp-affiliate/rental-car.md`: 2026-07-27 Google Taiwan / Traditional Chinese observations of the first ten natural results for `沖繩 親子 租車`, including the Google video/ad layout and a no-change CTA conclusion for the new luggage/stroller guide. `family-stay.md` and `family-gear.md` remain pending.
-- User asked to publish the two latest Facebook carousels before planning. The failed attempt used Chrome even though the project's previously successful Facebook workflow used the Codex in-app browser. Chrome retained the public text draft but did not attach the eight PNGs; no post or comment was sent.
-- Permanent correction: Facebook posts, carousels, Reels, first comments and insights must use the Codex in-app browser unless the user explicitly requests Chrome in that task. Before publishing, verify that every expected image appears in the Facebook preview; a text-only preview must never be published.
-- Resume by reopening the rental-car luggage carousel in the in-app browser, attaching `01.png` through `08.png`, confirming `所有人`, and asking for final publication confirmation. The stroller carousel remains second in line.
+- The rental-car luggage carousel was published successfully through the Codex in-app browser with all eight images, public visibility and the article URL in the author's first comment:
+  `https://www.facebook.com/permalink.php?story_fbid=122117308761290857&id=61588725730543`
+- Permanent correction: Facebook posts, carousels, Reels, first comments and insights must use the Codex in-app browser unless the user explicitly requests Chrome in that task. If the in-app browser fails, stop before publishing and report the problem; never silently switch browsers or claim success.
+- The stroller carousel remains second in line and is not yet published. Before publishing it, attach `01.png` through `08.png`, verify all eight in the preview, confirm `所有人`, and obtain the user's final publication confirmation.
 - Shared branch: `main`
 - Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`

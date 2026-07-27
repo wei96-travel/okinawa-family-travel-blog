@@ -1,6 +1,6 @@
 ﻿# Okinawa Family Notes AI Collaboration
 
-Last updated: 2026-07-24
+Last updated: 2026-07-27
 
 This project is maintained with both Codex and Claude Code. Use this file as the shared handoff before making content, SEO, or site changes.
 
@@ -16,6 +16,23 @@ Permanent rules live here. Current task status lives in `AI_HANDOFF.md`. Both ag
 - One finished task should have one clear commit when practical. Build or test status must be recorded before handoff.
 - When work finishes, pauses, changes owner, or reaches a quota limit, update `AI_HANDOFF.md` in the same commit or immediately before stopping.
 - A handoff is complete only after the work commit is pushed and `AI_HANDOFF.md` names that exact work commit. The handoff-file update may be a later documentation commit. Unpushed chat promises do not count.
+
+## Direct Codex × Claude Code Collaboration
+
+- This project is explicitly dual-agent. Do not tell the user that Codex must wait for them to open Claude Code before first checking whether the local Claude Code CLI is available.
+- When the user asks Codex to involve Claude Code, Codex may directly invoke the local `claude.cmd` for a bounded second review, research task or draft, then perform the final cross-check and integration itself.
+- For ongoing work that edits project files, continue to use `AI_HANDOFF.md`, exact file ownership and Git as the shared source of truth.
+- Do not send local handoff files, analytics logs or other project content to an external model unless the user has explicitly approved those specific files. The safe default is to give Claude Code a public-source summary with no local-file access, then let Codex compare the response against local data.
+- If direct invocation fails, report the actual permission, authentication or runtime error. Do not incorrectly describe the project as incapable of dual-agent collaboration.
+
+## Facebook Publishing Browser Rule
+
+- Facebook 貼文、輪播、Reels、第一則留言與洞察，一律使用 **Codex 內建瀏覽器**；Codex 與 Claude Code 都必須遵守。
+- 不得因為 Chrome 已登入 Facebook、已開啟同一網址，或內建瀏覽器暫時連線失敗，就自行改用 Chrome。
+- 只有使用者在當次任務明確指定 Chrome，才可改用 Chrome；過去曾同意使用 Chrome，不代表之後持續授權。
+- 內建瀏覽器無法操作時，必須停在發布前並回報問題，不得用其他瀏覽器繞過，也不得聲稱已發布。
+- 輪播發布前必須確認預覽中的圖片數量和預定數量一致，並核對順序、文案與分享對象。8 張輪播必須看見 8 張都已上傳；少一張、只有文字或預覽異常都不得發布。
+- 最後按下「發佈」前必須取得使用者當次確認。發布後要再次確認貼文公開可見，並確認網站網址已放入作者第一則留言。
 
 ## Quick Handoff Codes
 
