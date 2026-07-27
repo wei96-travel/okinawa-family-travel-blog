@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-27 (Codex, added public carousel preview verification)
+Last updated: 2026-07-27 (Codex, started rental-car SERP map; Facebook upload blocked by Chrome file permission)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -8,6 +8,8 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
 - Active Codex task: execute `100_Todo/plans/2026-07-27-serp-affiliate-execution-plan.md`. First deliverable is three dated Google top-10 SERP affiliate-layout maps (rental car, family stay, family gear); do not edit public article titles or active experiment pages before the maps and current Search Console review are complete.
+- First map is now at `research/serp-affiliate/rental-car.md`: 2026-07-27 Google Taiwan / Traditional Chinese observations of the first ten natural results for `沖繩 親子 租車`, including the Google video/ad layout and a no-change CTA conclusion for the new luggage/stroller guide. `family-stay.md` and `family-gear.md` remain pending.
+- User asked to publish the two latest Facebook carousels before planning. Facebook is logged into the Wei Fan professional profile and the composer confirms `所有人`; upload failed because the ChatGPT Chrome Extension lacks **Allow access to file URLs**. No post or comment was sent. The user must enable it in `chrome://extensions` → ChatGPT Chrome Extension → Details, then resume with the existing draft or reopen the two PNG sets. Do not falsely mark either carousel published.
 - Shared branch: `main`
 - Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
@@ -510,6 +512,7 @@ Codex claimed this file and updated the header, owner and File Ownership block w
   - `public/images/articles/okinawa-kokusai-dori-family-guide/`
   - `work/social/okinawa-kokusai-dori-family-guide/`
   - `work/social/progress.md`
+  - `research/serp-affiliate/rental-car.md`
 - Claude Code may research in a separate draft file only after recording that path here. It must not edit the files above while Codex owns them.
 - Before editing, record the active agent, objective, and exact files being changed.
 - Do not work concurrently on files claimed by the other agent.

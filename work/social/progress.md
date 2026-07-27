@@ -11,6 +11,13 @@
 | 第一次沖繩住宿區怎麼選 | `first-okinawa-where-to-stay` | ✅ | ✅ | ⬜ | ✅ |
 | 那霸親子單軌電車動線 | `okinawa-yui-rail-family-guide` | ✅ | ✅ | ⬜ | ✅ |
 | 沖繩兒童王國雨天節奏 | `okinawa-zoo-museum-family-guide` | ✅ | ✅ | ⬜ | ✅ |
+| 租車行李、推車與汽座怎麼裝 | `okinawa-rental-car-luggage-stroller-guide` | ✅ | ✅ | ⬜ | 🟡 |
+| 沖繩親子推車怎麼帶 | `okinawa-family-stroller-guide` | ✅ | ✅ | ⬜ | 🟡 |
+
+**2026-07-27 兩組待發輪播的實際狀態**：已在 Wei Fan 個人專業帳號的 Facebook 撰寫視窗確認發文對象為「所有人」，也已填入「租車行李、推車與汽座怎麼裝」的主文；但 Chrome 的 ChatGPT 擴充功能尚未取得本機檔案 URL 存取權，Facebook 拒絕上傳 `01.png`～`08.png`。因此兩組尚未發布，沒有假稱已發或補寫網址。解除後要先發：
+
+- `work/social/okinawa-rental-car-luggage-stroller-guide/render/01.png` ～ `08.png`，再於作者第一則留言加上 `https://okinawafamilynotes.com/blog/okinawa-rental-car-luggage-stroller-guide`。
+- `work/social/okinawa-family-stroller-guide/render/01.png` ～ `08.png`，再於作者第一則留言加上 `https://okinawafamilynotes.com/blog/okinawa-family-stroller-guide`。
 
 **2026-07-26 兩組 Facebook 輪播已公開發布**：
 
