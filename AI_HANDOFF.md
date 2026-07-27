@@ -1,12 +1,13 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-26 (Codex, baby-bottle hotel guide completed)
+Last updated: 2026-07-26 (Codex, added Claude Code Instagram organic-growth research assignment)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
-- Active owner: Codex for SEO and content strategy. Claude Code may research hotel and emergency-toilet product candidates only after receiving the plan; it should not edit public articles yet.
+- Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
+- Active Codex task (2026-07-27): improve the already-visible stroller guide with a rental-luggage decision link; publish the distinct rental-car luggage/stroller article and its two unpublished carousels. Claimed files: `content/blog/okinawa-family-stroller-guide.md`, `content/blog/okinawa-rental-car-luggage-stroller-guide.md`, `content/content-plan.md`, `content/seo-scorecard.md`, `work/social/okinawa-family-stroller-guide/`, `work/social/okinawa-rental-car-luggage-stroller-guide/`, `public/images/articles/okinawa-rental-car-luggage-stroller-guide/`, and this handoff.
 - Shared branch: `main`
 - Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
@@ -14,7 +15,30 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - Last full site build: passed on 2026-07-26 (59 static pages, 39 articles).
 - Live site: `https://okinawafamilynotes.com`
 
+## Claude Code Research Assignment, 2026-07-26
+
+The user explicitly asked Claude Code to collect more evidence before deciding the long-term Instagram publishing rhythm.
+
+- Status: completed through a public-source-only Claude Code second review. The combined 30-day strategy is saved at `100_Todo/plans/2026-07-26-instagram-organic-growth-research-claude.md`.
+- Research the current best practices for growing a new Instagram account through organic reach, with priority on official Instagram / Meta guidance and recent credible experiments or case studies.
+- Compare daily posting with 3–5 high-quality posts per week for a new Traditional Chinese family-travel account.
+- Evaluate carousel frequency, first-slide hooks, caption structure, keyword and hashtag placement, first-comment strategy, saves/shares, profile conversion, and the role of Reels.
+- Separate evidence from opinion. Do not promise reach, invent algorithm rules, or treat one creator's result as universal.
+- Review the first three published posts and the metrics in `docs/social/instagram-publishing-log.md`, but do not edit or publish any Instagram post.
+- Write findings and a concrete 30-day recommendation only to `100_Todo/plans/2026-07-26-instagram-organic-growth-research-claude.md`.
+- Do not change the active daily 20:30 Instagram automation, public-account settings, social assets, article content, or files currently claimed by Codex.
+
 ## Just Completed
+
+### Rental-car luggage decision guide and stroller refresh, 2026-07-27 (Codex)
+
+- Search Console current three-month view through 2026-07-24: 26 clicks, 566 impressions, 4.6% CTR and average position 7.9. The stroller guide rose to 6 clicks / 96 impressions, so it was selected for a conservative old-page improvement.
+- Published `/blog/okinawa-rental-car-luggage-stroller-guide`, covering the separate intent of fitting child seats, a folded stroller and luggage into a rental car. It cites Toyota Rent a Car and Nippon Rent-A-Car vehicle-class guidance, distinguishes seating capacity from real cargo configuration, includes FAQs and adds no affiliate link.
+- Updated only the stroller article's naturally relevant rental-space link; its title, description and established search intent were left intact.
+- Deliberately skipped the active experiments: car-seat title, Churaumi duration page and the 301-merging old driving-rest URL.
+- Created two unpublished 8-slide 1080×1350 carousels at `work/social/okinawa-rental-car-luggage-stroller-guide/` and `work/social/okinawa-family-stroller-guide/`. Each uses three self-generated travel scenes, includes source/copy/prompt records and has a visually inspected 390px stacked PNG preview. No social post was published.
+- `content:audit:strict`: passed with 40 articles, 0 critical issues and 34 pre-existing style reminders; the new article adds none. `next build`: passed with 60 static pages.
+- Local article verification: page renders, self-referencing canonical resolves to the production URL and the cover path is present. Before handoff, still push and verify the deployed URL, cover and sitemap; request indexing only if Search Console shows it unindexed and absent from the existing queue.
 
 ### Baby-bottle hotel cleaning guide, 2026-07-26 (Codex)
 
