@@ -7,7 +7,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 ## Current State
 
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
-- Active Codex task: no active article edit. The latest carousel deliverable is the public-preview verification below; its only follow-up is deployed-site verification.
+- Active Codex task: execute `100_Todo/plans/2026-07-27-serp-affiliate-execution-plan.md`. First deliverable is three dated Google top-10 SERP affiliate-layout maps (rental car, family stay, family gear); do not edit public article titles or active experiment pages before the maps and current Search Console review are complete.
 - Shared branch: `main`
 - Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
