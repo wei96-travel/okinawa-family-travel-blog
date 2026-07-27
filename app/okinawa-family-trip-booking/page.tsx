@@ -33,6 +33,14 @@ const stayOptions = [
     articleLabel: "先看那霸親子住宿判斷",
     hotels: [
       {
+        name: "那霸東急 REI 飯店",
+        buttonLabel: "查看東急 REI 房型",
+        fit: "第一晚晚到、最後一天早走，想把交通方便和預算放在前面。",
+        reminder: "房間偏精簡，帶推車或大件行李要一起確認房型空間。",
+        href:
+          "https://tw.trip.com/hotels/naha-hotel-detail-974842/naha-tokyu-rei-hotel/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_tokyu_rei_naha&trip_sub3=D18951522"
+      },
+      {
         name: "東急 STAY 沖繩那霸",
         buttonLabel: "查看東急 STAY 房型",
         fit: "連住兩晚以上，希望房內能洗衣、簡單加熱食物。",
@@ -59,6 +67,14 @@ const stayOptions = [
     articleHref: "/blog/onna-family-stay-guide",
     articleLabel: "先看恩納住兩晚是否適合",
     hotels: [
+      {
+        name: "PMC 海洋度假村",
+        buttonLabel: "查看 PMC 房型",
+        fit: "自駕為主，想要較大的房間、簡易廚房和免費停車。",
+        reminder: "設備走簡單實用路線，房況和兒童入住條件要依日期確認。",
+        href:
+          "https://tw.trip.com/hotels/onna-hotel-detail-1499038/pink-marlin-club/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_pmc_onna&trip_sub3=D18951522"
+      },
       {
         name: "Rizzan Sea-Park Hotel 谷茶灣",
         buttonLabel: "查看 Rizzan 房型",
@@ -171,7 +187,7 @@ export default function OkinawaFamilyTripBookingPage() {
                   <h4 className="mt-6 text-sm font-bold text-[#34302b]">搜尋時一起確認</h4>
                   <p className="mt-2 text-sm leading-7 text-[#5f594f]">{option.check}</p>
 
-                  <h4 className="mt-7 text-sm font-bold text-[#34302b]">先看兩種不同選擇</h4>
+                  <h4 className="mt-7 text-sm font-bold text-[#34302b]">先看三種不同選擇</h4>
                   <div className="mt-3 divide-y divide-[#eadfce] border-y border-[#eadfce]">
                     {option.hotels.map((hotel) => (
                       <div className="py-5" key={hotel.name}>

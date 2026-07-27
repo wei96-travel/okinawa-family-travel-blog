@@ -2,7 +2,7 @@
 title: "恩納村適合家庭住嗎？海邊飯店值得住兩晚嗎"
 description: "恩納村有沖繩西海岸的度假感，也方便安排中北部行程。帶孩子住幾晚、是否需要自駕，以及訂房前該確認什麼，一次整理。"
 date: "2026-07-09"
-updated: "2026-07-26"
+updated: "2026-07-27"
 category: "沖繩住宿"
 tags: ["恩納村住宿", "沖繩住宿", "親子飯店"]
 ---
@@ -99,22 +99,24 @@ tags: ["恩納村住宿", "沖繩住宿", "親子飯店"]
 
 恩納村飯店的房型、餐食和取消條件差很多。比價時要用同一組日期與入住人數，並把孩子年齡填完整，再比較房間大小、早餐是否包含兒童、停車費和取消期限。
 
-可以先用住宿方式分成兩種：
+可以先用住宿方式分成三種：
 
+- 自駕、希望房間大一點，還想要簡易廚房和免費停車，可以先看[PMC 海洋度假村的房型](https://tw.trip.com/hotels/onna-hotel-detail-1499038/pink-marlin-club/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_pmc_onna&trip_sub3=D18951522)。設備走簡單實用路線，空間和方便是主要優點；很在意新穎裝潢的話，要先看近期房況照片。
 - 想把海灘、泳池和吃飯集中在飯店，減少來回開車，可以先看[Rizzan Sea-Park Hotel 谷茶灣的房型](https://tw.trip.com/hotels/uruma-hotel-detail-703619/rizzan-sea-park-hotel-tancha-bay/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_rizzan_onna&trip_sub3=D18926609)。飯店範圍較大，早餐、停車和取消條件也要一起比較。
 - 自駕為主，想住海邊又在意停車安排，可以先看[Hotel Miyuki Beach 的房型](https://tw.trip.com/hotels/onna-hotel-detail-704228/miyuki-beach-hotel-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_miyuki_onna&trip_sub3=D18926616)。周邊較安靜，晚餐和採買要先跟當天行程一起規劃。
 
-兩種都不符合，再從[恩納村飯店列表查看同一天的其他選擇](https://tw.trip.com/hotels/onna-hotels-list-35725/?Allianceid=8075670&SID=305605448&trip_sub1=blog_onna_stay&trip_sub3=D18913057)，篩出兩三間後，再回各飯店官網核對泳池、海灘、接駁和兒童用品。
+三種都不符合，再從[恩納村飯店列表查看同一天的其他選擇](https://tw.trip.com/hotels/onna-hotels-list-35725/?Allianceid=8075670&SID=305605448&trip_sub1=blog_onna_stay&trip_sub3=D18913057)，篩出兩三間後，再回各飯店官網核對泳池、海灘、接駁和兒童用品。
 
 > 上方含 Trip.com 聯盟連結。若你透過連結完成預訂，本站可能取得分潤，但不會增加你的訂房價格。房價、房型與規定可能變動，請以訂房頁面和飯店官網為準。
 
 ## 資料來源與更新時間
 
-本文依據官方公開資料、地理位置與家庭旅行需求整理，不是實住或受邀住宿心得。飯店設施、餐廳營業時間、交通班次與海灘開放情況可能調整，預訂前請再以業者公告為準。最後更新：2026 年 7 月 26 日。
+本文依據官方公開資料、地理位置與家庭旅行需求整理，不是實住或受邀住宿心得。飯店設施、餐廳營業時間、交通班次與海灘開放情況可能調整，預訂前請再以業者公告為準。最後更新：2026 年 7 月 27 日。
 
 - [恩納村官方網站：觀光、海灘與住宿資訊](https://www.vill.onna.okinawa.jp/about/information/)
 - [Visit Okinawa Japan：沖繩租車與駕駛資訊](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/rental-vehicles-in-okinawa/)
 - [沖繩美麗海水族館：交通與停車資訊](https://churaumi.okinawa/en/guide/access/)
+- [PMC 海洋度假村：飯店與客房資訊](https://hotel-pmc.jp/)
 - [Rizzan Sea-Park Hotel 谷茶灣：飯店與客房資訊](https://www.rizzan.co.jp/)
 - [Hotel Miyuki Beach：飯店與交通資訊](https://hotel-miyuki.jp/miyuki/summary)
 
