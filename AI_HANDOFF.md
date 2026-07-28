@@ -49,6 +49,8 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Recorded the Trip.com link evidence in `research/affiliate/trip-churaumi-deep-link.md` and the 14-day traffic plan in `100_Todo/plans/2026-07-29-churaumi-ticket-traffic-plan.md`.
 - `content:audit:strict`: passed with 42 articles and 0 critical issues; 37 pre-existing style reminders remain and the new article adds none.
 - `next build`: passed with 62 static pages.
+- Production verification passed after deployment: the new article returns the expected title and canonical, all three walkthrough images load as 1259×885 JPEGs, the page has no mobile horizontal overflow, both tracked links render as sponsored and the existing duration article links to the new guide.
+- Search Console reported the new URL as unknown and unindexed. One index request was submitted on 2026-07-29 and Google confirmed it entered the priority crawl queue; do not submit it again before the 7-to-14-day review.
 - Content commit: `a3a619e Publish Churaumi ticket comparison guide`.
 
 ### First Klook Churaumi affiliate deep link, 2026-07-28 (Codex)
