@@ -29,8 +29,8 @@
 
 **2026-07-28 已完成但尚未發布**：
 
-- 那霸雨天抵達／還車日輪播：`work/social/okinawa-naha-rainy-day-family-half-day/render/png/01.png` ～ `08.png`，自製情境圖交替搭配文字卡；本機預覽位於 `render/mobile-preview.html`。
-- 國際通廁所備案輪播：`work/social/okinawa-kokusai-dori-family-guide-2026-07-28/render/png/01.png` ～ `08.png`，使用已記錄授權的國際通實景重新編排；本機預覽位於 `render/mobile-preview.html`。
+- 那霸雨天抵達／還車日輪播：`work/social/okinawa-naha-rainy-day-family-half-day/render/png/01.png` ～ `08.png`，自製情境圖交替搭配文字卡；noindex 預覽：`/previews/okinawa-naha-rainy-day-carousel/`。
+- 國際通廁所備案輪播：`work/social/okinawa-kokusai-dori-family-guide-2026-07-28/render/png/01.png` ～ `08.png`，使用已記錄授權的國際通實景重新編排；noindex 預覽：`/previews/okinawa-kokusai-dori-toilet-carousel/`。
 
 兩組都只完成文案、PNG 與預覽，未進入 Facebook／IG 發文流程；待使用者確認要發布的平台與最終貼文版本。
 
