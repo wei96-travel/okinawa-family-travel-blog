@@ -1,13 +1,13 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-28 (Codex, first verified Klook deep link)
+Last updated: 2026-07-29 (Codex, Churaumi ticket comparison guide)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
-- Active Codex task: finish checks and deploy the first verified Klook Churaumi affiliate placement. After publication, verify the live destination and observe clicks before adding more ticket links. Facebook drafts still require user approval before publication.
+- Active Codex task: deploy and index the Churaumi ticket comparison guide, then observe its search traffic and separate Klook/Trip.com clicks for 7 to 14 days before expanding the ticket cluster. Facebook drafts still require user approval before publication.
 - `research/serp-affiliate/rental-car.md` contains the completed first map. `family-stay.md` and `family-gear.md` currently contain useful three-query summaries but do not yet meet the required ten-result-per-file completion definition; treat them as unfinished research, not completed maps.
 - Codex files currently claimed: `work/social/okinawa-last-day-family-plan/copy-facebook-long-form-2026-07-27.md`, `work/social/okinawa-family-restaurant-dining-guide/copy-facebook-long-form-2026-07-28.md`, `100_Todo/plans/2026-08-01-weekly-review.md`, `content/content-plan.md`, and this handoff.
 - The rental-car luggage carousel was published successfully through the Codex in-app browser with all eight images, public visibility and the article URL in the author's first comment:
@@ -19,10 +19,10 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 - The stroller carousel was rebuilt as v2 with eight distinct stroller-decision scenes and no repeated rental-luggage sequence. All eight images load at 390px mobile and desktop widths without horizontal overflow; the Facebook copy keeps the article URL out of the main post. It is not published and still requires the user's visual approval and final publication confirmation.
 - The earlier Facebook draft with an ambiguous `01.png +8` summary is retired. When v2 is approved, start a fresh in-app-browser upload, attach exactly `01.png` through `08.png`, verify all eight thumbnails, confirm `所有人`, and place the article URL in the author's first comment.
 - Shared branch: `main`
-- Latest site commit: `8a55a85 Publish baby bottle hotel cleaning guide`
+- Latest site commit: `a3a619e Publish Churaumi ticket comparison guide`
 - Latest daily content commits: `4ef510a Publish driving pace and typhoon guides`, `8fea335 Record daily content handoff`
-- Latest content commit: `8a55a85 Publish baby bottle hotel cleaning guide`
-- Last full site build: passed on 2026-07-26 (59 static pages, 39 articles).
+- Latest content commit: `a3a619e Publish Churaumi ticket comparison guide`
+- Last full site build: passed on 2026-07-29 (62 static pages, 42 articles).
 - Live site: `https://okinawafamilynotes.com`
 
 ## Claude Code Research Assignment, 2026-07-26
@@ -39,6 +39,17 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Do not change the active daily 20:30 Instagram automation, public-account settings, social assets, article content, or files currently claimed by Codex.
 
 ## Just Completed
+
+### Churaumi ticket comparison guide, 2026-07-29 (Codex)
+
+- Added `/blog/churaumi-aquarium-ticket-price-guide` for the separate search intent of ticket prices, platform comparison, child-age rules and purchase steps. The existing Churaumi duration article keeps its established `停留時間` focus and now links naturally to the new guide.
+- Compared only matching general admission products across the official site, Klook and Trip.com. The Klook 17:00 ticket is clearly identified as a different, time-limited product and is not used to claim that one platform is always cheapest.
+- Added one verified Klook affiliate link and one Trip.com affiliate deep link. Ordinary platform source links remain `noreferrer`; only tracked links render with `rel="sponsored noreferrer"`.
+- Included three verified Klook purchase screenshots with full-size links for mobile readers. Visual QA found that the source files were JPEG images carrying `.png` names; they were corrected to `.jpg`, rebuilt and rechecked at desktop and 390px mobile widths.
+- Recorded the Trip.com link evidence in `research/affiliate/trip-churaumi-deep-link.md` and the 14-day traffic plan in `100_Todo/plans/2026-07-29-churaumi-ticket-traffic-plan.md`.
+- `content:audit:strict`: passed with 42 articles and 0 critical issues; 37 pre-existing style reminders remain and the new article adds none.
+- `next build`: passed with 62 static pages.
+- Content commit: `a3a619e Publish Churaumi ticket comparison guide`.
 
 ### First Klook Churaumi affiliate deep link, 2026-07-28 (Codex)
 
