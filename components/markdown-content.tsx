@@ -26,7 +26,13 @@ function renderText(text: string) {
 }
 
 function getExternalLinkRel(href: string) {
-  const isAffiliateLink = /^https?:\/\/(?:[^/]+\.)?(?:trip\.com|shopee\.tw)\//i.test(href);
+  const isKlookAffiliate =
+    /^https?:\/\/affiliate\.klook\.com\//i.test(href) ||
+    (/^https?:\/\/(?:[^/]+\.)?klook\.com\//i.test(href) && /[?&](?:aid|aff_adid)=/i.test(href));
+  const isTripAffiliate =
+    /^https?:\/\/(?:[^/]+\.)?trip\.com\//i.test(href) && /[?&]Allianceid=/i.test(href);
+  const isShopeeAffiliate = /^https?:\/\/(?:[^/]+\.)?shopee\.tw\//i.test(href);
+  const isAffiliateLink = isKlookAffiliate || isTripAffiliate || isShopeeAffiliate;
 
   return isAffiliateLink ? "sponsored noreferrer" : "noreferrer";
 }

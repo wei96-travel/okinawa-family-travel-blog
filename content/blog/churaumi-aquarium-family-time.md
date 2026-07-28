@@ -2,7 +2,7 @@
 title: "美麗海水族館停留時間抓多久？親子行程 2 小時、半天怎麼選"
 description: "官方平均參觀約 1.5 小時，但帶孩子還要算停車、移動與休息。整理美麗海水族館 2 小時、半天與那霸一日遊的安排方式。"
 date: "2026-07-10"
-updated: "2026-07-28"
+updated: "2026-07-29"
 category: "親子景點"
 tags: ["美麗海水族館", "沖繩親子景點", "沖繩北部", "家庭旅遊"]
 coverImage: "/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg"
@@ -34,13 +34,9 @@ coverLicenseUrl: "https://unsplash.com/license"
 
 ## 門票要先買嗎？
 
-如果日期已經確定，又不想帶著孩子到現場才處理買票，可以先看電子票方案。它不一定每個日期都比較便宜，重點是能先把票價、適用日期和取消規定看清楚，再決定要不要買。
+如果日期已經確定，又不想帶著孩子到現場才處理買票，可以先看電子票方案。它不一定每個日期都比較便宜，重點是把官方票價、兒童年齡、入場時間和取消規定放在一起比較。
 
-[查看 Klook 美麗海水族館電子票目前方案](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1357775&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F1421-churaumi-aquarium-okinawa%2F)
-
-下單前記得把 Klook 顯示的總價和[水族館官方票價](https://churaumi.okinawa/guide/info/)放在一起比較，也要確認兒童年齡、使用日期和退改規定。行程還沒定，就先不用急著買。
-
-> 上方含 Klook 合作連結。若你透過連結完成預訂，本站可能取得分潤，但不會增加你的票價。方案、價格與使用規定可能變動，請以預訂頁面為準。
+目前已整理 Klook、Trip.com 與官方票價的同票種比較，也附上實際購票畫面。下單前先看[美麗海水族館門票怎麼買？官方、Klook、Trip.com 票價比較](/blog/churaumi-aquarium-ticket-price-guide)。行程還沒定，就先不用急著買不可退款的票。
 
 ![美麗海水族館停留時間四種抓法：官方平均一個半小時、親子本館兩到三小時、加周邊設施半天、那霸來回一天](/images/articles/churaumi-aquarium-family-time/churaumi-time-options.svg "本站自製資訊圖：官方平均時間不等於親子行程總時間")
 
