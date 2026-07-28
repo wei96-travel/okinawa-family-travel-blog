@@ -27,6 +27,13 @@
 
 貼文：https://www.facebook.com/permalink.php?story_fbid=122114132331290857&id=61588725730543
 
+**2026-07-28 已完成但尚未發布**：
+
+- 那霸雨天抵達／還車日輪播：`work/social/okinawa-naha-rainy-day-family-half-day/render/png/01.png` ～ `08.png`，自製情境圖交替搭配文字卡，已完成 390px 檢查。
+- 國際通廁所備案輪播：`work/social/okinawa-kokusai-dori-family-guide-2026-07-28/render/png/01.png` ～ `08.png`，使用已記錄授權的國際通實景重新編排，已完成 390px 檢查。
+
+兩組都只完成文案、PNG 與預覽，未進入 Facebook／IG 發文流程；待使用者確認要發布的平台與最終貼文版本。
+
 **國際通親子動線輪播已於 2026-07-24 公開發佈**：8 張圖片位於 `work/social/okinawa-kokusai-dori-family-guide/render/png/01.png` ～ `08.png`，尺寸 1080×1350，發佈順序已核對。三張實景各有 Unsplash 授權記錄；網站連結放在作者的第一則留言，Facebook 的文章預覽卡顯示正常。
 
 貼文：https://www.facebook.com/permalink.php?story_fbid=122116930431290857&id=61588725730543
