@@ -6,7 +6,7 @@ category: "沖繩行程"
 tags: ["那霸雨天", "沖繩親子雨天", "那霸親子景點", "沖繩親子行程"]
 coverImage: "/images/articles/okinawa-naha-rainy-day-family-half-day/naha-rain-arrival-cover.png"
 coverAlt: "下雨的那霸機場外，一家三口撐傘拖著行李前往航廈"
-coverCaption: "本站自製情境圖：抵達日下雨時，先保留安頓行李與孩子休息的空白。"
+coverCaption: "抵達日下雨時，先保留安頓行李與孩子休息的空白。"
 ---
 
 雨天剛好碰上抵達日或還車日，最容易出現一種狀況：行李還沒安頓好，孩子已經坐車坐到不耐煩，大人卻還想把原本的戶外景點硬塞進去。
