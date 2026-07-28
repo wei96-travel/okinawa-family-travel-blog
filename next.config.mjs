@@ -3,6 +3,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/previews/churaumi-ticket-guide",
+        destination: "/previews/churaumi-ticket-guide/index.html",
+        permanent: false
+      },
+      {
         source: "/previews/okinawa-rental-car-luggage-stroller-carousel",
         destination: "/previews/okinawa-rental-car-luggage-stroller-carousel/index.html",
         permanent: false

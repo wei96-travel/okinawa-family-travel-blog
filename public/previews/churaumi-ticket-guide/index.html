@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="googlebot" content="noindex, nofollow, noarchive" />
+    <title>美麗海水族館門票怎麼買｜操作範例</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #142f3c;
+        --muted: #5d6c73;
+        --line: #d9e2e5;
+        --sea: #087f9c;
+        --sea-soft: #eaf7f9;
+        --coral: #e56f51;
+        --paper: #fffdf9;
+        --warn: #fff4df;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #edf2f3;
+        color: var(--ink);
+        font-family:
+          "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif;
+        line-height: 1.75;
+        letter-spacing: 0;
+      }
+
+      main {
+        width: min(100%, 720px);
+        margin: 0 auto;
+        background: var(--paper);
+      }
+
+      .hero {
+        padding: 38px 24px 28px;
+        border-top: 8px solid var(--sea);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--sea);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(30px, 9vw, 48px);
+        line-height: 1.25;
+      }
+
+      .lead {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 17px;
+      }
+
+      .quick-answer {
+        margin: 0;
+        padding: 22px 24px;
+        background: var(--sea-soft);
+        border-bottom: 1px solid #cae5e9;
+      }
+
+      .quick-answer strong {
+        color: var(--sea);
+      }
+
+      .step {
+        padding: 30px 24px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .step-number {
+        display: inline-flex;
+        width: 34px;
+        height: 34px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background: var(--ink);
+        color: white;
+        font-weight: 800;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 25px;
+        line-height: 1.35;
+      }
+
+      p {
+        margin: 0 0 16px;
+      }
+
+      figure {
+        margin: 20px 0 0;
+      }
+
+      figure img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: white;
+      }
+
+      figure a {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .instruction-shot {
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: var(--crop-ratio);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: white;
+      }
+
+      .instruction-shot img {
+        position: absolute;
+        top: var(--crop-top);
+        left: var(--crop-left);
+        width: var(--crop-zoom);
+        max-width: none;
+        border: 0;
+        border-radius: 0;
+      }
+
+      .shot-plan {
+        --crop-ratio: 1.75;
+        --crop-zoom: 452%;
+        --crop-left: -204%;
+        --crop-top: -250%;
+      }
+
+      .shot-quantity {
+        --crop-ratio: 1.714;
+        --crop-zoom: 527%;
+        --crop-left: -250%;
+        --crop-top: -407%;
+      }
+
+      .shot-checkout {
+        --crop-ratio: 1.632;
+        --crop-zoom: 408%;
+        --crop-left: -174%;
+        --crop-top: -226%;
+      }
+
+      .focus-ring {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border: 4px solid #d83a2e;
+        border-radius: 8px;
+        box-shadow: 0 0 0 3px rgb(255 255 255 / 80%);
+        pointer-events: none;
+      }
+
+      .focus-ring span {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: -18px 0 0 -18px;
+        border-radius: 50%;
+        background: #d83a2e;
+        color: white;
+        font-size: 16px;
+        font-weight: 900;
+      }
+
+      .ring-plan {
+        top: 43%;
+        left: 59%;
+        width: 30%;
+        height: 29%;
+      }
+
+      .ring-quantity {
+        top: 42%;
+        left: 43%;
+        width: 49%;
+        height: 32%;
+      }
+
+      .ring-total {
+        top: 20%;
+        left: 44%;
+        width: 45%;
+        height: 30%;
+      }
+
+      .ring-book {
+        top: 65%;
+        left: 52%;
+        width: 35%;
+        height: 28%;
+      }
+
+      .tap-note {
+        margin: 10px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+
+      figcaption {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      .decision {
+        margin-top: 18px;
+        padding: 16px;
+        background: var(--warn);
+        border-left: 4px solid #db9f2d;
+      }
+
+      .decision strong {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .price-table {
+        width: 100%;
+        margin-top: 18px;
+        border-collapse: collapse;
+        font-size: 15px;
+      }
+
+      .price-table th,
+      .price-table td {
+        padding: 10px 8px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .price-table th {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .checklist {
+        margin: 14px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .checklist li {
+        position: relative;
+        padding: 8px 0 8px 31px;
+      }
+
+      .checklist li::before {
+        position: absolute;
+        top: 8px;
+        left: 0;
+        color: var(--sea);
+        content: "✓";
+        font-weight: 900;
+      }
+
+      .cta {
+        padding: 32px 24px 40px;
+        text-align: center;
+      }
+
+      .cta a {
+        display: block;
+        width: 100%;
+        min-height: 52px;
+        padding: 13px 18px;
+        border-radius: 6px;
+        background: var(--coral);
+        color: white;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .note {
+        margin-top: 12px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (min-width: 640px) {
+        .hero,
+        .step,
+        .cta,
+        .quick-answer {
+          padding-left: 46px;
+          padding-right: 46px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <p class="eyebrow">實際畫面購票示範</p>
+        <h1>美麗海水族館門票怎麼買？</h1>
+        <p class="lead">
+          不用急著找最低價。帶小孩出門，先把入場時間、兒童票和取消規則看清楚，才不會買完才發現不能用。
+        </p>
+      </header>
+
+      <p class="quick-answer">
+        <strong>先講結論：</strong>早上或下午去，選一般電子票；確定 17:00
+        後才入館，再考慮晚場優惠票。5 歲小孩依官方規則免費，不要多買一張兒童票。
+      </p>
+
+      <section class="step">
+        <span class="step-number">1</span>
+        <h2>選一般電子票，按右側橘色「選擇」</h2>
+        <p>
+          上方是一般電子票，下方是 17:00
+          後入場票。白天要去水族館，就按一般電子票右側的「選擇」，不要只看最低價格。
+        </p>
+        <figure>
+          <a
+            class="instruction-shot shot-plan"
+            href="./screens/05-desktop-plan-selection.png"
+          >
+            <img
+              src="./screens/05-desktop-plan-selection.png"
+              alt="Klook 美麗海水族館一般電子票選擇畫面"
+            />
+            <i class="focus-ring ring-plan"><span>1</span></i>
+          </a>
+          <figcaption>
+            紅框處就是一般電子票的「選擇」。點圖可以開啟完整畫面。
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="step">
+        <span class="step-number">2</span>
+        <h2>在成人欄按「＋」，數量加到 2</h2>
+        <p>
+          這次用兩位大人帶一位 5
+          歲小孩示範。成人選 2 張；官方規則是 6 歲未滿免費，所以 5
+          歲小孩不要加進 6～15 歲票。
+        </p>
+        <figure>
+          <a
+            class="instruction-shot shot-quantity"
+            href="./screens/07-desktop-quantity-two-adults.png"
+          >
+            <img
+              src="./screens/07-desktop-quantity-two-adults.png"
+              alt="Klook 成人票數量選擇為兩張的畫面"
+            />
+            <i class="focus-ring ring-quantity"><span>2</span></i>
+          </a>
+          <figcaption>
+            紅框處要確認成人數量顯示為 2，高中生與 6～15 歲票維持 0。
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="step">
+        <span class="step-number">3</span>
+        <h2>先核對總額，再按「立即預訂」</h2>
+        <p>
+          兩張成人票在這次查核時合計 NT$844。先確認張數和金額都對，再按橘色的「立即預訂」。價格會變動，以你下單當下的畫面為準。
+        </p>
+        <figure>
+          <a
+            class="instruction-shot shot-checkout"
+            href="./screens/08-desktop-total-and-book.png"
+          >
+            <img
+              src="./screens/08-desktop-total-and-book.png"
+              alt="Klook 兩張成人票總額與立即預訂按鈕"
+            />
+            <i class="focus-ring ring-total"><span>3</span></i>
+            <i class="focus-ring ring-book"><span>4</span></i>
+          </a>
+          <figcaption>
+            先看總額，再按立即預訂。不要按旁邊的晚場票「選擇」。
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="step">
+        <span class="step-number">4</span>
+        <h2>下一步先登入，登入後才會進付款頁</h2>
+        <p>
+          按下立即預訂後，Klook
+          會要求登入或註冊。教學到這裡就先停下來；登入後仍要再核對聯絡資料、優惠碼與最終付款金額，最後付款才會成立訂單。
+        </p>
+        <ul class="checklist">
+          <li>確認仍是「沖繩美麗海水族館門票」。</li>
+          <li>確認成人 2 張、兒童票 0 張。</li>
+          <li>確認一般電子票標示不可取消，行程確定再付款。</li>
+          <li>確認最終金額後，才按平台最後的付款按鈕。</li>
+        </ul>
+        <div class="decision">
+          <strong>本篇沒有實際付款</strong>
+          截圖只示範到登入前，沒有填寫個人資料，也沒有成立訂單。
+        </div>
+      </section>
+
+      <footer class="cta">
+        <a href="https://www.klook.com/zh-TW/activity/1421-churaumi-aquarium-okinawa/">
+          查看目前票種與價格
+        </a>
+        <p class="note">
+          畫面與價格查核日期：2026/7/27。此為尚未發布的版型範例，沒有進行付款。
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
