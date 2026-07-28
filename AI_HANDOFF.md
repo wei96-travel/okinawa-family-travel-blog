@@ -1,17 +1,21 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-27 (Codex, stroller carousel v2 ready for user review)
+Last updated: 2026-07-28 (Codex, first verified Klook deep link)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
-- Active Codex task: execute `100_Todo/plans/2026-07-27-serp-affiliate-execution-plan.md`. First deliverable is three dated Google top-10 SERP affiliate-layout maps (rental car, family stay, family gear); do not edit public article titles or active experiment pages before the maps and current Search Console review are complete.
-- First map is now at `research/serp-affiliate/rental-car.md`: 2026-07-27 Google Taiwan / Traditional Chinese observations of the first ten natural results for `沖繩 親子 租車`, including the Google video/ad layout and a no-change CTA conclusion for the new luggage/stroller guide. `family-stay.md` and `family-gear.md` remain pending.
+- Active Codex task: finish checks and deploy the first verified Klook Churaumi affiliate placement. After publication, verify the live destination and observe clicks before adding more ticket links. Facebook drafts still require user approval before publication.
+- `research/serp-affiliate/rental-car.md` contains the completed first map. `family-stay.md` and `family-gear.md` currently contain useful three-query summaries but do not yet meet the required ten-result-per-file completion definition; treat them as unfinished research, not completed maps.
+- Codex files currently claimed: `work/social/okinawa-last-day-family-plan/copy-facebook-long-form-2026-07-27.md`, `work/social/okinawa-family-restaurant-dining-guide/copy-facebook-long-form-2026-07-28.md`, `100_Todo/plans/2026-08-01-weekly-review.md`, `content/content-plan.md`, and this handoff.
 - The rental-car luggage carousel was published successfully through the Codex in-app browser with all eight images, public visibility and the article URL in the author's first comment:
   `https://www.facebook.com/permalink.php?story_fbid=122117308761290857&id=61588725730543`
 - Permanent correction: Facebook posts, carousels, Reels, first comments and insights must use the Codex in-app browser unless the user explicitly requests Chrome in that task. If the in-app browser fails, stop before publishing and report the problem; never silently switch browsers or claim success.
+- Permanent Reel correction: before upload, match the exact file hash, duration and visible first scene against the approved or cross-platform reference. In Instagram's crop step, explicitly choose the intended aspect ratio instead of trusting the default. After publishing, verify the public transcode dimensions and a public-page screenshot before adding the first comment. If the public ratio is wrong, stop, record the issue and obtain user approval before deleting or reposting.
+- Instagram carousel #5, `沖繩單軌親子搭乘`, was published on 2026-07-28 at 21:53 Taiwan time with eight verified 1080×1350 images, custom alt text, public visibility, comments enabled and Threads auto-share disabled: `https://www.instagram.com/okinawa.family.notes/p/DbVsRicGSZl/`. The first comment was verified at 21:55; `docs/social/instagram-publishing-log.md` is the detailed record.
+- Facebook audit on 2026-07-28 confirmed the rental-luggage, Yui Rail and Okinawa Zoo carousels each contain exactly eight ordered slides. The Yui Rail and Okinawa Zoo captions had accidentally exposed the internal note `（發布時將文章連結置於第一則留言）`; Codex edited the existing public posts in place, removed the note, retained public visibility and verified both first-comment article links. The matching local `copy-facebook.md` files are corrected.
 - The stroller carousel was rebuilt as v2 with eight distinct stroller-decision scenes and no repeated rental-luggage sequence. All eight images load at 390px mobile and desktop widths without horizontal overflow; the Facebook copy keeps the article URL out of the main post. It is not published and still requires the user's visual approval and final publication confirmation.
 - The earlier Facebook draft with an ambiguous `01.png +8` summary is retired. When v2 is approved, start a fresh in-app-browser upload, attach exactly `01.png` through `08.png`, verify all eight thumbnails, confirm `所有人`, and place the article URL in the author's first comment.
 - Shared branch: `main`
@@ -35,6 +39,30 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Do not change the active daily 20:30 Instagram automation, public-account settings, social assets, article content, or files currently claimed by Codex.
 
 ## Just Completed
+
+### First Klook Churaumi affiliate deep link, 2026-07-28 (Codex)
+
+- Generated the link through the logged-in Klook Affiliate converter with `Okinawa Family Notes` selected as the promotion site.
+- Verified that the generated link includes affiliate ID `128859`, redirects to the correct Churaumi Aquarium ticket product and retains affiliate tracking parameters after the redirect.
+- Added one reader-facing ticket comparison link to `content/blog/churaumi-aquarium-family-time.md`, with a single disclosure and reminders to compare the official price, age rules, date and cancellation terms.
+- Recorded the source URL, generated URL and verification result in `research/affiliate/klook-churaumi-deep-link.md`. Do not bulk-add more Klook links until this placement has live click data.
+
+### Churaumi ticket walkthrough preview, 2026-07-28 (Codex)
+
+- Prepared a noindex public walkthrough preview for cross-device review at `/previews/churaumi-ticket-guide`.
+- The guide uses three verified Klook screenshots to show the general-ticket selection, two-adult quantity setting, NT$844 total and `立即預訂` button. It stops before login and contains no QR code, account data or payment action.
+- Verified all three images at 390px mobile and 1280px desktop widths with no horizontal overflow. Work commit: `ac586da`; the production short URL redirects correctly, keeps `noindex`, and loads all three images on both viewport checks.
+- Removed the internal-sounding phrase `教學到這裡就先停下來`; the reader-facing copy now moves directly from login to the final order checks.
+
+### Northern family itinerary Facebook Reel, 2026-07-27 (Codex)
+
+- Published the 15.5-second Okinawa northern family itinerary Reel through the Codex in-app browser to the Wei Fan professional profile with Public visibility.
+- Enabled Facebook's AI-content label because the Reel uses realistic AI-generated travel scenes.
+- Kept the external article URL out of the main caption and added the live Churaumi family-time article in the author's first comment:
+  `https://okinawafamilynotes.com/blog/churaumi-aquarium-family-time`
+- Public Reel:
+  `https://www.facebook.com/reel/1397626239013312/`
+- Instagram was not published in this run; it still requires explicit user authorization and the in-app-browser publishing workflow.
 
 ### Public carousel previews and cross-device acceptance rule, 2026-07-27 (Codex)
 
@@ -525,6 +553,24 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 - Shopee links may be added only after the user has approved the product or explicitly asked Codex to choose from the logged-in affiliate dashboard. Record why each product fits and do not imply that price, stock or specifications are permanent.
 - Decide the next Facebook format after the first Reel and parking carousel each have at least 24-48 hours of data.
+
+## 2026-07-28 Codex 每日內容流程（已完成，已推送）
+
+- Search Console（3 個月、資料截止 2026-07-25）：31 點擊／704 曝光／4.4% CTR／平均排名 7.7。選題理由為「國際通廁所」已有 5 次曝光但尚未點擊；頁面 `okinawa-kokusai-dori-family-guide` 有 1 點擊／19 曝光。
+- 舊文只補首屏的明確廁所備案：第一牧志公設市場、縣廳前站、牧志站；沒有改標題、摘要或網址。2026-08-11 起再評估。跳過安全座椅（2026-07-30 後才讀新數據）、水族館（觀察至 2026-08-07）與 301 合併中的自駕休息點舊網址。
+- 新文：`/blog/okinawa-naha-rainy-day-family-half-day`，承接那霸雨天、抵達日與還車日的室內半日需求；官網資料來源為那霸機場與沖繩縣立博物館・美術館；未放未核對的聯盟連結。
+- 輪播已輸出但**未發布**：`work/social/okinawa-naha-rainy-day-family-half-day/render/png/01.png`～`08.png`；`work/social/okinawa-kokusai-dori-family-guide-2026-07-28/render/png/01.png`～`08.png`。兩組均為 1080×1350，已依使用者授權建立 noindex 跨裝置預覽：[那霸雨天](https://okinawafamilynotes.com/previews/okinawa-naha-rainy-day-carousel/)／[國際通廁所](https://okinawafamilynotes.com/previews/okinawa-kokusai-dori-toilet-carousel/)。兩頁均在手機版確認 8／8 圖片載入且無水平溢位；未進入社群發布流程。
+- 已推送內容 commits：`b6d6bc4 Add Naha rainy day guide`、`c3d0eb9 Refine rainy day carousel notes`。嚴格稽核為 41 篇、0 個重大問題；Next.js build 為 61 個靜態頁；新文章正式 URL、封面、canonical 與 sitemap 均已確認。
+- 本次認領檔案：新文、國際通舊文、content plan、SEO 記分卡、社群進度、上述兩個輪播資料夾及本 handoff。保留現有的 Reel 與 `copy-instagram.md` 本機變更。
+
+## 2026-07-28 Facebook 長文與週檢討
+
+- 2026-07-27 Facebook 獨立長文已於 2026-07-28 透過 Codex 內建瀏覽器公開發布。切角是還車前兩小時的人、行李、廁所與接駁緩衝，不重複租車行李輪播；主文未放網址，作者第一則留言已放部落格連結，分享對象已確認為「所有人」。公開貼文：https://www.facebook.com/permalink.php?story_fbid=122117441343290857&id=61588725730543
+- 已補寫 2026-07-28 Facebook 獨立長文：`work/social/okinawa-family-restaurant-dining-guide/copy-facebook-long-form-2026-07-28.md`。切角是孩子到餐廳突然不吃時的判斷與備案，不重複單軌、雨天或國際通輪播。
+- 兩篇主文均達獨立長文長度，禁用詞掃描無結果；對應正式文章網址均已實際開啟確認。餐廳長文仍未發布，應與本次長文錯開，發布前仍須取得使用者對該版本的明確確認。
+- 建立 `100_Todo/plans/2026-08-01-weekly-review.md`，固定檢查文章、索引、Search Console、GA4、Facebook／Instagram、Shopee／Trip.com／Klook 與交接品質。Codex automation `沖繩部落格每週六檢討` 已啟用，每週六 09:00 執行。
+- 那霸雨天半日文章於 2026-07-28 在 Search Console 顯示「Google 無法辨識的網址」。已提交一次索引要求，Google 確認加入優先檢索佇列；不要重複提交。
+- 今日仍未完成：兩份十筆 SERP 配置表、第一個 Klook 美麗海深層分潤連結、兩組已完成輪播的發布決定、未發布的推車輪播，以及社群貼文 24～48 小時數據回收。
 
 ## Handoff Template
 
