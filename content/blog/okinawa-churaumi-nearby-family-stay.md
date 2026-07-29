@@ -66,6 +66,14 @@ Wisteria Condominium Resort 的官網列出全房海景與陽台，並在 33 平
 
 Trip.com 適合用來查看同日期的總價與房型；最後仍要回飯店官網核對兒童規則、停車、設施季節與房型限制。為了水族館住本部町，主要換來的是少一次長途往返。
 
+已經決定要比價時，可以從下面三個頁面輸入同一組日期、成人數和孩子年齡，再比較總價與房型：
+
+- [查看 Royal View Hotel Churaumi 的房型與同日期總價](https://tw.trip.com/hotels/motobu-hotel-detail-1945610/royal-view-hotel-churaumi/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_royal_view&trip_sub3=D18973001)
+- [查看 Hotel Mahaina Wellness Resorts Okinawa 的房型與同日期總價](https://tw.trip.com/hotels/motobu-hotel-detail-703608/hotel-mahaina-wellness-resorts-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_mahaina&trip_sub3=D18973002)
+- [查看 Wisteria Condominium Resort 的房型與同日期總價](https://tw.trip.com/hotels/motobu-hotel-detail-3898854/wisteria-condominium-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_wisteria&trip_sub3=D18973003)
+
+> 上方含 Trip.com 合作連結。若你透過連結完成預訂，本站可能取得分潤，價格不會因此增加；房價、房型與規定仍以訂房頁面和飯店官網為準。
+
 ## 常見問題
 
 ### 美麗海水族館附近一定要住一晚嗎？
