@@ -49,6 +49,7 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Fixed the first inline article image from lazy to eager loading. This came from the real 390px check, which initially revealed the new cover blank before it entered the viewport.
 - Search Console could not be operated in this run, so no index request was submitted. Recorded baseline and cooldown decisions in `content/seo-scorecard.md`.
 - `content:audit:strict`: passed, 43 articles and 0 critical issues; 37 legacy style reminders remain. `next build`: passed, 63 static pages. Content commit: `318f83f Add Churaumi family stay guide`.
+- Production verification after the push passed: the new article and cover return 200, its canonical is self-referencing, the sitemap contains the new slug, and both noindex previews return 200 with all 8 images loaded.
 
 ### Churaumi ticket comparison guide, 2026-07-29 (Codex)
 
