@@ -1,12 +1,20 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-29 (Codex, Churaumi ticket comparison guide)
+Last updated: 2026-07-30 (Codex, two Churaumi-area Facebook carousels published)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
+- Status update (2026-07-30): the Facebook sign-in and publication task is complete. The next social review is to collect 24–48-hour Facebook reach, interaction and website-click data for the two published carousels.
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
+
+## Facebook publication record — 2026-07-29/30 (Codex)
+
+- Published publicly, Facebook only (no Instagram post):
+  - **美麗海水族館附近親子住宿** — [Facebook post](https://www.facebook.com/permalink.php?story_fbid=pfbid02gQp6M1XXmARiX98rgsAwuKoNz5AdWMcgT3fBqmjbZniTe5f7J2BhiDz6Z2sLisqWl&id=61588725730543); linked article: https://okinawafamilynotes.com/blog/okinawa-churaumi-nearby-family-stay
+  - **第一次去沖繩住哪裡（舊文優化）** — [Facebook post](https://www.facebook.com/permalink.php?story_fbid=pfbid0DZ9dSM162E1wu9wZH87WpoEh5EvzzVNZVLpiWmQMSJbXK5cLP4WaoYFiBtJeZfEol&id=61588725730543); linked article: https://okinawafamilynotes.com/blog/first-okinawa-where-to-stay
+- For both posts, the Facebook editor’s image list was verified as exactly `01.png`–`08.png`, audience as public, and Wei Fan’s first comment as the corresponding article URL with a rendered article preview.
 - Active Codex task: await the user signing in to Facebook in the required in-app browser, then publish the two approved carousel sets. The Trip.com affiliate additions for `/blog/okinawa-churaumi-nearby-family-stay` are complete in `c7a8cf6` and production-verified; they did not alter its title, description, URL or primary advice. Observe the page after 2026-08-26; keep the Churaumi ticket guide in its 7–14-day observation window.
 - `research/serp-affiliate/rental-car.md` contains the completed first map. `family-stay.md` and `family-gear.md` currently contain useful three-query summaries but do not yet meet the required ten-result-per-file completion definition; treat them as unfinished research, not completed maps.
 - Codex files currently claimed: `work/social/okinawa-last-day-family-plan/copy-facebook-long-form-2026-07-27.md`, `work/social/okinawa-family-restaurant-dining-guide/copy-facebook-long-form-2026-07-28.md`, `100_Todo/plans/2026-08-01-weekly-review.md`, `content/content-plan.md`, and this handoff.
