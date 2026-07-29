@@ -60,11 +60,11 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Added matching Trip.com walkthrough visuals after reader review: one shows how to skip the one-day-tour area and find the single-attraction ticket, and one shows two adult tickets with the order total. Trip.com auto-filled the signed-in account email on the lower checkout form, so every published crop stops above personal and payment data.
 - Reader-facing copy uses one short `合作收益` disclosure and does not use the word `分潤`; keep the disclosure transparent without making monetization the focus.
 - Recorded the Trip.com link evidence in `research/affiliate/trip-churaumi-deep-link.md` and the 14-day traffic plan in `100_Todo/plans/2026-07-29-churaumi-ticket-traffic-plan.md`.
-- `content:audit:strict`: passed with 42 articles and 0 critical issues; 37 pre-existing style reminders remain and the new article adds none.
-- `next build`: passed with 62 static pages.
-- Production verification passed after deployment: the new article returns the expected title and canonical, all three walkthrough images load as 1259×885 JPEGs, the page has no mobile horizontal overflow, both tracked links render as sponsored and the existing duration article links to the new guide.
+- `content:audit:strict`: passed with 43 articles and 0 critical issues; 37 pre-existing style reminders remain and the ticket guide adds none.
+- `next build`: passed with 63 static pages.
+- Production verification passed after deployment: the article returns the expected title and canonical, all five Klook/Trip.com walkthrough images load, the page has no mobile horizontal overflow, both tracked links render as sponsored and the existing duration article links to the guide.
 - Search Console reported the new URL as unknown and unindexed. One index request was submitted on 2026-07-29 and Google confirmed it entered the priority crawl queue; do not submit it again before the 7-to-14-day review.
-- Content commit: `a3a619e Publish Churaumi ticket comparison guide`.
+- Latest walkthrough commit: `508a8f7 Add Trip.com ticket walkthrough`; original article commit: `a3a619e Publish Churaumi ticket comparison guide`.
 
 ### First Klook Churaumi affiliate deep link, 2026-07-28 (Codex)
 
