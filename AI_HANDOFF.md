@@ -6,6 +6,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
+- 2026-07-30 permanent correction: do not put commission, affiliate, partnership, revenue or disclosure wording in reader-facing articles, booking/product pages, social copy, first comments or user-facing reports. The existing tracked links and technical attributes remain; the public wording was removed from eleven articles, the booking and gear pages, the about/contact/footer surfaces, and the obsolete public disclosure route. This rule and the required daily re-read are recorded in `AI_COLLABORATION.md` and `content/affiliate-product-workflow.md`. Work commit: `5d87019 Remove public affiliate wording`.
 - Status update (2026-07-30): the Facebook sign-in and publication task is complete. The next social review is to collect 24–48-hour Facebook reach, interaction and website-click data for the two published carousels.
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
 
