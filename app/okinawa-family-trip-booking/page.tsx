@@ -137,7 +137,6 @@ export default function OkinawaFamilyTripBookingPage() {
       <section className="border-b border-[#eadfce] bg-[#fffdf8]">
         <div className="mx-auto max-w-4xl px-5 py-5 sm:px-6 lg:px-8">
           <p className="text-sm leading-7 text-[#736b60]">
-            住宿與租車按鈕含合作連結；若你完成預訂，本站可能取得分潤，價格不會因此增加。房價、車型與取消條件請以平台和供應商為準。
           </p>
         </div>
       </section>

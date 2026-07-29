@@ -200,7 +200,6 @@ export default function OkinawaFamilyTravelGearPage() {
               這頁不把所有用品都列一遍，而是按旅行情境整理。奶瓶喝完怎麼洗、後座弄髒怎麼收、途中突然尿急怎麼備用、推車怎麼托運、回程怎麼分行李，先看自己遇到哪個問題，再決定需不需要買。
             </p>
             <p className="mt-5 text-sm leading-7 text-[#736b60]">
-              部分商品按鈕為合作連結；你透過連結購買時，本站可能取得分潤，售價不會因此增加。
             </p>
           </div>
           <img

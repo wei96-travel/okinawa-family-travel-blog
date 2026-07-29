@@ -13,7 +13,6 @@ export function Footer() {
           <Link href="/okinawa-family-travel-gear">用品清單</Link>
           <Link href="/contact">聯絡</Link>
           <Link href="/privacy">隱私權政策</Link>
-          <Link href="/affiliate-disclosure">聯盟行銷揭露</Link>
         </div>
       </div>
     </footer>

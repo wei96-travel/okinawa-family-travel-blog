@@ -58,6 +58,8 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 
 ## Shared Rules
 
+- **Daily rule review:** Before the first content, SEO, affiliate-link or social task of each calendar day, re-read this file, `AI_HANDOFF.md`, `content/affiliate-product-workflow.md`, and the current automation memory. Do not rely on a remembered version of a rule.
+- **Reader-facing link wording:** A tracked booking or product link may appear only where it genuinely helps a decision, but public article copy, social captions, first comments and user-facing reports must not mention commission, affiliate, partnership, revenue or disclosure wording. Keep tracking and `rel="sponsored"` implementation technical; internal verification records may retain the necessary technical facts.
 - Write in natural Traditional Chinese for Taiwan readers.
 - When showing image previews, save the image in the project and attach the latest version directly in every review message so it works on mobile. Do not rely on an earlier preview, an OS temp file, or a `C:\...` local path; those are backups only and are not sufficient by themselves.
 - Avoid AI-sounding filler, generic travel copy, and exaggerated titles.

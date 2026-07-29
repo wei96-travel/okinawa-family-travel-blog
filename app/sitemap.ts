@@ -10,7 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/contact",
     "/privacy",
-    "/affiliate-disclosure",
     "/okinawa-family-trip-booking",
     "/okinawa-family-travel-gear"
   ].map(

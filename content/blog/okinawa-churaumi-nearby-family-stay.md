@@ -72,7 +72,6 @@ Trip.com 適合用來查看同日期的總價與房型；最後仍要回飯店�
 - [查看 Hotel Mahaina Wellness Resorts Okinawa 的房型與同日期總價](https://tw.trip.com/hotels/motobu-hotel-detail-703608/hotel-mahaina-wellness-resorts-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_mahaina&trip_sub3=D18973002)
 - [查看 Wisteria Condominium Resort 的房型與同日期總價](https://tw.trip.com/hotels/motobu-hotel-detail-3898854/wisteria-condominium-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_wisteria&trip_sub3=D18973003)
 
-> 上方含 Trip.com 合作連結。若你透過連結完成預訂，本站可能取得分潤，價格不會因此增加；房價、房型與規定仍以訂房頁面和飯店官網為準。
 
 ## 常見問題
 
