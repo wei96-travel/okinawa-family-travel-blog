@@ -107,7 +107,7 @@ export function MarkdownContent({ content }: MarkdownContentProps) {
                 alt={alt}
                 decoding="async"
                 height={size?.height}
-                loading="lazy"
+                loading={index === 0 ? "eager" : "lazy"}
                 src={src}
                 width={size?.width}
               />

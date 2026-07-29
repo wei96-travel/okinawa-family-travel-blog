@@ -18,6 +18,16 @@ const nextConfig = {
         permanent: false
       },
       {
+        source: "/previews/okinawa-churaumi-nearby-family-stay-carousel",
+        destination: "/previews/okinawa-churaumi-nearby-family-stay-carousel/index.html",
+        permanent: false
+      },
+      {
+        source: "/previews/first-okinawa-where-to-stay-carousel",
+        destination: "/previews/first-okinawa-where-to-stay-carousel/index.html",
+        permanent: false
+      },
+      {
         source: "/blog/okinawa-driving-rest-stops-family",
         destination: "/blog/okinawa-family-drive-toilet-convenience-store",
         permanent: true
