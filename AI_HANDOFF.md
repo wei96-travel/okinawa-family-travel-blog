@@ -7,7 +7,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 ## Current State
 
 - Active owner: Codex for SEO and content strategy. Claude Code may complete the Instagram organic-growth research assignment below and may research hotel or emergency-toilet product candidates after receiving the matching plan; it should not edit public articles yet.
-- Active Codex task: deploy and index the Churaumi ticket comparison guide, then observe its search traffic and separate Klook/Trip.com clicks for 7 to 14 days before expanding the ticket cluster. Facebook drafts still require user approval before publication.
+- Active Codex task: daily content cycle completed. Observe `/blog/okinawa-churaumi-nearby-family-stay` after 2026-08-26; keep the Churaumi ticket guide in its 7–14-day observation window. Both new carousel sets remain unpublished and need user approval before any Facebook or Instagram action.
 - `research/serp-affiliate/rental-car.md` contains the completed first map. `family-stay.md` and `family-gear.md` currently contain useful three-query summaries but do not yet meet the required ten-result-per-file completion definition; treat them as unfinished research, not completed maps.
 - Codex files currently claimed: `work/social/okinawa-last-day-family-plan/copy-facebook-long-form-2026-07-27.md`, `work/social/okinawa-family-restaurant-dining-guide/copy-facebook-long-form-2026-07-28.md`, `100_Todo/plans/2026-08-01-weekly-review.md`, `content/content-plan.md`, and this handoff.
 - The rental-car luggage carousel was published successfully through the Codex in-app browser with all eight images, public visibility and the article URL in the author's first comment:
@@ -39,6 +39,16 @@ The user explicitly asked Claude Code to collect more evidence before deciding t
 - Do not change the active daily 20:30 Instagram automation, public-account settings, social assets, article content, or files currently claimed by Codex.
 
 ## Just Completed
+
+### Daily content: Churaumi-area family stay, 2026-07-29 (Codex)
+
+- Published `/blog/okinawa-churaumi-nearby-family-stay`, a separate intent from the existing aquarium-duration and regional-stay pages: whether a family should stay in Motobu for the aquarium day, and which three candidates to compare first.
+- Used first-party/official sources for Royal View Hotel Churaumi, Hotel Mahaina and Wisteria. The article deliberately does not rank a permanent cheapest option: the 2026-07-29 check had no shared travel date, room count, adult count or child age, so homepage starting prices were not comparable. No unverified affiliate link was added.
+- Improved `first-okinawa-where-to-stay` only with a natural Motobu decision link. Its title, description, URL and existing candidate list remain untouched. Skipped car-seat (until 2026-07-30 data review), aquarium duration (until 2026-08-07), the 2026-07-28 Kokusai-dori update (until 2026-08-11), and the 301 rest-stop experiment.
+- Added two unpublished 8-slide 1080×1350 carousel sets, their original copy, self-made three-scene photo assets and noindex public previews: `/previews/okinawa-churaumi-nearby-family-stay-carousel` and `/previews/first-okinawa-where-to-stay-carousel`. At 390px, both previews loaded all 8 images with no horizontal overflow; the article’s first image also loads with no overflow.
+- Fixed the first inline article image from lazy to eager loading. This came from the real 390px check, which initially revealed the new cover blank before it entered the viewport.
+- Search Console could not be operated in this run, so no index request was submitted. Recorded baseline and cooldown decisions in `content/seo-scorecard.md`.
+- `content:audit:strict`: passed, 43 articles and 0 critical issues; 37 legacy style reminders remain. `next build`: passed, 63 static pages. Content commit: `318f83f Add Churaumi family stay guide`.
 
 ### Churaumi ticket comparison guide, 2026-07-29 (Codex)
 
