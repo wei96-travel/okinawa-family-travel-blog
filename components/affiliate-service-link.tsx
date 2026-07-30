@@ -4,7 +4,7 @@ type AffiliateServiceLinkProps = {
   href: string;
   itemName: string;
   label: string;
-  network: "Trip.com" | "Shopee";
+  network: "Klook" | "Shopee" | "Trip.com";
 };
 
 export function AffiliateServiceLink({ href, itemName, label, network }: AffiliateServiceLinkProps) {

@@ -6,6 +6,7 @@ This is the current operational handoff between Codex and Claude Code. Keep it s
 
 ## Current State
 
+- Booking-hub improvement (Codex, 2026-07-31): `/okinawa-family-trip-booking` now opens with three direct choices for accommodation, rental cars and attraction tickets; Naha and Onna sections use existing approved regional images; the verified Churaumi Klook/Trip.com ticket links and illustrated purchase guide are included. `AffiliateServiceLink` now tracks Klook as well as Trip.com and Shopee. Build passed with 63 static pages. Desktop and 390px mobile browser checks passed; the mobile document measured 375px client width and 375px scroll width, and both ticket buttons were visible. No Trip.com hotel product photo was copied because the partner session was signed out and the public tool page only clearly confirmed official banner tools, not general reuse rights for hotel photos.
 - Shared operating plan (Codex): added `100_Todo/plans/2026-07-31-site-growth-revenue-plan.md` as the required source for keyword selection, link placement, image-card testing, multilingual gating and non-affiliate revenue. Updated `AI_COLLABORATION.md` with a mandatory start sequence: check Git state, re-read the permanent rules and latest handoff, inspect the current plans and scorecards, respect experiment windows and file ownership, then continue the highest evidence-backed task. Current priority is to verify platform-provided image rights/tools, then test image-rich cards on the booking and travel-gear hubs. Full-site translation remains deferred; the first multilingual test is English `/en/` plus 3 manually reviewed pages only after the recorded evidence gate is met. Additional revenue priorities are a small digital product, LINE/email audience building, later AdSense, brand/UGC work, original-photo licensing and a carefully bounded itinerary-review service.
 - Homepage SEO update (Codex): the homepage now emits the standalone title `2026 沖繩親子自由行攻略｜行程、住宿、租車與景點` for Google search results without changing the visible brand or adding a year to every article. Homepage-only `WebSite` JSON-LD identifies the Chinese site name with `Okinawa Family Notes` as the alternate name; the existing `Organization` JSON-LD now uses the same naming order. The production build passed with 63 static pages. Strict content audit remains at 44 articles, 0 critical issues and 37 pre-existing style reminders. Production returned the new title after deployment. Search Console confirmed the homepage is indexed; exactly one recrawl request was submitted on 2026-07-30 and accepted into the priority crawl queue. Do not resubmit while Google is processing it.
 - 2026-07-30 daily content run (Codex): Search Console 3-month report through 2026-07-28 is 77 clicks / 1,400 impressions / 5.5% CTR / 7.2 average position. The car-seat title experiment is now 4 / 209 / 1.9% / 6.9 versus 2 / 106 / 1.9% / 7.2 at its baseline: do not alter it again; observe at least two more weeks. Churaumi time, Kokusai-dori toilet and 301 rest-stop experiments remain untouched. Old-page work was therefore a documented internal-link audit (`research/internal-link-audit-2026-07-30.md`), not a forced content edit.
@@ -622,6 +623,15 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 - 規劃新增手機優先 `/start` 社群入口頁，第一版只放「第一次住哪裡、租車自駕、景點與行程」三個選擇，不先塞聯盟連結。
 - 第一輪 14 天測試主題為「第一次去沖繩住哪裡」：Facebook 用新的獨立長文角度，Instagram 使用尚未在 IG 發布的住宿輪播並補限時動態。兩邊分開加 UTM，七天與十四天各檢查一次。
 - 自己兩個測試帳號的互動必須另外標記，不得算進自然流量。
+
+## 2026-07-31 親子旅行預訂頁改版
+
+- 第一屏後方新增「住宿區、租車、景點票券」三個直接入口，讀者不用先讀完整頁面才找到下一步。
+- 那霸與恩納住宿區加入已在本站使用的區域實景圖；飯店名稱、適合情境與限制仍保留，不用不明來源的飯店商品照。
+- 新增美麗海水族館票券區，使用 2026-07-27 已核對的 Klook／Trip.com 票券連結與既有購票畫面，並導回完整圖解文章。
+- `components/affiliate-service-link.tsx` 已支援 Klook 點擊追蹤；所有外部商業連結維持 `rel="sponsored noreferrer"`。
+- `next build` 通過，共 63 個靜態頁。桌面首屏、票券區與 390px 手機畫面均已實際檢查；手機版無水平溢位。
+- 本次只修改 `app/okinawa-family-trip-booking/page.tsx`、`components/affiliate-service-link.tsx` 與本交接檔；其他 CC／使用者未提交變更均保留。
 
 ## Handoff Template
 
