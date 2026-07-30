@@ -626,6 +626,7 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## 2026-07-31 親子旅行預訂頁改版
 
+- Work commit: `aaff6a2 Improve family booking hub`（已推送至 `origin/main`）。
 - 第一屏後方新增「住宿區、租車、景點票券」三個直接入口，讀者不用先讀完整頁面才找到下一步。
 - 那霸與恩納住宿區加入已在本站使用的區域實景圖；飯店名稱、適合情境與限制仍保留，不用不明來源的飯店商品照。
 - 新增美麗海水族館票券區，使用 2026-07-27 已核對的 Klook／Trip.com 票券連結與既有購票畫面，並導回完整圖解文章。
