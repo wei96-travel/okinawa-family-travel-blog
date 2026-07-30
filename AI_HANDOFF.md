@@ -614,6 +614,15 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 - 那霸雨天半日文章於 2026-07-28 在 Search Console 顯示「Google 無法辨識的網址」。已提交一次索引要求，Google 確認加入優先檢索佇列；不要重複提交。
 - 今日仍未完成：兩份十筆 SERP 配置表、第一個 Klook 美麗海深層分潤連結、兩組已完成輪播的發布決定、未發布的推車輪播，以及社群貼文 24～48 小時數據回收。
 
+## 2026-07-31 FB／IG 導流決策
+
+- 社群導流已補入 `100_Todo/plans/2026-07-31-site-growth-revenue-plan.md`，固定流程為：社群觸及 → 個人檔案 → 網站入口 → 文章／專題頁 → 內部連結或商業連結 → LINE／Email 回訪。
+- Facebook 以直接導流為主：主文預設不放外部網址，作者第一則留言放帶 UTM 的文章連結；長文不得只是輪播文字加長。
+- Instagram 以收藏、分享與個人檔案瀏覽為主：輪播或 Reel 發布後搭配限時動態連結貼紙；CTA 必須說明點進網站能取得的表格、比較或安排。
+- 規劃新增手機優先 `/start` 社群入口頁，第一版只放「第一次住哪裡、租車自駕、景點與行程」三個選擇，不先塞聯盟連結。
+- 第一輪 14 天測試主題為「第一次去沖繩住哪裡」：Facebook 用新的獨立長文角度，Instagram 使用尚未在 IG 發布的住宿輪播並補限時動態。兩邊分開加 UTM，七天與十四天各檢查一次。
+- 自己兩個測試帳號的互動必須另外標記，不得算進自然流量。
+
 ## Handoff Template
 
 When handing off, replace the sections above and include:
