@@ -1,6 +1,6 @@
 ﻿# Okinawa Family Notes AI Collaboration
 
-Last updated: 2026-07-27
+Last updated: 2026-07-31
 
 This project is maintained with both Codex and Claude Code. Use this file as the shared handoff before making content, SEO, or site changes.
 
@@ -54,7 +54,7 @@ Primary KPI:
 - Repurpose each article into short-video ideas for TikTok / Reels.
 - Add Shopee affiliate products only when they naturally help the reader.
 
-Do not optimize affiliate buttons, redesign the site, or add multilingual structure before the Traditional Chinese site has clearer indexing and traffic signals.
+Traffic remains the first priority. Affiliate presentation may be improved only as a bounded, measurable test on high-intent booking or product pages. Do not translate the full site at once; multilingual work starts with a small pilot only after the evidence gate in `100_Todo/plans/2026-07-31-site-growth-revenue-plan.md` is met.
 
 ## Shared Rules
 
@@ -75,6 +75,7 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 ## Where To Look First
 
 - Live handoff: `AI_HANDOFF.md`
+- Growth and revenue operating plan: `100_Todo/plans/2026-07-31-site-growth-revenue-plan.md`
 - Content operating plan and quality gates: `100_Todo/plans/2026-07-24-okinawa-content-operating-plan.md`
 - Content plan: `content/content-plan.md`
 - SEO growth roadmap: `content/seo-growth-roadmap.md`
@@ -82,6 +83,20 @@ Do not optimize affiliate buttons, redesign the site, or add multilingual struct
 - Affiliate product workflow: `content/affiliate-product-workflow.md`
 - Blog posts: `content/blog/`
 - Article loading and metadata: `lib/posts.ts`, `app/blog/[slug]/page.tsx`, `app/sitemap.ts`
+
+## Mandatory Start Sequence
+
+Before every article, SEO, affiliate, booking, social, multilingual or site-growth task:
+
+1. Confirm the actual Git root and run `git status --short`.
+2. Read this file, `AI_HANDOFF.md`, `content/content-plan.md`, `content/seo-growth-roadmap.md`, and `content/affiliate-product-workflow.md`.
+3. Read `100_Todo/plans/2026-07-31-site-growth-revenue-plan.md` and the latest relevant scorecard or weekly review.
+4. Confirm the last completed commit, current experiment waiting periods, unfinished work and file ownership.
+5. Choose the next keyword or page from current Search Console and GA4 evidence. Do not restart from an old chat plan or write an unrelated article because it is easy.
+6. Before editing, record the active owner, objective and exact files in `AI_HANDOFF.md`.
+7. After finishing, run the required checks, verify production, handle Search Console once when needed, update the handoff, commit and push.
+
+If current data is unavailable, continue the highest-priority recorded task instead of inventing a new direction. If another agent owns the target files, use a separate research note or wait for a clean handoff.
 
 ## Current Site Status
 
