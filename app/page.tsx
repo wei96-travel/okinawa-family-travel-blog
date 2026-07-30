@@ -1,8 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleCard } from "@/components/article-card";
 import { CategoryPill } from "@/components/category-pill";
+import { JsonLd } from "@/components/json-ld";
 import { getAllPosts } from "@/lib/posts";
 import { categories, getCategoryByName } from "@/lib/site";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "2026 沖繩親子自由行攻略｜行程、住宿、租車與景點"
+  }
+};
 
 const readingPath = [
   {
@@ -32,7 +42,21 @@ export default function HomePage() {
   const featuredImage = featuredPost ? getCategoryByName(featuredPost.category)?.image ?? "/images/okinawa-family-hero.png" : "";
 
   return (
-    <div>
+    <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": siteUrl + "/#website",
+          url: siteUrl,
+          name: "沖繩親子旅遊筆記",
+          alternateName: "Okinawa Family Notes",
+          publisher: {
+            "@id": siteUrl + "/#organization"
+          }
+        }}
+      />
+      <div>
       <section className="border-b border-[#eadfce] bg-[#fffdf8]">
         <div className="mx-auto max-w-6xl px-5 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:items-end">
@@ -182,6 +206,7 @@ export default function HomePage() {
           </div>
         ) : null}
       </section>
-    </div>
+      </div>
+    </>
   );
 }

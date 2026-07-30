@@ -1,11 +1,12 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-30 (Codex, two Churaumi-area Facebook carousels published)
+Last updated: 2026-07-30 (Codex, homepage 2026 search title and site-name signals)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
 
+- Homepage SEO update (Codex): the homepage now emits the standalone title `2026 沖繩親子自由行攻略｜行程、住宿、租車與景點` for Google search results without changing the visible brand or adding a year to every article. Homepage-only `WebSite` JSON-LD identifies the Chinese site name with `Okinawa Family Notes` as the alternate name; the existing `Organization` JSON-LD now uses the same naming order. The production build passed with 63 static pages. Strict content audit remains at 44 articles, 0 critical issues and 37 pre-existing style reminders.
 - 2026-07-30 daily content run (Codex): Search Console 3-month report through 2026-07-28 is 77 clicks / 1,400 impressions / 5.5% CTR / 7.2 average position. The car-seat title experiment is now 4 / 209 / 1.9% / 6.9 versus 2 / 106 / 1.9% / 7.2 at its baseline: do not alter it again; observe at least two more weeks. Churaumi time, Kokusai-dori toilet and 301 rest-stop experiments remain untouched. Old-page work was therefore a documented internal-link audit (`research/internal-link-audit-2026-07-30.md`), not a forced content edit.
 - New article in this run: `/blog/okinawa-naha-airport-to-city-family-guide`, an official-source, no-affiliate comparison of monorail, bus, taxi and rental-car shuttle choices for a family arriving at Naha Airport. It has links to the existing Yui Rail, rental pickup, licence-translation and rainy-day pages. Matching unpublished 8-slide 1080×1350 carousel source, PNGs, mobile-preview HTML and prompt record are at `work/social/okinawa-naha-airport-to-city-family-guide/`; no social post was uploaded or published. `content:audit:strict` passed with 44 articles and 0 critical issues (37 legacy style reminders; none in this article); `next build` passed with 63 static pages. Production verification passed: article and cover return 200, the canonical self-references, the sitemap contains the slug, and the 390px production article has 375px document scroll width. Search Console showed the new URL as unindexed and not previously queued; exactly one request was submitted on 2026-07-30 and confirmed in the priority crawl queue. Do not resubmit before the normal 7–14-day review. The pre-existing dirty `content/content-plan.md` and `work/social/progress.md` were preserved, not edited.
 - 2026-07-30 permanent correction: do not put commission, affiliate, partnership, revenue or disclosure wording in reader-facing articles, booking/product pages, social copy, first comments or user-facing reports. The existing tracked links and technical attributes remain; the public wording was removed from eleven articles, the booking and gear pages, the about/contact/footer surfaces, and the obsolete public disclosure route. This rule and the required daily re-read are recorded in `AI_COLLABORATION.md` and `content/affiliate-product-workflow.md`. Work commit: `5d87019 Remove public affiliate wording`.
@@ -566,6 +567,8 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 - Codex currently claims:
   - `AI_HANDOFF.md`
+  - `app/layout.tsx`
+  - `app/page.tsx`
   - `content/content-plan.md`
   - `content/seo-scorecard.md`
   - `content/blog/okinawa-rental-car-pickup-return-guide.md`

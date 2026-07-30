@@ -58,7 +58,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             "@context": "https://schema.org",
             "@type": "Organization",
             "@id": siteUrl + "/#organization",
-            name: "Okinawa Family Notes",
+            name: "沖繩親子旅遊筆記",
+            alternateName: "Okinawa Family Notes",
             url: siteUrl,
             logo: siteUrl + "/icon.svg",
             sameAs: []
