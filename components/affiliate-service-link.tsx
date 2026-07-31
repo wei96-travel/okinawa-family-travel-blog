@@ -5,16 +5,19 @@ type AffiliateServiceLinkProps = {
   itemName: string;
   label: string;
   network: "Klook" | "Shopee" | "Trip.com";
+  placement: string;
 };
 
-export function AffiliateServiceLink({ href, itemName, label, network }: AffiliateServiceLinkProps) {
+export function AffiliateServiceLink({ href, itemName, label, network, placement }: AffiliateServiceLinkProps) {
   function trackAffiliateClick() {
     window.gtag?.("event", "affiliate_click", {
       affiliate_network: network,
       content_group: "trip_booking_hub",
       item_name: itemName,
+      link_placement: placement,
       link_url: href,
-      page_path: window.location.pathname
+      page_path: window.location.pathname,
+      source_page: window.location.pathname
     });
   }
 

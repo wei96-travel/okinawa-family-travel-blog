@@ -40,7 +40,7 @@ Klook 和 Trip.com 都可以列入比較。兩邊目前的一般成人票幾乎�
 
 這時不用為了幾元一直切換平台。看你習慣哪個帳號、付款方式和客服介面，再確認最後總額即可。
 
-- [查看 Klook 美麗海水族館一般電子票](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1357775&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F1421-churaumi-aquarium-okinawa%2F)
+- [查看 Klook 美麗海水族館一般電子票](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1362380&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F1421-churaumi-aquarium-okinawa%2F)
 - [查看 Trip.com 美麗海水族館一般電子票](https://tw.trip.com/things-to-do/detail/50899757/?locale=zh-TW&curr=TWD&Allianceid=8075670&SID=305605448&trip_sub1=churaumi-ticket-comparison&trip_sub3=D18972921)
 
 ### 行程還沒確定

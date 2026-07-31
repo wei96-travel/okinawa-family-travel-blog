@@ -249,7 +249,11 @@ export default function OkinawaFamilyTravelGearPage() {
                         {product.caution}
                       </p>
                       <div className="mt-6 flex flex-wrap items-center gap-4">
-                        <AffiliateProductLink href={product.href} itemName={product.name} />
+                        <AffiliateProductLink
+                          href={product.href}
+                          itemName={product.name}
+                          placement="product_card"
+                        />
                         <Link className="text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4" href={product.articleHref}>
                           {product.articleLabel}
                         </Link>

@@ -3,15 +3,19 @@
 type AffiliateProductLinkProps = {
   href: string;
   itemName: string;
+  placement: string;
 };
 
-export function AffiliateProductLink({ href, itemName }: AffiliateProductLinkProps) {
+export function AffiliateProductLink({ href, itemName, placement }: AffiliateProductLinkProps) {
   function trackAffiliateClick() {
     window.gtag?.("event", "affiliate_click", {
+      affiliate_network: "Shopee",
       content_group: "travel_gear_hub",
       item_name: itemName,
+      link_placement: placement,
       link_url: href,
-      page_path: window.location.pathname
+      page_path: window.location.pathname,
+      source_page: window.location.pathname
     });
   }
 

@@ -256,6 +256,7 @@ export default function OkinawaFamilyTripBookingPage() {
                               itemName={hotel.name}
                               label={hotel.buttonLabel}
                               network="Trip.com"
+                              placement="hotel_card"
                             />
                           </div>
                         </div>
@@ -268,6 +269,7 @@ export default function OkinawaFamilyTripBookingPage() {
                         itemName={`${option.area}飯店列表`}
                         label={`比較更多${option.area}住宿`}
                         network="Trip.com"
+                        placement="area_search"
                       />
                       <Link
                         className="text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4"
@@ -306,6 +308,7 @@ export default function OkinawaFamilyTripBookingPage() {
                 itemName="沖繩租車列表"
                 label="比較沖繩租車"
                 network="Trip.com"
+                placement="rental_car_section"
               />
               <Link
                 className="text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4"
@@ -336,16 +339,18 @@ export default function OkinawaFamilyTripBookingPage() {
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <AffiliateServiceLink
-                  href="https://affiliate.klook.com/redirect?aid=128859&aff_adid=1357775&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F1421-churaumi-aquarium-okinawa%2F"
+                  href="https://affiliate.klook.com/redirect?aid=128859&aff_adid=1362390&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F1421-churaumi-aquarium-okinawa%2F"
                   itemName="美麗海水族館一般電子票"
                   label="查看 Klook 票種"
                   network="Klook"
+                  placement="ticket_comparison"
                 />
                 <AffiliateServiceLink
                   href="https://tw.trip.com/things-to-do/detail/50899757/?locale=zh-TW&curr=TWD&Allianceid=8075670&SID=305605448&trip_sub1=churaumi-ticket-comparison&trip_sub3=D18972921"
                   itemName="美麗海水族館一般電子票"
                   label="查看 Trip.com 票種"
                   network="Trip.com"
+                  placement="ticket_comparison"
                 />
               </div>
               <Link

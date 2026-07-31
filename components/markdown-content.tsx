@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TrackedAffiliateLink } from "@/components/tracked-affiliate-link";
 import { getImageSize } from "@/lib/image-size";
 
 function renderBold(text: string) {
@@ -25,16 +26,23 @@ function renderText(text: string) {
   });
 }
 
-function getExternalLinkRel(href: string) {
+function getAffiliateNetwork(href: string) {
   const isKlookAffiliate =
     /^https?:\/\/affiliate\.klook\.com\//i.test(href) ||
     (/^https?:\/\/(?:[^/]+\.)?klook\.com\//i.test(href) && /[?&](?:aid|aff_adid)=/i.test(href));
   const isTripAffiliate =
     /^https?:\/\/(?:[^/]+\.)?trip\.com\//i.test(href) && /[?&]Allianceid=/i.test(href);
   const isShopeeAffiliate = /^https?:\/\/(?:[^/]+\.)?shopee\.tw\//i.test(href);
-  const isAffiliateLink = isKlookAffiliate || isTripAffiliate || isShopeeAffiliate;
 
-  return isAffiliateLink ? "sponsored noreferrer" : "noreferrer";
+  if (isKlookAffiliate) return "Klook";
+  if (isTripAffiliate) return "Trip.com";
+  if (isShopeeAffiliate) return "Shopee";
+
+  return null;
+}
+
+function getExternalLinkRel(href: string) {
+  return getAffiliateNetwork(href) ? "sponsored noreferrer" : "noreferrer";
 }
 
 function renderInline(text: string) {
@@ -52,8 +60,26 @@ function renderInline(text: string) {
         );
       }
 
+      const network = getAffiliateNetwork(match[2]);
+
+      if (network) {
+        return (
+          <TrackedAffiliateLink
+            contentGroup="blog_article"
+            href={match[2]}
+            itemName={match[1]}
+            key={index}
+            network={network}
+            placement="inline_link"
+            rel={getExternalLinkRel(match[2])}
+          >
+            {match[1]}
+          </TrackedAffiliateLink>
+        );
+      }
+
       return (
-        <a href={match[2]} key={index} rel={getExternalLinkRel(match[2])} target="_blank">
+        <a href={match[2]} key={index} rel="noreferrer" target="_blank">
           {match[1]}
         </a>
       );
