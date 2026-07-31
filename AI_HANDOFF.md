@@ -1,10 +1,12 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-31 (Codex, Facebook restaurant long-form published and verified)
+Last updated: 2026-08-01 (Codex, five original-photo article drafts completed; awaiting user review)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
+
+- 2026-08-01 unpublished original-photo draft run (Codex, completed and paused for review): the user asked Codex to finish all usable articles first and publish nothing until a later review. Completed `100_Todo/drafts/articles/2026-08-01_photo-batch-draft-index.md` plus five full drafts for DMM Kariyushi Aquarium, Okinawa World / Gyokusendo, Sairai-in Daruma Temple, ASHIBINAA and Tondou ramen. Each draft now includes a search title and description, family decision angle, FAQ, internal-link plan, original-photo placement, sources and publication blockers. Three checks passed: current facts and source cautions, natural reader wording, and publication safety. Keep all six files under `100_Todo/drafts/articles/`; do not move them into `content/blog/`, copy photos into `public/`, deploy, request indexing, or publish to Facebook / Instagram before the user explicitly approves the reviewed versions. DMM and Okinawa World photos remain internal references until their commercial-use terms are resolved. The Tondou meal name in photo 21 remains unconfirmed and photo 13 should be location-checked once more before public use.
 
 - 2026-08-01 photo-location follow-up (Codex): resolved two unknowns from the 22-photo batch without asking the user to remember them. Photos 4, 6 and 7 are identified as Darumaho Sairai-in (Daruma Temple) in Shuri, Naha, using the visible `達磨峰` sign plus matching public display photos. Photo 8 is the otter mousse cake at KIRARA CAFE inside DMM Kariyushi Aquarium, confirmed on the aquarium's official cafe page. The photo plan now records these as identified; current menu availability and venue photo-use terms still require a fresh check before publication.
 
