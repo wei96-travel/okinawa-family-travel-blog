@@ -640,6 +640,12 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 - `next build` 通過，共 63 個靜態頁。桌面首屏、票券區與 390px 手機畫面均已實際檢查；手機版無水平溢位。
 - 本次只修改 `app/okinawa-family-trip-booking/page.tsx`、`components/affiliate-service-link.tsx` 與本交接檔；其他 CC／使用者未提交變更均保留。
 
+## 2026-07-31 社群發布總表
+
+- 新增 `docs/social/publishing-master-log.md`，統一記錄 Facebook、Instagram、Reels 與獨立長文；之後先查這份總表，再看各平台細節紀錄。
+- 已公開、已公開但缺連結、草稿完成三種狀態已分開，避免把完成文案誤報成已發布。
+- Facebook 長文暫排 2026-08-01、08-03、08-05 台灣時間 20:30，中間日期留給輪播或 Reel；真正發布前仍須取得使用者對該版本的確認。
+
 ## Handoff Template
 
 When handing off, replace the sections above and include:
