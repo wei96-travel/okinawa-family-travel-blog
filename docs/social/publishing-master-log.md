@@ -30,6 +30,7 @@
 | 2026-07-29 | 輪播 | 美麗海水族館附近親子住宿 | 已公開 | [Facebook 貼文](https://www.facebook.com/permalink.php?story_fbid=pfbid02gQp6M1XXmARiX98rgsAwuKoNz5AdWMcgT3fBqmjbZniTe5f7J2BhiDz6Z2sLisqWl&id=61588725730543) |
 | 2026-07-30 | 輪播 | 第一次去沖繩住哪裡 | 已公開 | [Facebook 貼文](https://www.facebook.com/permalink.php?story_fbid=pfbid0DZ9dSM162E1wu9wZH87WpoEh5EvzzVNZVLpiWmQMSJbXK5cLP4WaoYFiBtJeZfEol&id=61588725730543) |
 | 2026-07-31 | 輪播 | 那霸機場親子行李寄放 | 已公開 | [Facebook 貼文](https://www.facebook.com/permalink.php?story_fbid=pfbid0RpmEfQ8kxMPCvpegqrQNtPaaSosikuEsZCBheLT49SDNj8nYRtdCJU6NDTyjo993l&id=61588725730543) |
+| 2026-07-31 | 獨立長文 | 孩子到了沖繩餐廳突然不吃，不一定是挑食 | 已公開 | [Facebook 貼文](https://www.facebook.com/permalink.php?story_fbid=122117680041290857&id=61588725730543) |
 
 ## Instagram 已公開
 
@@ -48,7 +49,6 @@
 
 | 形式 | 主題 | 來源檔 | 下一步 |
 | --- | --- | --- | --- |
-| Facebook 長文 | 孩子到了沖繩餐廳突然不吃，不一定是挑食 | `work/social/okinawa-family-restaurant-dining-guide/copy-facebook-long-form-2026-07-28.md` | 2026-08-01 晚上發布候選 |
 | Facebook 長文 | 遇到颱風時，先不要重排整趟行程 | `work/social/okinawa-typhoon-family-travel-guide/copy-facebook-long-form.md` | 2026-08-03 晚上發布候選 |
 | Facebook 長文 | 帶小孩逛國際通，最累的常常不是逛街 | `work/social/okinawa-kokusai-dori-family-guide/copy-facebook-long-form.md` | 2026-08-05 晚上發布候選 |
 | Facebook 輪播 | 那霸雨天抵達／還車日 | `work/social/okinawa-naha-rainy-day-family-half-day/` | 待最後發布檢查 |
@@ -61,8 +61,8 @@
 
 | 日期 | 內容 |
 | --- | --- |
-| 2026-08-01 20:30 | 孩子到了沖繩餐廳突然不吃，不一定是挑食 |
-| 2026-08-02 | 輪播或 Reel，不發長文 |
+| 2026-07-31 22:15 | 孩子到了沖繩餐廳突然不吃，不一定是挑食（已提前公開） |
+| 2026-08-01 | 輪播或 Reel，不發長文 |
 | 2026-08-03 20:30 | 遇到颱風時，先不要重排整趟行程 |
 | 2026-08-04 | 輪播或 Reel，不發長文 |
 | 2026-08-05 20:30 | 帶小孩逛國際通，最累的常常不是逛街 |

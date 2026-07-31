@@ -1,10 +1,12 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-07-31 (Codex, daily luggage-storage content run in progress)
+Last updated: 2026-07-31 (Codex, Facebook restaurant long-form published and verified)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
 ## Current State
+
+- 2026-07-31 Facebook independent long-form publication (Codex): after the user explicitly said `發`, published `孩子到了沖繩餐廳突然不吃，不一定是挑食` through the Codex in-app browser on Wei Fan. The main post contains no external URL; the first comment links to `https://okinawafamilynotes.com/blog/okinawa-family-restaurant-dining-guide`. The standalone public post page was reopened and verified for the approved body copy, audience `所有人`, and the completed first comment. Public post: https://www.facebook.com/permalink.php?story_fbid=122117680041290857&id=61588725730543. Facebook Content Library also records it as published on 2026-07-31 at 22:15 Taiwan time.
 
 - 2026-07-31 Facebook caption correction (Codex): the user rejected the published Naha Airport luggage-storage caption because it sounded formulaic and exposed the internal phrase `作者第一則留言`. After the six wording changes were explicitly approved, the live Facebook post was edited in place through the Codex in-app browser. The revised caption now opens with the actual arrival situation, gives the return-to-airport decision rule directly, points readers to `第一則留言` without referring to an author, adds the official-site reminder and keeps only three relevant hashtags. Public verification passed: the new caption and hashtags are visible, the old phrase is absent, audience remains public, all eight carousel images remain attached, and the existing first-comment article link still renders. Public post: https://www.facebook.com/permalink.php?story_fbid=pfbid0RpmEfQ8kxMPCvpegqrQNtPaaSosikuEsZCBheLT49SDNj8nYRtdCJU6NDTyjo993l&id=61588725730543. Permanent publishing rule: reader-facing copy must never contain workflow labels such as `作者第一則留言`; run both a natural-language review and a public-context check before pressing publish.
 
