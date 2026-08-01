@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">沖繩親子自駕車上備用包</title><desc id="desc">深藍色汽車旁放著收納包、替換衣物、濕紙巾與防水墊的本站自製插圖</desc>
+  <rect width="1600" height="900" fill="#083344"/><circle cx="1375" cy="145" r="92" fill="#fbbf24" opacity=".95"/><path d="M0 670C260 590 430 690 720 630s480-210 880-88v358H0z" fill="#0f766e"/>
+  <path d="M245 520h690l105 120v105H185V638z" fill="#f8fafc"/><path d="M330 533h455l104 104H250z" fill="#93c5fd"/><path d="M386 542h170v94H300zM578 542h175l84 94H578z" fill="#164e63"/>
+  <circle cx="360" cy="745" r="76" fill="#111827"/><circle cx="360" cy="745" r="37" fill="#cbd5e1"/><circle cx="865" cy="745" r="76" fill="#111827"/><circle cx="865" cy="745" r="37" fill="#cbd5e1"/>
+  <rect x="1090" y="480" width="250" height="255" rx="28" fill="#fb923c"/><rect x="1142" y="441" width="146" height="62" rx="24" fill="#fb923c"/><rect x="1148" y="558" width="72" height="130" rx="12" fill="#fef3c7"/><rect x="1241" y="550" width="56" height="142" rx="12" fill="#f8fafc"/><path d="M1258 568h22v56h-22z" fill="#38bdf8"/><path d="M1163 594h42v12h-42m0 24h42v12h-42" stroke="#fb923c" stroke-width="10"/>
+  <text x="116" y="155" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="66" font-weight="800">沖繩親子自駕</text><text x="116" y="235" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="66" font-weight="800">車上備用包怎麼裝？</text><text x="120" y="315" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="30">尿急、暈車、濕衣時，停好車就能拿到的 6 樣小物</text>
+</svg>

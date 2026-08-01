@@ -270,3 +270,15 @@ Search Console 3 個月報表資料截至 2026-07-28：**77 點擊／1,400 曝�
 - **跳過的實驗頁**：美麗海停留時間頁維持到 2026-08-07；國際通廁所首屏調整維持到 2026-08-11；7/29 已新增入口的第一次沖繩住宿區頁也不再疊加改動。301 合併中的 `okinawa-driving-rest-stops-family` 未新增連結、未改新頁標題。
 - **舊文工作改為盤點**：記錄於 `research/internal-link-audit-2026-07-30.md`。現有可改善舊頁不是近期剛變動，就是 CTR 已高於目前排名可期待範圍；不為了固定產量製造無法歸因的改動。
 - **新文**：`/blog/okinawa-naha-airport-to-city-family-guide` 承接「沖繩機場到市區」的機場—那霸市區親子交通比較，與既有單軌票種／市區動線及租車取還車流程分工。首次成效檢視不早於 2026-08-27。
+
+---
+
+## 2026-08-01 每日決策紀錄
+
+Search Console 三個月報表資料截至 2026-07-29：**91 點擊／1,704 曝光／CTR 5.3%／平均排名 7.2**。
+
+- `okinawa-car-seat-rental-guide`：4／226；仍是 7/23 標題實驗，至少再觀察兩週，不改。
+- `churaumi-aquarium-family-time`、`okinawa-kokusai-dori-family-guide`、兩篇住宿頁與 `okinawa-naha-airport-to-city-family-guide`：均在既定冷卻或收錄觀察期，不改。
+- `okinawa-family-drive-toilet-convenience-store`：301 合併期間，不新增指向舊網址的站內連結，也不為短期數字改新頁標題。
+- `okinawa-rental-car-refueling-guide`：0／84；仍遵守「先觀察、不和其他頁一起改標題」。本日完成 `research/internal-link-audit-2026-08-01.md`，沒有改舊文。
+- 新增 `/blog/okinawa-family-car-emergency-kit`，承接「親子自駕車上備用包」搜尋缺口，與休息點文以「物品收納／安全界線」和「路線／停靠點」切開意圖。新頁先等待收錄，不提前再改。
