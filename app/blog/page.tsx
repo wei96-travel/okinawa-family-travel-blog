@@ -9,7 +9,12 @@ export const metadata: Metadata = {
   title: "文章閱讀中心",
   description: "第一次去沖繩的親子旅遊閱讀中心，依住宿、行程、景點、租車交通、旅遊用品與親子美食整理。",
   alternates: {
-    canonical: "/blog"
+    canonical: "/blog",
+    languages: {
+      "zh-TW": "/blog",
+      en: "/en/blog",
+      "x-default": "/blog"
+    }
   }
 };
 

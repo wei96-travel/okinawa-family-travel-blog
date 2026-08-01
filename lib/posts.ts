@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import type { Category } from "@/lib/site";
 
 const postsDirectory = path.join(process.cwd(), "content", "blog");
+const englishPostsDirectory = path.join(process.cwd(), "content", "blog-en");
 
 type PostMatter = {
   title: string;
@@ -29,6 +30,18 @@ export type Post = PostMatter & {
   readingTime: string;
 };
 
+type EnglishPostMatter = Omit<PostMatter, "category"> & {
+  category: string;
+};
+
+export type EnglishPost = EnglishPostMatter & {
+  slug: string;
+  content: string;
+  formattedDate: string;
+  modifiedDate: string;
+  readingTime: string;
+};
+
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("zh-TW", {
     year: "numeric",
@@ -41,6 +54,20 @@ function getReadingTime(content: string) {
   const words = content.replace(/\s/g, "").length;
   const minutes = Math.max(1, Math.ceil(words / 450));
   return minutes + " 分鐘閱讀";
+}
+
+function formatEnglishDate(date: string) {
+  return new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  }).format(new Date(date));
+}
+
+function getEnglishReadingTime(content: string) {
+  const words = content.trim().split(/\s+/).length;
+  const minutes = Math.max(1, Math.ceil(words / 220));
+  return minutes + " min read";
 }
 
 function readPostFile(fileName: string): Post {
@@ -70,6 +97,39 @@ export function getAllPosts() {
 
 export function getPostBySlug(slug: string) {
   return getAllPosts().find((post) => post.slug === slug);
+}
+
+function readEnglishPostFile(fileName: string): EnglishPost {
+  const slug = fileName.replace(/\.md$/, "");
+  const fullPath = path.join(englishPostsDirectory, fileName);
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const { data, content } = matter(fileContents);
+  const frontMatter = data as EnglishPostMatter;
+
+  return {
+    ...frontMatter,
+    slug,
+    content,
+    formattedDate: formatEnglishDate(frontMatter.date),
+    modifiedDate: frontMatter.updated ?? frontMatter.date,
+    readingTime: getEnglishReadingTime(content)
+  };
+}
+
+export function getAllEnglishPosts() {
+  if (!fs.existsSync(englishPostsDirectory)) {
+    return [];
+  }
+
+  return fs
+    .readdirSync(englishPostsDirectory)
+    .filter((fileName) => fileName.endsWith(".md"))
+    .map(readEnglishPostFile)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export function getEnglishPostBySlug(slug: string) {
+  return getAllEnglishPosts().find((post) => post.slug === slug);
 }
 
 export function getPostsByCategory(category: string) {

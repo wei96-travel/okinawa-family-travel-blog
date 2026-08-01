@@ -11,6 +11,14 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.
 export const metadata: Metadata = {
   title: {
     absolute: "2026 沖繩親子自由行攻略｜行程、住宿、租車與景點"
+  },
+  alternates: {
+    canonical: "/",
+    languages: {
+      "zh-TW": "/",
+      en: "/en",
+      "x-default": "/"
+    }
   }
 };
 

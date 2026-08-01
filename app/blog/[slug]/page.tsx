@@ -6,6 +6,7 @@ import { ArticleToc } from "@/components/article-toc";
 import { MarkdownContent } from "@/components/markdown-content";
 import { JsonLd } from "@/components/json-ld";
 import { ReadingNextSteps } from "@/components/reading-next-steps";
+import { getEnglishSlug } from "@/lib/i18n";
 import { getAllPosts, getPostBySlug, getPostHeadings, getRelatedPosts } from "@/lib/posts";
 import { getCategoryByName } from "@/lib/site";
 
@@ -28,12 +29,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
+  const englishSlug = getEnglishSlug(post.slug);
+  const canonical = "/blog/" + post.slug;
 
   return {
     title: post.title,
     description: post.description,
     alternates: {
-      canonical: "/blog/" + post.slug
+      canonical,
+      ...(englishSlug
+        ? {
+            languages: {
+              "zh-TW": canonical,
+              en: "/en/blog/" + englishSlug,
+              "x-default": canonical
+            }
+          }
+        : {})
     },
     openGraph: {
       title: post.title,
@@ -72,6 +84,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const headings = getPostHeadings(post.content);
   const relatedPosts = getRelatedPosts(post, 2);
   const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
+  const englishSlug = getEnglishSlug(post.slug);
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
@@ -98,9 +111,16 @@ export default async function BlogPostPage({ params }: PageProps) {
           }
         }}
       />
-      <Link className="text-sm font-semibold text-[#694624]" href="/blog">
-        回文章列表
-      </Link>
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <Link className="text-sm font-semibold text-[#694624]" href="/blog">
+          回文章列表
+        </Link>
+        {englishSlug ? (
+          <Link className="text-sm font-semibold text-[#694624]" href={"/en/blog/" + englishSlug}>
+            Read in English
+          </Link>
+        ) : null}
+      </div>
       <header className="mt-6 border-b border-[#eadfce] pb-8">
         <p className="text-sm font-semibold text-[#9a6b43]">{post.category}</p>
         <h1 className="mt-3 break-all text-3xl font-bold leading-tight text-[#34302b] sm:text-4xl">{post.title}</h1>
