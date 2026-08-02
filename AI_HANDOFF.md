@@ -1,14 +1,25 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-08-01 (Codex, emergency-kit article visual and content strengthening)
+Last updated: 2026-08-02 (Codex, cross-platform profile refresh completed)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
+## Daily Master Schedule
+
+- 2026-08-02 visible-browser correction: when wei96 must sign in, enter personal or payment data, solve a CAPTCHA or inspect a page, the target page must be brought to the visible foreground and its URL/title verified. Do not claim a background tab is open. This permanent project rule is now in `AGENTS.md`.
+- 2026-08-02 execution update: Threads patrol comments、場館照片規則、AdSense 個人付款資料及跨平台簡介均已完成。下一項為 Threads 第 2 則的精確預覽；只有取得使用者當次確認後才能發布。
+- 2026-08-02 venue-photo decision: DMM and Okinawa World official inquiry forms were not submitted. After reviewing the commercial-use restrictions and form requirements, wei96 decided not to pursue permission for this batch. Do not publish, deploy or repurpose the DMM Aquarium or Okinawa World / Gyokusendo interior photos. The article topics remain available, but future drafts must use official facts plus site-made covers or infographics.
+- 2026-08-02 Codex consolidated the active article, SEO, indexing, Facebook, Instagram, Threads, affiliate, AdSense and analytics work into `100_Todo/plans/2026-08-02-daily-master-schedule.md`. Both agents must read that file after the permanent rules and this handoff before choosing daily work. It uses two morning content units rather than forcing two full articles: one primary article task plus one evidence-backed update, research or social task. The first cycle runs through 2026-08-15, with weekly reviews on 8/8 and 8/15. Social publication still requires an exact preview and the user's explicit approval each time.
+- AdSense personal and payment-profile information was completed with the user present on 2026-08-02. The site remains under review, so neither agent may claim that ads are serving or earning revenue yet.
+- 2026-08-02 Threads morning patrol automation: active automation `threads` runs daily at 07:30 Taiwan time. It inspects up to three relevant Threads posts and proposes natural Traditional Chinese comments plus up to two accounts worth considering. It must not like, follow or submit comments automatically; every public interaction requires an exact preview and the user's current confirmation. It must keep the existing in-app-browser session, never log out or repeatedly retry login, and must ignore the accidental text `a87`.
+
 ## Current State
 
-- 2026-08-01 cross-platform profile positioning (Codex, pending user wording approval): the user wants Threads, Instagram, Facebook and the blog profile/about copy updated around the same truthful identity: an office worker who uses spare time to organize travel information and write the Okinawa family travel blog. Do not call the user a researcher, travel expert or travel agency, and do not copy one identical bio across all four platforms. The platform-specific plan is in `100_Todo/plans/2026-08-01-cross-platform-profile-refresh.md`. No public profile copy has been changed yet; preview each version before saving or deploying. Account safety rule: do not add cross-platform account linking, automatic cross-posting, profile syncing or extra shared-login settings. Threads currently uses the existing Instagram identity `@okinawa.family.notes`; do not change Accounts Center or add any other account without explicit user confirmation.
+- 2026-08-02 Threads launch post (Codex, published and verified; files claimed: `work/social/threads-launch/assets/` and `work/social/threads-launch/render/`): after the user approved the final copy and all three 1080x1350 cards, Codex published the first Threads post through the in-app browser at 00:47 Taiwan time. The public permalink is `https://www.threads.com/@okinawa.family.notes/post/DbgTZF7mFfx`. Public-page verification confirmed the exact approved copy and all three images in the intended order: original Okinawa road cover, five-step family-itinerary flowchart, and original Okinawa sunset question card. The main post contains no external URL; the profile website link remains available. No account was followed during this publication task.
 
-- 2026-08-01 Threads launch preparation (Codex, blocked before publication): Threads recognized the existing Instagram account `@okinawa.family.notes`, and the public-profile option was selected. The web onboarding was submitted once but remained stuck on `準備好使用 Threads`; reopening the homepage still showed the account as signed out, and the public profile URL did not yet exist. Do not repeatedly submit account creation. The user should finish activation once in the mobile Threads app with the same Instagram account. The account plan and three unpublished launch posts are in `docs/social/threads-publishing-plan.md` and `work/social/threads-launch/copy-threads.md`. No Threads post has been published. After mobile activation, Codex must verify the imported profile, show the first-post preview, receive explicit publication approval, publish through the in-app browser and record the public permalink.
+- 2026-08-02 cross-platform profile positioning (Codex, completed): Threads、Instagram、Facebook 與部落格關於頁都已依同一組真實資料更新，定位為利用下班和休假時間整理沖繩親子自由行的上班族。四個平台依長度各自改寫，網站連結保留，沒有啟用跨平台同步。不可再改成「專門研究」、「旅遊專家」或旅行社口吻。完整採用文字在 `100_Todo/plans/2026-08-01-cross-platform-profile-refresh.md`。
+
+- 2026-08-02 Threads account status (Codex, first post live): Threads is active at `@okinawa.family.notes`, the profile is public, the natural office-worker bio is visible, and `okinawafamilynotes.com` appears as a clickable profile link. The first post is live and verified at `https://www.threads.com/@okinawa.family.notes/post/DbgTZF7mFfx`. Continue using the plan in `docs/social/threads-publishing-plan.md`; preview every later post before publishing. Do not enable account linking, automatic cross-posting or profile syncing.
 
 - 2026-08-01 calculator publication and emergency-kit product links (Codex, deployed in `a3fb5a5`): published `/okinawa-family-trip-budget-calculator`, added it to the footer and sitemap, and kept this release free with no account or stored personal data. A full 2-adult/1-child, 5-day self-drive test with NT$36,000 airfare returned the expected itemized range; local and production 390x844 browser checks showed readable controls and results. Added only three existing, recently vetted Shopee links to `/blog/okinawa-family-car-emergency-kit`: small-pack wet wipes, resealable bags and a 700ml emergency urine bag. The copy explains why each may help, keeps the urine bag as a parked-car last resort, and avoids leak or suitability guarantees. Production returned 200 for both pages; the calculator title and self-canonical are correct, the sitemap contains the route, and all three product links use `rel="sponsored noreferrer"`. `content:audit:strict` passed with 46 articles, 0 critical issues and 37 pre-existing style reminders; the production build passed with 71 static pages. Search Console initially reported the calculator as an unknown URL, completed its live test and confirmed one indexing request was added to the priority crawl queue on 2026-08-01. Do not resubmit while this request is pending. Preserve all unrelated local work.
 
@@ -677,6 +688,21 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 - 新增 `docs/social/publishing-master-log.md`，統一記錄 Facebook、Instagram、Reels 與獨立長文；之後先查這份總表，再看各平台細節紀錄。
 - 已公開、已公開但缺連結、草稿完成三種狀態已分開，避免把完成文案誤報成已發布。
 - Facebook 長文暫排 2026-08-01、08-03、08-05 台灣時間 20:30，中間日期留給輪播或 Reel；真正發布前仍須取得使用者對該版本的確認。
+
+## 2026-08-02 AdSense 個人付款資料
+
+- Codex 已透過內建瀏覽器確認並送出 AdSense 個人付款資料；姓名與地址已由使用者本人核對，帳戶類型為個人。交接文件不得記錄完整住址。
+- 送出後 Google 顯示「太好了！您已完成所有步驟」、「我們已獲得您的資訊」及「您的網站尚待審查，還不能放送廣告」。
+- 目前不是缺少個人資料，也不是需要再填銀行帳戶；下一步是等待網站審查。審查通過前不得宣稱廣告已開始放送或已有廣告收益。
+- 下一個工作依每日主排程為：先讓 wei96 預覽 Facebook、Instagram 與部落格簡介，再逐一修改；之後才預覽 Threads 第 2 則，未取得當次確認不得發布。
+
+## 2026-08-02 跨平台簡介更新
+
+- Facebook 簡介已透過 Codex 內建瀏覽器更新並儲存，內容為：「我是一個上班族，利用下班和休假時間整理沖繩親子自由行。這裡會分享租車、住宿、景點，還有帶孩子最容易卡住的小事。」公開範圍維持「所有人」。
+- Instagram `@okinawa.family.notes` 簡介已更新為三行版本，保留 `okinawafamilynotes.com` 網站連結，未開啟跨平台同步。
+- 部落格 `app/about/page.tsx` 已加入作者的上班族身分與內容方向，原有的資料來源、親身體驗界線與圖片說明均保留。
+- 三個平台共同事實一致，但依平台長度各自改寫；不可再改回「專門研究」、「旅遊專家」或不符本人身分的定位。
+- Next.js 正式建置已通過，共產生 71 個靜態頁；本機 `/about` 已確認新文字顯示、桌面版無水平溢位。
 
 ## Handoff Template
 
