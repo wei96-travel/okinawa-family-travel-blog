@@ -1,23 +1,21 @@
 ---
-status: "已轉為正式文章｜2026-08-04"
-publishedPath: "/blog/okinawa-world-gyokusendo-family-guide"
-workingTitle: "沖繩世界玉泉洞親子攻略：幼兒怎麼走、推車怎麼安排"
-slugSuggestion: "okinawa-world-gyokusendo-family-guide"
+title: "2026 沖繩世界玉泉洞親子攻略：推車、樓梯與停留時間"
+description: "帶幼兒走玉泉洞，推車怎麼安排？整理 890 公尺公開參觀區、票價、停留時間、雨天安排與親子行程取捨。"
+date: "2026-08-04"
 category: "親子景點"
-primaryKeyword: "玉泉洞 親子"
-searchTitle: "沖繩世界玉泉洞親子攻略｜推車、票價與停留時間"
-searchDescription: "帶幼兒走玉泉洞，推車怎麼安排？整理 890 公尺公開參觀區、票價、停留時間、雨天安排與沖繩世界親子行程取捨。"
-photoRefs: [13, 15, 16, 17, 18, 19]
-photoRestriction: "館方限制未經許可的商業使用；這批自攝照片不公開，只使用本站自製封面與資訊圖"
+tags: ["玉泉洞親子", "沖繩世界", "沖繩親子景點", "沖繩雨天景點", "沖繩自由行"]
+coverImage: "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-family-cover.webp"
+coverAlt: "一家三口站在鐘乳洞入口前，幼兒牽著家長，旁邊放著收起來的推車"
+coverCaption: "本站 AI 自製情境圖：進洞前先確認孩子能否走階梯，以及推車和背巾怎麼安排。"
 ---
 
-# 沖繩世界玉泉洞親子攻略：幼兒怎麼走、推車怎麼安排
-
-帶小孩去沖繩世界，最容易漏算的不是門票，而是進入玉泉洞後，推車沒辦法一路跟著走。
+帶小孩去沖繩世界，門票很好查；比較容易漏算的是進入玉泉洞後，推車沒辦法一路跟著走。
 
 沖繩世界不只是一個鐘乳洞。園內還有琉球王國城下町、傳統工藝體驗與表演，不過多數家庭第一個要面對的仍是玉泉洞的階梯、濕滑感和將近 890 公尺的公開參觀區。孩子能自己走、願不願意走，會直接決定這一站累不累。
 
 以下票價、營業與設施資訊查核於 2026 年 8 月 4 日。表演、體驗、營業與票價都可能調整，出發前請再看官方公告。
+
+![帶幼兒走玉泉洞前的三種親子狀況判斷](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-family-decision.webp "本站自製情境圖：先看孩子能否走階梯、是否需要推車，以及會不會怕暗或怕濕滑。")
 
 ## 先判斷：你家適不適合排？
 
@@ -25,7 +23,7 @@ photoRestriction: "館方限制未經許可的商業使用；這批自攝照片�
 | --- | --- |
 | 孩子能穩定走階梯，對洞穴有興趣 | 可以把玉泉洞當成主要行程 |
 | 嬰兒還需要長時間坐推車 | 先想好由誰背、推車放哪裡，不要到入口才決定 |
-| 孩子怕暗、怕地下空間或容易滑倒 | 不必硬走完整段，可改看園區其他內容 |
+| 孩子怕暗、怕地下空間或容易滑倒 | 進洞前先判斷，不適合就改看園區其他內容 |
 | 下雨想找室內景點 | 洞內不怕一般雨，但停車、進出園區與濕滑仍要算進去 |
 | 同一天還想排 DMM 水族館或大型商場 | 建議擇一，不要把幾個半日行程塞成一天 |
 
@@ -114,26 +112,18 @@ photoRestriction: "館方限制未經許可的商業使用；這批自攝照片�
 
 一般雨天可考慮，但仍有戶外移動與濕滑問題；強風、颱風與臨時營運調整要看官方公告。
 
-## 建議站內連結
+## 接著怎麼排比較順？
 
-- [沖繩下雨天親子景點怎麼排](/blog/okinawa-rainy-day-family-spots)
-- [沖繩親子自駕一天排幾個點](/blog/okinawa-family-driving-pace-guide)
-- [沖繩南部適合親子住嗎](/blog/south-okinawa-family-stay)
-- [沖繩遇到颱風怎麼辦](/blog/okinawa-typhoon-family-travel-guide)
+玉泉洞比較適合放在沖繩南部行程，不要同一天又跨去北部。若主要是為了躲雨，可以先看[沖繩下雨天親子景點怎麼排](/blog/okinawa-rainy-day-family-spots)，比較玉泉洞和其他室內選擇；自駕家庭也可用[沖繩親子自駕一天排幾個點](/blog/okinawa-family-driving-pace-guide)控制節奏。
 
-## 照片安排（內部）
-
-1. 自製封面：用「洞穴階梯、幼兒步行、推車安排」三個訊號呈現主題，明確標示為情境示意圖。
-2. 自製資訊圖：整理「孩子能走階梯／需要推車／怕暗」三種家庭的判斷方式。
-3. 這批玉泉洞自攝照片只保留內部參考，不放進網站、社群或公開素材庫。
-4. 票券入口等文章核准後再評估，正文不主動強調合作或分潤。
+還沒決定住哪一區，可接著看[沖繩南部適合親子住嗎](/blog/south-okinawa-family-stay)。若出發前遇到颱風或強風預報，則先依[沖繩遇到颱風怎麼辦](/blog/okinawa-typhoon-family-travel-guide)確認航班、住宿與景點公告，不要只因為已買票就勉強出發。
 
 ## 官方資料來源
 
-- https://www.gyokusendo.co.jp/okinawaworld/
-- https://www.gyokusendo.co.jp/okinawaworld/fee/
-- https://www.gyokusendo.co.jp/okinawaworld/modelcourse/
-- https://www.gyokusendo.co.jp/okinawaworld/7recommendations/
-- https://www.gyokusendo.co.jp/okinawaworld/photography/
+- [沖繩世界官方網站](https://www.gyokusendo.co.jp/okinawaworld/)
+- [沖繩世界票價與營業資訊](https://www.gyokusendo.co.jp/okinawaworld/fee/)
+- [沖繩世界官方示範行程](https://www.gyokusendo.co.jp/okinawaworld/modelcourse/)
+- [沖繩世界設施與參觀重點](https://www.gyokusendo.co.jp/okinawaworld/7recommendations/)
+- [沖繩世界攝影與使用規定](https://www.gyokusendo.co.jp/okinawaworld/photography/)
 
 資料查核日期：2026-08-04。
