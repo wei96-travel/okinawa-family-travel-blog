@@ -710,6 +710,16 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 
 ## Handoff Template
 
+## 2026-08-04 Codex editorial and SEO verification
+
+- Published `content/blog/okinawa-world-gyokusendo-family-guide.md` and verified the production build.
+- Search Console accepted the indexing request for the live article on 2026-08-04.
+- Removed reader-facing uses of `你家` and `狼狽` from published blog content; replaced them with precise descriptions of the family situation.
+- Added an editorial rule to `AI_COLLABORATION.md`: public long-form articles must stay natural while retaining an editorial tone.
+- Strict content audit result: 47 articles, 0 critical issues, 37 style reminders. The remaining reminders mainly flag repeated `不是 A，而是 B` phrasing and should be improved gradually without bulk rewriting article meaning.
+- Next.js production build passed: 72 static pages generated.
+- The daily 11:00 Search Console task is a Codex heartbeat automation attached to the current task, not a WordPress or Google background service.
+
 When handing off, replace the sections above and include:
 
 - Active owner and reason for handoff

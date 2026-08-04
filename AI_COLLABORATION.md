@@ -61,6 +61,7 @@ Traffic remains the first priority. Affiliate presentation may be improved only 
 - **Daily rule review:** Before the first content, SEO, affiliate-link or social task of each calendar day, re-read this file, `AI_HANDOFF.md`, `content/affiliate-product-workflow.md`, and the current automation memory. Do not rely on a remembered version of a rule.
 - **Reader-facing link wording:** A tracked booking or product link may appear only where it genuinely helps a decision, but public article copy, social captions, first comments and user-facing reports must not mention commission, affiliate, partnership, revenue or disclosure wording. Keep tracking and `rel="sponsored"` implementation technical; internal verification records may retain the necessary technical facts.
 - Write in natural Traditional Chinese for Taiwan readers.
+- Public long-form articles should sound natural but still have an editorial tone. Avoid addressing readers as `你家`, and avoid leaning on sensational or overly casual words such as `狼狽` or `崩潰`; use the specific situation and consequence instead.
 - When showing image previews, save the image in the project and attach the latest version directly in every review message so it works on mobile. Do not rely on an earlier preview, an OS temp file, or a `C:\...` local path; those are backups only and are not sufficient by themselves.
 - Avoid AI-sounding filler, generic travel copy, and exaggerated titles.
 - Research factual claims before writing, especially transport, safety, laws, opening hours, and facilities.

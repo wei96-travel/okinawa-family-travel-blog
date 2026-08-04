@@ -21,7 +21,7 @@ coverLicenseUrl: "https://unsplash.com/license"
 
 比較省力的做法是先決定「從哪一端進、在哪裡收」，不用把整條走完當成任務。
 
-## 先選適合你家的走法
+## 先選適合家庭狀況的走法
 
 ![國際通親子行程三種走法：短程逛牧志周邊、縣廳前進牧志出、星期日先查徒步區公告](/images/articles/okinawa-kokusai-dori-family-guide/kokusai-family-route-options.svg "本站自製資訊圖：國際通帶孩子不用走完整條再原路折返")
 
