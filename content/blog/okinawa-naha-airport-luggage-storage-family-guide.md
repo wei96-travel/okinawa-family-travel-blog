@@ -4,7 +4,7 @@ description: "帶孩子抵達那霸機場、飯店還不能入住時，要不要
 date: "2026-07-31"
 category: "租車交通"
 tags: ["那霸機場行李寄放", "沖繩親子自由行", "那霸機場", "沖繩推車", "沖繩行李"]
-coverImage: "/images/articles/okinawa-naha-airport-luggage-storage-family-guide/naha-airport-luggage-storage-cover.png"
+coverImage: "/images/articles/okinawa-naha-airport-luggage-storage-family-guide/naha-airport-luggage-storage-cover.webp"
 coverAlt: "親子家庭在那霸機場到達大廳旁的行李服務櫃位前，身旁有推車與行李箱"
 coverCaption: "抵達日若還不能入住，先決定要帶走哪些隨身物品，再去確認寄放櫃位。"
 ---
@@ -13,7 +13,7 @@ coverCaption: "抵達日若還不能入住，先決定要帶走哪些隨身物�
 
 這時候不一定要把所有東西拖去市區。若第一天只安排那霸市區、單軌沿線或一段短暫休息，先寄放大件行李，留下推車、證件、藥品、換洗衣物和孩子當下要用的東西，移動通常會輕鬆很多。反過來說，若當天就要搭租車接駁、直接開往中北部，寄放反而可能多一次領取與搬運。
 
-![那霸機場親子行李寄放情境](/images/articles/okinawa-naha-airport-luggage-storage-family-guide/naha-airport-luggage-storage-cover.png "親子抵達後先確認行李服務櫃位與當天安排，再決定是否寄放。")
+![那霸機場親子行李寄放情境](/images/articles/okinawa-naha-airport-luggage-storage-family-guide/naha-airport-luggage-storage-cover.webp "親子抵達後先確認行李服務櫃位與當天安排，再決定是否寄放。")
 
 ## 先用這三題決定要不要寄放
 

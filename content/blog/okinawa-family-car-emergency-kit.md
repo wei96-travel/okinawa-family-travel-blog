@@ -4,7 +4,7 @@ description: "帶孩子在沖繩自駕，車上備用包不用塞滿。整理六
 date: "2026-08-01"
 category: "親子自駕"
 tags: ["沖繩親子自駕", "沖繩行李清單", "車上備用包", "兒童尿急", "親子旅行用品"]
-coverImage: "/images/articles/okinawa-family-car-emergency-kit/emergency-kit-cover-ai-v2.png"
+coverImage: "/images/articles/okinawa-family-car-emergency-kit/emergency-kit-cover-ai-v2.webp"
 coverAlt: "一家三口將租車停妥後，家長在車旁整理濕紙巾、替換衣物與夾鏈袋等車上備用品"
 coverCaption: "本站 AI 自製情境圖：車子停妥後，再從固定位置拿出備用包。"
 ---
