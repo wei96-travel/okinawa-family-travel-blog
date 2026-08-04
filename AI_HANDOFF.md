@@ -719,6 +719,7 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 - Strict content audit result: 47 articles, 0 critical issues, 37 style reminders. The remaining reminders mainly flag repeated `不是 A，而是 B` phrasing and should be improved gradually without bulk rewriting article meaning.
 - Next.js production build passed: 72 static pages generated.
 - The daily 11:00 Search Console task is a Codex heartbeat automation attached to the current task, not a WordPress or Google background service.
+- New permanent approval rule from the user: every blog draft or substantial rewrite must be shown in full and explicitly approved before publication, GitHub deployment or Search Console indexing. Scheduled automations may prepare and verify drafts, but may not treat the schedule itself as approval.
 
 When handing off, replace the sections above and include:
 
