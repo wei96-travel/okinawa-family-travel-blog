@@ -5,7 +5,7 @@ date: "2026-07-23"
 category: "租車交通"
 tags: ["沖繩租車", "駕照日文譯本", "沖繩自駕", "沖繩親子自駕", "國際駕照"]
 coverImage: "/images/articles/okinawa-rental-car-license-translation/license-documents-cover.jpg"
-coverAlt: "護照、駕照與文件放在桌面上，旁邊有車鑰匙，準備出發前確認證件"
+coverAlt: "家長帶著孩子在沖繩租車櫃檯出示駕照與文件，辦理取車手續"
 coverCaption: "護照、台灣駕照正本、日文譯本，三樣都要帶。圖片為本站製作的情境示意。"
 ---
 
