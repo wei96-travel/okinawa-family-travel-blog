@@ -33,7 +33,7 @@ coverCaption: "使用者提供的沖繩世界園區入口實拍。"
 
 官方資料寫明，玉泉洞全長約 5,000 公尺，其中約 890 公尺是一般公開參觀區。數字看起來不到一公里，但洞內不是一般平路：有階梯、潮濕地面、較暗環境，也會遇到前方停下拍照的人潮。
 
-![玉泉洞內的岩宿王鐘乳石](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg "使用者提供的玉泉洞實拍；畫面已避開可辨識人物。")
+![玉泉洞內的岩宿王鐘乳石](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg "玉泉洞實拍：岩宿王鐘乳石。")
 
 親子家庭不要只用步行距離估時間。以下是本站為帶幼兒家庭保守抓的行程範圍，不是園方保證時間：
 
@@ -77,9 +77,9 @@ coverCaption: "使用者提供的沖繩世界園區入口實拍。"
 - 不催孩子追前面的人，洞內濕滑時保持自己的速度。
 - 若孩子怕暗，可以先說明裡面會有燈光、岩壁與水流聲，讓孩子有心理準備。
 
-洞內照片很漂亮，但行走安全比拍照重要。尤其有其他遊客時，不要為了取景停在狹窄動線，也不要拍到可辨識的陌生人。
+洞內照片很漂亮，但行走安全比拍照重要。取景時不要停在狹窄動線，先顧好腳步和孩子的節奏。
 
-![玉泉洞青之泉的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.jpg "使用者提供的玉泉洞實拍；畫面已避開可辨識人物。")
+![玉泉洞青之泉的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.jpg "玉泉洞實拍：青之泉。")
 
 ## 離開洞穴後，還要不要繼續逛？
 
@@ -96,7 +96,7 @@ coverCaption: "使用者提供的沖繩世界園區入口實拍。"
 
 一般雨天仍可考慮參觀洞穴，但沖繩世界並不是完全不受天候影響的室內設施。從停車場走到入口、在園區內移動、鞋底濕滑與回程開車，都會受天氣影響。
 
-![玉泉洞內的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.jpg "使用者提供的玉泉洞實拍；畫面已避開可辨識人物。")
+![玉泉洞內的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.jpg "玉泉洞實拍：洞內水景。")
 
 小雨時可以考慮；遇到強風、大雨、颱風或園方臨時調整，則以官方公告為準。若只是想找一個推車能一路使用的室內點，大型商場通常會比玉泉洞輕鬆。
 
