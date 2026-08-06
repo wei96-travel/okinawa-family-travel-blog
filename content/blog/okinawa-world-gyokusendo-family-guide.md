@@ -33,7 +33,7 @@ coverCaption: "使用者提供的沖繩世界園區入口實拍。"
 
 官方資料寫明，玉泉洞全長約 5,000 公尺，其中約 890 公尺是一般公開參觀區。數字看起來不到一公里，但洞內不是一般平路：有階梯、潮濕地面、較暗環境，也會遇到前方停下拍照的人潮。
 
-![玉泉洞內的岩宿王鐘乳石](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg "玉泉洞實拍：岩宿王鐘乳石。")
+![玉泉洞內的岩窟王鐘乳石](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg "玉泉洞實拍：岩窟王鐘乳石。")
 
 親子家庭不要只用步行距離估時間。以下是本站為帶幼兒家庭保守抓的行程範圍，不是園方保證時間：
 
