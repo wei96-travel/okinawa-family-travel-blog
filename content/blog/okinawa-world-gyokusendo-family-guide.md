@@ -4,9 +4,9 @@ description: "帶幼兒走玉泉洞，推車怎麼安排？整理 890 公尺公�
 date: "2026-08-04"
 category: "親子景點"
 tags: ["玉泉洞親子", "沖繩世界", "沖繩親子景點", "沖繩雨天景點", "沖繩自由行"]
-coverImage: "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-family-cover.webp"
-coverAlt: "一家三口站在鐘乳洞入口前，幼兒牽著家長，旁邊放著收起來的推車"
-coverCaption: "本站 AI 自製情境圖：進洞前先確認孩子能否走階梯，以及推車和背巾怎麼安排。"
+coverImage: "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.jpg"
+coverAlt: "沖繩世界園區入口的紅色建築與階梯"
+coverCaption: "使用者提供的沖繩世界園區入口實拍。"
 ---
 
 帶小孩去沖繩世界，門票很好查；比較容易漏算的是進入玉泉洞後，推車沒辦法一路跟著走。
@@ -32,6 +32,8 @@ coverCaption: "本站 AI 自製情境圖：進洞前先確認孩子能否走階�
 ## 玉泉洞到底要走多少？
 
 官方資料寫明，玉泉洞全長約 5,000 公尺，其中約 890 公尺是一般公開參觀區。數字看起來不到一公里，但洞內不是一般平路：有階梯、潮濕地面、較暗環境，也會遇到前方停下拍照的人潮。
+
+![玉泉洞內的岩宿王鐘乳石](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg "使用者提供的玉泉洞實拍；畫面已避開可辨識人物。")
 
 親子家庭不要只用步行距離估時間。以下是本站為帶幼兒家庭保守抓的行程範圍，不是園方保證時間：
 
@@ -77,6 +79,8 @@ coverCaption: "本站 AI 自製情境圖：進洞前先確認孩子能否走階�
 
 洞內照片很漂亮，但行走安全比拍照重要。尤其有其他遊客時，不要為了取景停在狹窄動線，也不要拍到可辨識的陌生人。
 
+![玉泉洞青之泉的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.jpg "使用者提供的玉泉洞實拍；畫面已避開可辨識人物。")
+
 ## 離開洞穴後，還要不要繼續逛？
 
 玉泉洞走完後，先看孩子的體力和情緒，再決定是否加文化村或表演。比較穩的順序是：
@@ -91,6 +95,8 @@ coverCaption: "本站 AI 自製情境圖：進洞前先確認孩子能否走階�
 ## 下雨天可以去嗎？
 
 一般雨天仍可考慮參觀洞穴，但沖繩世界並不是完全不受天候影響的室內設施。從停車場走到入口、在園區內移動、鞋底濕滑與回程開車，都會受天氣影響。
+
+![玉泉洞內的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.jpg "使用者提供的玉泉洞實拍；畫面已避開可辨識人物。")
 
 小雨時可以考慮；遇到強風、大雨、颱風或園方臨時調整，則以官方公告為準。若只是想找一個推車能一路使用的室內點，大型商場通常會比玉泉洞輕鬆。
 

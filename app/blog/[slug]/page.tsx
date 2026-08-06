@@ -86,7 +86,9 @@ export default async function BlogPostPage({ params }: PageProps) {
   const relatedPosts = getRelatedPosts(post, 2);
   const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
   const englishSlug = getEnglishSlug(post.slug);
-  const hasProtectedOriginalImages = post.slug === "dmm-kariyushi-aquarium-family-guide";
+  const hasProtectedOriginalImages = ["dmm-kariyushi-aquarium-family-guide", "okinawa-world-gyokusendo-family-guide"].includes(
+    post.slug,
+  );
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
