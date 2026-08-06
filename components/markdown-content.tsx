@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { TrackedAffiliateLink } from "@/components/tracked-affiliate-link";
+import { ProtectedOriginalImage } from "@/components/protected-original-image";
 import { getImageSize } from "@/lib/image-size";
 
 function renderBold(text: string) {
@@ -108,9 +109,10 @@ function parseTableRow(line: string) {
 
 type MarkdownContentProps = {
   content: string;
+  protectOriginalImages?: boolean;
 };
 
-export function MarkdownContent({ content }: MarkdownContentProps) {
+export function MarkdownContent({ content, protectOriginalImages = false }: MarkdownContentProps) {
   const blocks = content.trim().split(/\n\s*\n/g);
 
   return (
@@ -129,14 +131,25 @@ export function MarkdownContent({ content }: MarkdownContentProps) {
 
           return (
             <figure className="article-figure" key={index}>
-              <img
-                alt={alt}
-                decoding="async"
-                height={size?.height}
-                loading={index === 0 ? "eager" : "lazy"}
-                src={src}
-                width={size?.width}
-              />
+              {protectOriginalImages ? (
+                <ProtectedOriginalImage
+                  alt={alt}
+                  decoding="async"
+                  height={size?.height}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  src={src}
+                  width={size?.width}
+                />
+              ) : (
+                <img
+                  alt={alt}
+                  decoding="async"
+                  height={size?.height}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  src={src}
+                  width={size?.width}
+                />
+              )}
               {caption ? <figcaption>{caption}</figcaption> : null}
             </figure>
           );

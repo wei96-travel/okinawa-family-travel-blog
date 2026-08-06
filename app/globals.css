@@ -105,6 +105,13 @@ a {
   background: #ffffff;
 }
 
+/* 原創照片只降低一般另存的便利性；瀏覽器顯示圖片仍需下載檔案，不能視為 DRM。 */
+.protected-original-image {
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 /* 這張刻意窄一點，維持原設定 */
 .prose-travel .article-figure img[src*="pickup-safety-checklist"] {
   width: min(100%, 560px);

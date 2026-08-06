@@ -5,6 +5,7 @@ import { ArticleCard } from "@/components/article-card";
 import { ArticleToc } from "@/components/article-toc";
 import { MarkdownContent } from "@/components/markdown-content";
 import { JsonLd } from "@/components/json-ld";
+import { ProtectedOriginalImage } from "@/components/protected-original-image";
 import { ReadingNextSteps } from "@/components/reading-next-steps";
 import { getEnglishSlug } from "@/lib/i18n";
 import { getAllPosts, getPostBySlug, getPostHeadings, getRelatedPosts } from "@/lib/posts";
@@ -85,6 +86,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const relatedPosts = getRelatedPosts(post, 2);
   const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
   const englishSlug = getEnglishSlug(post.slug);
+  const hasProtectedOriginalImages = post.slug === "dmm-kariyushi-aquarium-family-guide";
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
@@ -133,15 +135,27 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       {post.coverImage ? (
         <figure className="mt-8">
-          <img
-            alt={post.coverAlt ?? post.title}
-            className="aspect-video w-full rounded-lg border border-[#eadfce] object-cover"
-            decoding="async"
-            fetchPriority="high"
-            height="900"
-            src={post.coverImage}
-            width="1600"
-          />
+          {hasProtectedOriginalImages ? (
+            <ProtectedOriginalImage
+              alt={post.coverAlt ?? post.title}
+              className="aspect-video w-full rounded-lg border border-[#eadfce] object-cover"
+              decoding="async"
+              fetchPriority="high"
+              height="900"
+              src={post.coverImage}
+              width="1600"
+            />
+          ) : (
+            <img
+              alt={post.coverAlt ?? post.title}
+              className="aspect-video w-full rounded-lg border border-[#eadfce] object-cover"
+              decoding="async"
+              fetchPriority="high"
+              height="900"
+              src={post.coverImage}
+              width="1600"
+            />
+          )}
           {post.coverCaption || post.coverCreditUrl ? (
             <figcaption className="mt-2 text-center text-sm leading-6 text-[#756e65]">
               {post.coverCaption ? <span>{post.coverCaption}</span> : null}
@@ -178,7 +192,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       ) : null}
 
       <ArticleToc headings={headings} />
-      <MarkdownContent content={post.content} />
+      <MarkdownContent content={post.content} protectOriginalImages={hasProtectedOriginalImages} />
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 
       {relatedPosts.length > 0 ? (
