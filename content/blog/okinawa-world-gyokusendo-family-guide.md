@@ -6,7 +6,7 @@ category: "親子景點"
 tags: ["玉泉洞親子", "沖繩世界", "沖繩親子景點", "沖繩雨天景點", "沖繩自由行"]
 coverImage: "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.jpg"
 coverAlt: "沖繩世界園區入口的紅色建築與階梯"
-coverCaption: "使用者提供的沖繩世界園區入口實拍。"
+coverCaption: "沖繩世界園區入口。"
 ---
 
 帶小孩去沖繩世界，門票很好查；比較容易漏算的是進入玉泉洞後，推車沒辦法一路跟著走。

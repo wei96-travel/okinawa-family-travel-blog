@@ -6,7 +6,7 @@ category: "親子景點"
 tags: ["DMM 水族館", "沖繩親子景點", "那霸雨天景點", "沖繩親子行程"]
 coverImage: "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-stingray.jpg"
 coverAlt: "DMM Kariyushi 水族館內的魟魚在藍色水槽中游過"
-coverCaption: "DMM Kariyushi 水族館實拍：館內展區的魟魚。"
+coverCaption: "館內水槽的魟魚。"
 ---
 
 # 2026 DMM Kariyushi 水族館親子攻略：停留多久、推車與下雨天怎麼排
