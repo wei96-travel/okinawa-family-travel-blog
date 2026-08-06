@@ -109,10 +109,10 @@ function parseTableRow(line: string) {
 
 type MarkdownContentProps = {
   content: string;
-  protectOriginalImages?: boolean;
+  protectedImagePaths?: string[];
 };
 
-export function MarkdownContent({ content, protectOriginalImages = false }: MarkdownContentProps) {
+export function MarkdownContent({ content, protectedImagePaths = [] }: MarkdownContentProps) {
   const blocks = content.trim().split(/\n\s*\n/g);
 
   return (
@@ -128,10 +128,11 @@ export function MarkdownContent({ content, protectOriginalImages = false }: Mark
           const [, alt, src, caption] = imageMatch;
           // 給真實尺寸，瀏覽器才會依原始比例保留空間，不必在 CSS 寫死 aspect-ratio
           const size = getImageSize(src);
+          const shouldProtectImage = protectedImagePaths.includes(src);
 
           return (
             <figure className="article-figure" key={index}>
-              {protectOriginalImages ? (
+              {shouldProtectImage ? (
                 <ProtectedOriginalImage
                   alt={alt}
                   decoding="async"

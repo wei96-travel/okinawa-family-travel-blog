@@ -13,6 +13,20 @@ import { getCategoryByName } from "@/lib/site";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
+const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
+  "dmm-kariyushi-aquarium-family-guide": [
+    "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-stingray.jpg",
+    "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-otter-mousse.jpg",
+    "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-sloth.jpg"
+  ],
+  "okinawa-world-gyokusendo-family-guide": [
+    "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.jpg",
+    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg",
+    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.jpg",
+    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.jpg"
+  ]
+};
+
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
@@ -86,9 +100,8 @@ export default async function BlogPostPage({ params }: PageProps) {
   const relatedPosts = getRelatedPosts(post, 2);
   const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
   const englishSlug = getEnglishSlug(post.slug);
-  const hasProtectedOriginalImages = ["dmm-kariyushi-aquarium-family-guide", "okinawa-world-gyokusendo-family-guide"].includes(
-    post.slug,
-  );
+  const protectedOriginalImagePaths = protectedOriginalImagePathsBySlug[post.slug] ?? [];
+  const hasProtectedOriginalCover = protectedOriginalImagePaths.includes(post.coverImage ?? "");
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
@@ -137,7 +150,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       {post.coverImage ? (
         <figure className="mt-8">
-          {hasProtectedOriginalImages ? (
+          {hasProtectedOriginalCover ? (
             <ProtectedOriginalImage
               alt={post.coverAlt ?? post.title}
               className="aspect-video w-full rounded-lg border border-[#eadfce] object-cover"
@@ -194,7 +207,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       ) : null}
 
       <ArticleToc headings={headings} />
-      <MarkdownContent content={post.content} protectOriginalImages={hasProtectedOriginalImages} />
+      <MarkdownContent content={post.content} protectedImagePaths={protectedOriginalImagePaths} />
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 
       {relatedPosts.length > 0 ? (
