@@ -112,14 +112,77 @@ type MarkdownContentProps = {
   protectedImagePaths?: string[];
 };
 
+function splitBlocks(content: string) {
+  const blocks: string[] = [];
+  let buffer: string[] = [];
+  let fence: string | null = null;
+
+  const flush = () => {
+    const text = buffer.join("\n").trim();
+
+    if (text) {
+      blocks.push(text);
+    }
+
+    buffer = [];
+  };
+
+  for (const line of content.trim().split("\n")) {
+    const fenceMatch = line.match(/^\s*(```+)/);
+
+    if (fence) {
+      buffer.push(line);
+
+      if (fenceMatch && fenceMatch[1].length >= fence.length) {
+        fence = null;
+        flush();
+      }
+
+      continue;
+    }
+
+    if (fenceMatch) {
+      flush();
+      fence = fenceMatch[1];
+      buffer.push(line);
+      continue;
+    }
+
+    if (line.trim() === "") {
+      flush();
+      continue;
+    }
+
+    buffer.push(line);
+  }
+
+  flush();
+
+  return blocks;
+}
+
 export function MarkdownContent({ content, protectedImagePaths = [] }: MarkdownContentProps) {
-  const blocks = content.trim().split(/\n\s*\n/g);
+  const blocks = splitBlocks(content);
 
   return (
     <div className="prose-travel mt-8">
       {blocks.map((block, index) => {
         const lines = block.split("\n");
         const firstLine = lines[0];
+
+        if (firstLine.trimStart().startsWith("```")) {
+          const body = lines.slice(1);
+
+          if (body.length > 0 && body[body.length - 1].trimStart().startsWith("```")) {
+            body.pop();
+          }
+
+          return (
+            <pre className="code-block" key={index}>
+              <code>{body.join("\n")}</code>
+            </pre>
+          );
+        }
         const imageMatch = block.match(
           /^!\[([^\]]*)\]\((\/[^\s)]+)(?:\s+"([^"]+)")?\)$/,
         );

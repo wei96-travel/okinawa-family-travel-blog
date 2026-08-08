@@ -69,7 +69,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             alternateName: "Okinawa Family Notes",
             url: siteUrl,
             logo: siteUrl + "/icon.svg",
-            sameAs: []
+            sameAs: [
+              "https://www.facebook.com/profile.php?id=61588725730543",
+              "https://www.instagram.com/okinawa.family.notes/",
+              "https://www.threads.com/@okinawa.family.notes"
+            ]
           }}
         />
         {gaId ? <GoogleAnalytics measurementId={gaId} /> : null}

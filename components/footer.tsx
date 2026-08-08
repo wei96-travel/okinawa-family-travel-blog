@@ -22,6 +22,9 @@ export function Footer() {
           {isEnglish ? (
             <>
               <Link href="/en/blog">Family guides</Link>
+              <Link href="/en/about">About</Link>
+              <Link href="/en/contact">Contact</Link>
+              <Link href="/en/privacy">Privacy policy</Link>
               <Link href="/">繁體中文</Link>
             </>
           ) : (

@@ -4,7 +4,12 @@ export const metadata: Metadata = {
   title: "聯絡",
   description: "聯絡沖繩親子旅遊筆記，提供文章勘誤、資料補充、旅行經驗分享與合作洽詢方式。",
   alternates: {
-    canonical: "/contact"
+    canonical: "/contact",
+    languages: {
+      "zh-TW": "/contact",
+      en: "/en/contact",
+      "x-default": "/contact"
+    }
   }
 };
 

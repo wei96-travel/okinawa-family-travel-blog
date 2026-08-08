@@ -82,6 +82,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
         en: siteUrl + "/en/blog",
         "x-default": siteUrl + "/blog"
       }
+    },
+    {
+      route: "/en/about",
+      languages: {
+        "zh-TW": siteUrl + "/about",
+        en: siteUrl + "/en/about",
+        "x-default": siteUrl + "/about"
+      }
+    },
+    {
+      route: "/en/contact",
+      languages: {
+        "zh-TW": siteUrl + "/contact",
+        en: siteUrl + "/en/contact",
+        "x-default": siteUrl + "/contact"
+      }
+    },
+    {
+      route: "/en/privacy",
+      languages: {
+        "zh-TW": siteUrl + "/privacy",
+        en: siteUrl + "/en/privacy",
+        "x-default": siteUrl + "/privacy"
+      }
     }
   ].map(({ route, languages }) => ({
     url: siteUrl + route,

@@ -7,7 +7,9 @@ import { getAllEnglishPosts } from "@/lib/posts";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
 export const metadata: Metadata = {
-  title: "Okinawa with Kids: Practical Family Travel Guides",
+  title: {
+    absolute: "Okinawa with Kids: Practical Family Travel Guides | Okinawa Family Notes"
+  },
   description: "Start planning an Okinawa family trip with clear guides to accommodation areas, child car seats and Churaumi Aquarium.",
   alternates: {
     canonical: "/en",
@@ -21,7 +23,15 @@ export const metadata: Metadata = {
     title: "Okinawa with Kids: Practical Family Travel Guides",
     description: "Clear, practical planning notes for a first Okinawa trip with children.",
     url: "/en",
-    type: "website"
+    type: "website",
+    images: [
+      {
+        url: "/images/okinawa-family-hero.png",
+        width: 1536,
+        height: 1024,
+        alt: "Okinawa Family Notes"
+      }
+    ]
   }
 };
 
@@ -37,7 +47,10 @@ export default function EnglishHomePage() {
           "@id": siteUrl + "/en/#website",
           name: "Okinawa Family Notes",
           url: siteUrl + "/en",
-          inLanguage: "en"
+          inLanguage: "en",
+          publisher: {
+            "@id": siteUrl + "/#organization"
+          }
         }}
       />
       <section className="border-b border-[#eadfce] bg-[#f6efe4]">

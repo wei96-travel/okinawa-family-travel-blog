@@ -17,7 +17,15 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "Okinawa Family Notes",
-    locale: "en_US"
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/okinawa-family-hero.png",
+        width: 1536,
+        height: 1024,
+        alt: "Okinawa Family Notes"
+      }
+    ]
   }
 };
 

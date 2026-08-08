@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/json-ld";
 import { MarkdownContent } from "@/components/markdown-content";
+import { getFaqEntries } from "@/lib/faq";
 import { getChineseSlug } from "@/lib/i18n";
 import { getAllEnglishPosts, getEnglishPostBySlug } from "@/lib/posts";
 
@@ -65,9 +66,37 @@ export default async function EnglishBlogPostPage({ params }: PageProps) {
 
   const chineseSlug = getChineseSlug(slug);
   const coverImage = post.coverImage ?? "/images/okinawa-family-hero.png";
+  const faqEntries = getFaqEntries(post.content);
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "@id": siteUrl + "/en/blog/" + post.slug + "#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Okinawa Family Notes", item: siteUrl + "/en" },
+            { "@type": "ListItem", position: 2, name: "English guides", item: siteUrl + "/en/blog" },
+            { "@type": "ListItem", position: 3, name: post.title, item: siteUrl + "/en/blog/" + post.slug }
+          ]
+        }}
+      />
+      {faqEntries.length > 0 ? (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "@id": siteUrl + "/en/blog/" + post.slug + "#faq",
+            inLanguage: "en",
+            mainEntity: faqEntries.map((entry) => ({
+              "@type": "Question",
+              name: entry.question,
+              acceptedAnswer: { "@type": "Answer", text: entry.answer }
+            }))
+          }}
+        />
+      ) : null}
       <JsonLd
         data={{
           "@context": "https://schema.org",

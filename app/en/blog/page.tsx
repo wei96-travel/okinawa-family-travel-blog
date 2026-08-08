@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { EnglishArticleCard } from "@/components/english-article-card";
+import { JsonLd } from "@/components/json-ld";
 import { getAllEnglishPosts } from "@/lib/posts";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
 export const metadata: Metadata = {
   title: "Okinawa Family Travel Guides",
@@ -20,6 +23,17 @@ export default function EnglishBlogPage() {
 
   return (
     <div>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "@id": siteUrl + "/en/blog#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Okinawa Family Notes", item: siteUrl + "/en" },
+            { "@type": "ListItem", position: 2, name: "English guides", item: siteUrl + "/en/blog" }
+          ]
+        }}
+      />
       <section className="border-b border-[#eadfce] bg-[#f6efe4]">
         <div className="mx-auto max-w-6xl px-5 py-12 sm:px-6 lg:px-8">
           <p className="text-sm font-semibold tracking-[0.16em] text-[#9a6b43]">FAMILY GUIDES</p>
