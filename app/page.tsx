@@ -4,7 +4,7 @@ import { ArticleCard } from "@/components/article-card";
 import { CategoryPill } from "@/components/category-pill";
 import { JsonLd } from "@/components/json-ld";
 import { getAllPosts } from "@/lib/posts";
-import { categories, getCategoryByName } from "@/lib/site";
+import { categories } from "@/lib/site";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
@@ -47,7 +47,6 @@ export default function HomePage() {
   const posts = getAllPosts().slice(0, 5);
   const featuredPost = posts[0];
   const secondaryPosts = posts.slice(1);
-  const featuredImage = featuredPost ? getCategoryByName(featuredPost.category)?.image ?? "/images/okinawa-family-hero.png" : "";
 
   return (
     <>
@@ -65,76 +64,43 @@ export default function HomePage() {
         }}
       />
       <div>
-      <section className="border-b border-[#eadfce] bg-[#fffdf8]">
-        <div className="mx-auto max-w-6xl px-5 py-8 sm:px-6 sm:py-12 lg:px-8">
-          <div className="grid gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:items-end">
-            <div className="pb-2">
-              <p className="text-sm font-semibold tracking-[0.18em] text-[#9a6b43]">OKINAWA FAMILY NOTES</p>
-              <h1 className="mt-4 max-w-xl text-4xl font-bold leading-tight text-[#34302b] sm:text-5xl">
+      <section className="border-b border-[#eadfce] bg-white">
+        <div className="relative isolate mx-auto min-h-[520px] max-w-[1440px] overflow-hidden sm:min-h-[560px]">
+          <img
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 h-full w-full object-cover object-[62%_center] opacity-25 sm:opacity-35"
+            fetchPriority="high"
+            src="/images/okinawa-attractions-cover.webp"
+          />
+          <div className="relative mx-auto flex min-h-[520px] max-w-6xl items-center px-5 py-12 sm:min-h-[560px] sm:px-6 sm:py-16 lg:px-8">
+            <div className="max-w-2xl">
+              <p className="text-sm font-bold text-[#087f8c]">2026 沖繩親子自由行</p>
+              <h1 className="mt-4 text-4xl font-bold leading-tight text-[#143942] sm:text-5xl lg:text-6xl">
                 第一次帶孩子去沖繩，也可以慢慢來。
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-9 text-[#5f594f]">
-                這裡整理住宿區域、移動節奏、親子景點和旅途中那些容易累壞的小細節，寫給第一次出發的家庭。
+              <p className="mt-5 max-w-xl text-lg leading-9 text-[#31545a]">
+                住宿住哪一區、租車怎麼準備、景點怎麼取捨，這裡整理給第一次帶孩子出發的家庭。
               </p>
-              <div className="mt-7 flex flex-wrap gap-3">
+              <p className="mt-4 text-sm font-semibold text-[#31545a]">
+                住宿規劃 <span className="px-2 text-[#df6b52]">·</span> 租車交通
+                <span className="px-2 text-[#df6b52]">·</span> 親子景點
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
                 <Link
-                  className="rounded-full bg-[#694624] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#543719]"
-                  href="/blog"
-                >
-                  看所有筆記
-                </Link>
-                <Link
-                  className="rounded-full border border-[#d7c7af] px-5 py-3 text-sm font-semibold text-[#694624] transition hover:bg-[#fbf6ee]"
+                  className="rounded-md bg-[#171717] px-5 py-3 text-sm font-bold !text-white shadow-sm transition hover:bg-black"
                   href="/blog/first-okinawa-where-to-stay"
                 >
-                  從住宿開始
+                  第一次去，從這裡開始
+                </Link>
+                <Link
+                  className="rounded-md border border-[#77bbb4] bg-white/90 px-5 py-3 text-sm font-bold text-[#126570] transition hover:bg-white"
+                  href="/blog"
+                >
+                  看所有攻略
                 </Link>
               </div>
             </div>
-
-            {featuredPost ? (
-              <Link
-                className="group grid overflow-hidden rounded-lg border border-[#eadfce] bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:grid-cols-[0.9fr_1fr]"
-                href={"/blog/" + featuredPost.slug}
-              >
-                <div className="relative min-h-[260px] bg-[#f6efe4]">
-                  <img
-                    alt="沖繩親子旅行筆記封面"
-                    className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
-                    src={featuredImage}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#2f2a22]/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-4 left-4 rounded-sm bg-white/90 px-3 py-2 text-xs font-semibold tracking-[0.12em] text-[#5f594f] shadow-sm">
-                    LATEST NOTE
-                  </div>
-                </div>
-                <div className="flex flex-col justify-center p-6 sm:p-7">
-                  <div className="flex flex-wrap items-center gap-2 text-xs text-[#756e65]">
-                    <span className="font-semibold text-[#9a6b43]">{featuredPost.category}</span>
-                    <span aria-hidden="true">/</span>
-                    <time dateTime={featuredPost.date}>{featuredPost.formattedDate}</time>
-                  </div>
-                  <h2 className="mt-3 text-2xl font-bold leading-snug text-[#34302b] sm:text-3xl">
-                    {featuredPost.title}
-                  </h2>
-                  <p className="mt-4 text-base leading-8 text-[#5f594f]">{featuredPost.description}</p>
-                  <span className="mt-5 text-sm font-semibold text-[#694624]">閱讀這篇</span>
-                </div>
-              </Link>
-            ) : null}
-          </div>
-
-          <div className="mt-8 grid gap-3 border-t border-[#eadfce] pt-5 sm:grid-cols-3">
-            {secondaryPosts.slice(0, 3).map((post) => (
-              <Link
-                className="rounded-lg bg-[#fbf6ee] px-4 py-4 transition hover:bg-[#f6efe4]"
-                href={"/blog/" + post.slug}
-                key={post.slug}
-              >
-                <p className="text-xs font-semibold text-[#9a6b43]">{post.category}</p>
-                <h2 className="mt-2 text-base font-bold leading-snug text-[#34302b]">{post.title}</h2>
-              </Link>
-            ))}
           </div>
         </div>
       </section>
