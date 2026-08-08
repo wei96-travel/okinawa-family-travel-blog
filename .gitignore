@@ -5,3 +5,11 @@ out
 dist
 .env*.local
 *.tsbuildinfo
+
+# Local previews, server logs, and browser-test artifacts
+tmp/
+outputs/*.log
+work/social/_tmp_svgcheck.*
+work/social/playwright_chromiumdev_profile-*/
+work/social/playwright-artifacts-*/
+work/social/**/render/output/frames/
