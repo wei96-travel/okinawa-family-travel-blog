@@ -1,6 +1,6 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-08-05 (Codex, Kokusai-dori title SEO test)
+Last updated: 2026-08-08 (Claude Code, English second opinion delivered; editing ownership of the English section transferred by the user)
 
 This is the current operational handoff between Codex and Claude Code. Keep it short and update it whenever ownership changes, work pauses, or a task is completed.
 
@@ -726,7 +726,38 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 - 三個平台共同事實一致，但依平台長度各自改寫；不可再改回「專門研究」、「旅遊專家」或不符本人身分的定位。
 - Next.js 正式建置已通過，共產生 71 個靜態頁；本機 `/about` 已確認新文字顯示、桌面版無水平溢位。
 
+## 2026-08-06 Codex Threads 4 天 3 夜行程圖（進行中）
+
+- Active owner：Codex。
+- Objective：參考 Threads 原文與公開回覆，製作「沖繩 4 天 3 夜、早去晚回、自駕」單張 4:5 行程圖預覽與自然回覆文案；不代為發布。
+- Claimed files：`output/2026-08-06-沖繩4天3夜行程/` 與本交接檔。
+- Source policy：公開回覆只用來判讀需求；營業時間與交通限制以景點、交通業者官方網站為準。
+- Current state：`preview.html` 與 `preview-card.jpg` 已完成；1080px 寬 4:5 預覽無溢位，4 張圖片皆載入。已做事實、閱讀與畫面三輪檢查；尚未匯出最終 2x PNG，等待使用者確認預覽。
+
+## 2026-08-06 社群防重複決策
+
+- 新增 `docs/social/topic-status-registry.md`，把已公開、草稿、排程與撤回題材放在同一張表；之後 20:00 社群預覽前必須先查此表、發布總表、`work/social/` 與 `content/blog/`。
+- 判斷不再只看平台或形式。相同「讀者痛點 + 主要答案」即使改成 Reel、Threads、輪播或換圖片，也視為重複並撤回。
+- 2026-08-06 Threads「車上臨時狀況」已撤回，因為和既有車上備用包文章及 8/10 輪播重複；今晚不硬補主要貼文。
+- 2026-08-07 原 Reel「孩子在車上睡著，第二站還要去嗎？」已撤回，因為 2026-07-26 Facebook 長文已完整發布；新候選改為「古宇利島和名護，只選一個怎麼選？」。
+- 8/10 車上備用包輪播暫作該題材唯一保留的社群版本，發布前仍須給使用者看完整預覽並取得當次確認。
+
+## 2026-08-06 Instagram Reel 控制測試
+
+- 使用者確認要用短片測試同一痛點在 Instagram 的表現，因此覆蓋前述撤回決策一次；這是格式測試例外，不代表日後可任意重複題材。
+- 22:17 已公開 15 秒 Reel「孩子在車上睡著，第二站還要去嗎？」：https://www.instagram.com/okinawa.family.notes/reel/Dbs5NCgs7ag/
+- 只發 Instagram，未同步 Facebook；說明欄不放外部連結。
+- 8/7 先回收 24 小時觀看、平均觀看時間、個人檔案造訪與新增追蹤，不再發布同題；下一支候選仍是「古宇利島和名護，只選一個怎麼選？」。
+
 ## Handoff Template
+
+## 2026-08-07 Instagram Reel 發布
+
+- 已依使用者確認公開 15 秒 Reel「古宇利島和名護怎麼選？」。
+- 公開連結：https://www.instagram.com/okinawa.family.notes/reel/DbuZp-bTWgY/
+- 已確認公開頁顯示完整文案、正確 Hashtag 與第一則互動留言。
+- 僅發布 Instagram，未同步 Facebook、Threads 或 WhatsApp。
+- 已更新 `docs/social/publishing-master-log.md`、`docs/social/topic-status-registry.md` 與該 Reel 工作資料夾，後續不得把相同痛點換格式重發。
 
 ## 2026-08-04 Codex editorial and SEO verification
 
@@ -750,3 +781,99 @@ When handing off, replace the sections above and include:
 - Tests or build result
 - Public URLs or deployment state
 - Decisions that still need the user
+
+## 2026-08-08 週檢討（Codex automation）
+
+- Active owner：無；本輪是只讀分析與交接工作，不認領文章、社群草稿或其他既有檔案。
+- Objective：完成 2026-08-01～08-07 的每週檢討，保留既有工作區變更，不發布社群、不改冷卻期頁面。
+- 新增紀錄：`100_Todo/plans/2026-08-08-weekly-review.md`。
+- 可查核結果：Search Console 99 點擊／2,553 曝光／3.9% CTR／平均排名 7.0，索引 63／未索引 6；GA4 129 活躍使用者、365 瀏覽、145 Organic Search 工作階段、2 次追蹤連結事件。
+- Facebook 8/1～8/7 原始資料為 151 瀏覽、7 互動、94.7% 非追蹤者瀏覽；其中 2 則作者第一則留言已排除，不當作自然互動。Instagram 與平台後台不足以排除測試帳號或確認訂單，報告已明列缺資料。
+- 品質檢查：`content:audit:strict` 為 48 篇、0 重大問題、37 個既有語氣提醒。車上備用包、玉泉洞及 DMM 公開頁 canonical 與延遲載入圖片均正常；本輪無法實際覆寫為 390px，不能宣稱完成 live 手機複驗。
+- 下週只提案兩篇決策型新文、一次美麗海停留時間頁補強、兩組不重複社群內容及一個維持頁面不動的 Klook 分流觀察；所有文章與社群發布仍需使用者當次核可。
+- 未提交：工作區原有多項使用者／其他代理變更；本輪不建置、不提交、不推送，避免混入他人檔案。
+
+## 2026-08-08 早晨內容開工追加驗證（Codex automation）
+
+- 沒有認領或修改公開文章、社群草稿、分潤連結與 Klook 版位；只補週報、發布總表與本交接檔，保留所有既有工作區變更。
+- 英文 3 篇測試文均已收錄。2026-08-08 重新以標準網址 `https://okinawafamilynotes.com/en` 檢查，Search Console 明確顯示「網址在 Google 服務中／網頁已編入索引」；先前的 `/en/` 未收錄結果只是轉址版本的獨立狀態，不得再判定為英文首頁未收錄。GA4 的英文區近 28 天合計為 16 次瀏覽／13 位活躍使用者；8/1～8/7 的英文查詢 `okinawa family accommodation` 為 9 次曝光、0 點擊，樣本仍不足以判定成敗。
+- `content:audit:strict` 通過（48 篇、0 critical；37 個既有 style reminders）。受限環境建置首次 `spawn EPERM`，重跑正式 `next build` 已通過並生成 73 個靜態頁。
+- 英文頁 self-canonical、三組 `hreflang` 與現有圖片均通過正式站檢查；瀏覽器無法真正套用 390px（實際 1280px），因此本輪未宣稱完成手機版複驗。沒有提交、推送、部署或要求索引。
+
+## 2026-08-08 英文版第二意見交接（給 Claude Code）
+
+- Active owner：Claude Code 只負責第二意見與研究；不得直接修改或發布英文頁、中文文章、社群內容及分潤連結。Codex 保留策略整合與最終驗收。
+- Objective：讀取本交接、`AI_COLLABORATION.md`、`100_Todo/plans/2026-08-08-weekly-review.md` 與目前 3 篇英文文章，判斷英文試行內容太少是否為低曝光主因，提出可驗證的下一步，不要先寫完整文章。
+- 已確認事實：標準英文首頁 `https://okinawafamilynotes.com/en` 與 3 篇英文文章均已收錄；`/en/` 會轉址到 `/en`。正式頁為 `index, follow`、self-canonical `/en`，並有 `zh-TW`／`en`／`x-default` hreflang。不得重複提交索引。
+- 目前基準：英文區近 28 天 16 次瀏覽、13 位活躍使用者；英文查詢 9 次曝光、0 點擊。流量可能包含站方測試，不能宣稱已有穩定海外讀者。
+- 請比較至少兩種方案：A. 維持 3 篇至 14 天／28 天再判斷；B. 補到 6～8 篇形成住宿、租車、景點／雨天決策型主題群。每個方案列出預期訊號、成本、風險與停止條件。
+- 請用公開搜尋結果與官方資料檢查候選英文關鍵字，但不要憑搜尋量工具臆測精確流量。候選內容必須符合第一次或第二次帶小孩去沖繩、需要解決行程取捨的家庭。
+- 交付格式：一份 Markdown 第二意見，包含「低曝光原因排序、建議補寫的 3～5 個英文題目、內部連結架構、14／28 天驗收指標、是否建議現在擴寫」。完成後先回報，不 commit、不 push、不發布。
+
+## 2026-08-08 英文版第二意見完成（Claude Code）
+
+- **擁有權變更**：使用者在本次對話中明確授權 Claude Code 進行編輯，並指定後續英文文章改寫也由 Claude Code 製作。原交接寫的「Claude Code 只負責第二意見、不得修改英文頁」以使用者當次授權為準。Codex 接手前請先確認此變更，不要直接覆蓋。
+- 交付檔：`100_Todo/plans/2026-08-08-english-second-opinion-claude.md`。未 commit、未 push、未部署、未提交索引、未發布社群，未撰寫完整文章。
+- **主要結論與原案不同**：低曝光的第一主因不是篇數太少，是三篇都站在「本站身分空白」的題目上——`churaumi-aquarium-with-kids` 五個來源全為官方英文頁、`where-to-stay-in-okinawa-with-kids` 無一手資料，只有 `okinawa-child-car-seat-rental-guide` 用到警察廳／國土交通省等日文限定來源。因此**不建議擴寫到 6～8 篇**，建議 3 改寫 ＋ 0～2 新增。
+- SERP 實查（2026-08-08，美國區，未使用搜尋量工具）：`where to stay in okinawa with kids` 由 Expedia、Tripadvisor、Accor 與兩個成熟親子部落格佔據；`churaumi aquarium with kids` 由 Japan Uncharted、Okinawa Lab、おきなわlovers 等專門站佔據，且本站該篇每項事實都能在競爭頁找到。兩題皆為紅海。
+- 確認的內容空白：**如何跟日本租車公司溝通兒童座椅需求**，搜尋結果只有租車公司產品頁與一則論壇提問，無任何訊息範本。另發現 Okinawa Rent-a-Car 以 LINE 聯繫而非 email，範本需做成可貼進 email／LINE／預訂備註欄的通用版本。建議注入既有安全座椅文，不開新文。
+- 三篇處置建議：安全座椅重點改寫、住宿輕度改寫、Churaumi 維持現狀不投資。改寫皆不動網址、標題與 hreflang，且依核可閘門必須先給使用者看完整版本。
+- **提醒下週規劃**：`2026-08-08-weekly-review.md` 第 94、95 行的兩篇新文都與既有文章重疊——美麗海一日文撞 `okinawa-north-family-day-trip` 與 `okinawa-churaumi-nearby-family-stay`；雨天選擇文撞 `okinawa-rainy-day-family-spots` 與 DMM／玉泉洞／兒童王國三篇的既有雨天段落。動筆前建議重新界定意圖或改題。
+- 另檢出既有中文文章三組互相稀釋：`okinawa-family-itinerary-not-too-tired` 與 `okinawa-family-driving-pace-guide`；`okinawa-rental-car-family-guide` hub 與其三篇子頁；`first-okinawa-where-to-stay` 與 `okinawa-change-hotels-family`。細節見交付檔附錄。
+- 待使用者處理：Klook／Shopee／Trip.com 三個後台仍為缺資料，Shopee 的滑動驗證需本人操作，不得繞過。
+
+## 2026-08-08 英文區改善（Claude Code，已於 `f77b2b2` 部署）
+
+**使用者於 2026-08-08 明確核可部署，與同日的結構化資料補完合併在工作提交 `f77b2b2`。座椅篇改寫草稿不在這次上線範圍。未重複提交索引。**
+
+- **渲染器缺陷修復（影響全站，請特別注意）**：`components/markdown-content.tsx` 原本不支援 fenced code block，且 `content.trim().split(/\n\s*\n/g)` 會在空行切斷區塊。日文範本這類內容會被拆散並被 `block.replace(/\n/g," ")` 壓成一行，連 ``` 都會印出。新增 `splitBlocks()` 先行處理圍欄、再依空行切塊，並輸出 `<pre className="code-block">`；`app/globals.css` 補上 `.code-block` 樣式（`overflow-x:auto`、`white-space:pre`，不造成頁面水平溢位）。已驗證既有中文文章（門票頁）段落、圖片、表格、清單、`rel="sponsored"` 全部不受影響。
+- **新增英文信任頁**：`app/en/about/`、`app/en/contact/`、`app/en/privacy/`。三頁皆有 self-canonical 與 `zh-TW`／`en`／`x-default` 互指；中文 `/about`、`/contact`、`/privacy` 也補上反向 hreflang（原本只有 canonical）。`app/sitemap.ts` 已收錄三個新路由。
+- **AdSense 相關**：英文 footer 原本只有 Family guides 與 繁體中文，**沒有隱私權政策也沒有聯絡方式**。審查中的網站若審查員落在英文頁，看不到隱私權政策。`components/footer.tsx` 現在英文區輸出 About／Contact／Privacy policy／繁體中文。`/en/privacy` 內含 GA4、Cookie、Google 廣告與 Google 廣告設定連結，對應中文版 8/1 的揭露內容。未新增任何廣告版位或廣告程式碼。
+- **技術修正**：`/en` 首頁標題原本輸出「| 沖繩親子旅遊筆記」。原因是 Next.js 的 `title.template` 只套用於子層，`app/en/page.tsx` 因此落回根 layout 的中文模板；改用 `title.absolute` 修正。`app/en/layout.tsx` 補 `openGraph.images`，讓所有英文頁都有 og:image（原本英文頁只有 twitter:image）。
+- **草稿待核可**：`100_Todo/drafts/articles/2026-08-08_en-child-car-seat-rewrite.md`，為 `content/blog-en/okinawa-child-car-seat-rental-guide.md` 的改寫版，網址、標題、description、hreflang 全部不動。新增四家（OTS／Nippon／Toyota／Okinawa Rent-a-Car）座椅規格對照、日文溝通範本（完整版／LINE 短版／填寫範例／逐行英文對照）、日文法條引用、身高對照含英吋磅、日文回覆關鍵字表。素材依據見 `research/en-child-seat-rental-comparison-2026-08-08.md`。**使用者確認未曾實際聯繫過日本租車公司，因此全文不含第一人稱經歷，範本標示為依官方公開資訊整理。**
+- 日文語氣依日本商務信件慣例校正：初次聯繫使用「初めてご連絡いたします」，不使用「お世話になっております」（僅限已有往來對象）。仍建議日文母語者複核。
+- 驗證：`content:audit:strict` 48 篇／0 重大／37 既有提醒（與基準相同）；`next build` 通過，**76 個靜態頁**（原 73，增加三個英文頁）。390px 檢查：文章頁與新頁面皆無頁面水平溢位，日文範本三塊皆在 348px 內不需左右捲動。
+- 驗證用的臨時檔 `content/blog-en/zz-preview-car-seat-draft.md` 已刪除。
+- 變更檔案：`app/about/page.tsx`、`app/contact/page.tsx`、`app/privacy/page.tsx`、`app/en/layout.tsx`、`app/en/page.tsx`、`app/globals.css`、`app/sitemap.ts`、`components/footer.tsx`、`components/markdown-content.tsx`，新增 `app/en/{about,contact,privacy}/page.tsx`。
+
+## 2026-08-08 三個聯盟後台資料補齊（Claude Code＋使用者登入）
+
+先前週檢討記錄的 Klook／Shopee／Trip.com「缺資料」已由使用者本人登入後取得。**滑動驗證與帳密全程由使用者操作，未由代理輸入或繞過。**
+
+| 平台 | 點擊 | 訂單／憑證 | 收益 |
+| --- | ---: | ---: | ---: |
+| Klook | 8（過去 30 天） | 0 | NT$0.00 |
+| Shopee | 8（8/1–8/7） | 0（查詢區間 6/1–8/7、狀態全部，顯示「尚無數據」） | $0 |
+| Trip.com | 1 | 0 | USD 0.00（已結算／待結算／預計皆為 0） |
+
+合計 17 次點擊、0 筆訂單、收益為零。同期 Search Console 為 99 點擊／週、GA4 為 145 Organic Search 工作階段／週。
+
+**三項追蹤缺陷，比零收益本身更需要先處理：**
+
+1. **Klook 的分流觀察無效**：8 次點擊全部歸於 `文字連結 1357775`；交接記錄中觀察至 8/15 的兩個 ID（`1362380` 文章版位、`1362390` 導購頁版位）皆為 0 點擊。該 A/B 觀察目前沒有可比較的資料，不應在 8/15 依此下結論。
+2. **Shopee 無來源歸因**：點擊報告的 `Sub_id` 欄位全部為空，無法判斷點擊來自哪一篇文章或哪個版位。
+3. **Shopee 點擊疑似非自然**：8/4 有 3 次落在 24 秒內（16:23:58／16:24:19／16:24:22），8/1 有 4 次落在 83 秒內（21:32:20–21:33:43），全部來自 Taiwan。時間分布比較像同一人連續點擊或站方測試，不宜當作 8 位獨立讀者。
+
+**Trip.com 後台正確入口為 `https://www.trip.com/partners/`（登入後導向 `/partners/dashboard`）。`alliance.trip.com` 實測無法連線，先前記錄的「網址無法解析」屬實，請更新既有紀錄。** Trip.com 僅 `D18951522`（`Trip_Sub1 = hotel_pmc_onna`，恩納 Pink Marlin Club）有 1 次點擊，其餘飯店、租車與美麗海票券版位皆為 0。
+
+Google OAuth 在內建瀏覽器會被擋（彈窗不開），Trip.com 是改用使用者既有 Chrome 登入狀態讀取的。後續要讀 Trip.com 報表需沿用同一途徑。
+
+## 2026-08-08 費用試算成效補查（Codex）
+
+- 正式頁：`https://okinawafamilynotes.com/okinawa-family-trip-budget-calculator`，於 2026-08-01 上線。
+- GA4 過去 28 天報表（2026-07-11～08-07）以該路徑篩選：4 次瀏覽、2 位活躍使用者、每位 2.00 次瀏覽、平均參與時間 49 秒。頁面 8/1 才存在，因此可作為上線後截至 8/7 的初始基準，但無法排除站方自己的測試瀏覽。
+- GA4 事件報表以 `budget_` 篩選為 0；`budget_calculator_start`、`budget_calculator_complete`、`budget_calculator_share`、`budget_premium_interest`、`budget_booking_click` 皆無紀錄。不可把頁面瀏覽解讀成已開始或完成試算，也沒有可驗證的分享、預訂點擊或轉換。
+- 下次週報固定同時查看「試算頁瀏覽」與五項 `budget_` 事件；未累積新操作前先保留頁面，不因 2 位使用者的小樣本改版或新增付費功能。
+
+## 2026-08-08 英文區結構化資料補完（Claude Code，工作提交 `f77b2b2`）
+
+**使用者核可後與同日稍早的英文區改善一起進入 `f77b2b2`（共 16 個檔案）。座椅篇改寫草稿依核可閘門保留在 `100_Todo/drafts/`，不在這次上線範圍。未提交索引。**
+
+- Active owner：Claude Code。依 `100_Todo/plans/2026-08-08-english-execution-plan-claude.md` 階段 1.2，補完五項技術修正中剩下的三項；前兩項（英文首頁 `<title>`、`og:image`）已於本日稍早完成。至此階段 1.2 全部完成。
+- 認領檔案：新增 `lib/faq.ts`；修改 `app/en/blog/[slug]/page.tsx`、`app/en/blog/page.tsx`、`app/en/page.tsx`、`app/layout.tsx`。未動中文文章、`app/blog/[slug]/page.tsx`、社群內容與分潤連結。
+- **`FAQPage`**：新增 `lib/faq.ts` 的 `getFaqEntries()`，從英文 Markdown 的 `## Frequently asked questions` 區塊讀 `### 問題` 與其答案段落，轉為純文字（移除連結、粗體、行內程式碼標記）。只有存在 FAQ 區塊時才輸出節點。三篇分別產生 5／5／4 題，與原文題數一致；答案在頁面上本來就可見，符合 Google 對 FAQ 結構化資料的可見性要求。
+- **`BreadcrumbList`**：英文文章頁輸出三層（`/en` → `/en/blog` → 文章），`/en/blog` 輸出兩層。中文頁未加，維持 Codex 擁有權。
+- **`Organization` schema**：`app/layout.tsx` 原本 `sameAs: []`，補上三個已驗證的公開帳號——Facebook `profile.php?id=61588725730543`（與 `/contact`、`/en/contact` 頁上同一個連結）、Instagram `okinawa.family.notes`、Threads `@okinawa.family.notes`。名稱維持中文 `name` ＋ 英文 `alternateName` 不動；英文區的英文站名由 `/en` 既有的 `WebSite` 節點負責，這次只補上它缺少的 `publisher` 指向 `#organization`，避免同一個 `@id` 出現兩種語言的衝突節點。
+- 驗證（在 prerender 產物上實查，非推論）：`content:audit:strict` 48 篇／0 重大／37 個既有語氣提醒（與基準相同）；`next build` 通過、**76 個靜態頁**（與本日稍早相同，未新增路由）。三個英文文章頁各含 1 組 `BreadcrumbList` 與 1 組 `FAQPage`；`/en/blog` 含 1 組 `BreadcrumbList`；中文文章頁的 `FAQPage` 數為 0，僅隨全站 `Organization` 取得 `sameAs`。本輪只新增 JSON-LD，未變更任何可見 DOM 或樣式，因此不重複宣稱 390px 手機複驗。
+- 建議給 Codex（不在本輪擁有權內）：中文文章多數也有 FAQ 段落但沒有 `FAQPage` 標記，`lib/faq.ts` 的解析器可直接沿用，只需改成比對中文標題。要不要做由 Codex 決定。
+- 下一步：階段 2.1 座椅篇改寫草稿 `100_Todo/drafts/articles/2026-08-08_en-child-car-seat-rewrite.md` 仍在等使用者看完整版本並明確同意；階段 2.2 住宿篇改寫需要階段 0 素材（孩子年齡、實際到訪與自駕經驗）才能加入第一人稱段落，沒有素材就只做日文官方交通資料對照。
