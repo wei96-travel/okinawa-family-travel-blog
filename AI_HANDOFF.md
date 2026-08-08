@@ -876,4 +876,20 @@ Google OAuth 在內建瀏覽器會被擋（彈窗不開），Trip.com 是改用�
 - **`Organization` schema**：`app/layout.tsx` 原本 `sameAs: []`，補上三個已驗證的公開帳號——Facebook `profile.php?id=61588725730543`（與 `/contact`、`/en/contact` 頁上同一個連結）、Instagram `okinawa.family.notes`、Threads `@okinawa.family.notes`。名稱維持中文 `name` ＋ 英文 `alternateName` 不動；英文區的英文站名由 `/en` 既有的 `WebSite` 節點負責，這次只補上它缺少的 `publisher` 指向 `#organization`，避免同一個 `@id` 出現兩種語言的衝突節點。
 - 驗證（在 prerender 產物上實查，非推論）：`content:audit:strict` 48 篇／0 重大／37 個既有語氣提醒（與基準相同）；`next build` 通過、**76 個靜態頁**（與本日稍早相同，未新增路由）。三個英文文章頁各含 1 組 `BreadcrumbList` 與 1 組 `FAQPage`；`/en/blog` 含 1 組 `BreadcrumbList`；中文文章頁的 `FAQPage` 數為 0，僅隨全站 `Organization` 取得 `sameAs`。本輪只新增 JSON-LD，未變更任何可見 DOM 或樣式，因此不重複宣稱 390px 手機複驗。
 - 建議給 Codex（不在本輪擁有權內）：中文文章多數也有 FAQ 段落但沒有 `FAQPage` 標記，`lib/faq.ts` 的解析器可直接沿用，只需改成比對中文標題。要不要做由 Codex 決定。
-- 下一步：階段 2.1 座椅篇改寫草稿 `100_Todo/drafts/articles/2026-08-08_en-child-car-seat-rewrite.md` 仍在等使用者看完整版本並明確同意；階段 2.2 住宿篇改寫需要階段 0 素材（孩子年齡、實際到訪與自駕經驗）才能加入第一人稱段落，沒有素材就只做日文官方交通資料對照。
+- **正式站驗證（部署後實查，非推論）**：`/en/about`、`/en/contact`、`/en/privacy`、`/en`、`/en/blog`、`/sitemap.xml` 全部回 200。`/en/privacy` self-canonical 正確，`zh-TW`／`en`／`x-default` 三組互指齊全；中文 `/privacy` 的反向 hreflang 也已指回 `/en/privacy`。英文文章頁 `FAQPage` 與 `BreadcrumbList` 均在，Question 數與原文一致。首頁 `Organization` 的 `sameAs` 三個帳號已上線。`sitemap.xml` 收錄三個新英文路由。Vercel 部署耗時約 60–80 秒。**比對 hreflang 時注意 Next 輸出的是 `hrefLang` 駝峰**，用小寫 `hreflang` 比對會誤判為 0。
+- 階段 2.1 座椅篇改寫已於同日完成並上線，見下一節。階段 2.2 住宿篇改寫需要階段 0 素材（孩子年齡、實際到訪與自駕經驗）才能加入第一人稱段落，沒有素材就只做日文官方交通資料對照。
+
+## 2026-08-08 英文座椅篇改寫上線（Claude Code，工作提交 `a1d5b9b`）
+
+**使用者在本次對話看過完整草稿後明確核可上線。既有網址改寫，網址、標題、description、`hreflang` 全部未動。未提交索引。**
+
+- 檔案：`content/blog-en/okinawa-child-car-seat-rental-guide.md`。草稿來源 `100_Todo/drafts/articles/2026-08-08_en-child-car-seat-rewrite.md` 保留不刪；事實依據 `research/en-child-seat-rental-comparison-2026-08-08.md` 的發布前待辦已勾掉。
+- 改寫內容：新增 OTS／Nippon／Toyota／Okinawa Rent-a-Car 四家座椅規格與價格對照、含英尺英吋換算的身高分段表、日文訊息範本三塊（完整版／填寫範例／LINE 短版）＋逐行英文對照＋日文回覆關鍵字表、警察廳條文與「六歲以上仍依體格判斷」的官方建議。FAQ 由 5 題增為 6 題，新增 100 cm 類別邊界那題。
+- frontmatter 只加 `updated: "2026-08-08"`（`lib/posts.ts:85` 讀 `frontMatter.updated ?? frontMatter.date`，中文區已有 17 篇用同一個 key），`date` 維持 `2026-08-01`。
+- **事實邊界**：使用者確認未曾實際聯繫過日本租車公司，全文無第一人稱經歷，範本標示為依各公司公開資訊整理。四家規格為 2026-08-08 當日快照，與上線同日。You-I Rent a Car 本輪未查核，不納入。
+- 驗證：`content:audit:strict` 48 篇／0 重大／37 個既有提醒（與基準相同）；`next build` 通過、76 個靜態頁（未新增路由）。prerender 產物實查：`Question` 6 題（解析器正確略過 `## The message to send when you book` 底下那四個非 FAQ 的 `###`）、`BreadcrumbList` 1 組、`<pre class="code-block">` 3 塊、無殘留 ``` 符號、日文各 31／31／14 行未被壓成單行。
+- 390px 本機實測（`next start` ＋ 瀏覽器實際套用 390×844）：`document.scrollWidth` 390 = `clientWidth` 390，**頁面無水平溢位**。三塊日文範本容器 348px、內容 348px，連內部橫捲都不需要。四個表格都在既有的 `div.table-scroll`（`overflow-x: auto`）內。
+- 正式站驗證：200、self-canonical 正確、三組 `hreflang` 互指 `/blog/okinawa-car-seat-rental-guide`、`FAQPage` 6 題、`BreadcrumbList` 存在、3 塊 code block、`dateModified` 2026-08-08、封面圖 200、中文對應頁 200 且英文連結正常。
+- **待辦（留給使用者）**：日文語氣尚未經母語者複核。已依日本商務信件慣例校正——初次聯繫用「初めてご連絡いたします」，不用僅限已有往來對象的「お世話になっております」。
+- **待觀察**：四家對照表在 390px 下為 640px 寬，手機讀者需在表格內橫捲才能看到 Toyota 與 Okinawa Rent-a-Car 兩欄。表格後的三段結論文字已獨立成立，不需讀表也能拿到重點，因此本輪不改版；若 9/5 閘門顯示這篇有實際流量，再評估是否改為分段卡片。
+- 成效判讀依 `100_Todo/plans/2026-08-08-english-execution-plan-claude.md` 的 9/5 決策閘門：看**可見 query 是通用紅海詞還是操作型詞**，不是看曝光數字本身。
