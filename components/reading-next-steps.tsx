@@ -37,6 +37,8 @@ export function ReadingNextSteps({ currentSlug, posts }: ReadingNextStepsProps) 
             className="block rounded-lg border border-[#eadfce] bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
             href={"/blog/" + item.post.slug}
             key={item.post.slug}
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <p className="text-xs font-semibold tracking-[0.16em] text-[#9a6b43]">
               NEXT {String(index + 1).padStart(2, "0")}

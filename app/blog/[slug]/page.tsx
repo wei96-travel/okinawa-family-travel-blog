@@ -218,7 +218,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           </div>
           <div className="grid gap-5">
             {relatedPosts.map((relatedPost) => (
-              <ArticleCard key={relatedPost.slug} post={relatedPost} />
+              <ArticleCard key={relatedPost.slug} openInNewTab post={relatedPost} />
             ))}
           </div>
         </section>

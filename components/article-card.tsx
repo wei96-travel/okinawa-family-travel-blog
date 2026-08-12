@@ -3,13 +3,17 @@ import type { Post } from "@/lib/posts";
 import { getCategoryByName } from "@/lib/site";
 
 type ArticleCardProps = {
+  openInNewTab?: boolean;
   post: Post;
   variant?: "default" | "featured";
 };
 
-export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
+export function ArticleCard({ openInNewTab = false, post, variant = "default" }: ArticleCardProps) {
   const isFeatured = variant === "featured";
   const coverImage = post.coverImage ?? getCategoryByName(post.category)?.image ?? "/images/okinawa-family-hero.png";
+  const linkProps = openInNewTab
+    ? { rel: "noopener noreferrer", target: "_blank" as const }
+    : {};
 
   return (
     <article
@@ -25,6 +29,7 @@ export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
           isFeatured ? "min-h-[260px] lg:min-h-full" : "aspect-[16/10]"
         ].join(" ")}
         href={"/blog/" + post.slug}
+        {...linkProps}
       >
         <img
           alt={post.coverAlt ?? post.title}
@@ -52,14 +57,14 @@ export function ArticleCard({ post, variant = "default" }: ArticleCardProps) {
             isFeatured ? "text-2xl sm:text-3xl" : "text-xl"
           ].join(" ")}
         >
-          <Link className="transition hover:text-[#694624]" href={"/blog/" + post.slug}>
+          <Link className="transition hover:text-[#694624]" href={"/blog/" + post.slug} {...linkProps}>
             {post.title}
           </Link>
         </h3>
         <p className={["mt-3 text-sm leading-7 text-[#5f594f]", isFeatured ? "sm:text-base sm:leading-8" : "line-clamp-3"].join(" ")}>
           {post.description}
         </p>
-        <Link className="mt-5 inline-flex text-sm font-semibold text-[#694624]" href={"/blog/" + post.slug}>
+        <Link className="mt-5 inline-flex text-sm font-semibold text-[#694624]" href={"/blog/" + post.slug} {...linkProps}>
           繼續閱讀
         </Link>
       </div>

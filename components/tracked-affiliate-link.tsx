@@ -34,7 +34,7 @@ export function TrackedAffiliateLink({
   }
 
   return (
-    <a href={href} onClick={trackAffiliateClick} rel={rel} target="_blank">
+    <a href={href} onClick={trackAffiliateClick} rel={`${rel} noopener`} target="_blank">
       {children}
     </a>
   );

@@ -55,7 +55,7 @@ function renderInline(text: string) {
     if (match) {
       if (match[2].startsWith("/")) {
         return (
-          <Link href={match[2]} key={index}>
+          <Link href={match[2]} key={index} rel="noopener noreferrer" target="_blank">
             {match[1]}
           </Link>
         );
@@ -80,7 +80,7 @@ function renderInline(text: string) {
       }
 
       return (
-        <a href={match[2]} key={index} rel="noreferrer" target="_blank">
+        <a href={match[2]} key={index} rel="noopener noreferrer" target="_blank">
           {match[1]}
         </a>
       );
