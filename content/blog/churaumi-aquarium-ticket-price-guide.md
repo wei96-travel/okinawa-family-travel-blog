@@ -99,17 +99,17 @@ Klook 和 Trip.com 都可以列入比較。兩邊目前的一般成人票幾乎�
 
 先略過上方的北部一日遊，找到「景點門票」區塊，再確認商品名稱是「沖繩美麗海水族館門票」。白天入館就選一般成人票，不要誤選下方的 17:00 後入場票。
 
-![Trip.com 美麗海水族館單館門票與成人學生票選擇畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-ticket-selection.png "Trip.com 購票畫面：先找到景點門票區塊，再依同行者年齡選擇票種。")
+![Trip.com 美麗海水族館單館門票與成人學生票選擇畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-ticket-selection.jpg "Trip.com 購票畫面：先找到景點門票區塊，再依同行者年齡選擇票種。")
 
-[打開完整 Trip.com 票種選擇畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-ticket-selection.png)
+[打開完整 Trip.com 票種選擇畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-ticket-selection.jpg)
 
 ### 第二步：按「預訂」，再調整張數
 
 點成人票右側的「預訂」後，Trip.com 會進入訂單頁。兩位大人的例子，把成人票加到 2；5 歲孩子依官方規則免票，不用再加學生票。
 
-![Trip.com 美麗海水族館兩張成人票與訂單總額畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-quantity-two-adults.png "成人票數量設為 2，右側同時顯示訂單總額；畫面中的折扣與價格可能變動。")
+![Trip.com 美麗海水族館兩張成人票與訂單總額畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-quantity-two-adults.jpg "成人票數量設為 2，右側同時顯示訂單總額；畫面中的折扣與價格可能變動。")
 
-[打開完整 Trip.com 張數與總額畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-quantity-two-adults.png)
+[打開完整 Trip.com 張數與總額畫面](/images/articles/churaumi-aquarium-ticket-guide/trip-quantity-two-adults.jpg)
 
 ### 第三步：看右側總額，再填聯絡資料
 

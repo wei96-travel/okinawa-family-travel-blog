@@ -3,6 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const postsDir = path.join(root, "content", "blog");
+const imagesDir = path.join(root, "public", "images");
 const strict = process.argv.includes("--strict");
 
 const criticalRules = [
@@ -68,6 +69,41 @@ function excerpt(line) {
   return value.length > 110 ? `${value.slice(0, 107)}...` : value;
 }
 
+function detectRasterFormat(buffer) {
+  if (
+    buffer.length >= 24 &&
+    buffer[0] === 0x89 &&
+    buffer.toString("ascii", 1, 4) === "PNG" &&
+    buffer[4] === 0x0d &&
+    buffer[5] === 0x0a &&
+    buffer[6] === 0x1a &&
+    buffer[7] === 0x0a
+  ) {
+    return ".png";
+  }
+
+  if (buffer.length >= 4 && buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff) {
+    return ".jpg";
+  }
+
+  if (
+    buffer.length >= 30 &&
+    buffer.toString("ascii", 0, 4) === "RIFF" &&
+    buffer.toString("ascii", 8, 12) === "WEBP"
+  ) {
+    return ".webp";
+  }
+
+  return null;
+}
+
+function listFiles(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const fullPath = path.join(directory, entry.name);
+    return entry.isDirectory() ? listFiles(fullPath) : [fullPath];
+  });
+}
+
 const files = fs
   .readdirSync(postsDir)
   .filter((file) => file.endsWith(".md"))
@@ -112,6 +148,28 @@ for (const file of files) {
       findings.push({ severity: "style", id, file, line, message, text: excerpt(lines[line - 1] ?? "") });
     }
   }
+}
+
+for (const fullPath of listFiles(imagesDir)) {
+  const ext = path.extname(fullPath).toLowerCase();
+  if (![".jpg", ".jpeg", ".png", ".webp"].includes(ext)) continue;
+
+  const detected = detectRasterFormat(fs.readFileSync(fullPath));
+  const normalizedExt = ext === ".jpeg" ? ".jpg" : ext;
+  if (detected === normalizedExt) continue;
+
+  findings.push({
+    severity: "critical",
+    id: "IMAGE_FORMAT_MISMATCH",
+    file: path.relative(root, fullPath),
+    line: 1,
+    message: detected
+      ? `圖片副檔名為 ${ext}，實際格式為 ${detected}`
+      : `圖片副檔名為 ${ext}，但無法辨識實際格式`,
+    text: detected
+      ? "請先改正副檔名與文章圖片路徑，避免瀏覽器保留錯誤版面尺寸"
+      : "請確認圖片未損壞，並重新匯出成 JPG、PNG 或 WebP"
+  });
 }
 
 const grouped = new Map();

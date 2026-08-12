@@ -15,6 +15,19 @@ import path from "path";
 type Size = { width: number; height: number };
 
 const cache = new Map<string, Size | null>();
+const MAX_IMAGE_DIMENSION = 32768;
+
+function isReasonableSize(size: Size | null): size is Size {
+  return Boolean(
+    size &&
+      Number.isFinite(size.width) &&
+      Number.isFinite(size.height) &&
+      size.width > 0 &&
+      size.height > 0 &&
+      size.width <= MAX_IMAGE_DIMENSION &&
+      size.height <= MAX_IMAGE_DIMENSION,
+  );
+}
 
 function readSvgSize(buffer: Buffer): Size | null {
   // 只看開頭，避免把大檔整份轉成字串
@@ -38,6 +51,30 @@ function readSvgSize(buffer: Buffer): Size | null {
 function readPngSize(buffer: Buffer): Size | null {
   if (buffer.length < 24) return null;
   return { width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
+}
+
+function isPng(buffer: Buffer) {
+  return (
+    buffer.length >= 24 &&
+    buffer[0] === 0x89 &&
+    buffer.toString("ascii", 1, 4) === "PNG" &&
+    buffer[4] === 0x0d &&
+    buffer[5] === 0x0a &&
+    buffer[6] === 0x1a &&
+    buffer[7] === 0x0a
+  );
+}
+
+function isJpeg(buffer: Buffer) {
+  return buffer.length >= 4 && buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff;
+}
+
+function isWebp(buffer: Buffer) {
+  return (
+    buffer.length >= 30 &&
+    buffer.toString("ascii", 0, 4) === "RIFF" &&
+    buffer.toString("ascii", 8, 12) === "WEBP"
+  );
 }
 
 function readJpegSize(buffer: Buffer): Size | null {
@@ -110,9 +147,11 @@ export function getImageSize(src: string): Size | null {
     const ext = path.extname(src).toLowerCase();
 
     if (ext === ".svg") size = readSvgSize(buffer);
-    else if (ext === ".png") size = readPngSize(buffer);
-    else if (ext === ".jpg" || ext === ".jpeg") size = readJpegSize(buffer);
-    else if (ext === ".webp") size = readWebpSize(buffer);
+    else if (isPng(buffer)) size = readPngSize(buffer);
+    else if (isJpeg(buffer)) size = readJpegSize(buffer);
+    else if (isWebp(buffer)) size = readWebpSize(buffer);
+
+    if (!isReasonableSize(size)) size = null;
   } catch {
     // 讀不到就當作沒有尺寸，圖片仍會顯示，只是少了防跳動的保留空間
     size = null;
