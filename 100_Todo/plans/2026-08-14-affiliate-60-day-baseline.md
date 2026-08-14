@@ -43,8 +43,10 @@
 - 實際點擊 Trip.com：另開新分頁並到達美麗海水族館頁；原文章仍開啟。
 - 程式端已有 `affiliate_click` 事件，欄位包含 `affiliate_network`、`content_group`、`item_name`、`link_placement`、`link_url`、`page_path`、`source_page`。
 - 正式站檢查發現 `window.gtag` 與 `window.dataLayer` 都不存在；原因是部署環境沒有提供 `NEXT_PUBLIC_GA_ID`，因此過去的 `affiliate_click` 不可能送到 GA4。
-- `app/layout.tsx` 已改為環境變數優先、缺值時使用專案既有的公開 GA4 評估 ID `G-Z076ZYK89C`；正式建置通過，等待推送與線上驗證。
-- 尚未完成：GA4 Realtime 或 DebugView 的實際收件證明。
+- `app/layout.tsx` 已改為環境變數優先、缺值時使用專案既有的公開 GA4 評估 ID `G-Z076ZYK89C`；修正已在 commit `7db248b` 推送至 `main`。
+- 正式站已重新載入 Google tag；正式文章的 HTML 可見 `G-Z076ZYK89C`。
+- 以正式站 Klook 入口進行一次不購買的點擊測試後，GA4 Realtime 收到 `affiliate_click` 1 次，同一時段也記錄到 `click` 1 次。
+- `affiliate_click` 詳細資料顯示 14 個參數鍵，其中包含 `affiliate_network` 與 `content_group`；量測管線已確認可用。
 
 ## 60 天執行規則
 
@@ -77,7 +79,7 @@
 
 | 週次 | 頁面 | 瀏覽 | GA4 分潤點擊 | 平台後台點擊 | 訂單 | 待確認佣金 | 已核准佣金 | 本週只改一項 |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 基準週 | 待 GA4 驗證後填入 | - | - | - | - | - | - | 先驗證量測 |
+| 基準週 | `churaumi-aquarium-ticket-price-guide` | 待週結 | 1（線上量測測試） | 待平台後台 | - | - | - | 量測驗證完成，開始累積自然點擊 |
 
 ## 禁止事項
 
