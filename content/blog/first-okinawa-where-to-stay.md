@@ -35,7 +35,7 @@ tags: ["沖繩住宿", "親子旅遊", "第一次去沖繩"]
 
 中部也比較符合第一次沖繩常見的期待：有海邊飯店、有餐廳、有景點，也不會像住很北邊那樣每天都要先想回程距離。
 
-我會把中部想成「第一次旅行的主住宿區」。不是因為它每一項都最好，而是它比較能容許你臨時改變計畫。孩子午睡久一點、下雨、晚餐想簡單吃，這些小變化在中部比較好調整。
+我會把中部想成「第一次旅行的主住宿區」。理由是它比較能容許你臨時改變計畫，不必每一項都最好。孩子午睡久一點、下雨、晚餐想簡單吃，這些小變化在中部比較好調整。
 
 ## 水族館想慢慢看，本部町可以單獨住一晚
 
@@ -45,11 +45,11 @@ tags: ["沖繩住宿", "親子旅遊", "第一次去沖繩"]
 
 ## 南部和那霸：適合收尾，不一定適合整趟都住
 
-那霸的優點不是度假感，而是方便。官方交通資訊也提到，本島有單軌電車、巴士、計程車、租車等移動方式，其中單軌電車連接那霸機場和市區主要站點。對第一次來的人來說，那霸很適合拿來處理第一晚或最後一晚。
+那霸的優點是方便，不是度假感。官方交通資訊也提到，本島有單軌電車、巴士、計程車、租車等移動方式，其中單軌電車連接那霸機場和市區主要站點。對第一次來的人來說，那霸很適合拿來處理第一晚或最後一晚。
 
 南部則比較像「收尾區」。如果你想去玉泉洞、瀨長島、奧武島，或最後一天想離機場近一點，南部會比每天從中北部拉回來輕鬆。
 
-但如果你期待的是大型海景度假飯店、泳池、飯店內餐廳和長時間放空，南部和那霸就要挑得更仔細。它們不是不能住，而是功能不一樣：那霸幫你銜接交通，南部幫你收尾，海邊度假感通常還是要看中北部。
+但如果你期待的是大型海景度假飯店、泳池、飯店內餐廳和長時間放空，南部和那霸就要挑得更仔細。它們都能住，只是功能不一樣：那霸幫你銜接交通，南部幫你收尾，海邊度假感通常還是要看中北部。
 
 ## 我會怎麼排第一次沖繩住宿？
 
@@ -89,7 +89,7 @@ tags: ["沖繩住宿", "親子旅遊", "第一次去沖繩"]
 
 ## 資料來源與更新時間
 
-本文不是實住心得，而是依照沖繩本島區域位置、官方旅遊資料與家庭旅行需求整理。區域介紹參考 [VISIT OKINAWA JAPAN 沖繩本島介紹](https://visitokinawajapan.com/destinations/okinawa-main-island/)，交通方式參考 [VISIT OKINAWA JAPAN Getting Around Okinawa](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/)，住宿分類與設施提醒參考 [VISIT OKINAWA JAPAN Accommodations](https://visitokinawajapan.com/plan-your-trip/accommodations/)。指定飯店的房型與設備，另參考[那霸東急 REI 飯店官方資訊](https://www.tokyuhotels.co.jp/naha-r/)、[東急 STAY 沖繩那霸客房資訊](https://www.tokyustay.co.jp/hotel/ON/room/)與[美居沖繩那霸酒店官方資訊](https://all.accor.com/hotel/8725/index.en.shtml)。
+本文不是實住心得。內容依照沖繩本島區域位置、官方旅遊資料與家庭旅行需求整理。區域介紹參考 [VISIT OKINAWA JAPAN 沖繩本島介紹](https://visitokinawajapan.com/destinations/okinawa-main-island/)，交通方式參考 [VISIT OKINAWA JAPAN Getting Around Okinawa](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/)，住宿分類與設施提醒參考 [VISIT OKINAWA JAPAN Accommodations](https://visitokinawajapan.com/plan-your-trip/accommodations/)。指定飯店的房型與設備，另參考[那霸東急 REI 飯店官方資訊](https://www.tokyuhotels.co.jp/naha-r/)、[東急 STAY 沖繩那霸客房資訊](https://www.tokyustay.co.jp/hotel/ON/room/)與[美居沖繩那霸酒店官方資訊](https://all.accor.com/hotel/8725/index.en.shtml)。
 
 最後更新：2026 年 7 月 27 日。實際飯店設施、停車規定、接駁與費用請以飯店官網為準。
 

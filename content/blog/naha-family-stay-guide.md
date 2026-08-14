@@ -30,11 +30,11 @@ tags: ["那霸住宿", "沖繩住宿", "親子旅遊"]
 
 ## 那霸真正的優點：它讓第一天和最後一天不慌
 
-帶孩子旅行，最怕的不是少玩一個景點，而是大人一整天都在趕。
+帶孩子旅行，最怕的是大人一整天都在趕，少玩一個景點反而還好。
 
 抵達那天，你要等行李、找租車櫃台或接駁、確認導航、適應右駕。孩子可能剛在飛機上睡不好，肚子餓，又不想再坐車。這時如果還要一路開到恩納、名護或更北邊，第一天很容易變成耐力賽。
 
-那霸靠近那霸機場，也有單軌電車、巴士、計程車和租車等選擇。官方旅遊資料提到，沖繩本島可以用單軌、巴士、計程車和租車移動；那霸機場官方 access 頁面也列出單軌、計程車、巴士、道路與停車資訊。對第一次去的人來說，那霸的好處不是酷，而是選擇多。
+那霸靠近那霸機場，也有單軌電車、巴士、計程車和租車等選擇。官方旅遊資料提到，沖繩本島可以用單軌、巴士、計程車和租車移動；那霸機場官方 access 頁面也列出單軌、計程車、巴士、道路與停車資訊。對第一次去的人來說，那霸的好處就是選擇多。
 
 第一晚住那霸，你不用把抵達日排成正式行程。能順利到飯店、買水、吃晚餐、洗澡睡覺，那一天就已經很成功。
 
@@ -46,7 +46,7 @@ tags: ["那霸住宿", "沖繩住宿", "親子旅遊"]
 
 第一個落差是房間。那霸住宿選擇很多，官方旅遊站也提到從飯店、旅館到公寓型住宿都有，但城市住宿通常要更注意空間。帶孩子時，行李箱、推車、睡袋、奶瓶、泳具一攤開，房間大小差一點，體感會差很多。
 
-第二個是停車。那霸市區飯店有些停車需要付費，有些可能是合作停車場或機械式停車。這不是不能接受，而是訂房前一定要看清楚。尤其租車家庭，車高限制、進出時間、一天收費方式，都會影響現場方便度。
+第二個是停車。那霸市區飯店有些停車需要付費，有些可能是合作停車場或機械式停車。這些都可以接受，但訂房前一定要看清楚。尤其租車家庭，車高限制、進出時間、一天收費方式，都會影響現場方便度。
 
 第三個是氣氛。那霸很適合採買、吃飯、逛國際通和銜接交通。官方介紹也把國際通形容成有商店、餐廳和酒吧的熱鬧街道，長度約 1.6 公里。這對大人很方便，但如果孩子很怕吵、很淺眠，就要避開太熱鬧的路段或選隔音評價較穩的飯店。
 
@@ -100,7 +100,7 @@ tags: ["那霸住宿", "沖繩住宿", "親子旅遊"]
 
 ## 資料來源與更新時間
 
-本文不是實住心得，而是依照那霸位置、官方旅遊資料、交通資訊與家庭旅行需求整理。那霸城市與國際通資訊參考 [VISIT OKINAWA JAPAN Naha](https://visitokinawajapan.com/destinations/okinawa-main-island/southern-okinawa-main-island/naha/)，沖繩交通方式參考 [VISIT OKINAWA JAPAN Getting Around Okinawa](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/)，機場交通選項參考 [Naha Airport Access](https://www.naha-airport.co.jp/en/access/)，指定飯店資訊參考[那霸東急 REI 飯店官網](https://www.tokyuhotels.co.jp/naha-r/)。
+本文不是實住心得，內容整理自那霸位置、官方旅遊資料、交通資訊與家庭旅行需求。那霸城市與國際通資訊參考 [VISIT OKINAWA JAPAN Naha](https://visitokinawajapan.com/destinations/okinawa-main-island/southern-okinawa-main-island/naha/)，沖繩交通方式參考 [VISIT OKINAWA JAPAN Getting Around Okinawa](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/)，機場交通選項參考 [Naha Airport Access](https://www.naha-airport.co.jp/en/access/)，指定飯店資訊參考[那霸東急 REI 飯店官網](https://www.tokyuhotels.co.jp/naha-r/)。
 
 最後更新：2026 年 7 月 27 日。實際飯店停車、房型、洗衣設備、接駁與費用請以飯店官網為準。
 
