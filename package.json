@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "content:audit": "node scripts/content-audit.mjs",
-    "content:audit:strict": "node scripts/content-audit.mjs --strict",
-    "check:publish": "npm run build"
+    "content:audit:strict": "node scripts/content-audit.mjs --strict"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

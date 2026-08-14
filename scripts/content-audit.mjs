@@ -3,7 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const postsDir = path.join(root, "content", "blog");
-const imagesDir = path.join(root, "public", "images");
+const publicDir = path.join(root, "public");
 const strict = process.argv.includes("--strict");
 
 const criticalRules = [
@@ -98,6 +98,9 @@ function detectRasterFormat(buffer) {
 }
 
 function listFiles(directory) {
+  // 目錄不存在時回報空清單，不要讓整個稽核中斷
+  if (!fs.existsSync(directory)) return [];
+
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
     const fullPath = path.join(directory, entry.name);
     return entry.isDirectory() ? listFiles(fullPath) : [fullPath];
@@ -150,7 +153,7 @@ for (const file of files) {
   }
 }
 
-for (const fullPath of listFiles(imagesDir)) {
+for (const fullPath of listFiles(publicDir)) {
   const ext = path.extname(fullPath).toLowerCase();
   if (![".jpg", ".jpeg", ".png", ".webp"].includes(ext)) continue;
 

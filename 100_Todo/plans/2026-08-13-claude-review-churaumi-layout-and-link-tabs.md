@@ -75,8 +75,10 @@
 
 ## 三、建議事項（全部非阻斷，需決定是否處理）
 
-> 2026-08-14 更新：wei96 指示處理第 1、2 項，已修正並通過 build（詳見 `AI_HANDOFF.md` 當日條目與該次 commit）。
-> 第 3、4、5 項仍未處理，維持待決定。
+> 2026-08-14 更新：wei96 指示全部交給 Claude Code 處理。
+> 第 1、2 項已修正（連結屬性）；第 3 項已處理（移除失去意義的 `check:publish`，保留 build 內含稽核）；
+> 第 4 項已處理（掃描範圍擴大到整個 `public/`、補上目錄防呆，並先修好因此被掃出的 3 個檔案）。
+> 第 5 項維持不動，理由見該項。
 
 1. ~~**READING PATH 區塊的「聯絡頁」連結仍是同分頁**~~ **（已修正）**（`components/reading-next-steps.tsx:63）。
    線上已確認：同一個閱讀區塊裡，NEXT 01–03 開新分頁，正下方的「聯絡頁」開同分頁。
@@ -88,13 +90,13 @@
    現代瀏覽器在 `noreferrer` 或 `target="_blank"` 下已自動切斷 `window.opener`，所以**沒有安全漏洞**，
    純粹是與本次確立的 `noopener noreferrer` 慣例不一致。
 
-3. **`npm run build` 現在內含 strict 稽核，Vercel 部署會一起跑。**
+3. **`npm run build` 現在內含 strict 稽核，Vercel 部署會一起跑。** **（已處理：保留稽核，移除 `check:publish`）**
    這是刻意設計（避免繞過圖片檢查），但要知道副作用：日後任何一張圖片格式不符，會**擋住整個部署**，
    包含與該圖無關的文章更新。另外稽核會掃描本機未追蹤的圖片，所以可能出現「本機建置失敗但 CI 正常」
    或反過來的情況。本次實跑本機稽核為 0 重大問題，目前沒有這個狀況。
    同時 `check:publish` 現在等同 `npm run build`，已無獨立意義，引用它的文件可以一併更新。
 
-4. **圖片稽核只掃 `public/images`**（`scripts/content-audit.mjs`）。
+4. **圖片稽核只掃 `public/images`**（`scripts/content-audit.mjs`）。**（已處理：擴大到整個 `public/`，並補上目錄防呆）**
    `public/` 底下其他位置（例如 `public/previews/`、社群輸出圖）不在檢查範圍，同類的副檔名／格式不符
    仍可能發生。另外 `listFiles(imagesDir)` 沒有防呆，`public/images` 若不存在會直接丟例外中斷稽核，
    而不是回報問題。
