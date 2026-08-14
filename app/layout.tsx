@@ -6,7 +6,7 @@ import { JsonLd } from "@/components/json-ld";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
-const gaId = process.env.NEXT_PUBLIC_GA_ID;
+const gaId = process.env.NEXT_PUBLIC_GA_ID || "G-Z076ZYK89C";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
