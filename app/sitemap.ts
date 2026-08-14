@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/contact",
     "/privacy",
+    "/newsletter",
     "/okinawa-family-trip-booking",
     "/okinawa-family-trip-budget-calculator",
     "/okinawa-family-travel-gear"

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { ArticleToc } from "@/components/article-toc";
 import { MarkdownContent } from "@/components/markdown-content";
+import { NewsletterSignup } from "@/components/newsletter-signup";
 import { JsonLd } from "@/components/json-ld";
 import { ProtectedOriginalImage } from "@/components/protected-original-image";
 import { ReadingNextSteps } from "@/components/reading-next-steps";
@@ -208,6 +209,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       <ArticleToc headings={headings} />
       <MarkdownContent content={post.content} protectedImagePaths={protectedOriginalImagePaths} />
+      <NewsletterSignup />
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 
       {relatedPosts.length > 0 ? (
