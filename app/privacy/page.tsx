@@ -27,13 +27,14 @@ export default function PrivacyPage() {
         <p>
           本站使用 Google Analytics 4 分析整體瀏覽狀況，可能透過 Cookie 收集裝置、瀏覽頁面、停留時間與來源管道等資訊。本站使用這些彙整資料改善內容與閱讀體驗，不會要求你提供姓名或聯絡資料。你也可以透過瀏覽器設定限制或刪除 Cookie。
         </p>
-        <h2>Google 廣告服務</h2>
+        <h2>廣告</h2>
         <p>
-          本站若啟用 Google AdSense，Google 等第三方供應商可能使用 Cookie，依使用者造訪本站或其他網站的情況顯示廣告。使用者可以前往
-          <a href="https://adssettings.google.com/" rel="noreferrer" target="_blank">
-            Google 廣告設定
-          </a>
-          管理個人化廣告。若法規或 Google 政策要求取得同意，本站會提供相應的隱私選項。
+          本站目前<strong>沒有放送任何廣告</strong>，也沒有載入廣告聯播網的指令碼。未來若改為放送廣告，會先更新這一頁再啟用，並在需要時提供相應的隱私選項。
+        </p>
+        <h2>聯盟行銷連結</h2>
+        <p>
+          本站部分文章與整理頁包含聯盟行銷連結（例如訂房、票券與商品）。你透過這些連結完成訂購時，本站可能獲得回饋，你的價格不會因此增加。相關說明另見
+          <Link href="/affiliate-disclosure">聯盟行銷揭露</Link>。
         </p>
         <h2>電子報訂閱</h2>
         <p>
