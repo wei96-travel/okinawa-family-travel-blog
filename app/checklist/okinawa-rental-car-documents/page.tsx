@@ -74,117 +74,145 @@ const steps: Step[] = [
   }
 ];
 
+function CheckBox() {
+  return (
+    <span
+      aria-hidden="true"
+      className="mt-[3px] h-[18px] w-[18px] shrink-0 rounded-[3px] border-[1.5px] border-[#b9a68b] bg-white"
+    />
+  );
+}
+
 export default function RentalCarDocumentsChecklist() {
   return (
-    <section className="mx-auto max-w-3xl px-5 py-12 sm:px-6 lg:px-8">
-      <p className="text-sm font-semibold tracking-[0.14em] text-[#9a6b43]">訂閱者專用</p>
-      <h1 className="mt-2 text-3xl font-bold text-[#34302b] sm:text-4xl">沖繩租車證件檢查表</h1>
-      <p className="mt-4 text-base leading-8 text-[#5f594f]">
-        每一位會開車的人各走一次。這份表只處理一件事：讓你在沖繩的租車櫃檯順利把車開走。
-        安全座椅、加油、停車不在這份表裡。
-      </p>
-      <p className="mt-3 text-base leading-8 text-[#5f594f]">
-        從你的出發日往回推，照著時間軸勾。全部勾完，這件事就不會出問題了。
-      </p>
-
-      <div className="mt-6 rounded-lg border border-[#eadfce] bg-[#fbf6ee] p-5 print:hidden">
-        <p className="text-sm leading-7 text-[#5f594f]">
-          要紙本的話，用瀏覽器的列印功能（電腦按 Ctrl + P，手機在分享選單裡找「列印」）就能存成 PDF 或印出來。
-        </p>
-      </div>
-
-      <div className="mt-10 space-y-10">
-        {steps.map((step) => (
-          <div key={step.when}>
-            <p className="text-xs font-semibold tracking-[0.16em] text-[#9a6b43]">{step.when}</p>
-            <h2 className="mt-2 text-2xl font-bold leading-snug text-[#34302b]">{step.title}</h2>
-            <ul className="mt-4 space-y-3">
-              {step.items.map((item) => (
-                <li className="flex gap-3 text-sm leading-7 text-[#5f594f]" key={item}>
-                  <span
-                    aria-hidden="true"
-                    className="mt-1.5 h-4 w-4 shrink-0 rounded-sm border border-[#b9a68b] bg-white"
-                  />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            {step.note ? (
-              <p className="mt-4 rounded-lg border border-[#eadfce] bg-white p-4 text-sm leading-7 text-[#5f594f]">
-                {step.note}
-              </p>
-            ) : null}
+    <div className="bg-[#fbf6ee]" data-standalone-doc>
+      {/* 封面：跟站上文章明顯不同的深色區塊，讓它一眼就是「一份文件」 */}
+      <header className="doc-cover bg-[#34302b] text-[#f6efe4]">
+        <div className="mx-auto max-w-3xl px-5 py-14 sm:px-8 sm:py-16">
+          <p className="text-xs font-semibold tracking-[0.22em] text-[#d9b98c]">訂閱者專用文件</p>
+          <h1 className="mt-4 text-3xl font-bold leading-tight sm:text-[2.6rem]">
+            沖繩租車證件檢查表
+          </h1>
+          <p className="mt-5 max-w-xl text-sm leading-7 text-[#ded5c6] sm:text-base sm:leading-8">
+            這份表只處理一件事：讓你在沖繩的租車櫃檯順利把車開走。
+            安全座椅、加油、停車不在這份表裡。
+          </p>
+          <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 border-t border-[#57504733] pt-6 text-xs text-[#c5bcac] sm:text-sm">
+            <span>
+              <span className="text-[#8c8375]">使用方式</span>　從出發日往回推，照時間軸勾
+            </span>
+            <span>
+              <span className="text-[#8c8375]">份數</span>　每位會開車的人各一份
+            </span>
+            <span>
+              <span className="text-[#8c8375]">整理日期</span>　2026 年 8 月 14 日
+            </span>
           </div>
-        ))}
-      </div>
-
-      <div className="mt-12 border-t border-[#eadfce] pt-8">
-        <h2 className="text-2xl font-bold text-[#34302b]">萬一到了日本才發現沒帶</h2>
-        <p className="mt-3 text-sm leading-7 text-[#5f594f]">
-          先看一件事：<strong>你幾號要取車？</strong>
-        </p>
-        <p className="mt-3 text-sm leading-7 text-[#5f594f]">
-          日本自動車聯盟（JAF）受日本台灣交流協會委託，在日本境內辦理翻譯文核發，台灣屬於優先處理地區。
-          只接受線上申請，不受理臨櫃或郵寄；日本國內駕駛用途 6,000 日圓；台灣等優先處理地區平均 2 到 3 個工作天；
-          在全國便利商店列印領取。
-        </p>
-        <div className="mt-4 space-y-3">
-          <p className="rounded-lg border border-[#eadfce] bg-white p-4 text-sm leading-7 text-[#5f594f]">
-            <strong>取車日在 3 個工作天以後</strong> —— 線上申請 JAF，還來得及。
-          </p>
-          <p className="rounded-lg border border-[#eadfce] bg-white p-4 text-sm leading-7 text-[#5f594f]">
-            <strong>明天或後天就要取車</strong> —— 這條路救不了你。行程前段的租車要重排，
-            先改成單軌電車、巴士或計程車能到的行程，把自駕往後移。
-          </p>
         </div>
-        <p className="mt-4 text-sm leading-7 text-[#5f594f]">
-          也可以在駐日代表處或經濟文化辦事處辦理，真的遇到就兩邊都問。但不要把它當備案來規劃 ——
-          出發前辦好，成本是監理站一趟、100 元、一小時。
-        </p>
-      </div>
+      </header>
 
-      <div className="mt-12 rounded-lg border border-[#eadfce] bg-[#fbf6ee] p-6">
-        <h2 className="text-xl font-bold text-[#34302b]">一句話總結</h2>
-        <p className="mt-3 text-sm leading-7 text-[#5f594f]">
-          出發前一個月做兩件事：確認駕照沒過期，把譯本辦起來。<strong>會開車的人，每個人都要一份。</strong>
-        </p>
-      </div>
+      <div className="mx-auto max-w-3xl px-5 pb-16 sm:px-8">
+        <div className="doc-no-print mt-8 rounded-lg border border-[#eadfce] bg-white p-4 text-sm leading-7 text-[#5f594f]">
+          要紙本的話，用瀏覽器的列印功能（電腦按 Ctrl + P，手機在分享選單裡找「列印」）就能存成 PDF
+          或印出來，印出來不會有這段說明和網站選單。
+        </div>
 
-      <div className="mt-10 border-t border-[#eadfce] pt-6 text-sm leading-7 text-[#5f594f]">
-        <h2 className="text-base font-bold text-[#34302b]">資料來源</h2>
-        <p className="mt-3">
-          本表整理於 2026 年 8 月 14 日。規費、應備文件、處理時間與受理方式都可能調整，出發前請以各單位最新公告為準。
-        </p>
-        <ul className="mt-3 space-y-2">
-          <li>
-            <a href="https://www.thb.gov.tw/cp.aspx?n=251" rel="noreferrer" target="_blank">
-              交通部公路局：臺日駕照互惠
-            </a>
-          </li>
-          <li>
-            <a href="https://tpcmv.thb.gov.tw/cp.aspx?n=9457" rel="noreferrer" target="_blank">
-              臺北市區監理所：申請日文譯本
-            </a>
-          </li>
-          <li>
-            <a href="https://www.mvdis.gov.tw/" rel="noreferrer" target="_blank">
-              監理服務網
-            </a>
-          </li>
-          <li>
-            <a href="https://jaf.or.jp/common/visitor-procedures/about-dltas" rel="noreferrer" target="_blank">
-              JAF：翻訳文の申請方法
-            </a>
-          </li>
-        </ul>
-        <p className="mt-5 print:hidden">
-          完整說明可以看
-          <Link className="font-semibold text-[#694624] underline underline-offset-4" href="/blog/okinawa-rental-car-license-translation">
-            沖繩租車要國際駕照嗎？台灣駕照日文譯本怎麼申請
-          </Link>
-          。
-        </p>
+        <ol className="mt-10 space-y-8">
+          {steps.map((step, index) => (
+            <li className="doc-step rounded-xl border border-[#eadfce] bg-white p-6 shadow-sm sm:p-8" key={step.when}>
+              <div className="flex items-baseline gap-4">
+                <span className="text-2xl font-bold tabular-nums text-[#d9c3a4]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <div>
+                  <p className="text-xs font-semibold tracking-[0.18em] text-[#9a6b43]">{step.when}</p>
+                  <h2 className="mt-1.5 text-xl font-bold leading-snug text-[#34302b] sm:text-2xl">
+                    {step.title}
+                  </h2>
+                </div>
+              </div>
+
+              <ul className="mt-6 space-y-3.5">
+                {step.items.map((item) => (
+                  <li className="flex gap-3 text-sm leading-7 text-[#4a443c]" key={item}>
+                    <CheckBox />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              {step.note ? (
+                <p className="mt-6 border-l-[3px] border-[#d9c3a4] bg-[#fbf6ee] py-3 pl-4 pr-3 text-sm leading-7 text-[#5f594f]">
+                  {step.note}
+                </p>
+              ) : null}
+            </li>
+          ))}
+        </ol>
+
+        <section className="doc-step mt-12 rounded-xl border border-[#e3c7a0] bg-[#fdf3e4] p-6 sm:p-8">
+          <p className="text-xs font-semibold tracking-[0.18em] text-[#9a6b43]">萬一到了日本才發現沒帶</p>
+          <h2 className="mt-1.5 text-xl font-bold text-[#34302b] sm:text-2xl">先看你幾號要取車</h2>
+
+          <p className="mt-5 text-sm leading-7 text-[#4a443c]">
+            日本自動車聯盟（JAF）受日本台灣交流協會委託，在日本境內辦理翻譯文核發，台灣屬於優先處理地區。
+            只接受線上申請，不受理臨櫃或郵寄；日本國內駕駛用途 6,000 日圓；台灣等優先處理地區平均 2 到 3
+            個工作天；在全國便利商店列印領取。
+          </p>
+
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            <div className="rounded-lg border border-[#e3c7a0] bg-white p-4">
+              <p className="text-sm font-bold text-[#34302b]">取車日在 3 個工作天以後</p>
+              <p className="mt-2 text-sm leading-7 text-[#5f594f]">線上申請 JAF，還來得及。</p>
+            </div>
+            <div className="rounded-lg border border-[#e3c7a0] bg-white p-4">
+              <p className="text-sm font-bold text-[#34302b]">明天或後天就要取車</p>
+              <p className="mt-2 text-sm leading-7 text-[#5f594f]">
+                這條路救不了你。行程前段的租車要重排，先改成單軌電車、巴士或計程車能到的行程。
+              </p>
+            </div>
+          </div>
+
+          <p className="mt-5 text-sm leading-7 text-[#5f594f]">
+            也可以在駐日代表處或經濟文化辦事處辦理，真的遇到就兩邊都問。但不要把它當備案來規劃 ——
+            出發前辦好，成本是監理站一趟、100 元、一小時。
+          </p>
+        </section>
+
+        <section className="doc-step mt-10 rounded-xl bg-[#34302b] p-6 text-[#f6efe4] sm:p-8">
+          <p className="text-xs font-semibold tracking-[0.18em] text-[#d9b98c]">一句話總結</p>
+          <p className="mt-3 text-lg leading-9 sm:text-xl">
+            出發前一個月做兩件事：確認駕照沒過期，把譯本辦起來。
+            <strong className="font-bold">會開車的人，每個人都要一份。</strong>
+          </p>
+        </section>
+
+        <footer className="mt-12 border-t border-[#e0d3bd] pt-6 text-xs leading-6 text-[#6f675b]">
+          <p className="font-semibold text-[#34302b]">資料來源</p>
+          <p className="mt-2">
+            本表整理於 2026 年 8 月 14 日。規費、應備文件、處理時間與受理方式都可能調整，出發前請以各單位最新公告為準。
+          </p>
+          <ul className="mt-3 space-y-1.5">
+            <li>交通部公路局：臺日駕照互惠　thb.gov.tw</li>
+            <li>臺北市區監理所：申請日文譯本　tpcmv.thb.gov.tw</li>
+            <li>監理服務網　mvdis.gov.tw</li>
+            <li>JAF：翻訳文の申請方法　jaf.or.jp</li>
+          </ul>
+
+          <div className="doc-no-print mt-8 flex flex-wrap items-center gap-x-6 gap-y-2">
+            <Link className="font-semibold text-[#694624] underline underline-offset-4" href="/">
+              沖繩親子旅遊筆記
+            </Link>
+            <Link
+              className="text-[#694624] underline underline-offset-4"
+              href="/blog/okinawa-rental-car-license-translation"
+            >
+              看完整說明
+            </Link>
+          </div>
+          <p className="mt-6">沖繩親子旅遊筆記　okinawafamilynotes.com</p>
+        </footer>
       </div>
-    </section>
+    </div>
   );
 }

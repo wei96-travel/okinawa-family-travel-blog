@@ -192,3 +192,33 @@ a {
   font-size: inherit;
   font-family: inherit;
 }
+
+/* 訂閱者專屬文件頁。
+   讀者是用 Email 換到這份東西的，不該長得跟站上其他文章一樣，
+   所以在這種頁面隱藏站台導覽與頁尾，讓它讀起來像一份交到手上的文件。 */
+body:has([data-standalone-doc]) > header,
+body:has([data-standalone-doc]) > footer {
+  display: none;
+}
+
+@media print {
+  body:has([data-standalone-doc]) .doc-no-print {
+    display: none !important;
+  }
+
+  body:has([data-standalone-doc]) .doc-cover {
+    background: none !important;
+    color: #000 !important;
+    border-bottom: 2px solid #000;
+  }
+
+  body:has([data-standalone-doc]) .doc-cover * {
+    color: #000 !important;
+  }
+
+  /* 避免一個步驟被切成兩頁 */
+  body:has([data-standalone-doc]) .doc-step {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
