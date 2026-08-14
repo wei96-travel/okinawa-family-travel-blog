@@ -33,9 +33,25 @@ export async function POST(request: Request) {
       redirect: "manual"
     });
 
-    const ok = response.status >= 200 && response.status < 400;
+    const text = await response.text();
 
-    if (!ok) {
+    // 暫時的診斷輸出：Kit 對伺服器端請求的實際回應。確認原因後移除。
+    if (new URL(request.url).searchParams.get("debug") === "1") {
+      return NextResponse.json({
+        upstreamStatus: response.status,
+        upstreamBody: text.slice(0, 500)
+      });
+    }
+
+    // Kit 即使沒有真的建立訂閱者也可能回 200，所以要看回應內容裡的 status。
+    let succeeded = false;
+    try {
+      succeeded = JSON.parse(text)?.status === "success";
+    } catch {
+      succeeded = false;
+    }
+
+    if (!succeeded) {
       return NextResponse.json({ error: "訂閱失敗，請稍後再試" }, { status: 502 });
     }
 
