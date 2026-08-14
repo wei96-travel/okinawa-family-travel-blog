@@ -151,11 +151,11 @@ export default async function EnglishBlogPostPage({ params }: PageProps) {
               {post.coverCreditUrl ? (
                 <span>
                   {post.coverCaption ? " " : ""}
-                  Photo: <a href={post.coverCreditUrl} rel="noreferrer" target="_blank">{post.coverCreditText ?? "source"}</a>
+                  Photo: <a href={post.coverCreditUrl} rel="noopener noreferrer" target="_blank">{post.coverCreditText ?? "source"}</a>
                   {post.coverLicenseUrl ? (
                     <>
                       {" / "}
-                      <a href={post.coverLicenseUrl} rel="noreferrer" target="_blank">
+                      <a href={post.coverLicenseUrl} rel="noopener noreferrer" target="_blank">
                         {post.coverLicenseText ?? "license"}
                       </a>
                     </>

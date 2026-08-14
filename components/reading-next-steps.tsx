@@ -60,7 +60,12 @@ export function ReadingNextSteps({ currentSlug, posts }: ReadingNextStepsProps) 
 
       <div className="mt-4 rounded-lg border border-[#eadfce] bg-white p-5 text-sm leading-7 text-[#5f594f]">
         有問題、想補充，或發現資訊需要更新，可以到{" "}
-        <Link className="font-semibold text-[#694624] underline underline-offset-4" href="/contact">
+        <Link
+          className="font-semibold text-[#694624] underline underline-offset-4"
+          href="/contact"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           聯絡頁
         </Link>{" "}
         告訴我。

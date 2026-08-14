@@ -75,12 +75,15 @@
 
 ## 三、建議事項（全部非阻斷，需決定是否處理）
 
-1. **READING PATH 區塊的「聯絡頁」連結仍是同分頁**（`components/reading-next-steps.tsx:63）。
+> 2026-08-14 更新：wei96 指示處理第 1、2 項，已修正並通過 build（詳見 `AI_HANDOFF.md` 當日條目與該次 commit）。
+> 第 3、4、5 項仍未處理，維持待決定。
+
+1. ~~**READING PATH 區塊的「聯絡頁」連結仍是同分頁**~~ **（已修正）**（`components/reading-next-steps.tsx:63）。
    線上已確認：同一個閱讀區塊裡，NEXT 01–03 開新分頁，正下方的「聯絡頁」開同分頁。
    它既不是全站導覽也不是返回鍵，行為和上方三張卡不一致。建議明確決定要跟隨新分頁規則，還是在
    `AI_COLLABORATION.md` 把「聯絡／關於」歸類為導覽例外，不要留在模糊地帶。
 
-2. **封面圖出處連結缺 `noopener`**。線上實測 `Rick Wallace／Unsplash` 與 `Unsplash License` 兩個連結是
+2. ~~**封面圖出處連結缺 `noopener`**~~ **（已修正，並一併處理英文文章頁）**。線上實測 `Rick Wallace／Unsplash` 與 `Unsplash License` 兩個連結是
    `target="_blank" rel="noreferrer"`，由 `app/blog/[slug]/page.tsx` 的封面出處區塊產生，這次沒被改到。
    現代瀏覽器在 `noreferrer` 或 `target="_blank"` 下已自動切斷 `window.opener`，所以**沒有安全漏洞**，
    純粹是與本次確立的 `noopener noreferrer` 慣例不一致。

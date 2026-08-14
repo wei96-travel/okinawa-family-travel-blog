@@ -181,7 +181,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   <a
                     className="underline decoration-[#cbb89f] underline-offset-4 hover:text-[#9a6b43]"
                     href={post.coverCreditUrl}
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     {post.coverCreditText ?? "原始照片"}
@@ -192,7 +192,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                       <a
                         className="underline decoration-[#cbb89f] underline-offset-4 hover:text-[#9a6b43]"
                         href={post.coverLicenseUrl}
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         target="_blank"
                       >
                         {post.coverLicenseText ?? "授權說明"}
