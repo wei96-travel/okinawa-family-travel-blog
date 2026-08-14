@@ -5,7 +5,9 @@ export const metadata: Metadata = {
   title: "沖繩租車證件檢查表",
   description: "訂閱者專用的沖繩租車證件檢查表。",
   // 這是訂閱後才拿到的內容，不進搜尋結果，也不放進 sitemap。
-  robots: { index: false, follow: false }
+  robots: { index: false, follow: false },
+  // 不覆寫的話會沿用 layout 的預設值，指到首頁去。
+  alternates: { canonical: "/checklist/okinawa-rental-car-documents" }
 };
 
 type Step = {
