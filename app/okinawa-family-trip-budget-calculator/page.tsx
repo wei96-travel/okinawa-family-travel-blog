@@ -15,7 +15,21 @@ export const metadata: Metadata = {
     title: "沖繩親子旅費計算器",
     description: "不用自己做試算表，幾個簡單選項就能先抓出全家沖繩旅行預算。",
     url: pagePath,
-    type: "website"
+    type: "website",
+    images: [
+      {
+        url: "/images/okinawa-itinerary-cover.webp",
+        width: 1600,
+        height: 900,
+        alt: "一家人在地圖與筆記本前規劃沖繩親子旅行預算"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "沖繩親子旅費計算器",
+    description: "輸入人數、天數與旅行方式，先估算一家人的沖繩旅費範圍。",
+    images: ["/images/okinawa-itinerary-cover.webp"]
   }
 };
 

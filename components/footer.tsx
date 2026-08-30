@@ -32,8 +32,10 @@ export function Footer() {
               <Link href="/okinawa-family-trip-budget-calculator">旅費計算器</Link>
               <Link href="/okinawa-family-trip-booking">預訂整理</Link>
               <Link href="/okinawa-family-travel-gear">用品清單</Link>
+              <Link href="/newsletter">行前信與免費檢查表</Link>
               <Link href="/contact">聯絡</Link>
               <Link href="/privacy">隱私權政策</Link>
+              <Link href="/affiliate-disclosure">合作說明</Link>
             </>
           )}
         </div>
