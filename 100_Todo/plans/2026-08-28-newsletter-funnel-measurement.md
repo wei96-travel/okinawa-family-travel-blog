@@ -45,4 +45,7 @@
 - Kit 試用期已結束，帳號目前停在方案選擇頁。免費方案保留表單與單次廣播，但不包含 Email Sequences 與 Visual Automations；因此原五封自動行前信不得再宣稱為運作中。
 - 本次部署只處理三個不含個資的 GA4 事件，不改信件、文章、聯盟連結或 Kit 帳號方案。
 - 新一輪 CC 限時檢討沒有回傳內容並已終止；目前採用 2026-08-27 已完成的 CC 第二意見，不以等待外部回應繼續延誤量測。
-- Kit 降級屬帳號方案變更，必須在按下前取得使用者當次確認；降級後另做一次正式表單、確認信與交付頁測試。
+- wei96 已於 2026-08-30 明確同意推送並降級；Kit 已顯示「You’re now on the Kit free plan」，帳號恢復可用。
+- 免費方案下進入 Email sequences 會導向升級頁，因此原五封自動行前信與 Visual Automation 已確認不能繼續運作；目前只保留表單、訂閱名單與單次 Broadcast。
+- 量測提交 `ea1526d` 已推送到 `origin/main`。正式 `/newsletter` 已出現 `data-newsletter-signup="page"`，Kit 表單可見且仍送往 Form ID `9801697`；正式檢查表頁回 200、canonical 正確並維持 `noindex, nofollow`。
+- 正式頁已載入 GA4 指令碼與本次事件程式，但瀏覽器控制環境沒有建立可讀取的 `window.gtag`，因此尚未宣稱 GA4 Realtime 已收到事件。後續以 GA4 實際事件報表與 Kit 後台訂閱數判讀，不用程式存在取代成效證據。
