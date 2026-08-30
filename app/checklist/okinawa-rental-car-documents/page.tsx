@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { NewsletterFunnelTracker } from "@/components/newsletter-funnel-tracker";
 
 export const metadata: Metadata = {
   title: "沖繩租車證件檢查表",
@@ -86,6 +87,10 @@ function CheckBox() {
 export default function RentalCarDocumentsChecklist() {
   return (
     <div className="bg-[#fbf6ee]" data-standalone-doc>
+      <NewsletterFunnelTracker
+        eventName="lead_magnet_delivery_view"
+        leadMagnet="okinawa_rental_car_documents"
+      />
       {/* 封面：跟站上文章明顯不同的深色區塊，讓它一眼就是「一份文件」 */}
       <header className="doc-cover bg-[#34302b] text-[#f6efe4]">
         <div className="mx-auto max-w-3xl px-5 py-14 sm:px-8 sm:py-16">

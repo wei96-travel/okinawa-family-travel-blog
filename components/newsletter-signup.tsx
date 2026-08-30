@@ -20,20 +20,60 @@ type NewsletterSignupProps = {
  */
 export function NewsletterSignup({ spacing = "article" }: NewsletterSignupProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+  const hasTrackedSubmit = useRef(false);
+  const hasTrackedView = useRef(false);
 
   useEffect(() => {
     const container = containerRef.current;
+    const section = sectionRef.current;
 
-    if (!container || container.querySelector("script")) {
+    if (!container || !section) {
       return;
     }
 
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = KIT_EMBED_SRC;
-    script.setAttribute("data-uid", KIT_FORM_UID);
-    container.appendChild(script);
-  }, []);
+    const placement = spacing === "article" ? "article_end" : "newsletter_page";
+    const eventParameters = {
+      lead_magnet: "okinawa_rental_car_documents",
+      link_placement: placement,
+      page_path: window.location.pathname,
+      source_page: window.location.pathname
+    };
+
+    const trackSubmit = () => {
+      if (hasTrackedSubmit.current) return;
+
+      hasTrackedSubmit.current = true;
+      window.gtag?.("event", "newsletter_signup_submit", eventParameters);
+    };
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry?.isIntersecting || hasTrackedView.current) return;
+
+        hasTrackedView.current = true;
+        window.gtag?.("event", "newsletter_signup_view", eventParameters);
+        observer.disconnect();
+      },
+      { threshold: 0.25 }
+    );
+
+    observer.observe(section);
+    container.addEventListener("submit", trackSubmit, true);
+
+    if (!container.querySelector("script")) {
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = KIT_EMBED_SRC;
+      script.setAttribute("data-uid", KIT_FORM_UID);
+      container.appendChild(script);
+    }
+
+    return () => {
+      observer.disconnect();
+      container.removeEventListener("submit", trackSubmit, true);
+    };
+  }, [spacing]);
 
   const wrapperClass =
     spacing === "article"
@@ -41,7 +81,7 @@ export function NewsletterSignup({ spacing = "article" }: NewsletterSignupProps)
       : "rounded-lg border border-[#eadfce] bg-[#fbf6ee] p-6 sm:p-8";
 
   return (
-    <section className={wrapperClass}>
+    <section className={wrapperClass} data-newsletter-signup={spacing} ref={sectionRef}>
       <p className="text-sm font-semibold tracking-[0.14em] text-[#9a6b43]">免費取得</p>
       <h2 className="mt-2 text-2xl font-bold leading-snug text-[#34302b]">
         出發前，先把租車證件這關過了
