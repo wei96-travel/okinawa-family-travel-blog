@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>古宇利島和名護怎麼選 Reel 預覽</title>
+  <style>
+    :root {
+      --ink: #173039;
+      --ocean: #12667a;
+      --sea: #d7eef0;
+      --coral: #ed6c55;
+      --paper: #f7f5ef;
+      --white: #fff;
+      --green: #517b65;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+    body {
+      background: var(--ink);
+      color: var(--ink);
+      font-family: "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+      letter-spacing: 0;
+    }
+
+    .reel { position: relative; width: 100vw; height: 100vh; overflow: hidden; background: var(--paper); }
+    .scene { position: absolute; inset: 0; opacity: 0; visibility: hidden; }
+    .scene-1 { animation: show1 15s linear both; }
+    .scene-2 { animation: show2 15s linear both; }
+    .scene-3 { animation: show3 15s linear both; }
+    .scene-4 { animation: show4 15s linear both; }
+    @keyframes show1 { 0%, 13.2% { opacity: 1; visibility: visible; } 13.3%, 100% { opacity: 0; visibility: hidden; } }
+    @keyframes show2 { 0%, 13.2% { opacity: 0; visibility: hidden; } 13.3%, 39.8% { opacity: 1; visibility: visible; } 39.9%, 100% { opacity: 0; visibility: hidden; } }
+    @keyframes show3 { 0%, 39.8% { opacity: 0; visibility: hidden; } 39.9%, 73.1% { opacity: 1; visibility: visible; } 73.2%, 100% { opacity: 0; visibility: hidden; } }
+    @keyframes show4 { 0%, 73.1% { opacity: 0; visibility: hidden; } 73.2%, 100% { opacity: 1; visibility: visible; } }
+
+    .photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 86% center; transform: scale(1.02); }
+    .scene-2 .photo { animation: push 4s ease-out both; }
+    @keyframes push { from { transform: scale(1.02); } to { transform: scale(1.1); } }
+    .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8, 27, 34, .18), rgba(8, 27, 34, .8)); }
+
+    .brand {
+      position: absolute; z-index: 10; top: 34px; right: 24px;
+      padding: 7px 10px; background: rgba(20, 47, 56, .82); color: var(--white);
+      font-size: 13px; font-weight: 700;
+    }
+
+    .hook {
+      position: absolute; z-index: 2; left: 32px; right: 32px; bottom: 150px;
+      color: var(--white); text-shadow: 0 2px 12px rgba(0, 0, 0, .42);
+    }
+    .eyebrow { margin: 0 0 13px; color: #f6d27b; font-size: 24px; font-weight: 800; }
+    h1, h2, p { margin: 0; }
+    h1 { font-size: 51px; line-height: 1.2; font-weight: 900; }
+    .hook .question { display: inline-block; margin-top: 16px; padding: 10px 15px; background: var(--coral); font-size: 30px; font-weight: 900; }
+
+    .answer {
+      position: absolute; z-index: 2; left: 30px; right: 30px; bottom: 155px;
+      padding: 25px 24px 26px; background: rgba(255, 255, 255, .94); border-left: 9px solid var(--coral);
+    }
+    .answer .label { color: var(--ocean); font-size: 25px; font-weight: 800; }
+    .answer h2 { margin-top: 7px; font-size: 48px; line-height: 1.2; font-weight: 900; }
+    .answer p { margin-top: 12px; font-size: 25px; line-height: 1.45; font-weight: 700; }
+
+    .nago, .summary { display: grid; place-items: center; padding: 92px 35px 145px; background: var(--paper); }
+    .panel { width: 100%; max-width: 470px; }
+    .panel .eyebrow { color: var(--green); }
+    .panel h2 { font-size: 48px; line-height: 1.22; font-weight: 900; }
+    .panel .sub { margin-top: 13px; color: #53686d; font-size: 23px; line-height: 1.45; font-weight: 700; }
+
+    .nago-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 28px; }
+    .nago-card { min-height: 170px; padding: 24px 10px; background: var(--white); border: 2px solid #c7d8ce; text-align: center; }
+    .nago-card strong { display: block; color: var(--green); font-size: 33px; line-height: 1.2; }
+    .nago-card span { display: block; margin-top: 12px; color: #5b6b66; font-size: 18px; font-weight: 700; }
+    .nago-note { margin-top: 18px; padding: 14px 17px; background: var(--green); color: var(--white); font-size: 24px; line-height: 1.4; font-weight: 800; }
+
+    .summary { background: var(--sea); }
+    .summary .panel h2 { font-size: 43px; }
+    .rules { display: grid; gap: 13px; margin-top: 25px; }
+    .rule { display: grid; grid-template-columns: 135px 1fr; align-items: center; min-height: 88px; padding: 13px 17px; background: var(--white); border-left: 7px solid var(--ocean); }
+    .rule strong { color: var(--ocean); font-size: 24px; }
+    .rule span { font-size: 24px; line-height: 1.35; font-weight: 800; }
+    .rule.stop { border-left-color: var(--coral); }
+    .rule.stop strong { color: var(--coral); }
+    .save { margin-top: 19px; color: var(--ink); font-size: 22px; font-weight: 800; text-align: center; }
+
+    .safe-footer {
+      position: absolute; z-index: 8; left: 24px; right: 24px; bottom: 52px;
+      color: rgba(255, 255, 255, .92); font-size: 14px; font-weight: 700; text-align: center;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, .65);
+    }
+    .scene-3 .safe-footer, .scene-4 .safe-footer { color: #486068; text-shadow: none; }
+
+    .static .scene { animation: none !important; opacity: 0; visibility: hidden; }
+    .static.scene1 .scene-1, .static.scene2 .scene-2, .static.scene3 .scene-3, .static.scene4 .scene-4 { opacity: 1; visibility: visible; }
+    .static .photo { animation: none; }
+  </style>
+</head>
+<body>
+  <main class="reel">
+    <section class="scene scene-1">
+      <img class="photo" src="../../../../public/images/articles/kouri-island-family-guide/kouri-bridge-real.jpg" alt="古宇利大橋與海景">
+      <div class="shade"></div>
+      <div class="hook">
+        <p class="eyebrow">美麗海之後只剩半天</p>
+        <h1>古宇利島<br>還是名護？</h1>
+        <p class="question">先看全家現在需要什麼</p>
+      </div>
+      <p class="safe-footer">沖繩北部親子行程</p>
+    </section>
+
+    <section class="scene scene-2">
+      <img class="photo" src="../../../../public/images/articles/kouri-island-family-guide/kouri-bridge-real.jpg" alt="古宇利大橋與海景">
+      <div class="shade"></div>
+      <div class="answer">
+        <p class="label">想看海＋孩子還有精神</p>
+        <h2>選古宇利島</h2>
+        <p>先看橋和海灘就好，不用每個點都停。</p>
+      </div>
+      <p class="safe-footer">天氣與現場狀況不適合時，直接更換行程</p>
+    </section>
+
+    <section class="scene scene-3 nago">
+      <div class="panel">
+        <p class="eyebrow">想把下午過得穩一點</p>
+        <h2>留在名護</h2>
+        <p class="sub">名護不一定要再排成景點，它也可以是全家的中途整理站。</p>
+        <div class="nago-list">
+          <div class="nago-card"><strong>吃飯</strong><span>先坐下來</span></div>
+          <div class="nago-card"><strong>休息</strong><span>讓孩子緩一緩</span></div>
+          <div class="nago-card"><strong>補東西</strong><span>水與日用品</span></div>
+        </div>
+        <p class="nago-note">需要的是休息，就不要再為了拍照繞路。</p>
+      </div>
+      <p class="safe-footer">okinawafamilynotes.com</p>
+    </section>
+
+    <section class="scene scene-4 summary">
+      <div class="panel">
+        <p class="eyebrow">北部二選一</p>
+        <h2>先存起來，到現場再選</h2>
+        <div class="rules">
+          <div class="rule"><strong>想看海</strong><span>古宇利島</span></div>
+          <div class="rule"><strong>想休息補給</strong><span>名護</span></div>
+          <div class="rule stop"><strong>已經累了</strong><span>兩個都不用硬塞</span></div>
+        </div>
+        <p class="save">少一站，也能把這天玩好。</p>
+      </div>
+      <p class="safe-footer">沖繩親子旅遊筆記</p>
+    </section>
+
+    <div class="brand">okinawafamilynotes.com</div>
+  </main>
+  <script>
+    const scene = new URLSearchParams(location.search).get("scene");
+    if (scene) document.body.className = `static scene${scene}`;
+  </script>
+</body>
+</html>

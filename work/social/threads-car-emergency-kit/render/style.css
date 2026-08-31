@@ -1,0 +1,115 @@
+:root {
+  color-scheme: light;
+  font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 1080px;
+  height: 1350px;
+  margin: 0;
+  overflow: hidden;
+  background: #d7e3e7;
+}
+
+.card {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+  letter-spacing: 0;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 58% center;
+}
+
+.shade {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 34, 43, 0.44);
+}
+
+.copy {
+  position: absolute;
+  top: 72px;
+  left: 68px;
+  width: 900px;
+  color: #ffffff;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.7);
+}
+
+.eyebrow {
+  margin: 0 0 18px;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+h1 {
+  margin: 0;
+  font-size: 86px;
+  font-weight: 800;
+  line-height: 1.16;
+}
+
+h1 span {
+  color: #ffd166;
+}
+
+.support {
+  margin: 30px 0 0;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.checklist {
+  position: absolute;
+  left: 68px;
+  bottom: 146px;
+  display: flex;
+  gap: 16px;
+  color: #17313d;
+}
+
+.checklist p {
+  margin: 0;
+  padding: 14px 20px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 2px solid rgba(255, 255, 255, 0.96);
+  border-radius: 6px;
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.site,
+.note {
+  position: absolute;
+  bottom: 38px;
+  margin: 0;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.72);
+}
+
+.site {
+  left: 46px;
+}
+
+.note {
+  right: 46px;
+  font-size: 20px;
+  font-weight: 500;
+}

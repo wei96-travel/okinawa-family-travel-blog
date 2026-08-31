@@ -1,0 +1,96 @@
+:root {
+  color-scheme: light;
+  font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 1080px;
+  height: 1350px;
+  margin: 0;
+  overflow: hidden;
+  background: #dce8ee;
+}
+
+.card {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+  letter-spacing: 0;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top-shade {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 660px;
+  background: linear-gradient(180deg, rgba(244, 249, 251, 0.96) 0%, rgba(244, 249, 251, 0.76) 58%, rgba(244, 249, 251, 0) 100%);
+}
+
+.copy {
+  position: absolute;
+  top: 72px;
+  left: 68px;
+  width: 900px;
+  color: #17313d;
+}
+
+.eyebrow {
+  margin: 0 0 18px;
+  color: #3b6672;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+h1 {
+  margin: 0;
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h1 span {
+  color: #b84636;
+}
+
+.support {
+  margin: 28px 0 0;
+  color: #294a55;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.site,
+.note {
+  position: absolute;
+  bottom: 36px;
+  margin: 0;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.72);
+}
+
+.site {
+  left: 46px;
+}
+
+.note {
+  right: 46px;
+  font-size: 20px;
+  font-weight: 500;
+}

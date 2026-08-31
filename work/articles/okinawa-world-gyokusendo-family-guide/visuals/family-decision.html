@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>玉泉洞親子安排圖</title>
+    <style>
+      * { box-sizing: border-box; }
+
+      html,
+      body {
+        width: 1080px;
+        height: 1350px;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      body {
+        color: #fffdf8;
+        font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+        background:
+          linear-gradient(180deg, rgba(12, 20, 18, 0.22) 0%, rgba(12, 20, 18, 0.82) 48%, #0d1816 100%),
+          url("./cover-source-v1.png") center 38% / cover no-repeat;
+      }
+
+      main {
+        position: relative;
+        display: flex;
+        min-height: 100%;
+        flex-direction: column;
+        padding: 72px 76px 50px;
+      }
+
+      .eyebrow {
+        margin: 0 0 18px;
+        color: #f5c66b;
+        font-size: 27px;
+        font-weight: 700;
+      }
+
+      h1 {
+        max-width: 820px;
+        margin: 0;
+        font-family: "Noto Serif TC", "PMingLiU", serif;
+        font-size: 78px;
+        font-weight: 800;
+        line-height: 1.16;
+      }
+
+      .lead {
+        max-width: 760px;
+        margin: 24px 0 0;
+        color: #f5f1e9;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+      }
+
+      .choices {
+        margin-top: auto;
+        border-top: 1px solid rgba(255, 255, 255, 0.42);
+      }
+
+      .choice {
+        display: grid;
+        grid-template-columns: 74px 300px 1fr;
+        min-height: 142px;
+        align-items: center;
+        gap: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+      }
+
+      .number {
+        display: grid;
+        width: 54px;
+        height: 54px;
+        place-items: center;
+        border: 2px solid #f5c66b;
+        border-radius: 50%;
+        color: #f5c66b;
+        font-size: 25px;
+        font-weight: 800;
+      }
+
+      .condition {
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 1.35;
+      }
+
+      .answer {
+        color: #e5ebe7;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+
+      footer {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 24px;
+        padding-top: 28px;
+      }
+
+      .note {
+        max-width: 680px;
+        color: #bdc9c2;
+        font-size: 19px;
+        line-height: 1.55;
+      }
+
+      .site {
+        color: #fffdf8;
+        font-size: 20px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">沖繩世界玉泉洞｜親子行前判斷</p>
+      <h1>帶幼兒走玉泉洞<br />先別急著買票</h1>
+      <p class="lead">先看孩子現在是哪一種，再決定要不要進洞。</p>
+
+      <section class="choices" aria-label="三種親子狀況">
+        <div class="choice">
+          <span class="number">01</span>
+          <div class="condition">能自己走階梯</div>
+          <div class="answer">可以排玉泉洞，但仍要留休息和慢走的時間。</div>
+        </div>
+        <div class="choice">
+          <span class="number">02</span>
+          <div class="condition">需要推車或常要抱</div>
+          <div class="answer">先準備背巾或分開參觀，不要到入口才決定。</div>
+        </div>
+        <div class="choice">
+          <span class="number">03</span>
+          <div class="condition">怕暗、怕濕滑</div>
+          <div class="answer">不必勉強進洞，改逛園區其他區域也可以。</div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="note">洞內有階梯，推車無法一路使用｜2026-08-04 查核｜本站情境示意</div>
+        <div class="site">okinawafamilynotes.com</div>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -5,3 +5,15 @@
 這組整理了那霸雨天的半日節奏。完整文章的官方設施連結和注意事項，放在第一則留言。
 
 #沖繩親子旅遊筆記 #沖繩雨天 #那霸親子 #沖繩自由行 #親子旅遊
+
+## 第一則留言
+
+完整文章：
+https://okinawafamilynotes.com/blog/okinawa-naha-rainy-day-family-half-day
+
+## 狀態
+
+- 已於 2026-08-05 公開發布，共 8 張圖片。
+- 分享對象：所有人。
+- 第一則留言已放文章連結並顯示網站預覽。
+- 公開貼文：https://www.facebook.com/permalink.php?story_fbid=122118334065290857&id=61588725730543

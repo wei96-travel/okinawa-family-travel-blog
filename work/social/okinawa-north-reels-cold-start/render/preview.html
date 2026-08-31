@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>沖繩北部親子行程 Reel 預覽</title>
+  <style>
+    :root {
+      --ink: #16313c;
+      --ocean: #0f5669;
+      --sea: #55aeb2;
+      --coral: #ef7058;
+      --paper: #f7f4ec;
+      --white: #fffdf8;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--ink);
+      font-family: "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+      letter-spacing: 0;
+    }
+
+    .reel {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .scene {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .scene-1 { animation: show1 15s linear both; }
+    .scene-2 { animation: show2 15s linear both; }
+    .scene-3 { animation: show3 15s linear both; }
+    .scene-4 { animation: show4 15s linear both; }
+
+    @keyframes show1 {
+      0%, 15.9% { opacity: 1; visibility: visible; }
+      16%, 100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes show2 {
+      0%, 15.9% { opacity: 0; visibility: hidden; }
+      16%, 42.5% { opacity: 1; visibility: visible; }
+      42.6%, 100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes show3 {
+      0%, 42.5% { opacity: 0; visibility: hidden; }
+      42.6%, 73.2% { opacity: 1; visibility: visible; }
+      73.3%, 100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes show4 {
+      0%, 73.2% { opacity: 0; visibility: hidden; }
+      73.3%, 100% { opacity: 1; visibility: visible; }
+    }
+
+    .route-scene {
+      display: grid;
+      place-items: center;
+      padding: 12vh 7vw;
+      background:
+        linear-gradient(rgba(247, 244, 236, 0.96), rgba(247, 244, 236, 0.96)),
+        repeating-linear-gradient(0deg, transparent 0 56px, rgba(15, 86, 105, 0.08) 56px 58px);
+    }
+
+    .route-wrap {
+      width: 100%;
+      max-width: 470px;
+      min-height: 58vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3.5vh;
+    }
+
+    .eyebrow {
+      color: var(--ocean);
+      font-size: clamp(18px, 3.8vw, 27px);
+      font-weight: 700;
+    }
+
+    h1, h2, p { margin: 0; }
+
+    h1 {
+      font-size: clamp(38px, 8.3vw, 62px);
+      line-height: 1.24;
+      font-weight: 900;
+    }
+
+    .accent { color: var(--coral); }
+
+    .route {
+      position: relative;
+      display: grid;
+      grid-template-columns: auto 1fr auto 1fr auto;
+      align-items: center;
+      gap: 9px;
+      width: 100%;
+      color: var(--ocean);
+    }
+
+    .line {
+      height: 5px;
+      background: var(--sea);
+      border-radius: 2px;
+      transform-origin: left;
+      animation: grow 1.5s ease-out both;
+    }
+
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+    .stop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      text-align: center;
+      font-size: clamp(15px, 3vw, 22px);
+      font-weight: 700;
+    }
+
+    .dot {
+      width: 25px;
+      height: 25px;
+      border: 6px solid var(--ocean);
+      border-radius: 50%;
+      background: var(--white);
+    }
+
+    .sleep-note {
+      align-self: flex-start;
+      padding: 12px 18px;
+      background: var(--ink);
+      color: var(--white);
+      font-size: clamp(17px, 3.4vw, 24px);
+      font-weight: 700;
+      border-left: 7px solid var(--coral);
+    }
+
+    .photo-scene img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .photo-scene::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(9, 28, 35, 0.24);
+    }
+
+    .caption {
+      position: absolute;
+      z-index: 2;
+      left: 6.5vw;
+      right: 6.5vw;
+      top: 31vh;
+      padding: 22px 24px;
+      background: rgba(255, 253, 248, 0.94);
+      border-left: 9px solid var(--coral);
+      color: var(--ink);
+    }
+
+    .caption h2 {
+      font-size: clamp(35px, 7.6vw, 56px);
+      line-height: 1.24;
+      font-weight: 900;
+    }
+
+    .caption p {
+      margin-top: 12px;
+      font-size: clamp(18px, 3.6vw, 27px);
+      line-height: 1.45;
+      font-weight: 700;
+    }
+
+    .choice-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .choice {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      align-items: center;
+      min-height: 76px;
+      padding: 14px 18px;
+      background: var(--white);
+      border: 2px solid rgba(15, 86, 105, 0.28);
+      font-size: clamp(19px, 3.8vw, 28px);
+      font-weight: 700;
+    }
+
+    .choice strong {
+      color: var(--coral);
+      font-size: 30px;
+    }
+
+    .choice.muted {
+      opacity: 0.48;
+      text-decoration: line-through;
+    }
+
+    .credit {
+      position: absolute;
+      z-index: 3;
+      left: 18px;
+      right: 18px;
+      bottom: 23px;
+      color: rgba(255, 255, 255, 0.92);
+      font-size: 12px;
+      text-align: center;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    }
+
+    .brand {
+      position: absolute;
+      z-index: 5;
+      top: 24px;
+      right: 24px;
+      padding: 7px 10px;
+      color: var(--white);
+      background: rgba(22, 49, 60, 0.84);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .static .scene { animation: none !important; opacity: 0; visibility: hidden; }
+    .static.scene1 .scene-1,
+    .static.scene2 .scene-2,
+    .static.scene3 .scene-3,
+    .static.scene4 .scene-4 { opacity: 1; visibility: visible; }
+    .static .line { animation: none; transform: scaleX(1); }
+  </style>
+</head>
+<body>
+  <main class="reel">
+    <section class="scene scene-1 route-scene">
+      <div class="route-wrap">
+        <p class="eyebrow">沖繩北部親子行程</p>
+        <h1>孩子在車上睡著，<br><span class="accent">第二站還要去嗎？</span></h1>
+        <div class="route" aria-label="那霸到美麗海再到第二站的路線">
+          <div class="stop"><span class="dot"></span><span>那霸</span></div>
+          <span class="line"></span>
+          <div class="stop"><span class="dot"></span><span>美麗海</span></div>
+          <span class="line"></span>
+          <div class="stop"><span class="dot"></span><span>第二站？</span></div>
+        </div>
+        <p class="sleep-note">真正難的是：要不要叫醒他</p>
+      </div>
+    </section>
+
+    <section class="scene scene-2 photo-scene">
+      <img src="../../../../public/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg" alt="沖繩美麗海水族館">
+      <div class="caption">
+        <h2>美麗海走完，<br>不要先塞滿下一站</h2>
+        <p>北部車程長，孩子的體力比景點數更重要。</p>
+      </div>
+      <p class="credit">照片：Rick Wallace／Unsplash</p>
+    </section>
+
+    <section class="scene scene-3 route-scene">
+      <div class="route-wrap">
+        <p class="eyebrow">我的排法很簡單</p>
+        <h1>後面只留<span class="accent">一個備選</span></h1>
+        <div class="choice-list">
+          <div class="choice"><strong>1</strong><span>孩子有精神：再去一站</span></div>
+          <div class="choice"><strong>2</strong><span>睡熟了：直接回飯店</span></div>
+          <div class="choice muted"><strong>3</strong><span>硬塞兩、三個景點</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene scene-4 photo-scene">
+      <img src="../../../../public/images/articles/kouri-island-family-guide/kouri-bridge-real.jpg" alt="沖繩古宇利大橋">
+      <div class="caption">
+        <h2>你會繼續玩，<br><span class="accent">還是直接回飯店？</span></h2>
+        <p>留言告訴我。下一支整理古宇利島和名護怎麼選。</p>
+      </div>
+      <p class="credit">照片：kaori kubota／Unsplash</p>
+    </section>
+
+    <div class="brand">okinawafamilynotes.com</div>
+  </main>
+
+  <script>
+    const scene = new URLSearchParams(location.search).get("scene");
+    if (scene) document.body.className = `static scene${scene}`;
+  </script>
+</body>
+</html>
