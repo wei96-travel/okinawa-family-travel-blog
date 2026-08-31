@@ -13,3 +13,10 @@ work/social/_tmp_svgcheck.*
 work/social/playwright_chromiumdev_profile-*/
 work/social/playwright-artifacts-*/
 work/social/**/render/output/frames/
+
+# Local agent/tooling config
+.claude/
+
+# Scratch build + audit output, and social render source assets
+/output/
+/outputs/
