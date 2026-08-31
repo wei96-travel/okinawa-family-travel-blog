@@ -143,7 +143,7 @@ Use this as the starting pool. Add only when the product solves a clear travel p
 - Max 3 to 5 product categories per article.
 - Put product suggestions after useful guidance, not in the opening paragraph.
 - Mention categories first, affiliate links second.
-- Do not add reader-facing wording about commission, affiliate, partnership, revenue or disclosure to articles, social captions, first comments or user-facing reports. Keep the link useful in context and keep tracking implementation non-reader-facing.
+- When an article contains a tracked affiliate link, show `本文含合作連結｜合作說明` once before the article content. Booking and product hub pages show `本頁含合作連結｜合作說明` once near the top. Do not repeat the notice beside every link or add it to pages without tracked affiliate links.
 - Use plain wording: `可以考慮`, `我會準備`, `臨時處理會比較順手`.
 - Avoid fake certainty: `最強`, `必買`, `保證`, `第一名`.
 - Do not recommend food, medicine, sunscreen, safety seats, or legal/safety-critical items casually. These need source-backed care.

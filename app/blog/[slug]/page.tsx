@@ -3,12 +3,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { ArticleToc } from "@/components/article-toc";
+import { AffiliateDisclosureNotice } from "@/components/affiliate-disclosure-notice";
 import { MarkdownContent } from "@/components/markdown-content";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { JsonLd } from "@/components/json-ld";
 import { ProtectedOriginalImage } from "@/components/protected-original-image";
 import { ReadingNextSteps } from "@/components/reading-next-steps";
 import { getEnglishSlug } from "@/lib/i18n";
+import { hasAffiliateLink } from "@/lib/affiliate";
 import { getAllPosts, getPostBySlug, getPostHeadings, getRelatedPosts } from "@/lib/posts";
 import { getCategoryByName } from "@/lib/site";
 
@@ -103,6 +105,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const englishSlug = getEnglishSlug(post.slug);
   const protectedOriginalImagePaths = protectedOriginalImagePathsBySlug[post.slug] ?? [];
   const hasProtectedOriginalCover = protectedOriginalImagePaths.includes(post.coverImage ?? "");
+  const hasAffiliateContent = hasAffiliateLink(post.content);
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:px-6 lg:px-8">
@@ -208,6 +211,11 @@ export default async function BlogPostPage({ params }: PageProps) {
       ) : null}
 
       <ArticleToc headings={headings} />
+      {hasAffiliateContent ? (
+        <div className="mt-8">
+          <AffiliateDisclosureNotice scope="article" />
+        </div>
+      ) : null}
       <MarkdownContent content={post.content} protectedImagePaths={protectedOriginalImagePaths} />
       <NewsletterSignup />
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />

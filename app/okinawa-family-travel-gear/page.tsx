@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AffiliateDisclosureNotice } from "@/components/affiliate-disclosure-notice";
 import { AffiliateProductLink } from "@/components/affiliate-product-link";
 
 export const metadata: Metadata = {
@@ -209,6 +210,12 @@ export default function OkinawaFamilyTravelGearPage() {
           />
         </div>
       </section>
+
+      <div className="border-b border-[#eadfce] bg-[#fffdf8] py-4">
+        <div className="mx-auto max-w-6xl px-5 sm:px-6 lg:px-8">
+          <AffiliateDisclosureNotice scope="page" />
+        </div>
+      </div>
 
       <nav aria-label="用品問題快速選擇" className="border-b border-[#eadfce] bg-[#f6efe4]">
         <div className="mx-auto flex max-w-6xl flex-wrap gap-x-6 gap-y-2 px-5 py-4 text-sm font-semibold text-[#694624] sm:px-6 lg:px-8">
