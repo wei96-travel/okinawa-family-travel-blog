@@ -1,6 +1,6 @@
 ﻿# Okinawa Family Notes AI Collaboration
 
-Last updated: 2026-07-31
+Last updated: 2026-08-28
 
 This project is maintained with both Codex and Claude Code. Use this file as the shared handoff before making content, SEO, or site changes.
 
@@ -21,6 +21,7 @@ Permanent rules live here. Current task status lives in `AI_HANDOFF.md`. Both ag
 
 - This project is explicitly dual-agent. Do not tell the user that Codex must wait for them to open Claude Code before first checking whether the local Claude Code CLI is available.
 - When the user asks Codex to involve Claude Code, Codex may directly invoke the local `claude.cmd` for a bounded second review, research task or draft, then perform the final cross-check and integration itself.
+- Before publishing any material content, SEO, affiliate, newsletter-funnel or site-structure change, the lead agent must obtain a bounded second review from the other agent. The lead agent must challenge that review against project evidence, record agreements and disagreements, and make the final recommendation; merely forwarding a draft or saying that the other agent was consulted does not satisfy this rule. Small mechanical fixes may be grouped into one review so collaboration does not become a delay.
 - For ongoing work that edits project files, continue to use `AI_HANDOFF.md`, exact file ownership and Git as the shared source of truth.
 - Do not send local handoff files, analytics logs or other project content to an external model unless the user has explicitly approved those specific files. The safe default is to give Claude Code a public-source summary with no local-file access, then let Codex compare the response against local data.
 - If direct invocation fails, report the actual permission, authentication or runtime error. Do not incorrectly describe the project as incapable of dual-agent collaboration.
@@ -59,7 +60,8 @@ Traffic remains the first priority. Affiliate presentation may be improved only 
 ## Shared Rules
 
 - **Daily rule review:** Before the first content, SEO, affiliate-link or social task of each calendar day, re-read this file, `AI_HANDOFF.md`, `content/affiliate-product-workflow.md`, and the current automation memory. Do not rely on a remembered version of a rule.
-- **Reader-facing link wording:** A tracked booking or product link may appear only where it genuinely helps a decision, but public article copy, social captions, first comments and user-facing reports must not mention commission, affiliate, partnership, revenue or disclosure wording. Keep tracking and `rel="sponsored"` implementation technical; internal verification records may retain the necessary technical facts.
+- **Reader-facing link wording:** A tracked booking or product link may appear only where it genuinely helps a decision. Articles containing tracked links show `本文含合作連結｜合作說明` once, while booking and product hub pages show `本頁含合作連結｜合作說明` once; both link to `/affiliate-disclosure`. Do not repeat the notice beside every link, turn social copy into a sales pitch, or show it on pages without tracked links. Keep `rel="sponsored"` and click tracking in place.
+- **Article link tab behavior:** Every clickable link inside the article-reading experience must preserve the reader's current article by opening in a new tab. This includes article-body links, official sources, ticket and product links, affiliate links, image links, related-reading cards and next-reading recommendations. Use `target="_blank"` with `rel="noopener noreferrer"`; retain `sponsored` on tracked affiliate links. Global site navigation, category navigation and explicit back buttons remain in the same tab. Before publishing, test representative internal and external links on both desktop and mobile and confirm the article stays open.
 - Write in natural Traditional Chinese for Taiwan readers.
 - Public long-form articles should sound natural but still have an editorial tone. Avoid addressing readers as `你家`, and avoid leaning on sensational or overly casual words such as `狼狽` or `崩潰`; use the specific situation and consequence instead.
 - **Whole-message rewrite:** When the user corrects any sentence in an external reply, email or social response, reread and rewrite the complete message before presenting it again. Do not return isolated replacement sentences that leave the surrounding tone fragmented. The finished version must read as one coherent, courteous and reasonably polished piece of Traditional Chinese.
@@ -164,6 +166,8 @@ If the car-transport cluster still shows an uncovered query, evaluate `沖繩租
 Use `content/affiliate-product-workflow.md` before adding Shopee products or asking Claude Code to research product categories.
 
 Codex controls strategy and final review. Claude Code can help build candidate product-category tables. wei96 chooses the actual Shopee affiliate links.
+
+Reader-facing affiliate notices use one restrained site-wide pattern: tracked-link articles show `本文含合作連結｜合作說明` once, and booking or product hub pages show `本頁含合作連結｜合作說明` once. Both link to `/affiliate-disclosure`. Do not repeat the notice next to every link or show it on pages without affiliate links.
 
 ## Short Video Pattern
 
