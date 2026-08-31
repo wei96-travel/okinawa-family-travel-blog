@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8"><title>CC v3 local review</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; }
+  body { zoom: .5; }
+  .artboard { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #0c0806; font-family: 'Noto Sans TC', sans-serif; }
+  .photo { position: absolute; inset: 0; background-image: url('https://images.pexels.com/photos/6182086/pexels-photo-6182086.jpeg'); background-size: cover; background-position: 68% center; filter: saturate(.72) brightness(.86) sepia(.12); }
+  .tone { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,7,5,.94) 0%, rgba(12,8,6,.88) 24%, rgba(14,9,7,.55) 45%, rgba(16,10,7,.12) 62%, rgba(16,10,7,.04) 100%); }
+  .tone-bottom { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,5,4,.15) 0%, rgba(8,5,4,0) 30%, rgba(8,5,4,0) 62%, rgba(8,5,4,.5) 100%); }
+  .grain { position: absolute; inset: 0; opacity: .05; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  .content { position: relative; z-index: 2; height: 100%; padding: 96px 96px 84px; display: flex; flex-direction: column; justify-content: flex-end; }
+  .label { display: inline-block; align-self: flex-start; font-size: 26px; letter-spacing: 6px; color: #e9dfd2; font-weight: 500; padding-bottom: 14px; margin-bottom: 34px; border-bottom: 1px solid rgba(233,223,210,.4); }
+  .headline { font-family: 'Noto Serif TC', serif; font-weight: 800; font-size: 92px; line-height: 1.28; color: #f5ede1; letter-spacing: 2px; text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+  .headline .accent { color: #e8a13a; }
+  .support { margin-top: 46px; max-width: 620px; font-size: 30px; line-height: 1.65; color: #d8cdbf; font-weight: 400; letter-spacing: 1px; }
+  .brand { position: absolute; left: 96px; bottom: 76px; z-index: 2; font-size: 22px; letter-spacing: 4px; color: rgba(233,223,210,.62); }
+</style>
+</head>
+<body><div class="artboard"><div class="photo"></div><div class="tone"></div><div class="tone-bottom"></div><div class="grain"></div><div class="content"><span class="label">沖繩親子自駕</span><h1 class="headline">沖繩租車<br><span class="accent">安全座椅</span><br>不是有就好</h1><p class="support">預約前，先把孩子的年齡、身高和體重告訴租車公司</p></div><div class="brand">沖繩親子旅遊筆記</div></div></body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>沖繩租車安全座椅攻略</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  }
+
+  /* Local review only: fit the 1080x1350 artboard inside the preview window. */
+  body { zoom: 0.5; }
+
+  .canvas {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    background-image: url('https://images.pexels.com/photos/6182086/pexels-photo-6182086.jpeg');
+    background-size: cover;
+    background-position: center 30%;
+  }
+
+  .fade-top {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 420px;
+    background: linear-gradient(to bottom,
+      rgba(20, 14, 6, 0.55) 0%,
+      rgba(20, 14, 6, 0.30) 45%,
+      rgba(20, 14, 6, 0) 100%);
+  }
+
+  .fade-bottom {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 560px;
+    background: linear-gradient(to top,
+      rgba(15, 10, 4, 0.62) 0%,
+      rgba(15, 10, 4, 0.34) 50%,
+      rgba(15, 10, 4, 0) 100%);
+  }
+
+  .content {
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    top: 90px;
+    height: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .eyebrow {
+    color: #FFF7E8;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.55);
+  }
+
+  .headline {
+    margin-top: auto;
+    color: #FFFFFF;
+    font-size: 94px;
+    font-weight: 900;
+    line-height: 1.28;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 18px rgba(0,0,0,0.6);
+  }
+
+  .headline .accent {
+    color: #FFC94A;
+  }
+
+  .subtitle {
+    margin-top: 44px;
+    color: #FFF3DC;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.55);
+  }
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="fade-top"></div>
+    <div class="fade-bottom"></div>
+
+    <div class="content">
+      <div class="eyebrow">第一次帶小孩去沖繩</div>
+
+      <div class="headline">
+        沖繩租車<br>
+        <span class="accent">安全座椅</span><br>
+        怎麼選？
+      </div>
+
+      <div class="subtitle">預約前先確認年齡、身高和體重</div>
+    </div>
+  </div>
+</body>
+</html>
