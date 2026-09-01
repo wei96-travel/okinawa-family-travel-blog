@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>沖繩伴手禮可帶與不可帶</title>
+<style>
+  :root {
+    --forest: #173f3b;
+    --paper: #f7f8f4;
+    --white: #ffffff;
+    --ink: #182a2b;
+    --body: #526060;
+    --line: #d7dfd9;
+    --red: #b84c37;
+    --green: #2f6b60;
+    --yellow: #f0bd4e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1080px;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif;
+  }
+  .sheet { width: 1080px; height: 1350px; overflow: hidden; background: var(--paper); }
+  .hero { padding: 44px 76px 32px; color: var(--white); background: var(--forest); }
+  .kicker { font-size: 27px; font-weight: 700; letter-spacing: 0.12em; opacity: .82; }
+  .title { margin-top: 16px; font-size: 56px; font-weight: 800; line-height: 1.22; }
+  .lede { margin-top: 18px; font-size: 28px; line-height: 1.62; opacity: .9; }
+  .cols { display: flex; gap: 0; }
+  .col { width: 540px; padding: 32px 50px 18px; }
+  .col + .col { border-left: 1px solid var(--line); }
+  .badge {
+    display: inline-block; padding: 10px 22px; border-radius: 999px;
+    font-size: 27px; font-weight: 800; color: var(--white);
+  }
+  .badge.no { background: var(--red); }
+  .badge.yes { background: var(--green); }
+  ul { margin-top: 18px; list-style: none; }
+  li {
+    font-size: 29px; line-height: 1.45; padding: 10px 0 10px 38px;
+    border-bottom: 1px solid var(--line); position: relative; color: var(--ink);
+  }
+  li::before {
+    position: absolute; left: 0; top: 10px; font-size: 28px; font-weight: 800;
+  }
+  .col.no li::before { content: "✕"; color: var(--red); }
+  .col.yes li::before { content: "✓"; color: var(--green); }
+  li span { display: block; margin-top: 5px; font-size: 23px; color: var(--body); line-height: 1.5; }
+  .note {
+    margin: 0 76px; padding: 22px 30px; background: var(--white);
+    border-left: 8px solid var(--yellow); border-radius: 4px;
+  }
+  .note b { font-size: 30px; }
+  .note p { margin-top: 10px; font-size: 26px; line-height: 1.6; color: var(--body); }
+  .foot {
+    margin: 16px 76px 0; padding-top: 14px; border-top: 1px solid var(--line);
+    font-size: 22px; color: var(--body); line-height: 1.55;
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="hero">
+    <div class="kicker">沖繩親子旅遊筆記</div>
+    <div class="title">沖繩伴手禮<br>哪些不能帶回台灣</div>
+    <div class="lede">先看有沒有肉、是不是生鮮，再決定買不買</div>
+  </div>
+
+  <div class="cols">
+    <div class="col no">
+      <span class="badge no">不能帶</span>
+      <ul>
+        <li>豬肉製品<span>ラフテー、豬耳朵、香腸、肉乾</span></li>
+        <li>SPAM 午餐肉罐頭<span>罐頭密封也不例外</span></li>
+        <li>含肉調理包<span>沖繩そば套裝附的滷肉</span></li>
+        <li>生鮮水果蔬菜<span>鳳梨、芒果現場吃完</span></li>
+        <li>生的紅芋<span>未加工農產品</span></li>
+        <li>天然珊瑚<span>當地禁採，另受公約管制</span></li>
+      </ul>
+    </div>
+    <div class="col yes">
+      <span class="badge yes">可以帶</span>
+      <ul>
+        <li>海帶、昆布、海蘊<span>加工乾燥的海藻類</span></li>
+        <li>紅芋塔、雪鹽餅<span>烘焙加工品</span></li>
+        <li>蘋果派<span>注意保存期限與班機時間</span></li>
+        <li>不含肉的泡麵<span>看清楚有沒有肉塊</span></li>
+        <li>泡盛、啤酒<span>超過免稅額要申報</span></li>
+        <li>藥品藥妝<span>有數量上限</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>不確定就走紅線申報</b>
+    <p>主動申報不會被罰，現場放棄該項物品即可。走綠線被查到違規品才會進入裁罰程序，罰鍰從新臺幣 1 萬元起。</p>
+  </div>
+
+  <div class="foot">
+    本站自製資訊圖　資料查核日期：2026 年 9 月 1 日<br>
+    依農業部動植物防疫檢疫署公開規定整理，規定可能調整，出發前請以官方公告為準。
+  </div>
+</div>
+</body>
+</html>
