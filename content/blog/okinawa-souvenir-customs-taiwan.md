@@ -5,8 +5,12 @@ date: "2026-09-01"
 category: "旅遊用品"
 tags: ["沖繩伴手禮", "日本伴手禮入境", "台灣入境檢疫", "沖繩購物", "防檢署"]
 coverImage: "/images/articles/okinawa-souvenir-customs-taiwan/customs-cover.webp"
-coverAlt: "沖繩伴手禮入境台灣對照：不能帶的豬肉製品、生鮮水果、天然珊瑚，可以帶的海帶昆布、紅芋塔、泡盛"
-coverCaption: "先按「有沒有肉、是不是生鮮」判斷，再決定買不買。本站自製資訊圖。"
+coverAlt: "日本商店的貨架走道，兩側陳列乾貨零食、瓶裝酒類與包裝食品"
+coverCaption: "架上這些不是每一樣都帶得回台灣。先按「有沒有肉、是不是生鮮」判斷，再決定買不買。照片為情境示意。"
+coverCreditText: "apasaric／Pexels"
+coverCreditUrl: "https://www.pexels.com/photo/photo-of-supermarket-3423860/"
+coverLicenseText: "Pexels License"
+coverLicenseUrl: "https://www.pexels.com/legal-pages/license/"
 ---
 
 沖繩最有名的伴手禮裡，剛好有一整類是台灣絕對不讓帶的：豬肉。
