@@ -113,6 +113,8 @@ coverCaption: "藥品與防護用品先分類擺好再打包，需要時比較�
 
 出發前依孩子年齡、體質和當週天氣再刪減一次。真的不確定的藥或成分，寧可先問醫師、藥師，也不要到當地才手忙腳亂。玩水日的用品可搭配[沖繩親子玩水用品清單](/blog/okinawa-family-beach-packing-list)，臨時缺東西則看[沖繩便利商店親子採買攻略](/blog/okinawa-convenience-store-family-shopping-guide)。
 
+藥帶了還是不夠、孩子真的燒起來的時候，先看[小孩在沖繩生病怎麼辦](/blog/okinawa-child-sick-injured-guide)——沖繩縣有 24 小時的中文急救諮詢電話，可以先問要不要就醫。
+
 ## 資料來源與更新時間
 
 本文於 2026 年 7 月 21 日整理，出發前請再次確認最新規定與產品標示。
