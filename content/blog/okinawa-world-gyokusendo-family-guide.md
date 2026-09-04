@@ -106,7 +106,7 @@ coverCaption: "沖繩世界園區入口。"
 
 目前一般營業時間為 9:00～17:30，最終受理 16:00。官方也寫明入園從玉泉洞方向開始，遇到營運調整或天候影響仍以當日公告為準。
 
-門票可以現場買，也可以先在台灣買好[沖繩世界文化王國門票](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1362380&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F37791-okinawa-world-ticket%2F)。帶孩子先買的好處不是省錢，是到現場能直接進場，不用在售票口排隊安撫已經在鬧的小孩。
+門票可以現場買，也可以先在台灣買好[沖繩世界文化王國門票](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1415338&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F37791-okinawa-world-ticket%2F)。帶孩子先買的好處不是省錢，是到現場能直接進場，不用在售票口排隊安撫已經在鬧的小孩。
 
 若要買平台票，先比較的是使用日期、兒童年齡、是否能直接入場與取消條件，不要只看畫面上的折扣百分比。
 

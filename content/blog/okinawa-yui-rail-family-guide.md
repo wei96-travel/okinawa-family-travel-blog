@@ -42,7 +42,7 @@ coverCaption: "帶孩子搭單軌，先把推車與電梯動線想好，移動�
 
 一日券不是「有買就賺」。先在官方車資表把預計的單程加總，再和當天的一日券相比；如果你只有機場到飯店、飯店到國際通、回飯店三段，單程票可能更直覺。反過來，若上午、午餐、傍晚會在三個區域移動，再考慮 24 小時票。
 
-算完確定要買一日券，也可以先在台灣買[沖繩單軌一日數位通票](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1362380&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F94557-okinawa-monorail-yuirail%2F)，抵達後直接掃碼進站，省下帶著孩子在售票機前研究介面的時間。單程票或臨時決定的話，現場售票機買就好，不必先買。
+算完確定要買一日券，也可以先在台灣買[沖繩單軌一日數位通票](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1415339&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F94557-okinawa-monorail-yuirail%2F)，抵達後直接掃碼進站，省下帶著孩子在售票機前研究介面的時間。單程票或臨時決定的話，現場售票機買就好，不必先買。
 
 ## 親子推車與行李：把電梯排進路線裡
 
