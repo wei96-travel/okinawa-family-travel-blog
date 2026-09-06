@@ -5,7 +5,7 @@ import { ArticleCard } from "@/components/article-card";
 import { ArticleToc } from "@/components/article-toc";
 import { AffiliateDisclosureNotice } from "@/components/affiliate-disclosure-notice";
 import { MarkdownContent } from "@/components/markdown-content";
-import { NewsletterSignup } from "@/components/newsletter-signup";
+import { NewsletterSignup, type NewsletterOffer } from "@/components/newsletter-signup";
 import { JsonLd } from "@/components/json-ld";
 import { ProtectedOriginalImage } from "@/components/protected-original-image";
 import { ReadingNextSteps } from "@/components/reading-next-steps";
@@ -15,6 +15,13 @@ import { getAllPosts, getPostBySlug, getPostHeadings, getRelatedPosts } from "@/
 import { getCategoryByName } from "@/lib/site";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
+
+// 哪一篇文章配哪一份誘餌。沒列到的沿用預設的租車證件檢查表。
+const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
+  "okinawa-typhoon-family-travel-guide": "okinawa_typhoon_action_card",
+  "okinawa-rainy-day-family-spots": "okinawa_typhoon_action_card",
+  "okinawa-naha-rainy-indoor-decision-guide": "okinawa_typhoon_action_card"
+};
 
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
   "dmm-kariyushi-aquarium-family-guide": [
@@ -217,7 +224,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
       ) : null}
       <MarkdownContent content={post.content} protectedImagePaths={protectedOriginalImagePaths} />
-      <NewsletterSignup />
+      <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} />
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 
       {relatedPosts.length > 0 ? (
