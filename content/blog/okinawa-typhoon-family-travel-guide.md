@@ -4,7 +4,7 @@ description: "沖繩親子旅遊碰上颱風，不要急著改行程。依官方
 date: "2026-07-25"
 category: "沖繩行程"
 tags: ["沖繩颱風", "沖繩親子旅遊", "沖繩天氣", "沖繩租車", "沖繩雨天備案"]
-coverImage: "/images/articles/okinawa-typhoon-family-travel-guide/typhoon-family-scene-v2.png"
+coverImage: "/images/articles/okinawa-typhoon-family-travel-guide/typhoon-family-scene-v2.webp"
 coverAlt: "本站 AI 自製情境圖：沖繩飯店房間裡，一位家長查看手機、孩子畫畫，窗外有雨與棕櫚樹"
 coverCaption: "本站 AI 自製情境圖：天候有變時，先把家人的休息與下一步安排安定下來。"
 ---

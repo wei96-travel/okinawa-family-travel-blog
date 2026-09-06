@@ -7,7 +7,7 @@ category: "沖繩住宿"
 tags: ["美麗海水族館住宿", "本部町住宿", "沖繩親子飯店", "沖繩住宿"]
 ---
 
-![傍晚抵達本部町住宿、家長推著嬰兒車走向海景飯店的情境圖](/images/articles/okinawa-churaumi-nearby-family-stay/cover.png "本站自製情境圖：本部町親子住宿的抵達時刻")
+![傍晚抵達本部町住宿、家長推著嬰兒車走向海景飯店的情境圖](/images/articles/okinawa-churaumi-nearby-family-stay/cover.webp "本站自製情境圖：本部町親子住宿的抵達時刻")
 
 如果美麗海水族館是這趟沖繩的主行程，把前一晚或當晚放在本部町，通常比從那霸來回舒服很多。
 

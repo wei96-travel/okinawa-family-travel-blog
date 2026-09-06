@@ -26,7 +26,7 @@ coverCaption: "館內水槽的魟魚。"
 | 票價固定嗎？ | 不是。依 Value、Regular、Peak 日期浮動，買票前一定要看當日票種。 |
 | 適合放在哪一天？ | 抵達日、離開日、那霸雨天半日，或不想開長途車的下午。 |
 
-![DMM Kariyushi 水族館的樹懶展示](/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-sloth.jpg)
+![DMM Kariyushi 水族館的樹懶展示](/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-sloth.webp)
 
 ## 停留時間怎麼抓，孩子累了怎麼縮短？
 
@@ -52,7 +52,7 @@ coverCaption: "館內水槽的魟魚。"
 
 館內的 KIRARA CAFE 很適合當作孩子情緒開始下滑時的休息點。官方頁面曾列出水獺、企鵝造型慕斯等甜點，外觀討喜，孩子通常很買單；菜單和供應狀況可能變動，所以不要把特定品項當成一定吃得到。
 
-![KIRARA CAFE 的水獺造型慕斯](/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-otter-mousse.jpg)
+![KIRARA CAFE 的水獺造型慕斯](/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-otter-mousse.webp)
 
 如果正餐需求比較高，直接利用 iias 商場會更有選擇。這也是 DMM 最大的優點：孩子看完館內展示後，不必再開車找餐廳，能依當下狀況決定吃飯、逛街或回飯店休息。
 

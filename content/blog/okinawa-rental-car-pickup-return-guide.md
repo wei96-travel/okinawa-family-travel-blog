@@ -4,7 +4,7 @@ description: "第一次在沖繩租車，別把落地時間當成開車時間。
 date: "2026-07-24"
 category: "租車交通"
 tags: ["沖繩租車", "那霸機場租車", "沖繩自駕", "沖繩親子自駕", "沖繩還車"]
-coverImage: "/images/articles/okinawa-rental-car-pickup-return-guide/airport-shuttle-family.png"
+coverImage: "/images/articles/okinawa-rental-car-pickup-return-guide/airport-shuttle-family.webp"
 coverAlt: "一家三口帶著行李走向沖繩機場附近租車公司的白色接駁車"
 coverCaption: "抵達那霸機場後，多數機場周邊租車公司還要搭接駁車到營業所。圖片為本站製作的情境示意。"
 ---

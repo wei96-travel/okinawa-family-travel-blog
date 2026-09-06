@@ -4,7 +4,7 @@ description: "帶小孩在沖繩自駕，不是景點越多越划算。用兩個
 date: "2026-07-25"
 category: "租車交通"
 tags: ["沖繩親子自駕", "沖繩行程安排", "沖繩租車", "沖繩親子旅遊", "沖繩北部行程"]
-coverImage: "/images/articles/okinawa-family-driving-pace-guide/driving-pace-scene-v2.png"
+coverImage: "/images/articles/okinawa-family-driving-pace-guide/driving-pace-scene-v2.webp"
 coverAlt: "本站 AI 自製情境圖：沖繩海岸道路旁，一名家長在租車旁伸展，後座孩子正在休息"
 coverCaption: "本站 AI 自製情境圖：把休息安排進自駕行程，往往比多塞一個景點更實際。"
 ---

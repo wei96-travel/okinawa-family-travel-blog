@@ -5,7 +5,7 @@ date: "2026-07-26"
 updated: "2026-09-01"
 category: "租車交通"
 tags: ["沖繩單軌電車", "那霸親子自由行", "沖繩親子交通", "沖繩推車", "那霸行程"]
-coverImage: "/images/articles/okinawa-yui-rail-family-guide/yui-rail-family-guide-cover-ai-v2.png"
+coverImage: "/images/articles/okinawa-yui-rail-family-guide/yui-rail-family-guide-cover-ai-v2.webp"
 coverAlt: "家長推著嬰兒車，帶著孩子在單軌列車旁等候"
 coverCaption: "帶孩子搭單軌，先把推車與電梯動線想好，移動會更從容。"
 ---

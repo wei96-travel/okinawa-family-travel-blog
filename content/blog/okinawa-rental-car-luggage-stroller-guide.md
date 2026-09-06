@@ -4,7 +4,7 @@ description: "沖繩親子租車別只看可坐幾人。用同行人數、汽座
 date: "2026-07-27"
 category: "租車交通"
 tags: ["沖繩租車", "沖繩親子自駕", "沖繩推車", "沖繩行李"]
-coverImage: "/images/articles/okinawa-rental-car-luggage-stroller-guide/rental-luggage-stroller-cover.png"
+coverImage: "/images/articles/okinawa-rental-car-luggage-stroller-guide/rental-luggage-stroller-cover.webp"
 coverAlt: "一家三口在沖繩租車停車場，把折疊推車與兩個行李箱放進白色休旅車後車廂"
 coverCaption: "先確認推車、行李和汽座的實際尺寸，會比只看車子的乘坐人數更有用。圖片為本站製作的情境示意。"
 ---

@@ -5,7 +5,7 @@ date: "2026-08-04"
 updated: "2026-09-01"
 category: "親子景點"
 tags: ["玉泉洞親子", "沖繩世界", "沖繩親子景點", "沖繩雨天景點", "沖繩自由行"]
-coverImage: "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.jpg"
+coverImage: "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.webp"
 coverAlt: "沖繩世界園區入口的紅色建築與階梯"
 coverCaption: "沖繩世界園區入口。"
 ---
@@ -36,7 +36,7 @@ coverCaption: "沖繩世界園區入口。"
 
 官方資料寫明，玉泉洞全長約 5,000 公尺，其中約 890 公尺是一般公開參觀區。數字看起來不到一公里，但洞內不是一般平路：有階梯、潮濕地面、較暗環境，也會遇到前方停下拍照的人潮。
 
-![玉泉洞內的岩窟王鐘乳石](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg "玉泉洞實拍：岩窟王鐘乳石。")
+![玉泉洞內的岩窟王鐘乳石](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.webp "玉泉洞實拍：岩窟王鐘乳石。")
 
 親子家庭不要只用步行距離估時間。以下是本站為帶幼兒家庭保守抓的行程範圍，不是園方保證時間：
 
@@ -120,7 +120,7 @@ coverCaption: "沖繩世界園區入口。"
 
 洞內照片很漂亮，但行走安全比拍照重要。取景時不要停在狹窄動線，先顧好腳步和孩子的節奏。
 
-![玉泉洞青之泉的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.jpg "玉泉洞實拍：青之泉。")
+![玉泉洞青之泉的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.webp "玉泉洞實拍：青之泉。")
 
 ## 離開洞穴後，還要不要繼續逛？
 
@@ -139,7 +139,7 @@ coverCaption: "沖繩世界園區入口。"
 
 **最容易被漏算的是第一段路**：停車場到入口沒有遮雨棚，400 個車位的平面停車場，停得遠就是一段完整的雨中步行。下雨天抵達時，先讓孩子在車上把雨具穿好再下車，會比到了門口才手忙腳亂好。
 
-![玉泉洞內的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.jpg "玉泉洞實拍：洞內水景。")
+![玉泉洞內的鐘乳石與水景](/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.webp "玉泉洞實拍：洞內水景。")
 
 小雨時可以考慮；遇到強風、大雨、颱風或園方臨時調整，則以官方公告為準。若只是想找一個推車能一路使用的室內點，大型商場通常會比玉泉洞輕鬆。
 

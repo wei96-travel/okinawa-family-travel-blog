@@ -4,7 +4,7 @@ description: "沖繩下雨時，不一定要硬排遠程景點。整理那霸機
 date: "2026-07-28"
 category: "沖繩行程"
 tags: ["那霸雨天", "沖繩親子雨天", "那霸親子景點", "沖繩親子行程"]
-coverImage: "/images/articles/okinawa-naha-rainy-day-family-half-day/naha-rain-arrival-cover.png"
+coverImage: "/images/articles/okinawa-naha-rainy-day-family-half-day/naha-rain-arrival-cover.webp"
 coverAlt: "下雨的那霸機場外，一家三口撐傘拖著行李前往航廈"
 coverCaption: "抵達日下雨時，先保留安頓行李與孩子休息的空白。"
 ---

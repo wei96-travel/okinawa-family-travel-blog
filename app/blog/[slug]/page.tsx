@@ -19,14 +19,14 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
   "dmm-kariyushi-aquarium-family-guide": [
     "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-stingray.jpg",
-    "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-otter-mousse.jpg",
-    "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-sloth.jpg"
+    "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-otter-mousse.webp",
+    "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-sloth.webp"
   ],
   "okinawa-world-gyokusendo-family-guide": [
-    "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.jpg",
-    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg",
-    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.jpg",
-    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.jpg"
+    "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.webp",
+    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.webp",
+    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.webp",
+    "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.webp"
   ]
 };
 

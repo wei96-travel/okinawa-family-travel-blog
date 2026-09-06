@@ -4,7 +4,7 @@ description: "帶孩子從那霸機場進市區，先別只比車程。整理單
 date: "2026-07-30"
 category: "租車交通"
 tags: ["那霸機場到市區", "沖繩親子交通", "沖繩單軌電車", "沖繩租車", "那霸親子自由行"]
-coverImage: "/images/articles/okinawa-naha-airport-to-city-family-guide/naha-airport-to-city-cover.png"
+coverImage: "/images/articles/okinawa-naha-airport-to-city-family-guide/naha-airport-to-city-cover.webp"
 coverAlt: "一家三口推著嬰兒車、拉著行李，走在那霸機場通往單軌車站的連通道"
 coverCaption: "抵達那霸後，先看行李、住宿位置和下一段行程，再選交通方式。"
 ---
