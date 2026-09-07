@@ -11,7 +11,7 @@ Treat `origin/main` plus `AI_HANDOFF.md` as the shared source of truth with Clau
 
 ## Staging Rule
 
-The working tree is shared with the user and the other agent, so it can hold edits that are unfinished, unapproved, or simply not yours. A dirty file is not a file that is ready to publish.
+The working tree is shared with the user, with Codex, **and with any other Claude Code session the user has open at the same time**. It can therefore hold edits that are unfinished, unapproved, or simply not yours — including edits made by another instance of you, which you have no way to see or ask. A dirty file is not a file that is ready to publish.
 
 1. **Never `git add -A`, `git add .`, or `git commit -a`.** Stage explicit paths only, one by one.
 2. **Before every commit run `git status --short` and confirm each staged path is a file you edited in this session.** If anything else is staged, unstage it.
@@ -19,7 +19,7 @@ The working tree is shared with the user and the other agent, so it can hold edi
 4. **You cannot tell "finished but unpushed" from "half-written" by looking.** Never assume dirty means ready. Ask, or leave it.
 5. If you publish something you did not write, say so immediately, record it in `AI_HANDOFF.md` with what is and is not known, and do not rewrite history to hide it.
 
-This rule exists because on 2026-09-07 a `git add -A content/` swept fifteen unapproved Shopee affiliate links from the working tree into an unrelated commit and pushed them live.
+This rule exists because on 2026-09-07 a `git add -A content/` swept fifteen Shopee affiliate links from the working tree into an unrelated commit and pushed them live. They had been written by a second Claude Code session running at the same time, whose approval status this session could not determine — which is exactly why foreign changes must be left alone rather than judged from the outside.
 
 ## Quick Code
 
