@@ -46,7 +46,17 @@ coverLicenseUrl: "https://unsplash.com/license"
 - **中午前後落地、想快點上路** → Times，接駁 5 分鐘
 - **擔心櫃台溝通** → ORIX 有外語櫃台
 
-孩子的安全座椅價格三家也不一樣，差最多的一項差三倍，下面第三節有表。
+孩子的安全座椅價格三家也不一樣，差最多的一項差三倍，下面第四節有表。
+
+### 選好之後在哪裡訂
+
+這件事會影響你選誰，要先知道：**OTS 不在比價平台上。**
+
+Times、ORIX、Nippon、Nissan 在 Trip.com 這類比價平台都訂得到，但 OTS 沒有上架，要到它自己的官網訂。
+
+好消息是 OTS 有**繁體中文官網**，可以直接線上預約，官網也寫明配有華語工作人員：[OTS 租車繁體中文官網](https://www.otsinternational.jp/otsrentacar/cn/)。這大概也是它在台灣家庭裡知名度高的原因。
+
+所以順序是：**先決定要哪一家，再決定去哪裡訂**，不要反過來被平台的排序牽著走。
 
 ## 二、費用大概是多少
 
@@ -71,7 +81,7 @@ OTS 官網公布的 24 小時定價（查核日期 2026 年 9 月 7 日）：
 
 帶孩子的家庭比較容易忽略的是第二層和第三層。基本費看起來便宜的方案，把 NOC 補償和兩張安全座椅加上去，總價順序常常就翻掉了。
 
-比價的正確做法是**固定日期、固定取還車地點、固定車型**，再逐項比。可以先用[沖繩租車列表比較可預訂方案](https://tw.trip.com/carhire/to-japan-78/okinawa-207/?Allianceid=8075670&SID=305605448&trip_sub1=blog_rental_car_guide&trip_sub3=D18913071)看價格帶，最後仍要打開供應商條款核對保障範圍。
+比價的正確做法是**固定日期、固定取還車地點、固定車型**，再逐項比。可以先用[沖繩租車列表](https://tw.trip.com/carhire/to-japan-78/okinawa-207/?Allianceid=8075670&SID=305605448&trip_sub1=blog_rental_car_guide&trip_sub3=D18913071)看整體價格帶——上面有 Times、ORIX、Nippon、Nissan 等品牌，但**沒有 OTS**，OTS 要回它自己的[繁體中文官網](https://www.otsinternational.jp/otsrentacar/cn/)訂。不論在哪裡訂，最後都要打開供應商條款核對保障範圍。
 
 ## 三、出發前要辦好的：證件
 
