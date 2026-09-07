@@ -757,6 +757,7 @@ Codex claimed this file and updated the header, owner and File Ownership block w
 ## Pending User Decisions
 
 - Shopee links may be added only after the user has approved the product or explicitly asked Codex to choose from the logged-in affiliate dashboard. Record why each product fits and do not imply that price, stock or specifications are permanent.
+- **每一條新的蝦皮連結都必須在後台產生時填入 Sub_id，沒有 Sub_id 的連結不要放進站上。** 規則見下方〈蝦皮 Sub_id 命名規則〉。
 - Decide the next Facebook format after the first Reel and parking carousel each have at least 24-48 hours of data.
 
 ## 2026-07-28 Codex 每日內容流程（已完成，已推送）
@@ -1105,3 +1106,40 @@ Google OAuth 在內建瀏覽器會被擋（彈窗不開），Trip.com 是改用�
 ### 給未來的自己
 
 提交前用明確的路徑清單，不要在共用工作區用 `git add -A`。這個 repo 由 Codex 與 Claude Code 共用，工作區隨時可能有別人未完成的改動。
+
+## 蝦皮 Sub_id 命名規則（2026-09-07 訂，長期有效）
+
+### 為什麼要有這條
+
+站上目前 44 條蝦皮連結（10 篇文章＋`app/okinawa-family-travel-gear/page.tsx`）**全部是不帶參數的 `s.shopee.tw` 短網址**，所以蝦皮點擊報告的 `Sub_id` 欄位全空，無法判斷成交來自哪一篇。
+
+**Sub_id 只能在後台產生連結的當下輸入，不能事後補在網址後面**（蝦皮幫助中心〈如何客製化我的連結〉，查核 2026-09-07）。批次功能（商品推薦 → 一次最多 100 件 → 可套 Sub_id）是從商品目錄挑，也不能把既有連結轉回去。
+
+### 舊的 44 條不要 retrofit
+
+要重產一條連結需要商品的**原始網址**，而短網址把它藏起來了。取回只有兩條路，兩條都比問題本身糟：
+
+1. 解析 44 條短網址 → 製造 44 次假點擊。本檔已記錄點擊報告有自我點擊污染疑慮（8/4 三次落在 24 秒內、8/1 四次落在 83 秒內），再灌 44 次會讓該報告徹底失效。
+2. 手動重找 44 個商品。
+
+**而且不做的代價是零**：Sub_id 唯一多給的是「訂單來自哪一頁」，目前訂單為 0。「點擊來自哪一頁」站上早就在追（見下節）。
+
+**唯一的重產時機**：GA4 顯示某一頁的蝦皮連結確實有讀者在點，才重產那一頁的連結。先看數據，不要先做工。
+
+### 規則本身
+
+在後台「產生推廣連結」的〈添加辨識參數 Sub id〉欄位填：
+
+| 欄位 | 內容 | 範例 |
+| --- | --- | --- |
+| Sub_id1 | 文章 slug（不含 `/blog/`） | `okinawa-family-beach-packing-list` |
+| Sub_id2 | 版位 | `table`、`inline`、`recommend` |
+| Sub_id3–5 | 留空 | |
+
+slug 直接用 `content/blog/` 底下的檔名，不要另外發明代號，否則對不回文章。
+
+### 站上已有的點擊歸因（不必另外做）
+
+`components/markdown-content.tsx` 會偵測 markdown 連結的網域，蝦皮／Klook／Trip.com 連結自動改用 `TrackedAffiliateLink` 渲染，送出 `affiliate_click` 事件，帶 `page_path`、`source_page`、`item_name`、`link_placement`、`affiliate_network`，同時加上 `rel="sponsored noreferrer"`。
+
+**所以「哪一頁的聯盟連結被點」在 GA4 就查得到，不必等蝦皮後台。** Sub_id 補的是蝦皮那一端的成交歸因，兩者不重複。
