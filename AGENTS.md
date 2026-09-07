@@ -9,6 +9,18 @@ Before working in this repository, read:
 
 Treat `origin/main` plus `AI_HANDOFF.md` as the shared source of truth with Claude Code. Check `git status --short` before editing, preserve existing work, do not edit files claimed by Claude Code, and update the handoff before committing and pushing completed work.
 
+## Staging Rule
+
+The working tree is shared with the user and the other agent, so it can hold edits that are unfinished, unapproved, or simply not yours. A dirty file is not a file that is ready to publish.
+
+1. **Never `git add -A`, `git add .`, or `git commit -a`.** Stage explicit paths only, one by one.
+2. **Before every commit run `git status --short` and confirm each staged path is a file you edited in this session.** If anything else is staged, unstage it.
+3. **Leave working-tree changes you did not make.** Do not commit them, revert them, or stash them. Say in your reply that they are there and untouched.
+4. **You cannot tell "finished but unpushed" from "half-written" by looking.** Never assume dirty means ready. Ask, or leave it.
+5. If you publish something you did not write, say so immediately, record it in `AI_HANDOFF.md` with what is and is not known, and do not rewrite history to hide it.
+
+This rule exists because on 2026-09-07 a `git add -A content/` swept fifteen unapproved Shopee affiliate links from the working tree into an unrelated commit and pushed them live.
+
 ## Quick Code
 
 When the user's entire message is exactly `2`, treat it as: sync safely, read `AI_COLLABORATION.md` and `AI_HANDOFF.md`, claim the recorded next task as Codex, continue it without asking the user to repeat context, then update the handoff, run required checks, commit, and push. Do not trigger this rule when `2` appears inside another sentence or list.
