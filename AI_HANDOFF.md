@@ -1143,3 +1143,29 @@ slug 直接用 `content/blog/` 底下的檔名，不要另外發明代號，否�
 `components/markdown-content.tsx` 會偵測 markdown 連結的網域，蝦皮／Klook／Trip.com 連結自動改用 `TrackedAffiliateLink` 渲染，送出 `affiliate_click` 事件，帶 `page_path`、`source_page`、`item_name`、`link_placement`、`affiliate_network`，同時加上 `rel="sponsored noreferrer"`。
 
 **所以「哪一頁的聯盟連結被點」在 GA4 就查得到，不必等蝦皮後台。** Sub_id 補的是蝦皮那一端的成交歸因，兩者不重複。
+
+## 2026-09-07 Klook 沖繩租車：查證後決定不掛（Claude Code）
+
+**結論：不要在租車文章加 Klook 租車連結。** 這是查證後的決定，不是還沒做。
+
+Klook 那霸機場租車落地頁 `https://www.klook.com/zh-TW/car-rentals/poi/50036544-naha-airport-car-rentals/`（查核 2026-09-07，日期區間 9/12–9/15）顯示：
+
+- **供應商只有兩家**：`Car rental okinawa`、`Hello rent a car`。**沒有 OTS、Times、ORIX、Nippon** 任何一家。
+- **價格**：最低 NT$3,314／天、平均 NT$5,368／天、最高 NT$7,422／天。同期 Trip.com 沖繩租車頁標示「最低 TWD619 起」。即使計價基準可能不同，量級差距仍然明顯。
+
+租車樞紐頁 `okinawa-rental-car-family-guide` 比較的是 OTS／Times／ORIX。掛 Klook 等於推薦三家大公司之後，把讀者送到兩家沒聽過的小業者、而且單價高出數倍。**這會傷信任，而且賺不到**（Klook 站上累計 5 次點擊、0 筆訂單）。
+
+Klook 聯盟後台本身是支援租車的（My Ads → Text Links → Car rentals，帳號 aid `128859`，登入正常），所以這是庫存問題不是技術問題。**若日後 Klook 補上大型業者，再重新評估。**
+
+### 順帶確認的既有事實
+
+- Trip.com 沖繩租車頁的品牌包含 Times、Orix、NIPPON、NISSAN、Suzuki、TODAY、TRUSTGO、Hertz、ALAMO 等，**但沒有 OTS**。OTS 只能從它自己的繁體中文官網訂，樞紐頁已寫明。
+- 目前租車類文章的分潤分布：8 篇中 6 篇各 1 條，`okinawa-rental-car-license-translation` 與 `okinawa-rental-car-refueling-guide` 為 0 條。這兩篇沒有自然的訂車時機，維持 0 條是刻意的，不是遺漏。
+
+## 2026-09-07 誤發的 15 條蝦皮連結：現況登記
+
+承前〈誤發〉一節。使用者於同日指示一併處理，未逐條說明核可狀態。目前處置：
+
+- **連結保留在線上，不 revert。** 這三篇的連結指向使用者自己蝦皮帳號產生的短網址，來源是使用者本人的工作區，不是代理自行加入；線上行為也正確（揭露列出現、`rel="sponsored noreferrer"`）。
+- **但它們沒有 Sub_id**，因此適用前一節〈蝦皮 Sub_id 命名規則〉的「舊連結不 retrofit」處理：不重產，等 GA4 顯示該頁確實有點擊再說。
+- 選品理由無法補寫——選品不是代理做的，不得代為編造。若使用者日後要補，由使用者提供。
