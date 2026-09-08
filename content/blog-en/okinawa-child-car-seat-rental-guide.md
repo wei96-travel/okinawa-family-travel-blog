@@ -1,8 +1,8 @@
 ---
-title: "Okinawa Rental Car Seats for Children: Law, Size and Pickup Checks"
-description: "Children under six need a child seat in Japan. Learn what to reserve for an Okinawa rental car, what details to send and what to check before leaving the lot."
+title: "Do You Need a Car Seat in Japan? Under 6 Is the Law — Okinawa Rentals"
+description: "Japanese law requires a child seat for every child under six, rental cars included. The three seat types, what four Okinawa companies actually stock, and six checks before you drive off the lot."
 date: "2026-08-01"
-updated: "2026-08-08"
+updated: "2026-09-09"
 category: "Rental car planning"
 tags: ["Okinawa car seat rental", "Japan child seat law", "Okinawa rental car with kids"]
 coverImage: "/images/articles/okinawa-car-seat-rental-guide/child-seat-safety-cover.webp"
