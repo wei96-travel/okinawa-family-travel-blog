@@ -1132,11 +1132,15 @@ Google OAuth 在內建瀏覽器會被擋（彈窗不開），Trip.com 是改用�
 
 | 欄位 | 內容 | 範例 |
 | --- | --- | --- |
-| Sub_id1 | 文章 slug（不含 `/blog/`） | `okinawa-family-beach-packing-list` |
+| Sub_id1 | 文章 slug 去連字號、改駝峰式 | `okinawaFamilyBeachPackingList` |
 | Sub_id2 | 版位 | `table`、`inline`、`recommend` |
 | Sub_id3–5 | 留空 | |
 
-slug 直接用 `content/blog/` 底下的檔名，不要另外發明代號，否則對不回文章。
+**為什麼不是直接填 slug**（2026-09-09 實測修正）：這個欄位限制 **Alphanumeric only (a-z, A-Z, 0-9)**，畫面上方就寫著。含連字號的 slug 會跳 `Invalid Input` 擋住送出，**本規則初版要求的寫法根本送不出去**。
+
+駝峰式是可逆的折衷：去掉連字號但保留單字邊界，還原成 slug 只要在大寫前插回連字號並轉小寫。**不要另外發明縮寫代號**（例如 `beach`、`packing`），那樣對不回文章，這是初版那條要求的真正用意。
+
+長度不是問題：42 字元的 `okinawaConvenienceStoreFamilyShoppingGuide` 實測可通過。
 
 ### 站上已有的點擊歸因（不必另外做）
 
@@ -1248,7 +1252,7 @@ Klook 聯盟後台本身是支援租車的（My Ads → Text Links → Car renta
 
 1. 風控解除後：驗證 13 條短連結導向、補查兒童雨衣尺寸與防潮小藥袋、為剔除的兩項找替代商品
 2. 依 `AI_COLLABORATION.md` 取得另一個 agent 的 bounded second review 後才推送
-3. 修正〈蝦皮 Sub_id 命名規則〉本文，把 slug 改為駝峰式寫法
+3. ~~修正〈蝦皮 Sub_id 命名規則〉本文~~ → **已於 2026-09-09 修正**，改為駝峰式並註明欄位只收英數字
 
 ## 2026-09-09 蝦皮連結補完並推送：16 條（Claude Code）
 
@@ -1279,4 +1283,4 @@ Klook 聯盟後台本身是支援租車的（My Ads → Text Links → Car renta
 
 1. **驗證 Sub_id 是否真的帶入**：到 Click Report 確認欄位不再是空的。這是這批連結存在的主要理由之一，尚未驗證。
 2. **抽驗短連結實際導向**：16 條都沒點過。
-3. **修正〈蝦皮 Sub_id 命名規則〉本文**：該規則要求 Sub_id1 填文章 slug，但蝦皮欄位限制 Alphanumeric only，含連字號會被擋，原文無法執行。已改用駝峰式並在 09-08 那節說明，但規則本文未改，下一個 agent 讀到仍會照做而失敗。
+3. ~~修正〈蝦皮 Sub_id 命名規則〉本文~~ → **已完成**（2026-09-09）。規則本文已改為「slug 去連字號、改駝峰式」，並寫明欄位限制 Alphanumeric only、初版寫法送不出去、不得改用自創縮寫代號。
