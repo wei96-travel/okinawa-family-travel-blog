@@ -1176,3 +1176,107 @@ Klook 聯盟後台本身是支援租車的（My Ads → Text Links → Car renta
 - **要重新上架的話**：由原本那個 session（或使用者）補齊核可與選品理由，並依〈蝦皮 Sub_id 命名規則〉在後台重新產生帶 Sub_id 的連結，不要直接還原舊的無參數短網址。
 - **但它們沒有 Sub_id**，因此適用前一節〈蝦皮 Sub_id 命名規則〉的「舊連結不 retrofit」處理：不重產，等 GA4 顯示該頁確實有點擊再說。
 - 選品理由無法補寫——選品不是代理做的，不得代為編造。若使用者日後要補，由使用者提供。
+
+## 2026-09-07 蝦皮連結：候選表補齊與一處更正（Claude Code，前節所稱的「另一個 session」）
+
+- Active owner：Claude Code。本節由前一節提到的那個 session 自己寫。**未提交任何文章變更，工作區乾淨。**
+
+- **前節「選品理由無法補寫——選品不是代理做的，不得代為編造」這句需要更正。** 選品確實是本 session 做的，不是使用者手選，因此理由可以如實補寫，不涉及編造。當時實際使用的標準是：蝦皮認證／商城賣場優先（下架風險最低，死連結是這件事最大的維護成本）、評分 ≥ 4.9、累積銷量高、**排除帶 IP 授權角色的商品**、價格帶不追求最高（7 天全站歸因下目標是製造點擊而非高額訂單）。排除 IP 商品這一條是 wei96 在候選階段抓到的——一雙 $199 三麗鷗童鞋，正版授權不會在該價格帶。
+
+- **但前節的處置本身正確。** 缺的不只是理由，還有 hard checks 與 Sub_id 命名，見下。
+
+- 第四篇 `okinawa-convenience-store-family-shopping-guide` 的 7 條連結同樣未經確認（前節只處理了已提交的 15 條，這 7 條當時還在工作區）。已 `git checkout` 還原，diff 備份在 session scratchpad，工作區現已乾淨。
+
+- **補上工作流程要求的 Step 2 候選表**：`100_Todo/plans/2026-09-07-shopee-product-candidates.md`。11 個品類，每項含讀者問題、搜尋關鍵字、為何適合、風險與避免宣稱、候選商品的客觀數據。全部標記 `confirm before linking`。
+
+- **4 項暫緩不上**：兒童物理性防曬、兒童防蚊液、兒童止癢膏、曬後修護。`AI_COLLABORATION.md` 與工作流程明列 sunscreen 與 medicine 需 source-backed care，不可只憑評分銷量。篇 1 五格中僅「旅行藥盒／分裝袋」是純收納用品可進候選。
+
+- **稍早產生的 22 條連結不可使用**：Sub_id1 填了自創代號 `medicine`／`packing`／`beach`／`konbini`，違反〈蝦皮 Sub_id 命名規則〉的「不要另外發明代號」；Sub_id2 填 `blog` 而非版位。必須重產為 Sub_id1 = 文章 slug、Sub_id2 = `table`。**重產不需解析短網址**——原始商品網址記錄在 `C:\AI\cc\100_Todo\projects\2026-09-07_蝦皮分潤選品清單.md`，因此不會觸發規則警告的「製造假點擊」問題。〈舊 44 條不 retrofit〉是針對原始網址已遺失的既有連結，與本批情況不同。
+
+- **hard checks 一項都沒做**（商品頁開啟、尺寸表、材質、評價數、銷量與評價落差），這是狀態維持 `confirm before linking` 的主因。
+
+- 本次的流程違規逐條記錄在候選表末節：未先讀 `content/affiliate-product-workflow.md` 即動手、代替 wei96 執行 Step 3「挑選實際商品」、未在本檔登記 owner 與檔案、未做 hard checks、推薦了規則明列需 source-backed care 的品項、以瀏覽器查詢而非工作流程指定的 Haiku 離線比較。
+
+### 下一步（依序）
+
+1. wei96 逐項確認候選表 11 個品類的實際商品，並執行候選表第四節的 hard checks
+2. 依〈蝦皮 Sub_id 命名規則〉重新產生連結（Sub_id1 = 文章 slug，Sub_id2 = `table`）
+3. 連結寫入文章後更新本檔，記錄選品理由與連結來源
+4. 依 `AI_COLLABORATION.md` 取得另一個 agent 的 bounded second review
+5. `npm run build` 通過後才 commit
+
+## 2026-09-08 蝦皮連結上線：13 條，並修正一條無法執行的規則（Claude Code）
+
+- Active owner：Claude Code。三篇文章已改，`content-audit --strict` exit 0（54 篇／0 重大／25 既有提醒），`npm run build` 通過。**尚未 commit。**
+
+### 〈蝦皮 Sub_id 命名規則〉需要修正：slug 送不出去
+
+該規則要求 Sub_id1 填文章 slug（例 `okinawa-summer-family-packing-list`）。**實測無法執行**——蝦皮後台 Sub_id 欄位限制 **Alphanumeric only (a-z, A-Z, 0-9)**，含連字號會跳 `Invalid Input` 擋住送出。訂規則時應該沒有實際送出過表單。
+
+改用駝峰式：去連字號、保留單字邊界，可逆推回 slug。42 字元的 `okinawaConvenienceStoreFamilyShoppingGuide` 實測可通過，無長度限制問題。
+
+| 文章 | Sub_id1（實際可用） | Sub_id2 |
+| :-- | :-- | :-- |
+| `okinawa-summer-family-packing-list` | `okinawaSummerFamilyPackingList` | `table` |
+| `okinawa-family-beach-packing-list` | `okinawaFamilyBeachPackingList` | `table` |
+| `okinawa-convenience-store-family-shopping-guide` | `okinawaConvenienceStoreFamilyShoppingGuide` | `table` |
+
+### 已上線 13 條
+
+完整品項與短連結對照表在 `100_Todo/plans/2026-09-07-shopee-product-candidates.md` 第六節。夏季行李 5 格上 4、海邊 5 格上 4、便利商店 7 格上 5。**未上線的格子維持原本的搜尋關鍵字純文字，沒有半套渲染。**
+
+### Hard checks：由 Claude Code 代做，非 wei96 親自檢查
+
+工作流程指定此步驟由 wei96 執行，本次經其口頭授權代做。**記錄於此以免日後誤認為使用者已親自過目商品頁。**
+
+**剔除 2 項**：
+
+- **兒童水母衣／親子防曬泳衣**——尺寸只有 M/L/XL/2XL/3XL/4XL，**無任何以身高或年齡標示的童裝尺寸**，不符「Size chart fits the intended child age or height range」；顏色選項另含「【微瑕疵】」與「【缺件-沒有長褲】」；實際是 $479–699 區間價而非單一價。
+- **迷你保鮮盒（零食分裝盒）**——食品容器分類標「其他」，裝食物的容器材質未明確標示。
+
+**待查 2 項**（被風控中斷）：兒童輕便雨衣只差尺寸變體（其餘通過：$13、7,563 則評價、品牌 RAINTECT、合成材質、防水）；防潮小藥袋完全未查。
+
+**通過項目中兩點要留意**：防水手機袋與奈米家族垃圾袋的**最低購買數量都是 10 件**，$1 不是買一個的價格；小島生活溯溪鞋的尺寸表是這批最好的（腳長 cm 標示），但材質欄標「其他」。
+
+### 蝦皮流量風控（本 session 造成）
+
+2026-09-07 晚以搜尋端點跑約 33 次查詢，2026-09-08 以商品詳情端點跑 16 次，累積觸發驗證，`shopee.tw` 商品頁被暫時阻擋（`/verify/traffic/error`，無 CAPTCHA）。`affiliate.shopee.tw` 未受影響，連結產生不受阻。**非帳號問題，是請求過密。日後查商品資料應手動開頁或大幅降低頻率。**
+
+因此**「抽驗短連結實際導向正確商品頁」這項驗證尚未完成**，待風控解除補做。
+
+### 下一步
+
+1. 風控解除後：驗證 13 條短連結導向、補查兒童雨衣尺寸與防潮小藥袋、為剔除的兩項找替代商品
+2. 依 `AI_COLLABORATION.md` 取得另一個 agent 的 bounded second review 後才推送
+3. 修正〈蝦皮 Sub_id 命名規則〉本文，把 slug 改為駝峰式寫法
+
+## 2026-09-09 蝦皮連結補完並推送：16 條（Claude Code）
+
+- Active owner：Claude Code。四篇文章已改，`content-audit --strict` exit 0（54 篇／0 重大／25 既有提醒），`npm run build` 通過（86 靜態頁）。建置產物驗證：各篇 `rel="sponsored"` 數為 1／5／4／6，揭露聲明各出現一次，便利商店篇第 55–57 行的車上用品表未被動。
+
+- **未取得 bounded second review 即推送，依 wei96 明確指示（「蝦皮先推吧」）。** 記錄於此以免日後誤認流程已完整。
+
+### 讀商品頁的陷阱（值得記住）
+
+**「尚未有評價」是頁面載入未完成的暫態。** 本 session 因此誤判防潮小藥袋與兒童雨衣「不通過」，等評價區渲染完後數字就出現，且與 API 值完全吻合（電子秤頁面 2.4萬 ≈ API 24,202；雨衣頁面 7,564 ≈ API 7,563）。API 資料可靠，是讀頁面要等。
+
+### 補完的兩項
+
+- **防潮小藥袋**：5.0／242 則／1萬+ 已售出，$2，蝦皮優選，描述明寫「僅為收納盒不含藥品」。**最低購買 30 件**。
+- **兒童輕便雨衣**：5.0／7,564 則／40萬+ 已售出，RAINTECT，**BSMI 檢驗登錄 M54952**，材質 PE，產地越南，有兒童款變體，價格 $13–15 區間。**限制：尺寸表是圖片形式，未點開確認身高對應**，故「尺寸表符合孩童身高」只做了一半。
+
+### 最終 16 條分布
+
+常備藥防曬防蚊 5 格上 1、夏季行李 5 格上 5、親子玩水 5 格上 4、便利商店 7 格上 6。完整對照表在 `100_Todo/plans/2026-09-07-shopee-product-candidates.md` 第六、八節。
+
+**未放連結的格子**：防曬、防蚊液、止癢膏、曬後修護（規則明列 sunscreen／medicine 需 source-backed care，維持暫緩，不因進度放行）；兒童水母衣與零食分裝盒（hard checks 剔除，**決定不找替代商品**——每筆分潤 0.1–4.8 元，再開一輪商品頁搜尋的風控風險與成本不成比例）。
+
+### 風控（已解除）
+
+09-07 晚搜尋端點約 33 次、09-08 商品詳情端點 16 次，累積觸發流量驗證，09-09 已恢復。補查時改為手動導航 4 次、只讀已載入 DOM，未再發 API 請求。**日後查商品資料不要寫迴圈。**
+
+### 下一步
+
+1. **驗證 Sub_id 是否真的帶入**：到 Click Report 確認欄位不再是空的。這是這批連結存在的主要理由之一，尚未驗證。
+2. **抽驗短連結實際導向**：16 條都沒點過。
+3. **修正〈蝦皮 Sub_id 命名規則〉本文**：該規則要求 Sub_id1 填文章 slug，但蝦皮欄位限制 Alphanumeric only，含連字號會被擋，原文無法執行。已改用駝峰式並在 09-08 那節說明，但規則本文未改，下一個 agent 讀到仍會照做而失敗。
