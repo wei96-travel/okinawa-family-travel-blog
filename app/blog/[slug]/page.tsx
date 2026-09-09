@@ -119,6 +119,18 @@ export default async function BlogPostPage({ params }: PageProps) {
       <JsonLd
         data={{
           "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "@id": siteUrl + "/blog/" + post.slug + "#breadcrumb",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "沖繩親子旅遊筆記", item: siteUrl },
+            { "@type": "ListItem", position: 2, name: "文章", item: siteUrl + "/blog" },
+            { "@type": "ListItem", position: 3, name: post.title, item: siteUrl + "/blog/" + post.slug }
+          ]
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
           "@type": "Article",
           "@id": siteUrl + "/blog/" + post.slug + "#article",
           headline: post.title,
