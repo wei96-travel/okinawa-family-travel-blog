@@ -4,6 +4,20 @@ export type ReadingPathItem = {
 };
 
 export const readingPaths: Record<string, ReadingPathItem[]> = {
+  "first-okinawa-where-to-stay": [
+    {
+      slug: "how-to-choose-family-hotel",
+      reason: "區域決定之後，挑飯店看的是房型、早餐、洗衣和停車這些條件。"
+    },
+    {
+      slug: "okinawa-change-hotels-family",
+      reason: "接著決定整趟住同一間，還是分段換飯店，這會影響行李和退房時間。"
+    },
+    {
+      slug: "okinawa-5-days-family-itinerary",
+      reason: "把選好的住宿放進 5 天 4 夜的實際節奏，確認每天要開多久。"
+    }
+  ],
   "okinawa-family-beach-guide": [
     {
       slug: "churaumi-aquarium-family-time",
