@@ -30,7 +30,7 @@
 **已排除帶 IP 授權角色的商品**（三麗鷗、迪士尼等），低價卡通商品多為未授權仿品。
 
 ### 篇 2　沖繩夏季親子旅行行李清單
-`content/blog/okinawa-summer-family-packing-list.md`　Sub_id 建議：`article_summer_packing`
+`content/blog/okinawa-summer-family-packing-list.md`　Sub_id1：`okinawaSummerFamilyPackingList`（見第六節；初稿寫的 `article_summer_packing` 含底線，欄位不接受）
 
 | 讀者問題 | 品類 | 搜尋關鍵字 | 為何適合 | 風險／避免宣稱 | 候選商品（參考） |
 | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -41,7 +41,7 @@
 | 回程擔心行李超重 | 電子行李秤 | `電子行李秤` | 買伴手禮後回程最常遇到的問題，出發前先測一次 | 航空公司現場秤重才是最後標準 | 手提電子秤 $99／4.96／售 6 萬 |
 
 ### 篇 3　沖繩親子玩水要帶什麼
-`content/blog/okinawa-family-beach-packing-list.md`　Sub_id 建議：`article_beach_packing`
+`content/blog/okinawa-family-beach-packing-list.md`　Sub_id1：`okinawaFamilyBeachPackingList`（見第六節；初稿寫的 `article_beach_packing` 含底線，欄位不接受）
 
 | 讀者問題 | 品類 | 搜尋關鍵字 | 為何適合 | 風險／避免宣稱 | 候選商品（參考） |
 | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -52,7 +52,7 @@
 | 飯店不提供海灘毛巾 | 速乾毛巾 | `旅行 速乾毛巾` | 體積小、乾得快，回程不會悶在行李 | 吸水力與觸感比追求最小體積重要 | 微纖維速乾 $139／4.96／售 1 萬 |
 
 ### 篇 4　沖繩便利商店親子採買攻略
-`content/blog/okinawa-convenience-store-family-shopping-guide.md`　Sub_id 建議：`article_convenience_store`
+`content/blog/okinawa-convenience-store-family-shopping-guide.md`　Sub_id1：`okinawaConvenienceStoreFamilyShoppingGuide`（見第六節；初稿寫的 `article_convenience_store` 含底線，欄位不接受）
 
 | 讀者問題 | 品類 | 搜尋關鍵字 | 為何適合 | 風險／避免宣稱 | 候選商品（參考） |
 | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -85,6 +85,8 @@
 ---
 
 ## 三、Sub_id（依 `AI_HANDOFF.md`〈蝦皮 Sub_id 命名規則〉2026-09-07 訂）
+
+> ⚠️ **本節的寫法無法執行，已於 2026-09-09 由第六節取代。** 下表的連字號 slug 會被蝦皮後台以 `Invalid Input` 擋下（欄位只收 a-z／A-Z／0-9）。**實際要填的值見〈六、已產生的連結〉的駝峰式對照表。** 本節保留是為了留下判斷過程，不要照著填。
 
 規則明定，不得自創代號：
 
