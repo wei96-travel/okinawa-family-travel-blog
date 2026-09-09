@@ -69,6 +69,44 @@
 - **若要寫新英文文章，寫租車不要寫親子。** 現行站名與定位在英文打不到人。
 - **真正的時機是中文租車樞紐頁見效之後**，把驗證過的架構移植為英文版，直接打 1000–1萬 的量與 $46–$180 的出價。**用中文市場當實驗場，英文市場收成。**
 
+## 五之二、24 個講法完整實測（2026-09-09 補測，回應「是不是根本沒搜尋到」）
+
+**第三節初版只測了 8 個講法，種子詞是我自己想的。** 使用者質疑可能漏掉英語系慣用的其他說法，這一節是補測。
+
+**設定**：地區美國、所有語言、2025 年 8 月 – 2026 年 7 月。含兩個**對照組**（已知有量），用來確認「—」是真的低於門檻而不是工具異常。
+
+### 有量的 6 個
+
+| 關鍵字 | 月搜尋量 | 競爭 | 首頁頂端出價 |
+| --- | ---: | :-: | ---: |
+| `okinawa churaumi aquarium` ← 對照組 | **1萬–10萬** | 高 | $17.77 – $86.53 |
+| `okinawa car rental` ← 對照組 | **1000–1萬** | 高 | **$44.87 – $169.79** |
+| `japan family travel` | 100–1000 | 高 | $46.63 – $243.33 |
+| `okinawa family resort` | 10–100 | 高 | $21.39 – $68.10 |
+| `okinawa family vacation` | 10–100 | 低 | — |
+| `okinawa for families` | 10–100 | 低 | — |
+
+### 查不到量的 18 個
+
+`okinawa with kids`、`okinawa with children`、`okinawa with toddler`、`okinawa with baby`、`okinawa kid friendly`、`okinawa family friendly`、`okinawa family travel`、`okinawa family holiday`、`okinawa family itinerary`、`okinawa family beach`、`okinawa kids activities`、`okinawa baby friendly`、`okinawa stroller`、`okinawa child car seat`、`things to do in okinawa with kids`、`family trip to okinawa`、`is okinawa good for families`、`japan with kids`
+
+### 兩個數字要更正
+
+- `okinawa churaumi aquarium` 第二節記為 1000–1萬，**美國單一市場實測為 1萬–10萬**，差一個數量級。以本節為準。
+- `okinawa car rental` 的出價第二節記為 $24.67–$105.91，**美國單一市場為 $44.87–$169.79**。以本節為準。
+
+第二節是美國＋新加坡＋香港＋澳洲的合併值，較低的讀數可能來自小市場稀釋。
+
+### 這一節改變了什麼
+
+**結論沒變，但證據從「我測的幾個沒有」變成「24 個講法測完，18 個無資料、3 個 10–100」。** 對照組有值，所以不是沒搜尋到。
+
+**同時讓剪刀更鋒利**：英文量最大的 `okinawa churaumi aquarium`（1萬–10萬）正是 SERP 最封閉的那一個（見第六節，前排全為官方站、Wikipedia、JNTO、TripAdvisor）。**量越大的英文詞，內容站越進不去。**
+
+### 仍未做
+
+第一次「尋找新的關鍵字」產生的 301 個提案**只讀了 9 個**。判斷不必補讀：那 301 個是租車／行程／飯店／travel 四個詞的擴展（`okinawa with kids` 當時已被系統移除、不參與擴展），不會長出親子詞；而親子詞已由本節 24 個講法直接測完。**這是判斷，不是驗證過的事實。**
+
 ## 六、英文 SERP 競爭格局（2026-09-09 補測）
 
 用美國端搜尋實查三個代表性查詢，看前排是誰。
