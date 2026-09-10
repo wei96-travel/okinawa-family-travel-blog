@@ -78,3 +78,41 @@
    而住宿群 3 個月只有 11 次點擊，這正是 2026-09-10 樞紐頁在處理的問題。
 
 下一次回看：2026-09-24（與住宿樞紐頁同一天），確認 Trip.com 的點擊數有沒有隨住宿流量上升。
+
+---
+
+## 同日稍晚更正：Sub_id 沒有壞
+
+上面「蝦皮 Sub_id 沒有帶入」的結論**是錯的**，當天稍晚用重導向解析推翻。
+
+### 怎麼查的（不用點擊，可重複）
+
+`s.shopee.tw` 短連結的 301 `Location` 標頭裡就有 sub_id，藏在 `utm_content`：
+
+```
+curl -sI --max-redirs 0 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" https://s.shopee.tw/XXXX \
+  | grep -i '^location:' | grep -oE 'utm_content=[^&]*'
+```
+
+`utm_content` 是 Sub_id1～5 用連字號串起來。`okinawaSummerFamilyPackingList-table---` 代表
+sub1=文章駝峰式 slug、sub2=`table`、sub3～5 空白。**完全空的會是 `----`（五個空欄、四個連字號）**，
+這正是 Click Report 裡看到的那個值。
+
+### 實際狀況
+
+28 條短連結裡：
+
+| Sub_id | 條數 | 文章 |
+| --- | ---: | --- |
+| 有 | 16 | `okinawa-convenience-store-family-shopping-guide`(6)、`okinawa-summer-family-packing-list`(5)、`okinawa-family-beach-packing-list`(4)、`okinawa-family-medicine-sunscreen-repellent`(1) |
+| 無 | 12 | `okinawa-souvenir-packing-guide`(3)、`okinawa-family-car-emergency-kit`(3)、`okinawa-baby-bottle-hotel-cleaning-guide`(2)、`okinawa-family-drive-toilet-convenience-store`(2)、`okinawa-family-stroller-guide`(1)、`okinawa-family-shopping-guide`(1) |
+
+有 sub_id 的 16 條，正好是 2026-09-07 `1685851` 加的那批。
+
+### 所以 Click Report 全空的真正原因
+
+那 58 次點擊落在**舊的 12 條**上，不是機制失效。新的 16 條 9/7 才上線，
+所在的四篇流量都不高（夏季行李清單 7 月時是 6 點擊／21 曝光），三天內 0 點擊並不意外。
+
+**修正後的結論**：Sub_id 不需要修，需要補。要做的是把沒帶 sub_id 的 12 條重新產生一次。
+在那之前，帶 sub_id 的 16 條其實才剛開始跑，還沒有足夠資料說「痛點＋推薦」在這個站有沒有用。
