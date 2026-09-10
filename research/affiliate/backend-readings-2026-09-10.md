@@ -116,3 +116,60 @@ sub1=文章駝峰式 slug、sub2=`table`、sub3～5 空白。**完全空的會�
 
 **修正後的結論**：Sub_id 不需要修，需要補。要做的是把沒帶 sub_id 的 12 條重新產生一次。
 在那之前，帶 sub_id 的 16 條其實才剛開始跑，還沒有足夠資料說「痛點＋推薦」在這個站有沒有用。
+
+---
+
+## 2026-09-11 補產：12 條舊連結全部補上 Sub_id
+
+站上 28 條蝦皮短連結，現在 **28 條都帶 Sub_id**。
+
+### 命名改成三層
+
+舊的 16 條是兩層（`sub1=文章`、`sub2=table`），同一篇裡的多條完全同值，分得出文章分不出商品。
+這批 12 條改成三層，文章層級分析不受影響（照 `sub1` 篩即可）：
+
+```
+sub1 = okinawaSouvenirPackingGuide   文章（駝峰式 slug）
+sub2 = inline                         位置
+sub3 = luggageScale                   商品
+```
+
+### 對照表
+
+| 文章 | 商品 | 舊 | 新 | sub3 |
+| --- | --- | --- | --- | --- |
+| 奶瓶清潔 | 小獅王辛巴洗潔噴霧 | `7fYU3gwukD` | `1qbvdGicrT` | `bottleSpray` |
+| 奶瓶清潔 | LIFEMATE 奶瓶刷具組 | `8AUkeaABdd` | `2VrcQZQWct` | `bottleBrushSet` |
+| 車上備品 | 貝恩柔濕巾 | `1VxqiMy7pC` | `1qbvdOSTCa` | `babyWipes` |
+| 車上備品 | 妙潔 PE 密實袋 | `1qah6zZhJB` | `Ln7qgeo2f` | `zipBags` |
+| 車上備品 | 700ml 應急尿袋 | `8V7dmjkyZo` | `Ln7qiVXfF` | `emergencyUrineBag` |
+| 自駕休息點 | MINONO 尿袋 | `30mhF0ID2q` | `W6Y32zmbf` | `urineBagMinono` |
+| 自駕休息點 | 700ml 應急尿袋 | `8V7dmjkyZo` | `AUttxRiPlJ` | `emergencyUrineBag` |
+| 購物攻略 | 摺疊擴充旅行袋 | `7AcACRk7hy` | `2gB2d4YF7q` | `foldableTravelBag` |
+| 推車 | 推車旅行收納袋 | `9zwOmFGv6v` | `1qbvdZ72wL` | `strollerTravelBag` |
+| 伴手禮打包 | POLYWELL 行李秤 | `7AcACMuSfB` | `3g3ZoxKd9w` | `luggageScale` |
+| 伴手禮打包 | 摺疊擴充旅行袋 | `7AcACRk7hy` | `1qbvdboeFX` | `foldableTravelBag` |
+| 伴手禮打包 | 六件式壓縮收納袋 | `9V04ylQwhF` | `1qbvdd8BFY` | `compressionBags` |
+
+**`8V7dmjkyZo` 與 `7AcACRk7hy` 原本各被兩篇共用同一條**，那樣即使有 sub_id 也分不出來源，
+所以各拆成兩條分別產生。商品完全沒換，只補追蹤，變因單一。
+
+### 操作上的兩個坑
+
+1. **`form_input` 設值後，第一次點 Get Link 不會生效，要點第二次。** 應該是合成事件讓 React 狀態
+   慢一拍。可靠做法是 `scroll_to` 按鈕 →點→等 3 秒→再點一次。
+2. **新連結一律用 JS 從欄位讀值**，不要看截圖抄（短網址的 `I/l`、`4a/4s` 會誤判，已發生過兩次）。
+
+### 驗證
+
+12 條逐條用重導向查過 `utm_content`，全部符合預期值。之後全站 28 條再掃一次，
+沒有任何一條回傳 `----`。`npm run build` 通過，86 頁。
+
+### 這解鎖了什麼
+
+推車（28 天 45 點擊）與伴手禮打包（34 點擊）是全站流量第一與第五，
+在此之前它們的商品連結完全無法歸因。現在可以第一次回答：
+**那 79 個讀者裡，有幾個真的點了商品連結。**
+
+兩到三週後看 Click Report，用 `sub1` 篩文章。這個數字會直接回答
+「痛點＋推薦」在這個站有沒有用，不需要另外開站測。
