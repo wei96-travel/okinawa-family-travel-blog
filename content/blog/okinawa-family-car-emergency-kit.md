@@ -2,7 +2,6 @@
 title: "沖繩親子自駕車上放什麼？尿急、暈車與濕衣的 6 樣備用小物"
 description: "帶孩子在沖繩自駕，車上備用包不用塞滿。整理六樣能處理尿急、暈車、濕衣與髒亂的小物，也提醒便盆與尿袋只能在安全停妥後評估使用。"
 date: "2026-08-01"
-updated: "2026-09-11"
 category: "親子自駕"
 tags: ["沖繩親子自駕", "沖繩行李清單", "車上備用包", "兒童尿急", "親子旅行用品"]
 coverImage: "/images/articles/okinawa-family-car-emergency-kit/emergency-kit-cover-ai-v2.webp"

@@ -2,7 +2,6 @@
 title: "帶寶寶去沖繩奶瓶怎麼洗？飯店清潔、消毒、晾乾與搭機收納"
 description: "帶嬰兒去沖繩，奶瓶不是帶夠就好。整理飯店清洗步驟、哪些寶寶更需要消毒、外出備用方式，以及清潔劑怎麼分手提與托運。"
 date: "2026-07-26"
-updated: "2026-09-11"
 category: "行李準備"
 tags: ["沖繩親子旅遊", "出國奶瓶清洗", "飯店洗奶瓶", "嬰兒旅行", "沖繩行李"]
 coverImage: "/images/articles/okinawa-baby-bottle-hotel-cleaning-guide/hotel-bottle-cleaning.webp"

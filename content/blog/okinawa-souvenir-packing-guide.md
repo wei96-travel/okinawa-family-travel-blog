@@ -2,7 +2,7 @@
 title: "沖繩伴手禮怎麼打包？液體 100 毫升規定、易碎品包法與行李超重"
 description: "從日本搭國際線，隨身行李的液體單瓶不能超過 100 毫升，醬料、果醬、化妝水都算在內。整理沖繩伴手禮的液體分裝、易碎品包法、行李配置與怎麼避免超重。想知道哪些品項不能帶回台灣，站上另有一篇逐項對照。"
 date: "2026-07-22"
-updated: "2026-09-11"
+updated: "2026-09-08"
 category: "旅遊用品"
 tags: ["沖繩伴手禮", "日本伴手禮入境", "沖繩行李", "行李超重", "沖繩購物"]
 coverImage: "/images/articles/okinawa-souvenir-packing-guide/souvenir-packing-cover.webp"

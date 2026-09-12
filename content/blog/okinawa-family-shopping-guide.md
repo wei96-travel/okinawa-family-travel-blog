@@ -2,7 +2,6 @@
 title: "沖繩親子購物怎麼排？AEON、國際通、超市分工攻略"
 description: "第一次帶孩子去沖繩，AEON、國際通和超市不用全部逛一輪。這篇用雨天、晚餐、伴手禮和最後一天動線，幫你決定每個購物點負責什麼。"
 date: "2026-07-22"
-updated: "2026-09-11"
 category: "沖繩行程"
 tags: ["沖繩購物", "沖繩親子旅遊", "AEON沖繩", "沖繩國際通", "沖繩超市"]
 coverImage: "/images/articles/okinawa-family-shopping-guide/shopping-cover.webp"
