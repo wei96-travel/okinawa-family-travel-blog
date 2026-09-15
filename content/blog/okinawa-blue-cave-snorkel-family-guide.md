@@ -149,7 +149,7 @@ Pink Mermaid 的幼兒實際怎麼玩、最新價格和取消條款，可以在 
 - 離岸流應變：[第一管區海上保安本部 離岸流說明](https://www1.kaiho.mlit.go.jp/KAN1/marire/riganryu/riganryu_img.html)
 - 沖繩水難統計：[沖繩縣警察 安全的海與河川休閒](https://www.police.pref.okinawa.jp/docs/2015022200039)
 - 業者條件：[Pink Mermaid 兒童浮潛（Klook）](https://www.klook.com/zh-TW/activity/147179-okinawa-japan-blue-cave-kids-snorkeling-boat-course/)、[Gigi 青之洞窟浮潛](https://tw.marineclubgigi.com/marinemenu/snorkeling/)、[Best Dive 浮潛](https://www.bestdiveokinawa.com/snk/)與[活動限制](https://www.bestdiveokinawa.com/terms/)
-- 搭船與走灘頭的取捨：[うみイチ 青之洞窟親子指南](https://okinawa-create.com/static/blog_bluecave_kids)
+- 搭船與從岸邊下水的取捨：[うみイチ 青之洞窟親子指南](https://okinawa-create.com/static/blog_bluecave_kids)
 
 最後查核：2026 年 9 月 15 日。價格、年齡規定與開團條件會變動，報名前請以業者頁面為準。
 
