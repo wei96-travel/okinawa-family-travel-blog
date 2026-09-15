@@ -152,7 +152,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 5 歲以下自助早餐免費
 - 屋頂泳池有兒童池，客房脫鞋使用
 
-〔分潤連結位置：Trip.com Vessel Hotel Campana Okinawa，核可後產生追蹤 ID〕
+[查看 Vessel 花苑沖繩飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-705561/vessel-hotel-campana-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_vessel&trip_sub3=D19827215)
 
 ### 北谷沖繩海灘塔飯店（The Beach Tower Okinawa）
 
@@ -161,7 +161,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 餐廳自助餐有兒童區
 - 2024 年 10 月起飯店停車場改收費，金額看官網
 
-〔分潤連結位置：Trip.com The Beach Tower Okinawa，核可後產生追蹤 ID〕
+[查看北谷沖繩海灘塔飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-711312/the-beach-tower-of-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_beach_tower&trip_sub3=D19827250)
 
 ### 沖繩北谷希爾頓度假飯店（Hilton Okinawa Chatan Resort）
 
@@ -169,7 +169,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 6 歲以上以大人計價，還沒上小學的孩子同床免費
 - 館內有泳池
 
-〔分潤連結位置：Trip.com Hilton Okinawa Chatan Resort，核可後產生追蹤 ID〕
+[查看沖繩北谷希爾頓度假飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-1779182/hilton-okinawa-chatan-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_hilton&trip_sub3=D19827285)
 
 ## 行程裡放在哪一天
 
@@ -219,18 +219,3 @@ coverCreditText: "本站 AI 生成情境示意圖"
 ## 下一步閱讀
 
 還沒決定住哪一區，先看[沖繩親子住宿全攻略](/blog/first-okinawa-where-to-stay)；不打算租車，接著看[沖繩自由行不開車怎麼玩？](/blog/okinawa-no-car-family-guide)。
-
----
-
-## 審稿備註（發布前整段刪除）
-
-- **選題**：wei96 9/15 說「你來定」，從 9/14 的 10 題選題表挑出。wei96 交代全部做完（研究、草稿、封面、Codex 審查）再一起看。
-- **標題候選**：①沖繩美國村可以玩多久？帶小孩的停車、推車、日落與住宿（暫定；依 Codex 建議去掉結尾的「整理」）②沖繩美國村親子攻略：停留時間、免費停車、日落海灘與北谷住宿 ③美國村帶小孩怎麼逛？停車、尿布台、日落時間與巴士末班車
-- **Codex 第二審查（2026-09-15，唯讀）**：「修改後可發布」，共 12 項，逐條回原始資料核對。10 項照改：Hilton 停車 2026/5/15 起對住客收費（FAQ 頁沒更新）、The Beach Tower 贈品內容、Depot Island 哺乳地點原文是分開的清單、日祝免費是「小學生以下」且含年底年初、12/31～1/3 與盂蘭盆照週日時刻、改用「觀光資訊中心」並去掉「最好用」、機場車程改 55～85 分、最後一天補 18:00 關門、推車語氣放軟、玩水和看夕陽的時段分開。游泳池一項部分同意：陪同年齡規定其實在業者頁面讀到，但那是機器翻譯版，所以改成請讀者向泳池確認。最後一項（分潤佔位、刪審稿備註、改發布日）是發布步驟。標題 ① 也是 Codex 首選。細節在研究筆記。
-- **主詞**：沖繩美國村（1000–1萬）。9/14 選題表寫的「美國村 1萬–10萬」混了大阪美國村，已在研究筆記更正。次要詞：美國村住宿（1000–1萬，廣告競爭高）、美國村停車（100–1000）、北谷住宿（100–1000）。「美國村親子」只有 10–100，不放標題。
-- **停留時間是本站建議**，不是官方數字，正文已註明。
-- **分潤**：3 個 Trip.com 飯店連結只標位置，wei96 核可後才到後台產生追蹤 ID，不測試點擊。
-- **沒寫進正文的**：美濱停車場車位數（只有第三方數字）、日落海灘救生員與防水母網（官方沒寫）、游泳池開放月份、The Beach Tower 停車費金額、計程車費（官方資料是 2021 年）。巴士時刻平日、週六與國定假日、週日三種都讀過；Codex 第二審查開始後才補上週六的數字（往機場末班 19:02）。
-- **日文漢字**：正文用「美濱」；巴士站名「美浜アメリカンビレッジ入口」是站牌上的原文，保留日文，讓讀者對得上站牌。
-- **內鏈**：本文只連出去。住宿樞紐頁 9/24 前凍結，不從它連進來；其他頁連進來等各自凍結解除。
-- **發布日**：date 目前寫 2026-09-15，實際發布那天要改。

@@ -118,6 +118,16 @@
 
 審查期間草稿補了週六時刻（19:02），Codex 讀的是補上之後的版本，第 6 項就是針對它。
 
+## Trip.com 分潤連結（2026-09-15）
+
+- **D19827096 不要用**：第一次自動填表產生的，trip_sub1 被打亂成 `blog_american_village_subvessel`，網址也沒有 trip_sub3。沒有放上站、沒有點過，留在後台「之前的連結」裡。
+- 後台「聯盟連結」表單這次不接受 Claude Code 的程式填值：`form_input` 產生壞連結，改用鍵盤輸入後欄位還是空的。wei96 請 Codex 代做（`codex exec --approve-for-me`，模擬滑鼠鍵盤），一次成功。
+- **使用中的三條**（Codex 建立，並在「之前的連結」確認）：
+  - Vessel 花苑沖繩飯店：`blog_american_village_vessel`，Ad ID `D19827215`
+  - 北谷沖繩海灘塔飯店：`blog_american_village_beach_tower`，Ad ID `D19827250`
+  - 沖繩北谷希爾頓度假飯店：`blog_american_village_hilton`，Ad ID `D19827285`
+- 三條都沒有被點開測試，後台點擊從 0 開始算。Codex 回報第二條產生當下，結果區的顯示有拼接異常，後台保存的內容正常；D19827096 當時的「重複 trip_sub1」也可能是同一個顯示問題，但沒有驗證，一樣不用。
+
 ## 沒查到、文章不寫的
 - 美濱停車場官方車位數
 - 日落海灘救生員、防水母網
