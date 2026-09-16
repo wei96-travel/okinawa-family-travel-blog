@@ -74,7 +74,7 @@ coverLicenseUrl: "https://unsplash.com/license"
 
 ## 相關文章
 
-海灘通常會排進北部或南部的行程裡，可以搭配[美麗海水族館安排幾小時？家庭旅遊不要只排水族館](/blog/churaumi-aquarium-family-time)一起排北部這天的節奏。如果海灘排在南部或最後幾天，也可以看[沖繩南部適合親子住嗎？優點缺點整理](/blog/south-okinawa-family-stay)。開車去海灘的話，[沖繩親子租車要注意什麼？安全座椅、取車還車與停車整理](/blog/okinawa-rental-car-family-guide)也可以先看過。
+海灘通常會排進北部或南部的行程裡，可以搭配[美麗海水族館安排幾小時？家庭旅遊不要只排水族館](/blog/churaumi-aquarium-family-time)一起排北部這天的節奏。如果海灘排在南部或最後幾天，也可以看[沖繩南部適合親子住嗎？優點缺點整理](/blog/south-okinawa-family-stay)。開車去海灘的話，[沖繩親子租車要注意什麼？安全座椅、取車還車與停車整理](/blog/okinawa-rental-car-family-guide)也可以先看過。想帶孩子浮潛看魚的話，業者的年齡限制、搭船或從岸邊下水的差別，整理在[沖繩浮潛帶小孩幾歲可以？](/blog/okinawa-blue-cave-snorkel-family-guide)。
 
 ## 常見問題
 
