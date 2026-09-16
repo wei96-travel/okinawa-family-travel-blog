@@ -2,6 +2,7 @@
 title: "沖繩浮潛帶小孩幾歲可以？青之洞窟的年齡限制、搭船或走階梯與冬天海況"
 description: "帶小孩去青之洞窟浮潛，有業者 1 歲就收，也有 4 歲才收，差別在陪同規定、搭船還是從岸邊走階梯下水，以及冬天開不開團。整理三家業者的年齡與價格、救生衣與離岸流的官方提醒，以及真榮田岬的停車與淋浴。"
 date: "2026-09-15"
+updated: "2026-09-16"
 category: "親子景點"
 tags: ["沖繩浮潛", "青之洞窟", "沖繩親子浮潛", "真榮田岬", "恩納村"]
 coverImage: "/images/articles/okinawa-blue-cave-snorkel-family-guide/blue-cave-cover.webp"
@@ -74,7 +75,7 @@ Pink Mermaid 的幼兒實際怎麼玩、最新價格和取消條款，可以在 
 
 報名前可以確認業者有沒有申報。依沖繩縣的《水上安全條例》，經營浮潛、潛水的業者要向公安委員會申報，沖繩縣警也呼籲使用者確認是申報業者，並在網站公開申報業者名單。縣警同時提醒，大人陪同時也要一直看著孩子，直到孩子上岸。
 
-萬一被離岸流帶走，海上保安廳的建議是：不要慌，不要逆著水流游，先和岸邊平行游出水流範圍，再往岸邊游。海上事故的緊急電話是 118（海上保安廳，日本全國通用）。
+萬一被離岸流帶走，海上保安廳的建議是：不要慌，不要逆著水流游，先和岸邊平行游出水流範圍，再往岸邊游；游不動的話不要硬游，放鬆浮著等待救援也有效。海上事故的緊急電話是 118（海上保安廳，日本全國通用）。
 
 ## 冬天去得成嗎？12 月到 3 月要有備案
 
@@ -146,12 +147,12 @@ Pink Mermaid 的幼兒實際怎麼玩、最新價格和取消條款，可以在 
 - 真榮田岬設施與注意事項：[真榮田岬官網](https://maedamisaki.jp/)、[施設案內](https://maedamisaki.jp/infomation)
 - 浮潛與救生衣安全：[海上保安廳 浮潛安全資訊](https://www6.kaiho.mlit.go.jp/watersafety/snorkeling/)、[遊泳安全與救生衣](https://www6.kaiho.mlit.go.jp/watersafety/swimming/06_detailed/)
 - 離岸流警示看板與事故件數：[琉球新報 2022 年 12 月 26 日](https://ryukyushimpo.jp/news/entry-1638191.html)
-- 離岸流應變：[第一管區海上保安本部 離岸流說明](https://www1.kaiho.mlit.go.jp/KAN1/marire/riganryu/riganryu_img.html)
+- 離岸流應變：[第一管區海上保安本部 離岸流說明](https://www1.kaiho.mlit.go.jp/KAN1/marire/riganryu/riganryu_img.html)、[海上保安廳 海邊玩水注意事項](https://www6.kaiho.mlit.go.jp/watersafety/swimming/02_attention/)
 - 沖繩水難統計：[沖繩縣警察 安全的海與河川休閒](https://www.police.pref.okinawa.jp/docs/2015022200039)
 - 業者條件：[Pink Mermaid 兒童浮潛（Klook）](https://www.klook.com/zh-TW/activity/147179-okinawa-japan-blue-cave-kids-snorkeling-boat-course/)、[Gigi 青之洞窟浮潛](https://tw.marineclubgigi.com/marinemenu/snorkeling/)、[Best Dive 浮潛](https://www.bestdiveokinawa.com/snk/)與[活動限制](https://www.bestdiveokinawa.com/terms/)
 - 搭船與從岸邊下水的取捨：[うみイチ 青之洞窟親子指南](https://okinawa-create.com/static/blog_bluecave_kids)
 
-最後查核：2026 年 9 月 15 日。價格、年齡規定與開團條件會變動，報名前請以業者頁面為準。
+最後查核：2026 年 9 月 16 日。本文依官方與業者資料查核，部分資訊另以其他來源交叉比對。價格、年齡規定與開團條件會變動，報名前請以業者頁面為準。
 
 ## 下一步閱讀
 

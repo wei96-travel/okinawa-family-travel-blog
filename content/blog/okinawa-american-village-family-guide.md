@@ -2,6 +2,7 @@
 title: "沖繩美國村可以玩多久？帶小孩的停車、推車、日落與住宿"
 description: "沖繩美國村帶小孩，逛街加吃一餐抓 2～3 小時，想看日落、吃完晚餐再走就抓 3～4 小時。整理免費停車場、推車租借與尿布台、日落時間、從那霸搭巴士的末班車，以及住美國村附近的 3 間飯店。"
 date: "2026-09-15"
+updated: "2026-09-16"
 category: "親子景點"
 tags: ["沖繩美國村", "美國村停車", "北谷住宿", "沖繩親子景點", "沖繩中部"]
 coverImage: "/images/articles/okinawa-american-village-family-guide/american-village-cover.webp"
@@ -57,7 +58,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 夏天日落晚，看完夕陽再吃晚餐，孩子上床可能拖到很晚。幼兒可以反過來排：先吃晚餐，吃完剛好出來看夕陽。冬天 5 點多天就暗了，下午 3 點多到就好。
 
-店家營業時間各自不同。Depot Island 官方 FAQ 的說法是餐廳大多開到 23 點左右、商店大多到 21 點左右。每年 11 月 1 日開始掛聖誕裝飾，到隔年 2 月底才收。
+店家營業時間各自不同。Depot Island 官方 FAQ 的說法是商店大多開到 21 點左右、餐廳大多到 23 點左右，想去的店先查那一家的時間。冬天有燈飾活動，近幾年大約從 11 月中下旬點到隔年 2、3 月，每天傍晚 5 點到半夜 12 點，確切日期每年公布。
 
 ## 停車：町營停車場免費，偶爾提早關門
 
@@ -83,7 +84,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 **租的推車要在 17:45 前還。** 夏天日落在 19 點以後，想待到看完夕陽，自己帶推車比較方便。
 
-哺乳和換尿布，Depot Island 官方 FAQ 列了幾個有空間的地點，包括 Depot Island Seaside 大樓 3 樓、Calif Kitchen、AEON 北谷店超市 1 樓等處。
+哺乳和換尿布：Depot Island Seaside 大樓 3 樓的 THE CALIF KITCHEN 有尿布台和哺乳室，泡奶的熱水可以請店家提供；AEON 北谷店超市 1 樓也有哺乳和換尿布的空間。
 
 尿布、奶粉臨時要補，AEON 北谷店有賣嬰兒用品，衣料和生活用品賣場開到 22:00。品項更齊的阿卡將在北谷 Hanby Town，細節看[沖繩尿布奶粉哪裡買？](/blog/okinawa-baby-supplies-shopping-guide)。
 
@@ -100,7 +101,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 海灘有淋浴、置物櫃和烤肉區（烤肉要預約）。遊泳時間在日落前就結束，所以想兩個都做，排法是下午玩水、洗好澡換好衣服，再出來看夕陽。
 
-旁邊還有北谷公園游泳池，分時段入場，每段 2 小時、限 200 人；北谷町以外的遊客大人 400 日圓、國高中生 300 日圓、1 歲到小學生 200 日圓。開放月份、當天有沒有營業，以及孩子要不要大人陪同，出發前向泳池確認。
+旁邊還有北谷公園游泳池，費用以 2 小時計，北谷町以外的遊客大人 400 日圓、國高中生 300 日圓、幼兒和小學生 200 日圓。週六、週日和國定假日分三個時段發整理券（8:50、12:20、15:20 開始），每段限 200 人，領券時先付費。開放月份、當天有沒有營業，以及孩子要不要大人陪同，出發前向泳池確認。
 
 水母季節、怎麼挑有管理的海灘，看[沖繩親子海灘怎麼選？](/blog/okinawa-family-beach-guide)。
 
@@ -133,9 +134,9 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 小學生半價，10 日圓以下進位，所以上面兩段是 450、420 日圓。
 - 1 歲到上小學前，每位付費乘客（大人或小學生）可以免費帶一位，第二位起買兒童票。
 - 未滿 1 歲免費。
-- 週日和國定假日（包含 12 月 31 日到 1 月 3 日），每位付大人票的乘客最多可以免費帶 3 名小學生以下的孩子，高速巴士不適用。
+- 週日和國定假日（包含 12 月 31 日到 1 月 3 日，以及舊曆盂蘭盆的最後一天），每位付大人票的乘客最多可以免費帶 3 名小學生以下的孩子，高速巴士和機場利木津巴士不適用。
 
-搭公車前先準備好收折推車，車上擠的時候照司機指示；其他不開車的細節看[沖繩自由行不開車怎麼玩？](/blog/okinawa-no-car-family-guide)。自駕的話，飯店官方交通說明寫那霸機場開車約 40 分鐘。
+推車上公車要收起來，琉球巴士和沖繩巴士官網都這樣要求，沖繩巴士另外提醒孩子要抱著；其他不開車的細節看[沖繩自由行不開車怎麼玩？](/blog/okinawa-no-car-family-guide)。自駕的話，飯店官方交通說明寫那霸機場開車約 40 分鐘。
 
 ## 住美國村附近適合嗎？
 
@@ -159,7 +160,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 0 到 3 歲的孩子，每晚送尿布 5 片、條狀奶粉（400 毫升份），以及副食品、點心或嬰兒飲料擇一；整段住宿另送一包濕紙巾
 - 住客可以免費借嬰兒推車（0 到 36 個月）和嬰兒床（0 到 18 個月），數量有限，要先打電話預約
 - 餐廳自助餐有兒童區
-- 2024 年 10 月起飯店停車場改收費，金額看官網
+- 2024 年 10 月起飯店停車場改收費，JTB、阪急交通社等訂房網站寫每晚每台 1,000 日圓（JTB 另寫連住最多 3,000 日圓），訂房時再確認
 
 [查看北谷沖繩海灘塔飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-711312/the-beach-tower-of-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_beach_tower&trip_sub3=D19827250)
 
@@ -194,7 +195,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 ### 美國村晚上可以逛嗎？
 
-可以。餐廳大多開到 23 點左右、商店大多到 21 點左右。搭巴士回那霸的話，往巴士總站的末班平日是 21:24，週六、週日與國定假日是 21:08。
+可以。Depot Island 官方 FAQ 的說法是商店大多開到 21 點左右、餐廳大多到 23 點左右，各店時間不同。搭巴士回那霸的話，往巴士總站的末班平日是 21:24，週六、週日與國定假日是 21:08。
 
 ### 美國村的摩天輪還在嗎？
 
@@ -205,16 +206,18 @@ coverCreditText: "本站 AI 生成情境示意圖"
 本文不是實地走訪心得，內容依官方資料整理。
 
 - 北谷町觀光資訊中心：[美國村官網店家頁](https://www.okinawa-americanvillage.com/zh-hant/shop/information-center/)、[北谷町觀光協會「北谷日常」](https://love.chatan.jp/topic/chatan_information_center/)
-- 停車場、營業時間、哺乳空間：[Depot Island 官方 FAQ](https://www.depot-island.co.jp/faqlist/)、[北谷町公所公告](https://www.chatan.jp/smph/choseijoho/kankou/oshirase/cyatancyoucyoueicyuu.html)
+- 停車場、營業時間、哺乳空間：[Depot Island 官方 FAQ](https://www.depot-island.co.jp/faqlist/)、[北谷町營停車場施行規則](https://www.chatan.jp/reiki/reiki_honbun/q925RG00000451.html)、[沖繩ナビ 美國村親子整理](https://okinawa-navi.jp/magazine/american-village-kids/)、[北谷町公所公告](https://www.chatan.jp/smph/choseijoho/kankou/oshirase/cyatancyoucyoueicyuu.html)
+- 燈飾活動：[北谷町觀光協會](https://chatantourism.com/)、[北谷日常](https://love.chatan.jp/)
+- 北谷公園游泳池：[北谷町都市公園條例（收費表）](https://www.chatan.jp/reiki/reiki_honbun/q925RG00000454.html)、[北谷町 入場方式公告](https://www.chatan.jp/seikatsuguide/koen_doro/oshirase/1111.html)
 - 日落海灘：[北谷町觀光協會](https://chatantourism.com/spot/sunset-beach/)、[海灘管理業者官網](https://dormy-hotels.com/resort/hotels/okinawa/sunsetbeach/beach-and-pool/)
 - 日落時間：[國立天文台曆計算室（那霸）](https://eco.mtk.nao.ac.jp/koyomi/dni/dni48.html)
-- 巴士時刻與票價：沖繩交通資訊網 20、120 號時刻表（[往北部](https://www.kotsu-okinawa.org/time/20_120/down1.html)、[往那霸](https://www.kotsu-okinawa.org/time/20_120/up1.html)）、[票價說明](https://www.kotsu-okinawa.org/index_info1.html)、[琉球巴士交通票價區分](https://daiichibus.co.jp/scheduled-bus/service/)
+- 巴士時刻與票價：沖繩交通資訊網 20、120 號時刻表（[往北部](https://www.kotsu-okinawa.org/time/20_120/down1.html)、[往那霸](https://www.kotsu-okinawa.org/time/20_120/up1.html)）、[票價說明](https://www.kotsu-okinawa.org/index_info1.html)、[琉球巴士交通票價區分](https://daiichibus.co.jp/scheduled-bus/service/)、[沖繩縣 日祝家庭優惠](https://bus-noriho.com/famiwari/)；推車規定：[琉球巴士交通 FAQ](https://daiichibus.co.jp/faq/)、[沖繩巴士 乘車注意事項](https://okinawabus.com/wp/rb/rb_userguide/rb_notes/)
 - 摩天輪拆除：[琉球新報 2022 年 4 月 5 日](https://ryukyushimpo.jp/news/entry-1496819.html)
 - 北谷直行巴士停駛：[GOO Chatan 官網公告](https://goo-chatan.com/)
 - AEON 北谷店：[永旺琉球官方店鋪頁](https://www.aeon-ryukyu.jp/store/aeon/chatan/)
-- 飯店：[Vessel 花苑沖繩飯店](https://www.vessel-hotel.jp/campana/okinawa/service/family/)、[北谷沖繩海灘塔飯店](https://dormy-hotels.com/resort/hotels/okinawa/kids/)、[沖繩北谷希爾頓度假飯店停車公告](https://chatan.hiltonjapan.co.jp/news/detail/6344)
+- 飯店：[Vessel 花苑沖繩飯店](https://www.vessel-hotel.jp/campana/okinawa/service/family/)、[北谷沖繩海灘塔飯店](https://dormy-hotels.com/resort/hotels/okinawa/kids/)（停車費：[JTB](https://www.jtb.co.jp/kokunai-hotel/htl/8713001/)、[阪急交通社](https://www.hankyu-travel.com/kokunai/facility/detail/htl1535.php)）、[沖繩北谷希爾頓度假飯店停車公告](https://chatan.hiltonjapan.co.jp/news/detail/6344)
 
-最後查核：2026 年 9 月 15 日。營業時間、班次、票價與飯店規定會變動，出發前請以官方公告為準。
+最後查核：2026 年 9 月 16 日。本文依官方與業者資料查核，部分資訊另以其他來源交叉比對。營業時間、班次、票價與飯店規定會變動，出發前請以官方公告為準。
 
 ## 下一步閱讀
 
