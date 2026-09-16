@@ -1,6 +1,8 @@
 # Okinawa Family Notes Live Handoff
 
-Last updated: 2026-09-16 (Claude Code done, no active owner: inbound links to the 青之洞窟 guide live in 4719f4c)
+Last updated: 2026-09-16 (ACTIVE OWNER Claude Code: cross-check corrections to the 美國村 and 青之洞窟 guides)
+
+- 2026-09-16 ACTIVE OWNER: Claude Code, claimed before editing. wei96 asked for every fact in the three new guides to be checked against more sources, not only what Codex had said. Files claimed: `content/blog/okinawa-american-village-family-guide.md`, `content/blog/okinawa-blue-cave-snorkel-family-guide.md`, `research/american-village-family-2026-09-15.md`, `research/blue-cave-snorkel-family-2026-09-15.md`, this handoff. The no-car guide checked out and is not edited.
 
 - 2026-09-16 inbound links to the 青之洞窟 guide done (Claude Code; claim released, no active owner). Work commit `4719f4c` adds one sentence and one internal link to `/blog/okinawa-blue-cave-snorkel-family-guide` in `okinawa-family-beach-guide` (相關文章 paragraph), `okinawa-family-beach-packing-list` (after 還沒決定海灘) and `onna-family-stay-guide` (a new paragraph after the one naming 真榮田岬). `updated` unchanged on all three; no affiliate links, titles or descriptions touched. Codex bounded review (read-only): 修改後可上線 — beach and packing pages fine; on the Onna page it pointed out that 青之洞窟 is in the Cape Maeda area rather than being the cape, and that 從 1 歲到 4 歲都有 could read as every age from 1 to 4 when the operators are 1, 2 and 4; both checked and the sentence was rewritten as Codex suggested. The three pre-existing 不是A而是B phrases on the Onna page were left alone (not part of this change; site audit still 25 style reminders). Build passed at 57 articles, 89 pages. Production verified: each of the three pages serves the new link.
 
