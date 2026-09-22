@@ -133,7 +133,7 @@ JAF 說明，汽油車加進柴油，或柴油車加進汽油，都可能造成�
 - 加完油已鎖好油箱蓋並收好收據。
 - 若加錯油，沒有發動車輛，已聯絡工作人員與租車公司。
 
-如果你還在處理取車、安全座椅與停車問題，可以先看[沖繩親子租車要注意什麼？安全座椅、取車還車與停車整理](/blog/okinawa-rental-car-family-guide)和[沖繩租車安全座椅怎麼選？](/blog/okinawa-car-seat-rental-guide)。長距離移動時需要安排廁所和中途休息，也可以接著看[沖繩親子自駕休息點怎麼排？](/blog/okinawa-family-drive-toilet-convenience-store)。
+還沒訂車的話，三家怎麼選看[沖繩租車怎麼選？三家接駁、營業時間與費用比較](/blog/okinawa-rental-car-family-guide)；安全座椅看[沖繩租車安全座椅怎麼選？](/blog/okinawa-car-seat-rental-guide)。長距離移動時需要安排廁所和中途休息，也可以接著看[沖繩親子自駕休息點怎麼排？](/blog/okinawa-family-drive-toilet-convenience-store)。
 
 ## 常見問題
 

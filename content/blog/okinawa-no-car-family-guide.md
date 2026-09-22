@@ -111,7 +111,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 兩個以上幼兒加推車和大行李，又要每天換飯店。
 - 住宿不在單軌站或巴士停靠站附近。
 
-租車要準備什麼，可以從[沖繩租車全攻略](/blog/okinawa-rental-car-family-guide)開始看。
+租車要準備什麼，可以從[沖繩租車怎麼選](/blog/okinawa-rental-car-family-guide)開始看。
 
 ## 不開車的 4 天 3 夜排法參考
 

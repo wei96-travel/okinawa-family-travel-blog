@@ -135,7 +135,7 @@ coverLicenseUrl: "https://unsplash.com/license"
 
 如果孩子年紀比較大、行李少、願意把水族館當成一整天行程，巴士可以考慮。若有嬰幼兒、推車或很多行李，租車通常會輕鬆一點。
 
-租車前可以先讀[沖繩親子租車要注意什麼？安全座椅、取車與停車整理](/blog/okinawa-rental-car-family-guide)。
+租車前可以先讀[沖繩租車怎麼選？三家接駁、營業時間與費用比較](/blog/okinawa-rental-car-family-guide)。
 
 ## 美麗海水族館適合放在哪一天？
 

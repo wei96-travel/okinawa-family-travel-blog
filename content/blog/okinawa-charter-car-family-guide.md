@@ -105,7 +105,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 | 只有抵達日和回國日不想開車 | 只包機場接送那一段，中間幾天租車 |
 | 駕照日文譯本沒辦成 | 包車、一日遊，或巴士加單軌，這三種搭配著用 |
 
-北部一日遊的內容、集合時間和幼兒免費規則，整理在[沖繩自由行不開車怎麼玩？](/blog/okinawa-no-car-family-guide)。想自己開的話，先看[沖繩租車全攻略](/blog/okinawa-rental-car-family-guide)和[沖繩親子租車行李怎麼放？](/blog/okinawa-rental-car-luggage-stroller-guide)。
+北部一日遊的內容、集合時間和幼兒免費規則，整理在[沖繩自由行不開車怎麼玩？](/blog/okinawa-no-car-family-guide)。想自己開的話，先看[沖繩租車怎麼選](/blog/okinawa-rental-car-family-guide)和[沖繩親子租車行李怎麼放？](/blog/okinawa-rental-car-luggage-stroller-guide)。
 
 ## 行程怎麼排比較不浪費時數
 
@@ -153,4 +153,4 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 ## 下一步閱讀
 
-要自己開車的話，先看[沖繩租車全攻略](/blog/okinawa-rental-car-family-guide)；完全不開車的排法看[沖繩自由行不開車怎麼玩？](/blog/okinawa-no-car-family-guide)。
+要自己開車的話，先看[沖繩租車怎麼選](/blog/okinawa-rental-car-family-guide)；完全不開車的排法看[沖繩自由行不開車怎麼玩？](/blog/okinawa-no-car-family-guide)。

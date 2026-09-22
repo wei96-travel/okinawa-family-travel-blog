@@ -112,7 +112,7 @@ OTS 也寫明，安全座椅由客人安裝；即使現場人員協助，最後�
 
 ![沖繩租車取車時，兒童安全座椅需要確認的六個項目](/images/articles/okinawa-car-seat-rental-guide/pickup-safety-checklist.svg "自製檢查圖：核對類型、查看標示、優先後座、檢查固定、讓孩子試坐，並確認扣具溫度")
 
-租車本身的取還車和停車細節，可以搭配[沖繩親子租車要注意什麼？安全座椅、取車還車與停車整理](/blog/okinawa-rental-car-family-guide)一起看。還車前不確定油種和自助加油流程，可以接著看[沖繩租車怎麼加油？油種、自助加油、滿油還車與收據整理](/blog/okinawa-rental-car-refueling-guide)。上路之後的休息安排，也可以參考[沖繩親子自駕休息點怎麼排？便利商店、道之驛、休息站與廁所備案](/blog/okinawa-family-drive-toilet-convenience-store)。
+還沒決定租哪一家的話，三家的接駁時間、營業時間與費用差在哪，整理在[沖繩租車怎麼選？三家接駁、營業時間與費用比較](/blog/okinawa-rental-car-family-guide)。還車前不確定油種和自助加油流程，可以接著看[沖繩租車怎麼加油？油種、自助加油、滿油還車與收據整理](/blog/okinawa-rental-car-refueling-guide)。上路之後的休息安排，也可以參考[沖繩親子自駕休息點怎麼排？便利商店、道之驛、休息站與廁所備案](/blog/okinawa-family-drive-toilet-convenience-store)。
 
 ## 常見問題
 

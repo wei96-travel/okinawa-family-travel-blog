@@ -135,7 +135,7 @@ Toyota Rent a Car、Times CAR RENTAL、Nippon Rent-A-Car 與 OTS 公開的常見
 - 事故電話與營業所電話存好了嗎？
 - 車身原有刮痕是否已和工作人員確認並留存紀錄？
 
-租車的其他流程，可以回到[沖繩親子租車要注意什麼？](/blog/okinawa-rental-car-family-guide)。還車前不熟悉油種與收據規定，再看[沖繩租車怎麼加油？](/blog/okinawa-rental-car-refueling-guide)和[沖繩最後一天怎麼安排？](/blog/okinawa-last-day-family-plan)。
+還在比哪一家的話，接駁、營業時間與費用的差別在[沖繩租車怎麼選？三家接駁、營業時間與費用比較](/blog/okinawa-rental-car-family-guide)。還車前不熟悉油種與收據規定，再看[沖繩租車怎麼加油？](/blog/okinawa-rental-car-refueling-guide)和[沖繩最後一天怎麼安排？](/blog/okinawa-last-day-family-plan)。
 
 ## 常見問題
 
