@@ -17,6 +17,13 @@ export const NEWSLETTER_OFFERS = {
     body:
       "台灣的國際駕照在日本不能用，要辦的是駕照日文譯本。這份檢查表用倒數時間軸帶你走完整段流程，從出發前一個月到取車櫃檯，會開車的人各一份，缺一項都會卡在第一天。"
   },
+  okinawa_souvenir_packing_card: {
+    formUid: "94acbb7f26",
+    eyebrow: "免費取得",
+    heading: "買回來的東西，哪些過不了海關？",
+    body:
+      "沖繩伴手禮區含肉的比例特別高，帶錯罰鍰從 1 萬元起跳。這張卡從店裡結帳前排到台灣入境走哪條線：看到哪些字就放回架上、液體怎麼分、免稅品要託運前得多做一步。"
+  },
   okinawa_typhoon_action_card: {
     formUid: "36a789a0af",
     eyebrow: "免費取得",

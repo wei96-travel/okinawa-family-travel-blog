@@ -20,7 +20,9 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.
 const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-typhoon-family-travel-guide": "okinawa_typhoon_action_card",
   "okinawa-rainy-day-family-spots": "okinawa_typhoon_action_card",
-  "okinawa-naha-rainy-indoor-decision-guide": "okinawa_typhoon_action_card"
+  "okinawa-naha-rainy-indoor-decision-guide": "okinawa_typhoon_action_card",
+  "okinawa-souvenir-packing-guide": "okinawa_souvenir_packing_card",
+  "okinawa-souvenir-customs-taiwan": "okinawa_souvenir_packing_card"
 };
 
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
