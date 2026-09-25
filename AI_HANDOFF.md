@@ -1,14 +1,14 @@
 # Okinawa Family Notes Live Handoff
 
-## 2026-09-25 Clarity 安裝（ACTIVE OWNER: Codex）
+## 2026-09-25 Clarity 安裝（Codex；已部署並解除檔案占用）
 
 - 目標：為正式站安裝 Microsoft Clarity，專案 ID `ymevqfqwmk`，並補齊隱私權揭露與正式站驗證。
-- Clarity 後台目前仍停在「開始使用」，儀表板、錄製內容與熱度圖尚未啟用；程式庫內也沒有 Clarity 追蹤碼。
+- 工作提交 `757c56d`（`Install Microsoft Clarity analytics`）已推送至 `origin/main`。正式首頁回傳 HTTP 200，原始 HTML 包含 `www.clarity.ms/tag` 與專案 ID `ymevqfqwmk`；正式 `/privacy` 也回傳 200，包含 Microsoft Clarity 揭露與 2026-09-25 更新日期。
 - Clarity 官方追蹤碼指出資料最多可能需要 2 小時才出現，且敏感內容預設會遮罩。
-- 本次檔案所有權：`components/microsoft-clarity.tsx`、`app/layout.tsx`、`app/privacy/page.tsx`、`app/en/privacy/page.tsx`、`AI_HANDOFF.md`。Claude Code 請勿同時編輯這些檔案。
+- 本次檔案占用已解除：`components/microsoft-clarity.tsx`、`app/layout.tsx`、`app/privacy/page.tsx`、`app/en/privacy/page.tsx`、`AI_HANDOFF.md`。
 - 不碰文章、聯盟連結、Kit 表單或其他分析設定。完成後必須通過內容檢查與正式建置，取得 bounded second review，推送部署後再從正式 HTTPS 網址確認追蹤碼及 Clarity 收件狀態。
 - Claude Code bounded review 回覆 `conditional go`：要求確認 CSP、同意模式與英文頁是否重複載入，並建議限制專案 ID 長度。Codex 逐項核對：專案沒有 CSP 標頭；`app/en` 是 root layout 的子版型，不會重複載入；專案 ID 已限制英數字且最多 64 字元。Microsoft 官方文件也確認 Consent Mode 對 EEA、英國與瑞士訪客預設啟用；缺少同意訊號不違反 Clarity 條款，但該區訪客的跨頁工作階段與完整錄影會受限。本站目前主要服務台灣讀者，本輪不擴張成 CMP 專案，未來若拓展需同意的司法管轄區再補。
-- 本機驗證完成：`npm run build` 通過，58 篇文章、91 個靜態頁、0 個重大內容問題，維持既有 25 個口吻提醒；首頁建置輸出包含 `microsoft-clarity`、`www.clarity.ms/tag` 與專案 ID。工作提交與正式站驗證待完成。
+- 本機驗證完成：`npm run build` 通過，58 篇文章、91 個靜態頁、0 個重大內容問題，維持既有 25 個口吻提醒；首頁建置輸出包含 `microsoft-clarity`、`www.clarity.ms/tag` 與專案 ID。部署後以 Codex 內建瀏覽器開啟正式首頁，Clarity 後台隨即顯示「1 個使用者在線上」且「錄製內容」分頁解鎖，確認資料已實際送達；熱度圖仍待流量與後台處理完成，依官方提示最多可能需要 2 小時。
 
 Last updated: 2026-09-23 (ACTIVE OWNER Claude Code: stop the car-hire hub competing with its own sub-pages)
 
