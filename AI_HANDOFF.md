@@ -1,5 +1,15 @@
 # Okinawa Family Notes Live Handoff
 
+## 2026-09-25 Clarity 安裝（ACTIVE OWNER: Codex）
+
+- 目標：為正式站安裝 Microsoft Clarity，專案 ID `ymevqfqwmk`，並補齊隱私權揭露與正式站驗證。
+- Clarity 後台目前仍停在「開始使用」，儀表板、錄製內容與熱度圖尚未啟用；程式庫內也沒有 Clarity 追蹤碼。
+- Clarity 官方追蹤碼指出資料最多可能需要 2 小時才出現，且敏感內容預設會遮罩。
+- 本次檔案所有權：`components/microsoft-clarity.tsx`、`app/layout.tsx`、`app/privacy/page.tsx`、`app/en/privacy/page.tsx`、`AI_HANDOFF.md`。Claude Code 請勿同時編輯這些檔案。
+- 不碰文章、聯盟連結、Kit 表單或其他分析設定。完成後必須通過內容檢查與正式建置，取得 bounded second review，推送部署後再從正式 HTTPS 網址確認追蹤碼及 Clarity 收件狀態。
+- Claude Code bounded review 回覆 `conditional go`：要求確認 CSP、同意模式與英文頁是否重複載入，並建議限制專案 ID 長度。Codex 逐項核對：專案沒有 CSP 標頭；`app/en` 是 root layout 的子版型，不會重複載入；專案 ID 已限制英數字且最多 64 字元。Microsoft 官方文件也確認 Consent Mode 對 EEA、英國與瑞士訪客預設啟用；缺少同意訊號不違反 Clarity 條款，但該區訪客的跨頁工作階段與完整錄影會受限。本站目前主要服務台灣讀者，本輪不擴張成 CMP 專案，未來若拓展需同意的司法管轄區再補。
+- 本機驗證完成：`npm run build` 通過，58 篇文章、91 個靜態頁、0 個重大內容問題，維持既有 25 個口吻提醒；首頁建置輸出包含 `microsoft-clarity`、`www.clarity.ms/tag` 與專案 ID。工作提交與正式站驗證待完成。
+
 Last updated: 2026-09-23 (ACTIVE OWNER Claude Code: stop the car-hire hub competing with its own sub-pages)
 
 - 2026-09-23 ACTIVE OWNER: Claude Code, claimed before editing. The 9/22 read on the car-hire hub is done and the head term was not caught: over 28 days the hub itself drew 1 impression and 0 clicks, queries containing 租車 drew 33 impressions at average position 19.1 with **none** of them going to the hub (typhoon 14, licence translation 9, pickup/return 8, car seat 1, luggage 1), and 沖繩租車 itself produced no impressions site-wide. The hub is indexed. A read-only Codex second opinion returned 部分同意 and was right on two counts that were checked here: the 28-day window straddles the 2026-09-07 rewrite so half of it predates the page being measured, and 33 impressions is too small to conclude the gap is only domain authority. Claude Code's own earlier claim that all six overlapping sections are duplicated was overstated and is withdrawn — 證件, 保險, 車型, 取還車, 加油 and 上路 are already short summaries with links, which is the right hub shape. What is genuinely duplicated, checked line by line: the four-company child-seat price table (the sub-page carries the same table plus a note that ORIX has raised its price to 1,650, which the hub lacks), and three FAQ entries whose questions are the sub-pages' own titles. So the hub is bidding against its own children for their head terms and losing. Scope of this change: remove the seat table in favour of a one-line summary and link, and drop those three FAQ entries, keeping the hub's own 沖繩一定要租車嗎 / 一天多少錢 / 哪一家最好. The title is deliberately **not** changed, to keep this to one variable. Files claimed: `content/blog/okinawa-rental-car-family-guide.md` and this handoff. **Codex: please do not edit the car-hire cluster while this runs.** Both agree: do not open a second hub, and do not treat page one for 沖繩租車 as a near-term KPI. Re-read no earlier than 2026-10-21 (four weeks), and read query-by-page detail rather than the blended average.

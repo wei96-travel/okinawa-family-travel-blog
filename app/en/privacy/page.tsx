@@ -19,18 +19,24 @@ export default function EnglishPrivacyPage() {
     <section className="mx-auto max-w-3xl px-5 py-12 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold text-[#34302b] sm:text-4xl">Privacy Policy</h1>
       <div className="prose-travel mt-8">
-        <p>Last updated: August 8, 2026</p>
+        <p>Last updated: September 25, 2026</p>
         <p>
           This site respects your privacy. When you browse Okinawa Family Notes, analytics tools may record
-          general usage information such as page views, device type and referral source. That data is used in
-          aggregate and is not used to identify you personally.
+          usage information such as page views, device type, referral source and page interactions. We use this
+          information to improve the content and user experience, not to identify you personally.
         </p>
         <h2>Cookies and analytics</h2>
         <p>
-          This site uses Google Analytics 4 to understand overall browsing behaviour. It may use cookies to
-          collect information such as your device, the pages you view, time on page and how you arrived. We use
-          this aggregated data to improve the content and the reading experience. We do not ask you for your
-          name or contact details. You can restrict or delete cookies through your browser settings.
+          This site uses Google Analytics 4 to understand overall browsing behaviour and Microsoft Clarity to
+          understand clicks, scroll depth, heatmaps and masked session recordings. These tools may use
+          cookies to collect information such as your device, the pages you view, time on page, referral source
+          and page interactions. We use this information to improve the content, form placement and reading
+          experience.
+        </p>
+        <p>
+          Microsoft Clarity masks sensitive content by default. We do not intentionally provide analytics tools
+          with the email address or other personal information you enter in a form. You can restrict or delete
+          cookies through your browser settings.
         </p>
         <h2>Google advertising</h2>
         <p>

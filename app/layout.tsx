@@ -3,10 +3,12 @@ import { Footer } from "@/components/footer";
 import { GoogleAnalytics } from "@/components/google-analytics";
 import { Header } from "@/components/header";
 import { JsonLd } from "@/components/json-ld";
+import { MicrosoftClarity } from "@/components/microsoft-clarity";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 const gaId = process.env.NEXT_PUBLIC_GA_ID || "G-Z076ZYK89C";
+const clarityProjectId = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID || "ymevqfqwmk";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -70,6 +72,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           }}
         />
         {gaId ? <GoogleAnalytics measurementId={gaId} /> : null}
+        {clarityProjectId ? <MicrosoftClarity projectId={clarityProjectId} /> : null}
         <Header />
         <main>{children}</main>
         <Footer />
