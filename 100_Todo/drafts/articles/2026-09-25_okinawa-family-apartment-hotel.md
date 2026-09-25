@@ -138,4 +138,3 @@ Ala Mahaina 官網的 Deluxe 四床房為 63.88 平方公尺，最多 4 人，�
 本文不是實住心得。房型設備參考[東急 STAY 沖繩那霸官方客房頁](https://www.tokyustay.co.jp/hotel/ON/room/)、[HIYORI Ocean Resort Okinawa 官方客房頁](https://okinawa-hiyoriocean.jp/rooms/)與[Ala Mahaina Condo Hotel Deluxe 四床房官方頁](https://www.ala-mahaina.com/rooms/deluxe.php)。
 
 資料查核日：2026 年 9 月 25 日。房型、入住人數、兒童規則、清潔、早餐、停車與設備可能調整，訂房前請以飯店官網及實際方案頁為準。
-

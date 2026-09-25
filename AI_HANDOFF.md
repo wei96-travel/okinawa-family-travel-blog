@@ -9,6 +9,7 @@
 - 初查結論：泛用的「名護鳳梨園親子攻略」已被近期內容完整覆蓋，另有官方舊票價片段與現行票價並存，故保留研究紀錄但撤回草稿；票券候選改為 `Neo Park Okinawa`。住宿題避開 Top 10 清單，改寫「公寓式飯店還是度假飯店」的需求取捨。
 - 研究與完整初稿已完成：住宿稿 `100_Todo/drafts/articles/2026-09-25_okinawa-family-apartment-hotel.md`、票券稿 `100_Todo/drafts/articles/2026-09-25_neo-park-okinawa-family-guide.md`。內部連結目標均存在；文章閱讀元件已全域設定新分頁開啟。Neo Park 季節票價在 2026-09-27 結束，上線前必須重查 9/28 後的票價與小火車方案。
 - Codex 於 2026-09-25 多次以 `claude.cmd -p` 嘗試傳送去識別 bounded review，連最小 `CC_READY` 測試在 30 秒內也沒有輸出，程序均已中止，未取得 Claude Code 回覆。Claude Code 下次接手請只讀上述研究與草稿，優先審查：搜尋意圖重複、票價日期風險、未親訪敘述、分潤出口是否自然；不要直接移入 `content/blog/` 或發布。
+- 研究與草稿工作提交：`5b79104`。這是內部草稿提交，沒有新增或修改 `content/blog/`，不會觸發網站部署。格式清理與本筆提交編號另以後續交接提交記錄。
 
 ## 2026-09-25 Kit Creator 與郵件漏斗啟用（Codex；外部設定完成）
 
