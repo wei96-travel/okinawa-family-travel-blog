@@ -1,5 +1,13 @@
 # Okinawa Family Notes Live Handoff
 
+## 2026-09-25 Kit Creator 與郵件漏斗啟用（Codex；外部設定完成）
+
+- wei96 已在 Chrome 自行輸入付款資料並完成 Kit Creator 月繳升級；Codex 從 `Settings > Account & Billing` 驗證方案為 `Creator Monthly`、US$39／月、1,000 subscribers tier，下次扣款日為 2026-10-25。帳單頁提供 `Downgrade to Free`，本輪沒有自動取消、降級或更動付款資料。
+- Sequence `沖繩親子旅遊行前信｜25 天 5 封`（ID `2873685`）已從 Inactive 切換為 Active；五封信皆維持 Published，間隔為 3／4／5／6／7 天，即訂閱後第 3／7／12／18／25 天寄送。
+- Visual Automation `沖繩租車檢查表｜25 天 5 封行前信`（ID `2059222`）已從 Inactive 切換為 Active。入口仍只有 `沖繩租車證件檢查表`，接到上述五封 Sequence；啟用時總訂閱者為 0，因此沒有立即寄信，未來符合入口條件的新訂閱者才會進入。
+- 不把颱風應變卡或伴手禮回程打包卡硬接到這組租車起手的信件。若要自動培養這兩個入口，必須另做符合其訂閱動機的短序列並先由 wei96 看過內容。
+- Codex automation `檢查 Kit 成效與續費` 已啟用，2026-10-22 20:00（台灣時間）提醒並檢查真實訂閱、表單轉換、五封信寄送／開信／點擊、GA4 漏斗與分潤導流；排除站方測試後再建議續用或於 10-25 前降級，不會自動變更方案。
+
 ## 2026-09-25 Clarity 安裝（Codex；已部署並解除檔案占用）
 
 - 目標：為正式站安裝 Microsoft Clarity，專案 ID `ymevqfqwmk`，並補齊隱私權揭露與正式站驗證。
