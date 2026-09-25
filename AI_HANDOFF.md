@@ -1,5 +1,15 @@
 # Okinawa Family Notes Live Handoff
 
+## 2026-09-25 住宿與票券內容增長第一輪（Codex；草稿待 wei96 與 Claude Code 審閱）
+
+- wei96 已確認啟動「每週 2 篇高意圖新文＋1 篇舊文轉換優化」方向；票券與住宿維持同等優先，第一輪先做一個住宿決策題與一個票券／景點題的重複意圖、官方來源、分潤可用性與搜尋結果缺口檢查，再交完整草稿給 wei96 審稿。未經當次完整版本確認，不移入 `content/blog/`、不推送、不部署、不送索引。
+- Codex 本輪認領：`100_Todo/plans/2026-09-25-revenue-content-sprint.md`、`research/okinawa-family-apartment-hotel-2026-09-25.md`、`research/nago-pineapple-park-family-2026-09-25.md`、`research/neo-park-okinawa-family-2026-09-25.md`、`100_Todo/drafts/articles/2026-09-25_okinawa-family-apartment-hotel.md`、`100_Todo/drafts/articles/2026-09-25_neo-park-okinawa-family-guide.md` 與本段交接。Claude Code 請勿平行建立相同題目或修改這些檔案；可以只讀方式做候選題與風險第二審。
+- 保留現行實驗：`okinawa-zoo-museum-family-guide` 於 2026-10-05 前不動；兩篇伴手禮文章與其新表單於 2026-10-07 前不動；租車樞紐於 2026-10-21 前不動。英文區、Kit 流程與既有分潤連結也不在本輪範圍。
+- 第一輪只是候選驗證，不預設一定發兩篇。若官方資料、搜尋意圖或可追蹤分潤出口不足，候選必須撤回並換題，不能為了篇數硬寫。
+- 初查結論：泛用的「名護鳳梨園親子攻略」已被近期內容完整覆蓋，另有官方舊票價片段與現行票價並存，故保留研究紀錄但撤回草稿；票券候選改為 `Neo Park Okinawa`。住宿題避開 Top 10 清單，改寫「公寓式飯店還是度假飯店」的需求取捨。
+- 研究與完整初稿已完成：住宿稿 `100_Todo/drafts/articles/2026-09-25_okinawa-family-apartment-hotel.md`、票券稿 `100_Todo/drafts/articles/2026-09-25_neo-park-okinawa-family-guide.md`。內部連結目標均存在；文章閱讀元件已全域設定新分頁開啟。Neo Park 季節票價在 2026-09-27 結束，上線前必須重查 9/28 後的票價與小火車方案。
+- Codex 於 2026-09-25 多次以 `claude.cmd -p` 嘗試傳送去識別 bounded review，連最小 `CC_READY` 測試在 30 秒內也沒有輸出，程序均已中止，未取得 Claude Code 回覆。Claude Code 下次接手請只讀上述研究與草稿，優先審查：搜尋意圖重複、票價日期風險、未親訪敘述、分潤出口是否自然；不要直接移入 `content/blog/` 或發布。
+
 ## 2026-09-25 Kit Creator 與郵件漏斗啟用（Codex；外部設定完成）
 
 - wei96 已在 Chrome 自行輸入付款資料並完成 Kit Creator 月繳升級；Codex 從 `Settings > Account & Billing` 驗證方案為 `Creator Monthly`、US$39／月、1,000 subscribers tier，下次扣款日為 2026-10-25。帳單頁提供 `Downgrade to Free`，本輪沒有自動取消、降級或更動付款資料。
