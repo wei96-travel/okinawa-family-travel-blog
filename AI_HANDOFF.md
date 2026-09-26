@@ -1584,3 +1584,4 @@ Klook 聯盟後台本身是支援租車的（My Ads → Text Links → Car renta
 - `content:audit:strict` 通過（59 篇、0 重大問題、25 個既有口吻提醒）；Next.js production build 通過（92 個靜態頁）；390px 手機驗證三篇按鈕皆寬 350px、無水平溢位，並保有 `target=_blank` 與 `rel=sponsored noreferrer noopener`。
 - Claude Code 以去識別摘要做限定第二審，結論可發布。其兩個疑點已核實：CTA 使用 trim 後的完整正則與聯盟網域辨識，不是 includes；一般引用區塊實頁仍是 blockquote 且沒有 `decision_cta`。
 - 量測以正式部署日為切點；部署當天不列入前後基準。比較前 7 個完整日與後 7 個完整日，後段用 `link_placement=decision_cta`、`content_group=blog_article` 篩選。三篇同時改版沒有對照組，只能判讀前後趨勢，不宣稱因果。
+- 2026-09-26 已推送並完成正式環境驗收：三篇均為 HTTP 200，390px 無水平溢位，圖片載入正常、canonical 正確、sitemap 仍包含三個既有網址；每頁各有 1 個 `decision_cta`，連結保有 `target=_blank` 與 `rel=sponsored noreferrer noopener`。既有網址不重送索引。
