@@ -61,7 +61,9 @@ coverCaption: "把動物園與室內館排在同一天，親子行程就多一�
 
 比價錢更實際的是付款方式：園方寫明**東第 2 閘門的入園費只收現金**。走這個閘門、身上又沒有日幣現鈔的話，先在線上買好比較保險。Klook 的說明是當天向現場工作人員出示電子憑證入場，憑證由工作人員操作。
 
-要先看可預訂日期和方案：[Klook：沖繩兒童王國門票](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1443707&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F41471-okinawa-zoo-museum-ticket%2F)（合作連結）。KKday 那一張這裡沒有放連結，價格兩邊你可以自己比。
+先在線上看可預訂日期和方案，再依自己的日期比較價格與取消規則。KKday 這張票目前沒有放合作連結，兩邊價格仍建議自行比較。
+
+> [查看 Klook 沖繩兒童王國門票日期與方案](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1443707&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F41471-okinawa-zoo-museum-ticket%2F)
 
 ## 推車、哺乳與停車：先看見「走路成本」
 

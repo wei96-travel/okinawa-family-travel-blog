@@ -32,6 +32,26 @@ function getExternalLinkRel(href: string) {
   return getAffiliateNetwork(href) ? "sponsored noreferrer" : "noreferrer";
 }
 
+function getAffiliateCta(text: string) {
+  const match = text.trim().match(/^\[([^\]]+)\]\((https?:\/\/[^)]+)\)$/);
+
+  if (!match) {
+    return null;
+  }
+
+  const network = getAffiliateNetwork(match[2]);
+
+  if (!network) {
+    return null;
+  }
+
+  return {
+    href: match[2],
+    label: match[1],
+    network
+  };
+}
+
 function renderInline(text: string) {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
 
@@ -262,7 +282,28 @@ export function MarkdownContent({ content, protectedImagePaths = [] }: MarkdownC
         }
 
         if (firstLine.startsWith("> ")) {
-          return <blockquote key={index}>{renderInline(block.replace(/^> /gm, ""))}</blockquote>;
+          const quote = block.replace(/^> /gm, "");
+          const affiliateCta = getAffiliateCta(quote);
+
+          if (affiliateCta) {
+            return (
+              <div className="not-prose my-6" key={index}>
+                <TrackedAffiliateLink
+                  contentGroup="blog_article"
+                  href={affiliateCta.href}
+                  itemName={affiliateCta.label}
+                  network={affiliateCta.network}
+                  placement="decision_cta"
+                  rel={getExternalLinkRel(affiliateCta.href)}
+                  variant="cta"
+                >
+                  {affiliateCta.label}
+                </TrackedAffiliateLink>
+              </div>
+            );
+          }
+
+          return <blockquote key={index}>{renderInline(quote)}</blockquote>;
         }
 
         return <p key={index}>{renderInline(block.replace(/\n/g, " "))}</p>;

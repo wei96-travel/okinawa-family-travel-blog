@@ -38,7 +38,9 @@ coverLicenseUrl: "https://unsplash.com/license"
 
 目前已整理 Klook、Trip.com 與官方票價的同票種比較，也附上實際購票畫面。還在比較哪裡買，先看[美麗海水族館門票怎麼買？官方、Klook、Trip.com 票價比較](/blog/churaumi-aquarium-ticket-price-guide)。行程還沒定，就先不用急著買不可退款的票。
 
-日期已經定了、只想確認當天票價的話，可以直接開 [Trip.com 的美麗海水族館門票頁](https://tw.trip.com/things-to-do/detail/50899757/?locale=zh-TW&curr=TWD&Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_family_time&trip_sub3=D19767295)。票價會隨日期與活動浮動，頁面上的數字以付款頁顯示的為準；同一頁還有 17:00 後入場票與景點套票，票種不同不要直接比價。
+日期已經定了、只想確認當天票價，可以開票券頁查看。票價會隨日期與活動浮動，頁面上的數字以付款頁顯示的為準；同一頁還有 17:00 後入場票與景點套票，票種不同不要直接比價。
+
+> [查看 Trip.com 美麗海水族館當日票價](https://tw.trip.com/things-to-do/detail/50899757/?locale=zh-TW&curr=TWD&Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_family_time&trip_sub3=D19767295)
 
 ![美麗海水族館停留時間四種抓法：官方平均一個半小時、親子本館兩到三小時、加周邊設施半天、那霸來回一天](/images/articles/churaumi-aquarium-family-time/churaumi-time-options.svg "本站自製資訊圖：官方平均時間不等於親子行程總時間")
 

@@ -10,6 +10,7 @@ type TrackedAffiliateLinkProps = {
   network: "Klook" | "Shopee" | "Trip.com";
   placement: string;
   rel: string;
+  variant?: "inline" | "cta";
 };
 
 export function TrackedAffiliateLink({
@@ -19,7 +20,8 @@ export function TrackedAffiliateLink({
   itemName,
   network,
   placement,
-  rel
+  rel,
+  variant = "inline"
 }: TrackedAffiliateLinkProps) {
   function trackAffiliateClick() {
     window.gtag?.("event", "affiliate_click", {
@@ -34,7 +36,18 @@ export function TrackedAffiliateLink({
   }
 
   return (
-    <a href={href} onClick={trackAffiliateClick} rel={`${rel} noopener`} target="_blank">
+    <a
+      className={
+        variant === "cta"
+          ? "inline-flex min-h-11 w-full max-w-full items-center justify-center whitespace-normal rounded-md bg-[#694624] px-5 py-3 text-center text-sm font-semibold leading-6 !text-white !no-underline transition hover:bg-[#543719] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#694624] sm:w-auto"
+          : undefined
+      }
+      data-affiliate-placement={placement}
+      href={href}
+      onClick={trackAffiliateClick}
+      rel={`${rel} noopener`}
+      target="_blank"
+    >
       {children}
     </a>
   );
