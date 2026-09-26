@@ -16,7 +16,7 @@
 
 | 頁面 | 到什麼時候 | 為什麼 |
 | :-- | :-- | :-- |
-| `okinawa-zoo-museum-family-guide` | 2026-10-05 | 分潤出口單一變因測試中 |
+| `okinawa-zoo-museum-family-guide` | 2026-09-26 已結束 | wei96 已同意三篇改用 `decision_cta`；舊單一連結實驗於新版上線日截止 |
 | `okinawa-souvenir-packing-guide`、`okinawa-souvenir-customs-taiwan` 與其新表單 | 2026-10-07 | 誘餌配對測試中 |
 | `okinawa-rental-car-family-guide` | 2026-10-21 | 身分修正（去重複＋錨文字統一）測試中 |
 
@@ -1576,3 +1576,11 @@ Klook 聯盟後台本身是支援租車的（My Ads → Text Links → Car renta
 - **第一次關鍵字提案的 301 個只讀了 9 個。** 我判斷不必補讀（那是租車／行程／飯店／travel 的擴展，`okinawa with kids` 當時已被系統移除、不參與擴展），**但這是判斷不是驗證**。
 - **英文 SERP 只查了三個查詢**（租車、水族館、親子行程），未涵蓋全部有量詞。
 - 內容缺口仍在：上網與付錢（網卡／eSIM／換匯 各 0 篇）、母乳與擠奶（0 篇）。**但策略上不建議現在寫長尾文**——54 篇長尾換到 699 點擊已經證明再加一篇不會改變什麼。
+
+## 2026-09-26 三篇既有合作連結改為決策 CTA（Codex）
+
+- wei96 明確同意三篇一起調整；工作提交 `0c3686f` 修改 `okinawa-car-seat-rental-guide`、`okinawa-zoo-museum-family-guide`、`churaumi-aquarium-family-time`，各自只把原有的一個合作連結改成明確決策按鈕，沒有增加或替換連結。
+- 共用渲染只在 blockquote 內容完整等於一個已辨識合作連結時產生 CTA；GA4 仍送 `affiliate_click`，並以 `link_placement=decision_cta` 區分。一般 blockquote 實頁回歸通過，沒有誤判。
+- `content:audit:strict` 通過（59 篇、0 重大問題、25 個既有口吻提醒）；Next.js production build 通過（92 個靜態頁）；390px 手機驗證三篇按鈕皆寬 350px、無水平溢位，並保有 `target=_blank` 與 `rel=sponsored noreferrer noopener`。
+- Claude Code 以去識別摘要做限定第二審，結論可發布。其兩個疑點已核實：CTA 使用 trim 後的完整正則與聯盟網域辨識，不是 includes；一般引用區塊實頁仍是 blockquote 且沒有 `decision_cta`。
+- 量測以正式部署日為切點；部署當天不列入前後基準。比較前 7 個完整日與後 7 個完整日，後段用 `link_placement=decision_cta`、`content_group=blog_article` 篩選。三篇同時改版沒有對照組，只能判讀前後趨勢，不宣稱因果。
