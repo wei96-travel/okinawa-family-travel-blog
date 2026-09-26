@@ -59,6 +59,14 @@ tags: ["瀨長島親子", "瀨長島Umikaji Terrace", "沖繩最後一天", "那
 
 夕陽時間會隨季節變動，天候也不保證看得到。不要為了拍照讓已經累的孩子多等一兩個小時；提早離開不算浪費。
 
+## 要不要住一晚？大多數家庭不用
+
+只想看飛機、吃飯或逛 Umikaji Terrace，不需要特地住在島上。瀨長島離那霸與機場都近，安排 1～3 小時通常就能完成主要目的。
+
+如果想把夕陽、溫泉和隔天早餐拆開，不想在離境日前趕著完成，住一晚才有意義。琉球溫泉瀨長島飯店就在島上，也能使用龍神之湯；訂房前仍要依自己的日期確認房型人數、兒童入住、餐食、總價與取消規則。
+
+[查看琉球溫泉瀨長島飯店同日期的房型與總價](https://tw.trip.com/hotels/tomigusuku-hotel-detail-1461829/ryukyu-onsen-senagajima-hotel/?Allianceid=8075670&SID=305605448&trip_sub1=blog_senaga_ryukyu_onsen&trip_sub3=D19984960)
+
 ## 推車、換尿布與哺乳：先知道這四件事
 
 ### 現場沒有哺乳室
@@ -137,6 +145,8 @@ Umikaji Terrace 使用者可免費停車，但官方同時提醒停車位數量�
 
 不要再加一整段南部景點清單。孩子在水族館已經走累時，瀨長島就縮成吃飯，不必證明整條路線都完成。水族館本身需要多久，可看[DMM Kariyushi 水族館親子攻略](/blog/dmm-kariyushi-aquarium-family-guide)。
 
+日期已確定、準備把 DMM 排進同一天時，可以先到 [Klook 查看 DMM Kariyushi 水族館當日票種與價格](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1457088&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F55241-dmm-kariyushi-aquarium-ticket-okinawa%2F)。頁面目前分淡季、旺季與 17:00 後入場等方案，兌換與退改條件也不同；不要只看最低顯示價格，選定日期後再核對實際票種。
+
 ## 下雨天值得去嗎？
 
 小雨可以去吃飯或進商店，但不建議把瀨長島當成主要雨天備案。不同店鋪、停車場與觀景位置之間仍有戶外段，風大時撐傘也不一定舒服。
@@ -179,6 +189,7 @@ Umikaji Terrace 使用者可免費停車，但位數有限。最近停車場滿�
 - [瀨長島 Umikaji Terrace 交通、營業與停車](https://www.umikajiterrace.com/accessguide/)
 - [瀨長島 Umikaji Terrace 官方 FAQ](https://www.umikajiterrace.com/qa/)
 - [沖繩官方旅遊指南：瀨長島](https://visitokinawajapan.com/zh-hant/destinations/okinawa-main-island/southern-okinawa-main-island/senaga-island/)
+- [琉球溫泉瀨長島飯店：龍神之湯](https://www.resorts.co.jp/senaga/tw/ryujinhotspring)
 - [東京巴士：2026 年那霸機場乘車處變更](https://www.tokyobus.jp/okinawa/news/news-762/)
 - [東京巴士：Umikaji Liner](https://www.tokyobus.jp/okinawa/one-city-bus01/)
 - [東京巴士運行狀態](https://www.tokyobus.jp/okinawa/operation-status/)

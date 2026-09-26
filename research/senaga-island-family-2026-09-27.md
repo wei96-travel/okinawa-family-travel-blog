@@ -76,6 +76,35 @@
 - 2026-09-27 搜尋結果已有 Klook、專門 eSIM 比較站與具收訊實測的旅遊內容，涵蓋方案、電信網、離島、流量與設定。
 - 本站沒有沖繩各區收訊實測，若只重述商品頁，無法建立可信差異；本輪不寫。
 
+## 分潤落點與後台證據
+
+### DMM 門票：保留一個 Klook 入口
+
+- 只放在「可以和 DMM 水族館排同一天嗎？」段落，不在首屏或交通段重複出現。
+- 2026-09-27 已用 Klook 聯盟後台建立獨立標籤 `blog_senaga_dmm_ticket`，Ad ID 為 `1457088`：
+  `https://affiliate.klook.com/redirect?aid=128859&aff_adid=1457088&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F55241-dmm-kariyushi-aquarium-ticket-okinawa%2F`
+- Klook 公開頁目前有淡季、旺季與 17:00 後入場等不同方案，且頁面同時列出「有效期 60 天」「預訂日起 90 天內可兌換」「兌換後限當日入場」。正文不可把這三段濃縮成單一固定規則，只提醒讀者依出發日核對方案、兌換與退改條件。
+- wei96 於 2026-09-27 回覆「可」後，連結已放進草稿；沒有自行點擊測試，避免把站方測試計入聯盟點擊。
+
+### 瀨長島住宿：只保留一個 Trip.com 入口
+
+- 住宿入口只承接「想把溫泉、夕陽和早餐拆開，不想塞在離境日前」的讀者；一般停留一至三小時的人不需要看到第二個住宿 CTA。
+- 選擇琉球溫泉瀨長島飯店，是因為飯店、龍神之湯與 Umikaji Terrace 在同一座島上，與本文的半天／溫泉情境直接相符；不再並列第二間飯店。
+- 2026-09-27 已用 Trip.com 聯盟後台建立 `trip_sub1=blog_senaga_ryukyu_onsen`。第一次預設語言為 English，產生 `www.trip.com`；已切換為「繁體中文（台灣）」後重新產生下列 `tw.trip.com` 版本：
+  `https://tw.trip.com/hotels/tomigusuku-hotel-detail-1461829/ryukyu-onsen-senagajima-hotel/?Allianceid=8075670&SID=305605448&trip_sub1=blog_senaga_ryukyu_onsen&trip_sub3=D19984960`
+- wei96 於 2026-09-27 回覆「可」後，台灣繁中連結已放進草稿；沒有自行點擊測試。正文未寫固定房價、一定有房或一定可取消，只讓讀者查看自己日期的房型、總價、兒童入住與取消條件。
+
+### 使用邊界
+
+- 整篇最多兩個合作出口：一個 DMM 門票、一個住宿；不加入 eSIM、伴手禮或一日遊湊數。
+- 正文仍須先完成使用者精確版本確認。確認前只保存追蹤證據，不移入 `content/blog/`、不發布。
+- 若最後審稿發現住宿段落為了放連結而顯得突兀，寧可只保留 DMM 門票，不為了兩個平台都出現而犧牲閱讀自然度。
+
+### CC 第二審狀態
+
+- 2026-09-27 已把新增的住宿與 DMM 段落、以及不含帳號或個資的公開來源摘要交給 Claude Code 做唯讀複審。
+- 程序連續 90 秒沒有任何輸出後中止，沒有取得審查結論；本輪不可記成 CC 通過。發布前仍須再補一次第二審，或如實把這項阻擋保留在交接紀錄。
+
 ## 來源
 
 - Umikaji Terrace 交通、營業、停車與公車：https://www.umikajiterrace.com/accessguide/
@@ -84,6 +113,8 @@
 - 東京巴士機場乘車處變更：https://www.tokyobus.jp/okinawa/news/news-762/
 - 東京巴士 Umikaji Liner：https://www.tokyobus.jp/okinawa/one-city-bus01/
 - 東京巴士運行狀態：https://www.tokyobus.jp/okinawa/operation-status/
+- Klook DMM Kariyushi 水族館門票：https://www.klook.com/zh-TW/activity/55241-dmm-kariyushi-aquarium-ticket-okinawa/
+- Trip.com 琉球溫泉瀨長島飯店：https://tw.trip.com/hotels/tomigusuku-hotel-detail-1461829/ryukyu-onsen-senagajima-hotel/
 
 ## 發布前待辦
 
