@@ -32,6 +32,21 @@
 - **Search Console 的網址檢查無法用 Claude 自動化送出。** 2026-09-12、09-14、09-23 三次確認：`type`／`form_input`／Enter／深層連結／座標換算全部失敗（值會被 React 重設）。要送索引就交 Codex 或請 wei96 手動。**先查 sitemap 的 lastmod**——網址在 sitemap 且 lastmod 是新的，Google 會自己回來抓，送索引只是加快不是必要。
 - **Chrome 視窗縮放會漂移**（innerWidth 1920 對上截圖框 1568），直接用截圖座標點擊會系統性偏移。做法：JS 取 `getBoundingClientRect()` 再乘 `截圖框寬 / innerWidth`。這解掉了 Kit 後台大部分點不動的問題，但**解不掉上面那條 GSC**。
 
+## 2026-09-26 DINO 恐龍公園文章發布中（Codex；使用者已核准）
+
+- 本輪 Codex 認領 `research/okinawa-dino-park-family-2026-09-26.md`、`100_Todo/drafts/articles/2026-09-26_okinawa-dino-park-family-guide.md`、`content/blog/okinawa-dino-park-family-guide.md`、DINO 封面與內容計畫對應項目。
+- 已通過開稿門檻：Keyword Planner 台灣／繁中／過去 12 個月 `沖繩 dino 恐龍 公園` 為 100～1,000／月，站內無同題專文，Klook 有單張門票可承接既有分潤。
+- 重要風險：Klook FunPASS 行銷文字稱包含恐龍園，但同頁現行適用項目清單沒有 DINO。未取得現行明細證據前，不得宣稱套票可用。
+- 已完成自製封面 `public/images/articles/okinawa-dino-park-family-guide/okinawa-dino-park-cover.webp`（1600×900），frontmatter 清楚標註為 AI 情境圖、非園區實景。
+- 已建立並實測本文唯一 Klook 追蹤連結：`aid=128859`、`aff_adid=1456847`，正確轉到活動 `32874`。不放 FunPASS 連結。
+- 官方已確認：路線約 30～40 分鐘、80 隻以上恐龍、9:00～18:00（最晚 17:30）、成人 1,000／4～15 歲 600 日圓；推車、雨天與森林步道無障礙範圍尚無官方明文。
+- 完整草稿已建立，定位為「只玩 40 分鐘值不值得」，不是一般景點照片遊記；六條站內連結目標均存在，未放普通 Klook 連結。
+- 已取得 CC 去識別化第二審。採納停留時間邊界、單票決策位置與推車／雨天風險；不採納「FunPASS 目前不能用」與用固定年齡判斷適合度，因證據不足。理由已記入研究筆記。
+- wei96 已在目前對話審閱包含封面與追蹤連結的完整版本，並明確回覆「可以」。同一版本已移入 `content/blog/okinawa-dino-park-family-guide.md`；接著執行嚴格內容稽核、建置、推送、正式站手機驗收與一次索引申請。
+- `npm run build` 已通過：內容稽核 60 篇、重大問題 0、口吻提醒 26；Next.js 93 個靜態頁完成，新路由 `/blog/okinawa-dino-park-family-guide` 已產生。
+- 390×844 本機手機版已驗證：封面 1600×900 正常載入、頁面無整體水平溢出、合作揭露存在；Klook CTA、代表性站內連結與官方外連都以新分頁開啟，CTA 保留 `rel="sponsored noreferrer noopener"`；canonical 正確指向正式網址。
+- 正式內容提交為 `6153f24`（`Publish DINO park family guide`），只包含 DINO 草稿、正式文章、研究筆記、封面與內容計畫；其他工作區變更未納入。待推送與正式站驗收完成後，再補正式網址與索引結果。
+
 ## 2026-09-26 第二獨立品牌驗證方案（Codex；只完成研究與規劃，未購買／未上線）
 
 - wei96 明確要求把它當成第二個獨立事業，不併入沖繩站。Codex 已用公開資料比較需求、競爭缺口、第一手證據、分潤條件與工具成本，正式方案在 `100_Todo/plans/2026-09-26-second-tool-site-plan.md`。
