@@ -1,5 +1,14 @@
 # Okinawa Family Notes Live Handoff
 
+## 2026-09-27 瀨長島親子攻略草稿中（Codex）
+
+- Active owner：Codex。只認領新增檔案 `research/senaga-island-family-2026-09-27.md`、`100_Todo/drafts/articles/2026-09-27_senaga-island-family-guide.md` 與本段交接；不修改其他工作階段的 Neo Park、第二品牌或電子報檔案。
+- 選題依據：既有 Keyword Planner 紀錄顯示 `瀨長島` 為 1 萬～10 萬／月；2026-09-27 實查搜尋結果後，首頁有個人旅遊文章與官方頁，不是只有 OTA。現有內容多處理美食、拍照與南部一日遊，本站改回答親子停留時間、推車／尿布、停車滿位與抵達／離境日取捨。
+- eSIM 候選同日撤回：雖有 1,000～1 萬／月與高商業意圖，但搜尋結果已由專門 eSIM 網站與平台以方案比較、收訊實測占據；本站沒有第一手收訊測試，現在寫沒有足夠差異。
+- 研究筆記與 186 行完整草稿已完成。事實輪核對官方營業、停車、公車、哺乳／尿布與行李資訊；讀者輪刪除模板式開頭並保留明確取捨；交付輪確認 6 條站內連結都存在、合作追蹤網址為 0、`git diff --check` 通過。
+- 已把完整稿交給 Claude Code 做只讀第二審；登入狀態正常，但程序連續 90 秒沒有任何輸出後中止。本輪不可記成 CC 通過，發布前仍需補第二審或如實記錄阻擋。
+- 本輪只保存研究與完整草稿，不移入 `content/blog/`、不做封面、不放分潤連結、不發布。下一步是把完整版本交 wei96 審稿；取得精確版本確認後才進入封面、正式文章、稽核與建置。
+
 ## 2026-09-27 沖繩親子公園比較文研究中（Codex）
 
 - Active owner：Codex。只認領新增檔案 `research/okinawa-family-park-comparison-2026-09-27.md`、`100_Todo/drafts/articles/2026-09-27_okinawa-family-park-comparison.md` 與本段交接；不修改目前工作區中的 Neo Park 草稿、研究筆記、`AI_COLLABORATION.md` 或第二品牌／GetResponse 計畫。
