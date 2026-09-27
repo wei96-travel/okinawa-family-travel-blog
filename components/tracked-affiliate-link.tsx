@@ -1,13 +1,14 @@
 "use client";
 
 import type { ReactNode } from "react";
+import type { AffiliateNetwork } from "@/lib/affiliate";
 
 type TrackedAffiliateLinkProps = {
   children: ReactNode;
   contentGroup: string;
   href: string;
   itemName: string;
-  network: "Klook" | "Shopee" | "Trip.com";
+  network: AffiliateNetwork;
   placement: string;
   rel: string;
   variant?: "inline" | "cta";
