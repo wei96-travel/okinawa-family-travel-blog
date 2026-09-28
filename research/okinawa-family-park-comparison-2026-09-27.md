@@ -81,6 +81,14 @@
 - 不放新的 Klook、Trip.com 或其他合作連結。
 - 不捏造親訪、孩子反應、排隊時間或雨天實況。
 
+## 實景照片授權紀錄
+
+- Neo Park 紅鶴：pelican，2011-08-17，Wikimedia Commons，CC BY-SA 2.0。原始檔：https://commons.wikimedia.org/wiki/File:Neopark_Okinawa%2C_Japan_%286060822130%29.jpg
+- 沖繩兒童王國入口：Abasaa，2012-07-07，Wikimedia Commons，Public Domain。原始檔：https://commons.wikimedia.org/wiki/File:Entrance_to_Okinawa_Zoo_%26_Museum.JPG
+- 名護鳳梨園植物園與鳳梨車：Laika ac，2016-12-22，Wikimedia Commons，CC BY-SA 2.0。原始檔：https://commons.wikimedia.org/wiki/File:Nago_Pineapple_Park_%2832183097142%29.jpg
+- 三張圖片僅等比例縮小並轉為 WebP，沒有裁切或改變內容。兩張 CC BY-SA 2.0 衍生圖沿用相同授權，文章內逐張標示作者、原始檔頁、授權連結與修改方式。
+- DINO 恐龍公園尚未找到同時符合「園區真實照片」與「授權可明確重用」的素材，因此本版不放照片，也不以一般恐龍圖冒充園區實景。
+
 ## 發布前待辦
 
 1. 已於 2026-09-28 重新讀 Neo Park 官網票價頁與官方預約頁，確認入園價、日期與四種套票內容。

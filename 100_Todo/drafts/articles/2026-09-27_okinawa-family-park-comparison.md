@@ -46,6 +46,10 @@ DINO 恐龍公園的官方路線約 30～40 分鐘，森林步道裡有 80 隻�
 
 Neo Park 位在名護，園方介紹約有 100 種動物，園區另有全長約 1.2 公里的輕便鐵道、互動廣場與鳥類飛行表演。孩子若期待餵食、摸動物或搭火車，這裡比 DINO 更符合期待。
 
+![Neo Park Okinawa 園內水池旁的紅鶴實景](/images/articles/okinawa-family-park-comparison/neo-park-flamingos.webp "Neo Park Okinawa 園內紅鶴實景，2011 年拍攝。")
+
+照片來源與授權：[pelican／Wikimedia Commons 原始檔頁](https://commons.wikimedia.org/wiki/File:Neopark_Okinawa%2C_Japan_%286060822130%29.jpg)，[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)。本站僅等比例縮小並轉為 WebP，衍生圖沿用相同授權。
+
 要注意的是，小火車與互動廣場都不是一般入園票自動包含的項目。四歲以上進互動廣場要另外付費，小火車也有自己的票價與班次。先決定孩子最期待哪一項，再選票，比到了現場才發現時間不夠更穩。
 
 2026 年 9 月 28 日查核時，現場一般入園價是 13 歲以上 1,600 日圓、4～12 歲 800 日圓、3 歲以下免費；官方線上純入園預約價則是 1,500／700 日圓。若想加小火車或互動廣場，還有另外三種組合票，詳細差異整理在[2026 沖繩 Neo Park 親子攻略](/blog/neo-park-okinawa-family-guide)。
@@ -54,6 +58,10 @@ Neo Park 位在名護，園方介紹約有 100 種動物，園區另有全長約
 
 沖繩兒童王國位在沖繩市，不在名護。園內可分成動物園、室內的神奇博物館與公園區，適合把一天拆成戶外、休息、室內三段。
 
+![沖繩兒童王國入口拱門實景](/images/articles/okinawa-family-park-comparison/okinawa-zoo-entrance.webp "沖繩兒童王國入口實景，2012 年拍攝；入口外觀可能已更新。")
+
+照片來源：[Abasaa／Wikimedia Commons 原始檔頁](https://commons.wikimedia.org/wiki/File:Entrance_to_Okinawa_Zoo_%26_Museum.JPG)，作者已釋出為 [Public Domain](https://commons.wikimedia.org/wiki/File:Entrance_to_Okinawa_Zoo_%26_Museum.JPG#Licensing)。本站僅等比例縮小並轉為 WebP；照片拍攝於 2012 年，入口外觀可能已更新。
+
 園方目前的一般門票是 16 歲以上 1,000 日圓、15 歲以下免費，而且當日可再入園。孩子需要午睡時，中途離開再回來的彈性，比硬把三區一次走完實用。
 
 但「有室內館」不代表整座園區都是雨天備案。停車、入口、動物區與不同設施之間仍要走戶外動線。想知道只看動物、加神奇博物館各要留多久，可看[沖繩兒童王國可以玩多久？](/blog/okinawa-zoo-museum-family-guide)。
@@ -61,6 +69,10 @@ Neo Park 位在名護，園方介紹約有 100 種動物，園區另有全長約
 ### 不想走太多，還想吃甜點、買東西：名護鳳梨園較輕鬆
 
 名護鳳梨園以自動駕駛鳳梨車、熱帶植物、餐飲、甜點和伴手禮為主。官方建議從搭乘鳳梨車起至少抓 45 分鐘；帶孩子用餐、停下拍照或逛商店，實際可抓 1～2 小時。
+
+![名護鳳梨園植物園內的黃色鳳梨車實景](/images/articles/okinawa-family-park-comparison/nago-pineapple-park.webp "名護鳳梨園植物園與鳳梨車實景，2016 年拍攝。")
+
+照片來源與授權：[Laika ac／Wikimedia Commons 原始檔頁](https://commons.wikimedia.org/wiki/File:Nago_Pineapple_Park_%2832183097142%29.jpg)，[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)。本站僅等比例縮小並轉為 WebP，衍生圖沿用相同授權。
 
 官方「交通與設施」頁目前列 16 歲以上 1,500 日圓、4～15 歲 800 日圓、未滿 4 歲免費。官網首頁仍留有 850／600／450 日圓的舊票價區塊，本文不採那一組數字，實際購票也應以設施頁與選定日期顯示為準。
 
@@ -171,5 +183,8 @@ Neo Park 在名護，主題是大範圍熱帶動植物、小火車和近距離�
 - [沖繩兒童王國營業時間與票價](https://www.okzm.jp/fee/)
 - [沖繩兒童王國交通與設施](https://www.okzm.jp/access/)
 - [名護鳳梨園交通、營業與現行票價](https://www.nagopine.com/access.html)
+- [Neo Park 紅鶴實景照片原始檔與授權](https://commons.wikimedia.org/wiki/File:Neopark_Okinawa%2C_Japan_%286060822130%29.jpg)
+- [沖繩兒童王國入口實景照片原始檔與授權](https://commons.wikimedia.org/wiki/File:Entrance_to_Okinawa_Zoo_%26_Museum.JPG)
+- [名護鳳梨園實景照片原始檔與授權](https://commons.wikimedia.org/wiki/File:Nago_Pineapple_Park_%2832183097142%29.jpg)
 
 資料查核日：2026 年 9 月 28 日。四個園區的票價與營業資訊均已重新核對官方頁面；票價、營業、體驗、班次與天候措施仍可能調整，購票前及出發當天請再看園方公告。
