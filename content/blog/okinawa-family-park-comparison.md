@@ -17,6 +17,8 @@ coverCaption: "本站 AI 自製比較情境圖，將恐龍、動物、小火車�
 
 本文不是親訪心得。營業時間、票價與設施以各園區官方資料為準；停留時間與行程取捨是本站依園區規模提出的保守建議。
 
+本文含合作連結｜[合作說明](/affiliate-disclosure)
+
 ## 先看結論：四個公園各適合誰？
 
 | 園區 | 最適合的家庭 | 建議先留多久 | 最大取捨 |
@@ -43,6 +45,8 @@ DINO 恐龍公園的官方路線約 30～40 分鐘，森林步道裡有 80 隻�
 限制也很清楚：它不適合拿來撐一整天。孩子怕大型模型或聲音、需要全程坐推車，或從那霸只為這一站往返，就要把移動成本一起算進去。
 
 完整的步道、雨天與推車風險整理在[2026 沖繩 DINO 恐龍公園親子攻略](/blog/okinawa-dino-park-family-guide)。
+
+> [查看 Klook DINO 恐龍公園門票日期與方案](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1461210&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F32874-dino-park-yanbaru-subtropical-forest-ticket-okinawa%2F)
 
 ### 想看活體動物、搭火車：Neo Park 比較對題
 
