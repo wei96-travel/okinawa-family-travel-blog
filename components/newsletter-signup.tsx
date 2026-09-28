@@ -79,6 +79,20 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
       window.gtag?.("event", "newsletter_signup_submit", eventParameters);
     };
 
+    const localizeEmbeddedForm = () => {
+      const emailInput = container.querySelector<HTMLInputElement>('input[name="email_address"]');
+      const submitLabel = container.querySelector<HTMLElement>('[data-element="submit"] > span');
+
+      if (emailInput) {
+        emailInput.setAttribute("aria-label", "你的 Email");
+        emailInput.setAttribute("placeholder", "你的 Email");
+      }
+
+      if (submitLabel?.textContent?.trim() === "Subscribe") {
+        submitLabel.textContent = "立即免費取得";
+      }
+    };
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (!entry?.isIntersecting || hasTrackedView.current) return;
@@ -93,6 +107,11 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
     observer.observe(section);
     container.addEventListener("submit", trackSubmit, true);
 
+    // Kit 以外部指令碼延後插入表單，監看插入時機後只替換介面文字，不改送出端點或驗證流程。
+    const formObserver = new MutationObserver(localizeEmbeddedForm);
+    formObserver.observe(container, { childList: true, subtree: true });
+    localizeEmbeddedForm();
+
     if (!container.querySelector("script")) {
       const script = document.createElement("script");
       script.async = true;
@@ -103,6 +122,7 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
 
     return () => {
       observer.disconnect();
+      formObserver.disconnect();
       container.removeEventListener("submit", trackSubmit, true);
     };
   }, [spacing, offer, config.formUid]);
