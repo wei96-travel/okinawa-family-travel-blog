@@ -89,9 +89,9 @@ export default function HomePage() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
                   className="rounded-md bg-[#171717] px-5 py-3 text-sm font-bold !text-white shadow-sm transition hover:bg-black"
-                  href="/blog/first-okinawa-where-to-stay"
+                  href="/start"
                 >
-                  第一次去，從這裡開始
+                  開始規劃這趟旅行
                 </Link>
                 <Link
                   className="rounded-md border border-[#77bbb4] bg-white/90 px-5 py-3 text-sm font-bold text-[#126570] transition hover:bg-white"

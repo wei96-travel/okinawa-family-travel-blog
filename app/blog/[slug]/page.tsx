@@ -238,6 +238,18 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
       ) : null}
       <MarkdownContent content={post.content} protectedImagePaths={protectedOriginalImagePaths} />
+      <section className="mt-12 border-y border-[#eadfce] py-7 sm:flex sm:items-center sm:justify-between sm:gap-8">
+        <div>
+          <p className="text-sm font-semibold text-[#9a6b43]">接下來要做什麼？</p>
+          <h2 className="mt-2 text-xl font-bold text-[#34302b]">依你現在卡住的地方，選下一步</h2>
+        </div>
+        <Link
+          className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4 sm:mt-0"
+          href="/start"
+        >
+          回到旅行規劃入口
+        </Link>
+      </section>
       <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} />
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 

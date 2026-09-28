@@ -55,6 +55,12 @@ export default function BlogPage() {
             <p className="mt-4 text-lg leading-9 text-[#5f594f]">
               這裡不是景點清單，而是一條給新手家庭的閱讀路線。先決定住哪裡，再排天數、交通和雨天備案。
             </p>
+            <Link
+              className="mt-5 inline-flex text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4"
+              href="/start"
+            >
+              還不知道該先看哪篇？從規劃入口開始
+            </Link>
           </div>
         </div>
       </section>
