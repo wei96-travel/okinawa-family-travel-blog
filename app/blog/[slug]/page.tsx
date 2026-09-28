@@ -11,7 +11,7 @@ import { ProtectedOriginalImage } from "@/components/protected-original-image";
 import { ReadingNextSteps } from "@/components/reading-next-steps";
 import { getEnglishSlug } from "@/lib/i18n";
 import { hasAffiliateLink } from "@/lib/affiliate";
-import { getAllPosts, getPostBySlug, getPostHeadings, getRelatedPosts } from "@/lib/posts";
+import { getAllPosts, getPostBySlug, getPostHeadings, getRelatedPosts, toSchemaDateTime } from "@/lib/posts";
 import { getCategoryByName } from "@/lib/site";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
@@ -138,8 +138,8 @@ export default async function BlogPostPage({ params }: PageProps) {
           headline: post.title,
           description: post.description,
           image: siteUrl + coverImage,
-          datePublished: post.date,
-          dateModified: post.modifiedDate,
+          datePublished: toSchemaDateTime(post.date),
+          dateModified: toSchemaDateTime(post.modifiedDate),
           articleSection: post.category,
           keywords: post.tags ?? [],
           mainEntityOfPage: siteUrl + "/blog/" + post.slug,

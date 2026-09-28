@@ -50,6 +50,10 @@ function formatDate(date: string) {
   }).format(new Date(date));
 }
 
+export function toSchemaDateTime(date: string) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(date) ? `${date}T00:00:00+08:00` : date;
+}
+
 function getReadingTime(content: string) {
   const words = content.replace(/\s/g, "").length;
   const minutes = Math.max(1, Math.ceil(words / 450));

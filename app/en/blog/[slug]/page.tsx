@@ -5,7 +5,7 @@ import { JsonLd } from "@/components/json-ld";
 import { MarkdownContent } from "@/components/markdown-content";
 import { getFaqEntries } from "@/lib/faq";
 import { getChineseSlug } from "@/lib/i18n";
-import { getAllEnglishPosts, getEnglishPostBySlug } from "@/lib/posts";
+import { getAllEnglishPosts, getEnglishPostBySlug, toSchemaDateTime } from "@/lib/posts";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
@@ -105,8 +105,8 @@ export default async function EnglishBlogPostPage({ params }: PageProps) {
           headline: post.title,
           description: post.description,
           image: siteUrl + coverImage,
-          datePublished: post.date,
-          dateModified: post.modifiedDate,
+          datePublished: toSchemaDateTime(post.date),
+          dateModified: toSchemaDateTime(post.modifiedDate),
           inLanguage: "en",
           articleSection: post.category,
           keywords: post.tags ?? [],

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Post } from "@/lib/posts";
 import { getCategoryByName } from "@/lib/site";
@@ -31,9 +32,12 @@ export function ArticleCard({ openInNewTab = false, post, variant = "default" }:
         href={"/blog/" + post.slug}
         {...linkProps}
       >
-        <img
+        <Image
           alt={post.coverAlt ?? post.title}
           className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+          fill
+          quality={70}
+          sizes={isFeatured ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"}
           src={coverImage}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#2f2a22]/55 via-[#2f2a22]/10 to-transparent" />

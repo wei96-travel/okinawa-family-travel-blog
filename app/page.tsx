@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArticleCard } from "@/components/article-card";
 import { CategoryPill } from "@/components/category-pill";
@@ -66,11 +67,14 @@ export default function HomePage() {
       <div>
       <section className="border-b border-[#eadfce] bg-white">
         <div className="relative isolate mx-auto min-h-[520px] max-w-[1440px] overflow-hidden sm:min-h-[560px]">
-          <img
+          <Image
             alt=""
             aria-hidden="true"
             className="absolute inset-0 h-full w-full object-cover object-[62%_center] opacity-25 sm:opacity-35"
+            fill
             fetchPriority="high"
+            quality={65}
+            sizes="100vw"
             src="/images/okinawa-attractions-cover.webp"
           />
           <div className="relative mx-auto flex min-h-[520px] max-w-6xl items-center px-5 py-12 sm:min-h-[560px] sm:px-6 sm:py-16 lg:px-8">
