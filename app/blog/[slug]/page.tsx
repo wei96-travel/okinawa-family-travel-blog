@@ -22,7 +22,10 @@ const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-rainy-day-family-spots": "okinawa_typhoon_action_card",
   "okinawa-naha-rainy-indoor-decision-guide": "okinawa_typhoon_action_card",
   "okinawa-souvenir-packing-guide": "okinawa_souvenir_packing_card",
-  "okinawa-souvenir-customs-taiwan": "okinawa_souvenir_packing_card"
+  "okinawa-souvenir-customs-taiwan": "okinawa_souvenir_packing_card",
+  "okinawa-car-seat-rental-guide": "okinawa_rental_car_seat_pickup",
+  "okinawa-family-stroller-guide": "okinawa_rental_car_seat_pickup",
+  "okinawa-rental-car-luggage-stroller-guide": "okinawa_rental_car_seat_pickup"
 };
 
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {

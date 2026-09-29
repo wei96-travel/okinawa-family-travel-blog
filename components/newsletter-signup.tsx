@@ -30,6 +30,15 @@ export const NEWSLETTER_OFFERS = {
     heading: "颱風來的時候，先處理哪一件？",
     body:
       "航班找航空公司、租車通知營業所、飯店確認取消政策，順序錯了會白跑一趟。這張應變卡把順序排好，還附一份可以填好印出來的緊急聯絡清單——颱風天最先失效的，是「我等一下再查」。"
+  },
+  okinawa_rental_car_seat_pickup: {
+    formUid: "9c36696a6a",
+    eyebrow: "免費取得",
+    heading: "取車前 5 分鐘，先把座椅和行李核對好",
+    body:
+      "把預約、取車和上路前最容易漏掉的事排在一起：孩子的身高體重、座椅類型與固定方式、推車和行李空間。到櫃檯照著看，不用靠記憶。",
+    subscriptionNote:
+      "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
   }
 } as const;
 
@@ -141,8 +150,9 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
       <div className="mt-5" ref={containerRef} />
 
       <p className="mt-4 text-xs leading-6 text-[#7c7466]">
-        我們會先寄一封確認信，點了信裡的連結才算完成訂閱。之後會收到沖繩親子旅行的行前信，
-        隨時可以在信件最下方取消，Email 不會提供給第三方。
+        {"subscriptionNote" in config
+          ? config.subscriptionNote
+          : "我們會先寄一封確認信，點了信裡的連結才算完成訂閱。之後會收到沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"}
       </p>
     </section>
   );
