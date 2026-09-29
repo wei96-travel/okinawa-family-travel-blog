@@ -2,6 +2,7 @@
 title: "沖繩北部親子一日遊怎麼排？美麗海、古宇利島、名護別全塞滿"
 description: "帶孩子跑沖繩北部，美麗海水族館和古宇利島能排同一天嗎？這篇依那霸、恩納與名護住宿位置，整理三種北部一日行程、午睡與雨天刪減方式。"
 date: "2026-07-20"
+updated: "2026-09-29"
 category: "沖繩行程"
 tags: ["沖繩北部一日遊", "美麗海水族館", "古宇利島", "沖繩親子行程", "沖繩親子自駕"]
 coverImage: "/images/articles/okinawa-north-family-day-trip/north-family-drive-cover.webp"
@@ -43,6 +44,8 @@ coverCaption: "北部景點看起來集中，實際還要算長途車程、停�
 ![美麗海水族館黑潮之海水槽前的鯨鯊與參觀人群](/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg "美麗海水族館黑潮之海水槽實景。照片：Rick Wallace／Unsplash，依 Unsplash License 使用")
 
 水族館本館、海豚區、海龜池和公園內其他設施不必全部跑完。停留時間、推車與停車細節，可接著看[美麗海水族館安排幾小時？](/blog/churaumi-aquarium-family-time)。
+
+北部這天的日期、孩子票種和停留時間都已經確定，想用手機憑證入場時，再[查看 Klook 美麗海水族館當日票種與總額](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1362380&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F1421-churaumi-aquarium-okinawa%2F)。行程還可能因為天氣或孩子狀態改動，就先不要急著買。
 
 ## 住恩納或名護：美麗海加古宇利島可以，但要縮短
 
