@@ -48,6 +48,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true
+  },
+  other: {
+    "impact-site-verification": "cbc3b66a-0193-4b19-9a3f-9fdb87434048"
   }
 };
 
