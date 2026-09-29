@@ -65,6 +65,8 @@ iPhone XS、XS Max、XR 及後續機型可使用 eSIM，但手機也必須沒有
 
 > [查看日本 eSIM 目前方案與相容裝置](https://www.klook.com/zh-TW/activity/109393-japan-esim-high-speed-internet-qr-code-voucher/?aid=128859)
 
+還在抓全家旅費時，不用先決定 eSIM 要買到多大流量。先用[沖繩親子旅費計算器](/okinawa-family-trip-budget-calculator)把機票、住宿、租車和票券留出來，再回頭用剩下的通訊預算比較當期方案，會比只看促銷價更不容易超支。
+
 ## 安裝和啟用不要混在一起
 
 最常見的失誤，是以為掃描 QR Code 與開始計費永遠是同一件事。不同供應商的規則不同：有的要求抵達後才啟用，有的建議在台灣先安裝，抵達後才開啟該門號和數據漫遊。
