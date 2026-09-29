@@ -26,6 +26,7 @@ export type Post = PostMatter & {
   slug: string;
   content: string;
   formattedDate: string;
+  formattedModifiedDate: string;
   modifiedDate: string;
   readingTime: string;
 };
@@ -38,6 +39,7 @@ export type EnglishPost = EnglishPostMatter & {
   slug: string;
   content: string;
   formattedDate: string;
+  formattedModifiedDate: string;
   modifiedDate: string;
   readingTime: string;
 };
@@ -81,12 +83,15 @@ function readPostFile(fileName: string): Post {
   const { data, content } = matter(fileContents);
   const frontMatter = data as PostMatter;
 
+  const modifiedDate = frontMatter.updated ?? frontMatter.date;
+
   return {
     ...frontMatter,
     slug,
     content,
     formattedDate: formatDate(frontMatter.date),
-    modifiedDate: frontMatter.updated ?? frontMatter.date,
+    formattedModifiedDate: formatDate(modifiedDate),
+    modifiedDate,
     readingTime: getReadingTime(content)
   };
 }
@@ -110,12 +115,15 @@ function readEnglishPostFile(fileName: string): EnglishPost {
   const { data, content } = matter(fileContents);
   const frontMatter = data as EnglishPostMatter;
 
+  const modifiedDate = frontMatter.updated ?? frontMatter.date;
+
   return {
     ...frontMatter,
     slug,
     content,
     formattedDate: formatEnglishDate(frontMatter.date),
-    modifiedDate: frontMatter.updated ?? frontMatter.date,
+    formattedModifiedDate: formatEnglishDate(modifiedDate),
+    modifiedDate,
     readingTime: getEnglishReadingTime(content)
   };
 }

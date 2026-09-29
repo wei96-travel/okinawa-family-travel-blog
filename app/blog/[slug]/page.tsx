@@ -169,6 +169,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <p className="mt-4 text-lg leading-9 text-[#5f594f]">{post.description}</p>
         <div className="mt-5 flex flex-wrap gap-3 text-sm text-[#756e65]">
           <time dateTime={post.date}>{post.formattedDate}</time>
+          {post.updated ? <time dateTime={post.modifiedDate}>更新 {post.formattedModifiedDate}</time> : null}
           <span>{post.readingTime}</span>
         </div>
       </header>
