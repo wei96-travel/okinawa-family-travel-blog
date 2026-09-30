@@ -25,7 +25,10 @@ const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-souvenir-customs-taiwan": "okinawa_souvenir_packing_card",
   "okinawa-car-seat-rental-guide": "okinawa_rental_car_seat_pickup",
   "okinawa-family-stroller-guide": "okinawa_rental_car_seat_pickup",
-  "okinawa-rental-car-luggage-stroller-guide": "okinawa_rental_car_seat_pickup"
+  "okinawa-rental-car-luggage-stroller-guide": "okinawa_rental_car_seat_pickup",
+  "okinawa-zoo-museum-family-guide": "okinawa_family_attractions_planner",
+  "okinawa-world-gyokusendo-family-guide": "okinawa_family_attractions_planner",
+  "churaumi-aquarium-family-time": "okinawa_family_attractions_planner"
 };
 
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {

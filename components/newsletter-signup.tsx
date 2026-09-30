@@ -39,6 +39,15 @@ export const NEWSLETTER_OFFERS = {
       "把預約、取車和上路前最容易漏掉的事排在一起：孩子的身高體重、座椅類型與固定方式、推車和行李空間。到櫃檯照著看，不用靠記憶。",
     subscriptionNote:
       "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
+  },
+  okinawa_family_attractions_planner: {
+    formUid: "39dd1e1d8a",
+    eyebrow: "免費取得",
+    heading: "今天只留一個主行程",
+    body:
+      "把兒童王國、玉泉洞與美麗海最常卡住的選擇排在一張表：今天先留哪一站、孩子累了怎麼縮短、下雨或推車怎麼改。出門前勾一次，不用在車上重排整天。",
+    subscriptionNote:
+      "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到每週一封沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
   }
 } as const;
 
@@ -97,7 +106,7 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
         emailInput.setAttribute("placeholder", "你的 Email");
       }
 
-      if (submitLabel?.textContent?.trim() === "Subscribe") {
+      if (submitLabel) {
         submitLabel.textContent = "立即免費取得";
       }
     };
