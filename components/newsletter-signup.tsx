@@ -139,21 +139,25 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
 
     // Kit 以外部指令碼延後插入表單，監看插入時機後只替換介面文字，不改送出端點或驗證流程。
     const formObserver = new MutationObserver(localizeEmbeddedForm);
-    formObserver.observe(container, { childList: true, subtree: true });
+    formObserver.observe(container, { childList: true, subtree: true, characterData: true });
     localizeEmbeddedForm();
 
+    let kitScript: HTMLScriptElement | null = null;
     if (!container.querySelector("script")) {
-      const script = document.createElement("script");
-      script.async = true;
-      script.src = `https://${KIT_ACCOUNT}.kit.com/${config.formUid}/index.js`;
-      script.setAttribute("data-uid", config.formUid);
-      container.appendChild(script);
+      kitScript = document.createElement("script");
+      kitScript.async = true;
+      kitScript.src = `https://${KIT_ACCOUNT}.kit.com/${config.formUid}/index.js`;
+      kitScript.setAttribute("data-uid", config.formUid);
+      // Kit 可能在 script 載入後才重寫文字，載入完成後再套一次本地介面文字。
+      kitScript.addEventListener("load", localizeEmbeddedForm);
+      container.appendChild(kitScript);
     }
 
     return () => {
       observer.disconnect();
       formObserver.disconnect();
       container.removeEventListener("submit", trackSubmit, true);
+      kitScript?.removeEventListener("load", localizeEmbeddedForm);
     };
   }, [spacing, offer, config.formUid]);
 
