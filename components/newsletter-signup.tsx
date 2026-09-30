@@ -46,6 +46,8 @@ export const NEWSLETTER_OFFERS = {
     heading: "今天只留一個主行程",
     body:
       "把兒童王國、玉泉洞與美麗海最常卡住的選擇排在一張表：今天先留哪一站、孩子累了怎麼縮短、下雨或推車怎麼改。出門前勾一次，不用在車上重排整天。",
+    embeddedHeading: "免費取得沖繩親子景點安排檢查表",
+    embeddedDisclaimer: "我們重視你的隱私；隨時可在信件最下方取消訂閱。",
     subscriptionNote:
       "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到每週一封沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
   }
@@ -100,6 +102,8 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
     const localizeEmbeddedForm = () => {
       const emailInput = container.querySelector<HTMLInputElement>('input[name="email_address"]');
       const submitLabel = container.querySelector<HTMLElement>('[data-element="submit"] > span');
+      const embeddedHeading = container.querySelector<HTMLElement>('[data-element="header"] h2');
+      const embeddedDisclaimer = container.querySelector<HTMLElement>(".formkit-disclaimer");
 
       if (emailInput) {
         emailInput.setAttribute("aria-label", "你的 Email");
@@ -108,6 +112,14 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
 
       if (submitLabel && submitLabel.textContent?.trim() !== "立即免費取得") {
         submitLabel.textContent = "立即免費取得";
+      }
+
+      if ("embeddedHeading" in config && embeddedHeading?.textContent?.trim() !== config.embeddedHeading) {
+        embeddedHeading.textContent = config.embeddedHeading;
+      }
+
+      if ("embeddedDisclaimer" in config && embeddedDisclaimer?.textContent?.trim() !== config.embeddedDisclaimer) {
+        embeddedDisclaimer.textContent = config.embeddedDisclaimer;
       }
     };
 
