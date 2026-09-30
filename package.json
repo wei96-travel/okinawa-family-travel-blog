@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run content:audit:strict && next build",
+    "build": "npm run generate:image-sizes && npm run content:audit:strict && next build",
+    "generate:image-sizes": "node scripts/generate-image-sizes.mjs",
     "start": "next start",
     "lint": "next lint",
     "content:audit": "node scripts/content-audit.mjs",

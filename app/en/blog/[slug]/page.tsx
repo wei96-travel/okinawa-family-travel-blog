@@ -9,6 +9,8 @@ import { getAllEnglishPosts, getEnglishPostBySlug, toSchemaDateTime } from "@/li
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
+export const dynamicParams = false;
+
 type PageProps = {
   params: Promise<{ slug: string }>;
 };

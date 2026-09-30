@@ -1,0 +1,842 @@
+{
+  "/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg": {
+    "height": 1063,
+    "width": 1600
+  },
+  "/images/articles/churaumi-aquarium-family-time/churaumi-time-options.svg": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/articles/churaumi-aquarium-ticket-guide/klook-plan-selection.jpg": {
+    "height": 885,
+    "width": 1259
+  },
+  "/images/articles/churaumi-aquarium-ticket-guide/klook-quantity-two-adults.jpg": {
+    "height": 885,
+    "width": 1259
+  },
+  "/images/articles/churaumi-aquarium-ticket-guide/klook-total-book.jpg": {
+    "height": 885,
+    "width": 1259
+  },
+  "/images/articles/churaumi-aquarium-ticket-guide/trip-quantity-two-adults.jpg": {
+    "height": 520,
+    "width": 1280
+  },
+  "/images/articles/churaumi-aquarium-ticket-guide/trip-ticket-selection.jpg": {
+    "height": 719,
+    "width": 1278
+  },
+  "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-otter-mousse.jpg": {
+    "height": 1280,
+    "width": 959
+  },
+  "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-otter-mousse.webp": {
+    "width": 959,
+    "height": 1280
+  },
+  "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-sloth.jpg": {
+    "height": 3840,
+    "width": 2880
+  },
+  "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-sloth.webp": {
+    "width": 1200,
+    "height": 1600
+  },
+  "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-stingray.jpg": {
+    "height": 960,
+    "width": 1280
+  },
+  "/images/articles/kouri-island-family-guide/kouri-bridge-real.jpg": {
+    "height": 900,
+    "width": 1600
+  },
+  "/images/articles/nago-vs-motobu-family-stay/cover.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/neo-park-okinawa-family-guide/neo-park-okinawa-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-american-village-family-guide/american-village-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-apartment-hotel-family-guide/okinawa-apartment-hotel-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-baby-bottle-hotel-cleaning-guide/hotel-bottle-cleaning.webp": {
+    "width": 1599,
+    "height": 900
+  },
+  "/images/articles/okinawa-baby-supplies-shopping-guide/baby-supplies-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-best-month-family-guide/month-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-blue-cave-snorkel-family-guide/blue-cave-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-car-seat-rental-guide/child-seat-safety-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-car-seat-rental-guide/pickup-safety-checklist.svg": {
+    "width": 800,
+    "height": 1100
+  },
+  "/images/articles/okinawa-car-seat-rental-guide/seat-types-guide.svg": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/articles/okinawa-charter-car-family-guide/charter-car-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-child-sick-injured-guide/sick-guide-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-churaumi-nearby-family-stay/cover.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-churaumi-nearby-family-stay/cover.webp": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-dino-park-family-guide/okinawa-dino-park-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-esim-family-guide/okinawa-esim-family-cover.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-family-beach-guide/okinawa-coast-real.jpg": {
+    "height": 1200,
+    "width": 1600
+  },
+  "/images/articles/okinawa-family-budget-guide/okinawa-family-budget-cover.png": {
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/articles/okinawa-family-car-emergency-kit/cover.svg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-car-emergency-kit/emergency-kit-cover-ai-v2.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-family-car-emergency-kit/emergency-kit-cover-ai-v2.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-car-emergency-kit/emergency-kit-map.svg": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-driving-pace-guide/driving-pace-cover.svg": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/articles/okinawa-family-driving-pace-guide/driving-pace-scene-v2.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-family-driving-pace-guide/driving-pace-scene-v2.webp": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-family-medicine-sunscreen-repellent/beach-sunscreen-child.jpg": {
+    "height": 1073,
+    "width": 1600
+  },
+  "/images/articles/okinawa-family-medicine-sunscreen-repellent/medicine-sunscreen-cover.jpg": {
+    "height": 1073,
+    "width": 1600
+  },
+  "/images/articles/okinawa-family-medicine-sunscreen-repellent/repellent-age-guide.svg": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/images/articles/okinawa-family-park-comparison/dino-forest-ai.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-park-comparison/nago-pineapple-garden-ai.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-park-comparison/neo-park-animal-train-ai.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-park-comparison/okinawa-family-park-comparison-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-park-comparison/okinawa-zoo-museum-ai.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-parking-guide/coin-parking-types.svg": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/images/articles/okinawa-family-parking-guide/parking-cover.jpg": {
+    "height": 1073,
+    "width": 1600
+  },
+  "/images/articles/okinawa-family-parking-guide/parking-family-getout.jpg": {
+    "height": 1073,
+    "width": 1600
+  },
+  "/images/articles/okinawa-family-restaurant-dining-guide/dining-backup-plan.svg": {
+    "width": 800,
+    "height": 1100
+  },
+  "/images/articles/okinawa-family-restaurant-dining-guide/food-court-family.jpg": {
+    "height": 1024,
+    "width": 1536
+  },
+  "/images/articles/okinawa-family-restaurant-dining-guide/restaurant-cover.jpg": {
+    "height": 1024,
+    "width": 1536
+  },
+  "/images/articles/okinawa-family-shopping-guide/shopping-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-family-shopping-guide/shopping-place-map.svg": {
+    "width": 1200,
+    "height": 720
+  },
+  "/images/articles/okinawa-flight-with-kids-guide/flight-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-kokusai-dori-family-guide/kokusai-dori-real.jpg": {
+    "height": 1200,
+    "width": 1800
+  },
+  "/images/articles/okinawa-kokusai-dori-family-guide/kokusai-family-route-options.svg": {
+    "width": 1200,
+    "height": 940
+  },
+  "/images/articles/okinawa-naha-airport-luggage-storage-family-guide/naha-airport-luggage-storage-cover.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-naha-airport-luggage-storage-family-guide/naha-airport-luggage-storage-cover.webp": {
+    "width": 1000,
+    "height": 1250
+  },
+  "/images/articles/okinawa-naha-airport-to-city-family-guide/naha-airport-to-city-cover.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-naha-airport-to-city-family-guide/naha-airport-to-city-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-naha-rainy-day-family-half-day/naha-rain-arrival-cover.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-naha-rainy-day-family-half-day/naha-rain-arrival-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-no-car-family-guide/no-car-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-north-family-day-trip/north-day-route-options.svg": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/images/articles/okinawa-north-family-day-trip/north-family-drive-cover.webp": {
+    "width": 1440,
+    "height": 960
+  },
+  "/images/articles/okinawa-rainy-day-family-spots/okinawa-rainy-day-indoor-family-cover.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-rental-car-family-guide/rental-car-coastal-road.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-rental-car-insurance-noc-guide/insurance-counter-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-rental-car-insurance-noc-guide/insurance-four-layers.svg": {
+    "width": 1200,
+    "height": 820
+  },
+  "/images/articles/okinawa-rental-car-license-translation/license-documents-cover.jpg": {
+    "height": 900,
+    "width": 1600
+  },
+  "/images/articles/okinawa-rental-car-license-translation/three-documents.jpg": {
+    "height": 1350,
+    "width": 1080
+  },
+  "/images/articles/okinawa-rental-car-luggage-stroller-guide/car-seat-interior.png": {
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/articles/okinawa-rental-car-luggage-stroller-guide/packing-layout.png": {
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/articles/okinawa-rental-car-luggage-stroller-guide/rental-luggage-stroller-cover.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-rental-car-luggage-stroller-guide/rental-luggage-stroller-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-rental-car-pickup-return-guide/airport-shuttle-family.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-rental-car-pickup-return-guide/airport-shuttle-family.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-rental-car-pickup-return-guide/pickup-return-flow.svg": {
+    "width": 900,
+    "height": 1280
+  },
+  "/images/articles/okinawa-rental-car-refueling-guide/fuel-types-guide.svg": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/articles/okinawa-rental-car-refueling-guide/refueling-car-real.jpg": {
+    "height": 900,
+    "width": 1600
+  },
+  "/images/articles/okinawa-souvenir-customs-taiwan/customs-compare.jpg": {
+    "height": 1350,
+    "width": 1080
+  },
+  "/images/articles/okinawa-souvenir-customs-taiwan/customs-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-souvenir-packing-guide/souvenir-packing-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-souvenir-packing-guide/souvenir-packing-order.svg": {
+    "width": 1200,
+    "height": 720
+  },
+  "/images/articles/okinawa-summer-family-packing-list/family-packing-cover.webp": {
+    "width": 1440,
+    "height": 960
+  },
+  "/images/articles/okinawa-summer-family-packing-list/three-bag-packing-system.svg": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/images/articles/okinawa-typhoon-family-travel-guide/typhoon-family-cover.svg": {
+    "width": 1200,
+    "height": 675
+  },
+  "/images/articles/okinawa-typhoon-family-travel-guide/typhoon-family-scene-v2.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-typhoon-family-travel-guide/typhoon-family-scene-v2.webp": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-whale-watching-family-guide/okinawa-whale-watching-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.jpg": {
+    "height": 3840,
+    "width": 2880
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-ao-no-izumi.webp": {
+    "width": 1200,
+    "height": 1600
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.jpg": {
+    "height": 3840,
+    "width": 2880
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-cave-waterfall.webp": {
+    "width": 1200,
+    "height": 1600
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-family-cover.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-family-decision.webp": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.jpg": {
+    "height": 3840,
+    "width": 2880
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/gyokusendo-iwayado-no-o.webp": {
+    "width": 1200,
+    "height": 1600
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.jpg": {
+    "height": 960,
+    "width": 1280
+  },
+  "/images/articles/okinawa-world-gyokusendo-family-guide/okinawa-world-gyokusendo-entrance.webp": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/articles/okinawa-yui-rail-family-guide/yui-rail-carriage-ai-v2.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-yui-rail-family-guide/yui-rail-elevator-ai-v2.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-yui-rail-family-guide/yui-rail-family-guide-ai-v2.png": {
+    "width": 1003,
+    "height": 1568
+  },
+  "/images/articles/okinawa-yui-rail-family-guide/yui-rail-family-guide-cover-ai-v2.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-yui-rail-family-guide/yui-rail-family-guide-cover-ai-v2.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-yui-rail-family-guide/yui-rail-family-guide.svg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide-ai-v2.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide-cover-ai-v2.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide-cover-ai-v2.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-family-guide.svg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-museum-indoor-ai-v2.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/okinawa-zoo-museum-family-guide/okinawa-zoo-rest-ai-v2.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/images/articles/senaga-island-family-guide/senaga-island-family-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/category-accommodation.svg": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/category-attractions.svg": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/category-gear.svg": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/category-itinerary.svg": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/category-transport.svg": {
+    "width": 1200,
+    "height": 900
+  },
+  "/images/okinawa-attractions-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/okinawa-family-hero.png": {
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/okinawa-gear-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/okinawa-itinerary-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/images/okinawa-realistic-cover.webp": {
+    "width": 1586,
+    "height": 992
+  },
+  "/images/okinawa-transport-cover.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "/okinawa-family-notes.svg": {
+    "width": 960,
+    "height": 720
+  },
+  "/previews/car-seat-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/car-seat-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/car-seat-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/car-seat-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/car-seat-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/car-seat-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/churaumi-ticket-guide/screens/05-desktop-plan-selection.jpg": {
+    "height": 885,
+    "width": 1259
+  },
+  "/previews/churaumi-ticket-guide/screens/07-desktop-quantity-two-adults.jpg": {
+    "height": 885,
+    "width": 1259
+  },
+  "/previews/churaumi-ticket-guide/screens/08-desktop-total-and-book.jpg": {
+    "height": 885,
+    "width": 1259
+  },
+  "/previews/facebook-car-seat-carousel-editorial-preview.jpg": {
+    "height": 850,
+    "width": 980
+  },
+  "/previews/facebook-car-seat-carousel-preview.jpg": {
+    "height": 850,
+    "width": 980
+  },
+  "/previews/facebook-car-seat-cover-research-v1.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/07.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/first-okinawa-where-to-stay-carousel/08.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-ai-mom-reference-v1.png": {
+    "width": 941,
+    "height": 1672
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/07.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-churaumi-nearby-family-stay-carousel/08.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/07.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-car-emergency-kit-carousel/08.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-family-stroller-carousel/01.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-family-stroller-carousel/02.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-family-stroller-carousel/03.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-family-stroller-carousel/04.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-family-stroller-carousel/05.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-family-stroller-carousel/06.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-family-stroller-carousel/07.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-family-stroller-carousel/08.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/07.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-kokusai-dori-toilet-carousel/08.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/07.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-airport-luggage-storage-carousel/08.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/07.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-naha-rainy-day-carousel/08.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-north-carousel/01.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-north-carousel/02.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-north-carousel/03.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-north-carousel/04.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-north-carousel/05.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-north-carousel/06.png": {
+    "width": 1080,
+    "height": 1350
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/01.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/02.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/03.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/04.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/05.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/06.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/07.jpg": {
+    "height": 675,
+    "width": 540
+  },
+  "/previews/okinawa-rental-car-luggage-stroller-carousel/08.jpg": {
+    "height": 675,
+    "width": 540
+  }
+}

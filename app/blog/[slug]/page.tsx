@@ -16,6 +16,8 @@ import { getCategoryByName } from "@/lib/site";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://okinawafamilynotes.com";
 
+export const dynamicParams = false;
+
 // 哪一篇文章配哪一份誘餌。沒列到的沿用預設的租車證件檢查表。
 const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-typhoon-family-travel-guide": "okinawa_typhoon_action_card",
