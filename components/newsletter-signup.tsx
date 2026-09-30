@@ -114,11 +114,11 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
         submitLabel.textContent = "立即免費取得";
       }
 
-      if ("embeddedHeading" in config && embeddedHeading?.textContent?.trim() !== config.embeddedHeading) {
+      if ("embeddedHeading" in config && embeddedHeading && embeddedHeading.textContent?.trim() !== config.embeddedHeading) {
         embeddedHeading.textContent = config.embeddedHeading;
       }
 
-      if ("embeddedDisclaimer" in config && embeddedDisclaimer?.textContent?.trim() !== config.embeddedDisclaimer) {
+      if ("embeddedDisclaimer" in config && embeddedDisclaimer && embeddedDisclaimer.textContent?.trim() !== config.embeddedDisclaimer) {
         embeddedDisclaimer.textContent = config.embeddedDisclaimer;
       }
     };
