@@ -106,7 +106,7 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
         emailInput.setAttribute("placeholder", "你的 Email");
       }
 
-      if (submitLabel) {
+      if (submitLabel && submitLabel.textContent?.trim() !== "立即免費取得") {
         submitLabel.textContent = "立即免費取得";
       }
     };
