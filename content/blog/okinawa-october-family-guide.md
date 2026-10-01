@@ -30,6 +30,10 @@ coverCaption: "本站 AI 自製情境圖：10 月仍適合安排海邊，但帶�
 
 許多海灘仍可能開放，不過各海灘的季節、救生員、防水母網和天候限制不一樣。出門前先確認海灘官方公告；當天風浪變大、掛旗或有警示時，就改成散步、看海或直接換室內安排。
 
+![沖繩海岸的空拍畫面，淺藍海水、綠地與沿海道路相連](/images/articles/okinawa-october-family-guide/okinawa-october-coast-2025.webp "沖繩海岸空拍；出發前仍要確認開放與海況。")
+
+照片：[Erik Groh／Unsplash](https://unsplash.com/photos/aerial-view-of-a-tropical-coastline-with-turquoise-waters-zs6EN-Iu8jg)，依 [Unsplash License](https://unsplash.com/license) 使用。
+
 第一次帶孩子玩海邊前，可以先看[沖繩親子海灘怎麼選？水淺、有救生員的海灘與水母季節注意事項](/blog/okinawa-family-beach-guide)。
 
 ## 10 月親子行程怎麼排比較剛好？
@@ -48,6 +52,10 @@ coverCaption: "本站 AI 自製情境圖：10 月仍適合安排海邊，但帶�
 - 10 月 10 至 12 日：那霸大綱挽祭。
 - 10 月 17 至 18 日：豐見城祭。
 - 10 月 25 日：空手道日，適合對沖繩文化有興趣的家庭安排空手道會館或相關活動。
+
+![從高處望向那霸市區，前景為住宅屋頂，天空有大片雲層](/images/articles/okinawa-october-family-guide/naha-city-2025.webp "那霸市區實景，非特定祭典現場。")
+
+照片：[Amos K／Unsplash](https://unsplash.com/photos/a-sprawling-cityscape-under-a-bright-blue-sky-6j2jeqZPago)，依 [Unsplash License](https://unsplash.com/license) 使用。
 
 活動可能因天氣或主辦安排調整，出發前請再確認主辦單位公告，不要只依舊文章或社群轉貼決定行程。[沖繩官方活動行事曆](https://visitokinawajapan.com/discover/events/)
 
