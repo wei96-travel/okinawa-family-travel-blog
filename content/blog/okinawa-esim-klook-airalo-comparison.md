@@ -13,7 +13,7 @@ coverCaption: "本站 AI 自製情境圖，非沖繩實際行程照片。出發�
 
 先講結論：
 
-- 想要中文操作、需要開熱點給家人或其他裝置：先看 Klook。
+- 想要明確標示的中文 LINE 客服、需要開熱點給家人或其他裝置：先看 Klook。
 - 會從沖繩續飛其他亞洲國家，或想用 App 管理、加購流量：再看 Airalo。
 - 兩邊都要先確認手機支援 eSIM，且不要把原本門號的行動數據誤開。
 
@@ -44,7 +44,7 @@ Airalo 日本頁目前有固定流量與不限量方案。價格與天數會隨�
 
 Klook 商品頁目前標示有 24 小時 LINE 中文客服，也能從訂單內聯絡供應商。第一次用 eSIM、怕設定出錯的家庭，這個流程比較直覺。
 
-Airalo 官方頁標示提供 24 小時多語支援，也可透過 WhatsApp 聯繫。若你習慣用 App 管理 eSIM、旅程不只一個國家，操作彈性較高。
+Airalo 的網站商店與 iOS App 都有繁體中文介面，官方日本頁也標示提供 24 小時多語支援與 WhatsApp 聯繫方式；但官方沒有明確承諾即時真人客服一定能用中文。若需要確定的中文客服，優先選 Klook。若你習慣用 App 管理 eSIM、旅程不只一個國家，再把 Airalo 列入比較。
 
 ## 4. 在台灣先裝，落地後再啟用
 
@@ -74,5 +74,7 @@ eSIM 不會替旅行解決所有問題，但出發前先裝好、落地前確認
 
 - [Klook 日本 eSIM 官方商品頁](https://www.klook.com/zh-TW/activity/109393-japan-esim-high-speed-internet-qr-code-voucher/)
 - [Airalo 日本 eSIM 官方商品頁](https://www.airalo.com/japan-esim)
+- [Airalo 繁體中文商店](https://www.airalo.com/zh-TW)
+- [Airalo iOS App 語言列表](https://apps.apple.com/us/app/airalo-esim-for-travel-data/id1475911720)
 
 資料複核日：2026 年 10 月 2 日。eSIM 的價格、流量、熱點、啟用與退費規則都可能因供應商與方案而異，付款前請以選定方案的頁面和憑證為準。
