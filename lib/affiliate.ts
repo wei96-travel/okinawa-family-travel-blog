@@ -1,4 +1,4 @@
-export type AffiliateNetwork = "KKday" | "Klook" | "Trip.com" | "Shopee";
+export type AffiliateNetwork = "Airalo" | "KKday" | "Klook" | "Trip.com" | "Shopee";
 
 export function getAffiliateNetwork(href: string): AffiliateNetwork | null {
   const isKlookAffiliate =
@@ -9,7 +9,9 @@ export function getAffiliateNetwork(href: string): AffiliateNetwork | null {
   const isShopeeAffiliate = /^https?:\/\/(?:[^/]+\.)?shopee\.tw\//i.test(href);
   const isKkdayAffiliate =
     /^https?:\/\/(?:[^/]+\.)?kkday\.com\//i.test(href) && /[?&]cid=/i.test(href);
+  const isAiraloAffiliate = /^https?:\/\/airalo\.pxf\.io\//i.test(href);
 
+  if (isAiraloAffiliate) return "Airalo";
   if (isKkdayAffiliate) return "KKday";
   if (isKlookAffiliate) return "Klook";
   if (isTripAffiliate) return "Trip.com";
