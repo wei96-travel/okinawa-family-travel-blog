@@ -160,6 +160,57 @@ a {
   border-bottom: 0;
 }
 
+@media (max-width: 640px) {
+  .prose-travel .esim-comparison-table {
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .prose-travel .esim-comparison-table table,
+  .prose-travel .esim-comparison-table tbody,
+  .prose-travel .esim-comparison-table tr,
+  .prose-travel .esim-comparison-table td {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .prose-travel .esim-comparison-table thead {
+    display: none;
+  }
+
+  .prose-travel .esim-comparison-table tr {
+    overflow: hidden;
+    margin-top: 0.8rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #fffaf2;
+  }
+
+  .prose-travel .esim-comparison-table tr:first-child {
+    margin-top: 0;
+  }
+
+  .prose-travel .esim-comparison-table td {
+    display: grid;
+    grid-template-columns: minmax(6.25rem, 38%) minmax(0, 1fr);
+    gap: 0.7rem;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .prose-travel .esim-comparison-table td::before {
+    content: attr(data-label);
+    color: var(--accent-dark);
+    font-weight: 700;
+  }
+
+  .prose-travel .esim-comparison-table tr:last-child td:last-child {
+    border-bottom: 0;
+  }
+}
+
 .prose-travel code {
   border-radius: 4px;
   background: var(--surface);

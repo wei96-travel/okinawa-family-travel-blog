@@ -249,7 +249,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <AffiliateDisclosureNotice scope="article" />
         </div>
       ) : null}
-      <MarkdownContent content={post.content} protectedImagePaths={protectedOriginalImagePaths} />
+      <MarkdownContent articleSlug={post.slug} content={post.content} protectedImagePaths={protectedOriginalImagePaths} />
       <section className="mt-12 border-y border-[#eadfce] py-7 sm:flex sm:items-center sm:justify-between sm:gap-8">
         <div>
           <p className="text-sm font-semibold text-[#9a6b43]">接下來要做什麼？</p>
