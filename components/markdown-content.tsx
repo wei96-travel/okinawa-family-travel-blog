@@ -114,7 +114,6 @@ function parseTableRow(line: string) {
 }
 
 type MarkdownContentProps = {
-  articleSlug?: string;
   content: string;
   protectedImagePaths?: string[];
 };
@@ -168,7 +167,7 @@ function splitBlocks(content: string) {
   return blocks;
 }
 
-export function MarkdownContent({ articleSlug, content, protectedImagePaths = [] }: MarkdownContentProps) {
+export function MarkdownContent({ content, protectedImagePaths = [] }: MarkdownContentProps) {
   const blocks = splitBlocks(content);
 
   return (
@@ -229,10 +228,9 @@ export function MarkdownContent({ articleSlug, content, protectedImagePaths = []
         if (isTableBlock(lines)) {
           const headers = parseTableRow(lines[0]);
           const rows = lines.slice(2).map(parseTableRow);
-          const useMobileCards = articleSlug === "okinawa-esim-klook-airalo-comparison";
 
           return (
-            <div className={`table-scroll${useMobileCards ? " esim-comparison-table" : ""}`} key={index}>
+            <div className="table-scroll" key={index}>
               <table>
                 <thead>
                   <tr>

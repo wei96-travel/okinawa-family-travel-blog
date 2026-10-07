@@ -161,27 +161,27 @@ a {
 }
 
 @media (max-width: 640px) {
-  .prose-travel .esim-comparison-table {
+  .prose-travel .table-scroll {
     overflow: visible;
     border: 0;
     border-radius: 0;
     background: transparent;
   }
 
-  .prose-travel .esim-comparison-table table,
-  .prose-travel .esim-comparison-table tbody,
-  .prose-travel .esim-comparison-table tr,
-  .prose-travel .esim-comparison-table td {
+  .prose-travel .table-scroll table,
+  .prose-travel .table-scroll tbody,
+  .prose-travel .table-scroll tr,
+  .prose-travel .table-scroll td {
     display: block;
     width: 100%;
     min-width: 0;
   }
 
-  .prose-travel .esim-comparison-table thead {
+  .prose-travel .table-scroll thead {
     display: none;
   }
 
-  .prose-travel .esim-comparison-table tr {
+  .prose-travel .table-scroll tr {
     overflow: hidden;
     margin-top: 0.8rem;
     border: 1px solid var(--line);
@@ -189,24 +189,25 @@ a {
     background: #fffaf2;
   }
 
-  .prose-travel .esim-comparison-table tr:first-child {
+  .prose-travel .table-scroll tr:first-child {
     margin-top: 0;
   }
 
-  .prose-travel .esim-comparison-table td {
+  .prose-travel .table-scroll td {
     display: grid;
     grid-template-columns: minmax(6.25rem, 38%) minmax(0, 1fr);
     gap: 0.7rem;
+    overflow-wrap: anywhere;
     padding: 0.75rem 0.85rem;
   }
 
-  .prose-travel .esim-comparison-table td::before {
+  .prose-travel .table-scroll td::before {
     content: attr(data-label);
     color: var(--accent-dark);
     font-weight: 700;
   }
 
-  .prose-travel .esim-comparison-table tr:last-child td:last-child {
+  .prose-travel .table-scroll tr:last-child td:last-child {
     border-bottom: 0;
   }
 }
