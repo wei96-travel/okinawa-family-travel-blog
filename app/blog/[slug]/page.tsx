@@ -20,6 +20,8 @@ export const dynamicParams = false;
 
 // 哪一篇文章配哪一份誘餌。沒列到的沿用預設的租車證件檢查表。
 const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
+  "okinawa-esim-family-guide": "okinawa_esim_setup_card",
+  "okinawa-esim-klook-airalo-comparison": "okinawa_esim_setup_card",
   "okinawa-typhoon-family-travel-guide": "okinawa_typhoon_action_card",
   "okinawa-rainy-day-family-spots": "okinawa_typhoon_action_card",
   "okinawa-naha-rainy-indoor-decision-guide": "okinawa_typhoon_action_card",

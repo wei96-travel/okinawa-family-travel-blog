@@ -10,6 +10,18 @@ const KIT_ACCOUNT = "dogged-artist-5501";
  * key 同時當成 GA4 的 lead_magnet 參數值，後台才分得出是哪一份帶來的訂閱。
  */
 export const NEWSLETTER_OFFERS = {
+  okinawa_esim_setup_card: {
+    formUid: "206b602598",
+    eyebrow: "免費取得",
+    heading: "出發前 3 分鐘，把 eSIM 設定好",
+    body:
+      "把出發前、落地後與連不上網時最容易漏掉的設定排在一張表：手機支援、安裝時機、行動數據切換與數據漫遊。照著勾，抵達前就能先把風險排掉。",
+    embeddedHeading: "沖繩 eSIM 出發前設定檢查表",
+    embeddedButtonText: "免費拿 eSIM 檢查表",
+    embeddedDisclaimer: "完成確認後，檢查表會直接開啟；之後可隨時在信件最下方取消。",
+    subscriptionNote:
+      "我們會先寄一封確認信，點了信裡的連結才算完成訂閱；確認後會直接開啟檢查表。之後會收到沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
+  },
   okinawa_rental_car_documents: {
     formUid: "03df8acb9a",
     eyebrow: "免費取得",
@@ -102,7 +114,9 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
     const localizeEmbeddedForm = () => {
       const emailInput = container.querySelector<HTMLInputElement>('input[name="email_address"]');
       const submitLabel = container.querySelector<HTMLElement>('[data-element="submit"] > span');
-      const embeddedHeading = container.querySelector<HTMLElement>('[data-element="header"] h2');
+      const embeddedHeading = container.querySelector<HTMLElement>(
+        '[data-element="header"] h1, [data-element="header"] h2, [data-element="header"] h3, [data-element="header"]'
+      );
       const embeddedDisclaimer = container.querySelector<HTMLElement>(".formkit-disclaimer");
 
       if (emailInput) {
@@ -110,8 +124,9 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
         emailInput.setAttribute("placeholder", "你的 Email");
       }
 
-      if (submitLabel && submitLabel.textContent?.trim() !== "立即免費取得") {
-        submitLabel.textContent = "立即免費取得";
+      const buttonText = "embeddedButtonText" in config ? config.embeddedButtonText : "立即免費取得";
+      if (submitLabel && submitLabel.textContent?.trim() !== buttonText) {
+        submitLabel.textContent = buttonText;
       }
 
       if ("embeddedHeading" in config && embeddedHeading && embeddedHeading.textContent?.trim() !== config.embeddedHeading) {
