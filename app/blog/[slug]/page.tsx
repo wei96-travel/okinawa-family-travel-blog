@@ -32,7 +32,8 @@ const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-rental-car-luggage-stroller-guide": "okinawa_rental_car_seat_pickup",
   "okinawa-zoo-museum-family-guide": "okinawa_family_attractions_planner",
   "okinawa-world-gyokusendo-family-guide": "okinawa_family_attractions_planner",
-  "churaumi-aquarium-family-time": "okinawa_family_attractions_planner"
+  "churaumi-aquarium-family-time": "okinawa_family_attractions_planner",
+  "okinawa-american-village-family-guide": "okinawa_family_attractions_planner"
 };
 
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
