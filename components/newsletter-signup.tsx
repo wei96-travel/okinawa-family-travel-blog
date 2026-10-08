@@ -46,7 +46,7 @@ export const NEWSLETTER_OFFERS = {
   okinawa_rental_car_seat_pickup: {
     formUid: "9c36696a6a",
     eyebrow: "免費取得",
-    heading: "取車前 5 分鐘，先把座椅和行李核對好",
+    heading: "取車前 5 分鐘，先把座椅、推車和行李核對好",
     body:
       "把預約、取車和上路前最容易漏掉的事排在一起：孩子的身高體重、座椅類型與固定方式、推車和行李空間。到櫃檯照著看，不用靠記憶。",
     subscriptionNote:

@@ -22,6 +22,7 @@ export const dynamicParams = false;
 const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-esim-family-guide": "okinawa_esim_setup_card",
   "okinawa-esim-klook-airalo-comparison": "okinawa_esim_setup_card",
+  "okinawa-yui-rail-family-guide": "okinawa_esim_setup_card",
   "okinawa-typhoon-family-travel-guide": "okinawa_typhoon_action_card",
   "okinawa-rainy-day-family-spots": "okinawa_typhoon_action_card",
   "okinawa-naha-rainy-indoor-decision-guide": "okinawa_typhoon_action_card",
@@ -35,6 +36,9 @@ const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "churaumi-aquarium-family-time": "okinawa_family_attractions_planner",
   "okinawa-american-village-family-guide": "okinawa_family_attractions_planner"
 };
+
+// These pages need a purpose-built resource; an unrelated rental-car form hurts reader trust.
+const newsletterHiddenSlugs = new Set(["okinawa-kokusai-dori-family-guide", "okinawa-baby-supplies-shopping-guide"]);
 
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
   "dmm-kariyushi-aquarium-family-guide": [
@@ -262,7 +266,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           回到旅行規劃入口
         </Link>
       </section>
-      <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} />
+      {!newsletterHiddenSlugs.has(post.slug) ? <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} /> : null}
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 
       {relatedPosts.length > 0 ? (
