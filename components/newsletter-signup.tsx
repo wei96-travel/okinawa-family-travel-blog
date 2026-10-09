@@ -62,6 +62,30 @@ export const NEWSLETTER_OFFERS = {
     embeddedDisclaimer: "我們重視你的隱私；隨時可在信件最下方取消訂閱。",
     subscriptionNote:
       "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到每週一封沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
+  },
+  okinawa_kokusai_dori_family_route_card: {
+    formUid: "10021890",
+    eyebrow: "免費領取",
+    heading: "帶孩子逛國際通，先把動線留好",
+    body:
+      "把起點、休息備案、推車節奏和回程時機放進同一張卡。出門前存到手機，不用走到一半才開始找廁所、車站或停車場。",
+    embeddedHeading: "沖繩國際通親子動線卡",
+    embeddedButtonText: "免費領取動線卡",
+    embeddedDisclaimer: "填寫 Email 後，會收到動線卡連結與一封確認信。",
+    subscriptionNote:
+      "送出後會寄一封確認信給您；完成確認後，即可從 Email 開啟動線卡。之後會收到沖繩親子旅行的實用內容信，以後可在信件最下方取消，Email 不會提供給第三方。"
+  },
+  okinawa_baby_supplies_shopping_card: {
+    formUid: "10021896",
+    eyebrow: "免費領取",
+    heading: "哪些先從台灣帶足，哪些到沖繩再補？",
+    body:
+      "把奶粉、尿布、飯店嬰兒用品與當地補貨的判斷分開整理。打包前和抵達後各看一次，少花時間找錯店、買錯東西。",
+    embeddedHeading: "沖繩嬰幼兒用品採買清單",
+    embeddedButtonText: "免費領取採買清單",
+    embeddedDisclaimer: "填寫 Email 後，會收到採買清單連結與一封確認信。",
+    subscriptionNote:
+      "送出後會寄一封確認信給您；完成確認後，即可從 Email 開啟採買清單。之後會收到沖繩親子旅行的實用內容信，以後可在信件最下方取消，Email 不會提供給第三方。"
   }
 } as const;
 

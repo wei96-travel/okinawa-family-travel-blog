@@ -34,11 +34,10 @@ const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-zoo-museum-family-guide": "okinawa_family_attractions_planner",
   "okinawa-world-gyokusendo-family-guide": "okinawa_family_attractions_planner",
   "churaumi-aquarium-family-time": "okinawa_family_attractions_planner",
-  "okinawa-american-village-family-guide": "okinawa_family_attractions_planner"
+  "okinawa-american-village-family-guide": "okinawa_family_attractions_planner",
+  "okinawa-kokusai-dori-family-guide": "okinawa_kokusai_dori_family_route_card",
+  "okinawa-baby-supplies-shopping-guide": "okinawa_baby_supplies_shopping_card"
 };
-
-// These pages need a purpose-built resource; an unrelated rental-car form hurts reader trust.
-const newsletterHiddenSlugs = new Set(["okinawa-kokusai-dori-family-guide", "okinawa-baby-supplies-shopping-guide"]);
 
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
   "dmm-kariyushi-aquarium-family-guide": [
@@ -266,7 +265,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           回到旅行規劃入口
         </Link>
       </section>
-      {!newsletterHiddenSlugs.has(post.slug) ? <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} /> : null}
+      <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} />
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 
       {relatedPosts.length > 0 ? (
