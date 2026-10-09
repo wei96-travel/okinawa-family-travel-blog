@@ -138,10 +138,9 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
     const localizeEmbeddedForm = () => {
       const emailInput = container.querySelector<HTMLInputElement>('input[name="email_address"]');
       const submitLabel = container.querySelector<HTMLElement>('[data-element="submit"] > span');
-      const embeddedHeading = container.querySelector<HTMLElement>(
-        '[data-element="header"] h1, [data-element="header"] h2, [data-element="header"] h3, [data-element="header"]'
-      );
-      const embeddedDisclaimer = container.querySelector<HTMLElement>(".formkit-disclaimer");
+      const embeddedHeading = container.querySelector<HTMLElement>('[data-element="header"]');
+      const embeddedSubheading = container.querySelector<HTMLElement>('[data-element="subheader"]');
+      const embeddedDisclaimer = container.querySelector<HTMLElement>('[data-element="guarantee"]');
 
       if (emailInput) {
         emailInput.setAttribute("aria-label", "你的 Email");
@@ -155,6 +154,11 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
 
       if ("embeddedHeading" in config && embeddedHeading && embeddedHeading.textContent?.trim() !== config.embeddedHeading) {
         embeddedHeading.textContent = config.embeddedHeading;
+      }
+
+      if (embeddedSubheading) {
+        embeddedSubheading.textContent = "";
+        embeddedSubheading.hidden = true;
       }
 
       if ("embeddedDisclaimer" in config && embeddedDisclaimer && embeddedDisclaimer.textContent?.trim() !== config.embeddedDisclaimer) {
