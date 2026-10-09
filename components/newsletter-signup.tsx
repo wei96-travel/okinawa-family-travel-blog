@@ -64,7 +64,7 @@ export const NEWSLETTER_OFFERS = {
       "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到每週一封沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
   },
   okinawa_kokusai_dori_family_route_card: {
-    formUid: "10021890",
+    formUid: "cbe8daec20",
     eyebrow: "免費領取",
     heading: "帶孩子逛國際通，先把動線留好",
     body:
@@ -76,7 +76,7 @@ export const NEWSLETTER_OFFERS = {
       "送出後會寄一封確認信給您；完成確認後，即可從 Email 開啟動線卡。之後會收到沖繩親子旅行的實用內容信，以後可在信件最下方取消，Email 不會提供給第三方。"
   },
   okinawa_baby_supplies_shopping_card: {
-    formUid: "10021896",
+    formUid: "5303f198de",
     eyebrow: "免費領取",
     heading: "哪些先從台灣帶足，哪些到沖繩再補？",
     body:
