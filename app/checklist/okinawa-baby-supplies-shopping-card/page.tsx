@@ -4,7 +4,7 @@ import { NewsletterFunnelTracker } from "@/components/newsletter-funnel-tracker"
 
 export const metadata: Metadata = {
   title: "沖繩嬰幼兒用品採買清單",
-  description: "訂閱者專用的沖繩嬰幼兒用品採買清單。",
+  description: "沖繩嬰幼兒用品採買清單，出發前可用來安排要從台灣帶足與到當地補貨的物品。",
   robots: { index: false, follow: false },
   alternates: { canonical: "/checklist/okinawa-baby-supplies-shopping-card" }
 };
@@ -69,7 +69,7 @@ export default function OkinawaBabySuppliesShoppingCard() {
       <NewsletterFunnelTracker eventName="lead_magnet_delivery_view" leadMagnet="okinawa_baby_supplies_shopping_card" />
       <header className="doc-cover bg-[#34302b] text-[#f6efe4]">
         <div className="mx-auto max-w-3xl px-5 py-14 sm:px-8 sm:py-16">
-          <p className="text-xs font-semibold tracking-[0.22em] text-[#d9b98c]">訂閱者專用文件</p>
+          <p className="text-xs font-semibold tracking-[0.22em] text-[#d9b98c]">免費出發前清單</p>
           <h1 className="mt-4 text-3xl font-bold leading-tight sm:text-[2.6rem]">沖繩嬰幼兒用品採買清單</h1>
           <p className="mt-5 max-w-xl text-sm leading-7 text-[#ded5c6] sm:text-base sm:leading-8">
             先分清楚哪些必須從台灣帶足、哪些能在沖繩補貨。少帶一點焦慮，也別把全家行程花在找錯地方買東西。
