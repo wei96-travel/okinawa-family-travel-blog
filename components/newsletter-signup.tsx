@@ -109,6 +109,7 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
   const config = NEWSLETTER_OFFERS[offer];
   const containerRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
+  const hasTrackedIntent = useRef(false);
   const hasTrackedSubmit = useRef(false);
   const hasTrackedView = useRef(false);
 
@@ -133,6 +134,16 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
 
       hasTrackedSubmit.current = true;
       window.gtag?.("event", "newsletter_signup_submit", eventParameters);
+    };
+
+    const trackIntent = (event: MouseEvent) => {
+      if (hasTrackedIntent.current) return;
+
+      const target = event.target;
+      if (!(target instanceof Element) || !target.closest('[data-element="submit"]')) return;
+
+      hasTrackedIntent.current = true;
+      window.gtag?.("event", "newsletter_signup_intent", eventParameters);
     };
 
     const localizeEmbeddedForm = () => {
@@ -178,6 +189,7 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
     );
 
     observer.observe(section);
+    container.addEventListener("click", trackIntent, true);
     container.addEventListener("submit", trackSubmit, true);
 
     // Kit 以外部指令碼延後插入表單，監看插入時機後只替換介面文字，不改送出端點或驗證流程。
@@ -199,6 +211,7 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
     return () => {
       observer.disconnect();
       formObserver.disconnect();
+      container.removeEventListener("click", trackIntent, true);
       container.removeEventListener("submit", trackSubmit, true);
       kitScript?.removeEventListener("load", localizeEmbeddedForm);
     };
