@@ -65,6 +65,12 @@ iPhone XS、XS Max、XR 及後續機型可使用 eSIM，但手機也必須沒有
 
 > [查看日本 eSIM 目前方案與相容裝置](https://www.klook.com/zh-TW/activity/109393-japan-esim-high-speed-internet-qr-code-voucher/?aid=128859)
 
+如果你會從沖繩續飛其他亞洲國家，或習慣用 App 自己管理、加購流量，也可以一起看 Airalo。下面兩個連結會帶入不同優惠碼：已經使用過 Airalo 或不確定資格，先看 10% 的連結；第一次使用再看新用戶 15% 的連結。實際能買的方案、適用資格與折扣，以結帳頁為準。
+
+> [查看 Airalo 10% 優惠與日本 eSIM 方案](https://airalo.pxf.io/OKIFAMILY10)
+
+> [第一次使用 Airalo：查看 15% 優惠與日本 eSIM 方案](https://airalo.pxf.io/OKIFAMILY15)
+
 還在抓全家旅費時，不用先決定 eSIM 要買到多大流量。先用[沖繩親子旅費計算器](/okinawa-family-trip-budget-calculator)把機票、住宿、租車和票券留出來，再回頭用剩下的通訊預算比較當期方案，會比只看促銷價更不容易超支。
 
 ## 安裝和啟用不要混在一起
