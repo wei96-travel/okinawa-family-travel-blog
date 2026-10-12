@@ -77,6 +77,25 @@ iPhone XS、XS Max、XR 及後續機型可使用 eSIM，但手機也必須沒有
 
 最常見的失誤，是以為掃描 QR Code 與開始計費永遠是同一件事。不同供應商的規則不同：有的要求抵達後才啟用，有的建議在台灣先安裝，抵達後才開啟該門號和數據漫遊。
 
+### iPhone：先新增 eSIM，落地後才切成行動數據
+
+1. 在有穩定 Wi-Fi 時，開啟「設定」>「行動服務」>「加入 eSIM」。
+2. 選「使用 QR Code」，掃描供應商提供的 QR Code，依畫面完成新增。
+3. 新增後先保留原本台灣門號接收簡訊；還沒到日本前，不要急著把旅遊 eSIM 當成行動數據。
+4. 抵達日本後，在「設定」>「行動服務」把旅遊 eSIM 選為行動數據，並依所購方案的說明開啟數據漫遊。
+
+### Android：先看品牌路徑，再選 App 直接安裝或 QR Code
+
+Android 的選單名稱會隨品牌和系統版本不同。先確認手機支援 eSIM 且沒有電信商鎖定，再照自己的手機選一條路：
+
+| 手機類型 | 常見新增路徑 |
+| --- | --- |
+| Google Pixel | 「設定」>「網路與網際網路」>「SIM 卡」>「新增 SIM」>「設定 eSIM」 |
+| Samsung Galaxy | 「設定」>「連接」>「SIM 卡管理工具」>「新增 eSIM」>「掃描 QR Code」 |
+| 已購買 Airalo | Airalo App >「My eSIMs」> 選取方案 >「View details」>「Install or share」；若 App 顯示直接安裝，照畫面完成即可 |
+
+Airalo 沒有提供直接安裝選項時，就選 QR Code：用另一台裝置打開 QR Code，再到手機的「新增 eSIM」頁掃描。掃完後回到 SIM 或行動網路設定，確認旅遊 eSIM 已開啟、已設成行動數據，並依方案說明開啟數據漫遊；如果方案要求設定 APN，以 Airalo App 裡該方案的連線資訊為準。
+
 最保守的做法是：
 
 1. 出發前先讀完自己那一個方案的憑證與啟用規則。
@@ -121,6 +140,9 @@ eSIM 的用途很單純：孩子想上廁所、找不到停車場或臨時改雨
 
 - [Apple：出國時在 iPhone 上使用 eSIM](https://support.apple.com/zh-tw/118227)
 - [Apple：在 iPhone 上設定 eSIM](https://support.apple.com/zh-tw/118669)
+- [Google Pixel：設定新的 eSIM](https://support.google.com/pixelphone/answer/16115470)
+- [Samsung：Galaxy eSIM 與支援的電信業者](https://www.samsung.com/tw/support/mobile-devices/galaxy-esim-and-supported-network-carriers/)
+- [Airalo：在 Android 裝置安裝與設定 eSIM](https://www.airalo.com/help/getting-started-with-airalo/E8DFWD88SHUX/how-do-i-install-and-start-using-an-esim-on-my-android-device/4SGRQMOETA5F)
 - Klook：日本 eSIM 商品頁（與上方合作入口相同商品，2026 年 9 月 29 日查核）
 - [Klook：eSIM FAQ](https://www.klook.com/zh-TW/faq/category-142/)
 - [Klook：eSIM 只能在一台裝置上使用嗎？](https://www.klook.com/zh-TW/faq/category-142-question-14421/)
