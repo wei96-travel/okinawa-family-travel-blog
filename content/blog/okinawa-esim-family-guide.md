@@ -63,7 +63,7 @@ iPhone XS、XS Max、XR 及後續機型可使用 eSIM，但手機也必須沒有
 
 如果手機、天數和熱點需求都符合，再看即時可買的方案；價格、流量與取消規則仍以結帳前的商品頁為準。
 
-> [查看日本 eSIM 目前方案與相容裝置](https://www.klook.com/zh-TW/activity/109393-japan-esim-high-speed-internet-qr-code-voucher/?aid=128859)
+> [查看日本 eSIM 目前方案與相容裝置](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1503465&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F109393-japan-esim-high-speed-internet-qr-code-voucher%2F)
 
 如果你會從沖繩續飛其他亞洲國家，或習慣用 App 自己管理、加購流量，也可以一起看 Airalo。下面兩個連結會帶入不同優惠碼：已經使用過 Airalo 或不確定資格，先看 10% 的連結；第一次使用再看新用戶 15% 的連結。實際能買的方案、適用資格與折扣，以結帳頁為準。
 
