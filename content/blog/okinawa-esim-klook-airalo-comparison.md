@@ -83,6 +83,10 @@ Klook 目前說明，連上海外網路後才開始計算效期；Airalo 也建�
 
 第一次帶孩子去沖繩、只跑日本單一目的地，優先選設定流程看得懂、客服找得到、熱點規則清楚的方案。若沖繩只是亞洲多國行程的一站，再把 Airalo 區域方案列入比較，才不需要每到一國就重買一次。
 
+只去沖繩、需要分享熱點或想要中文 LINE 客服，先看 Klook 的日本 eSIM 當期方案；付款前再核對天數、每日高速流量與分享規則。
+
+> [查看 Klook 日本 eSIM 當期方案與適用條件](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1503488&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F109393-japan-esim-high-speed-internet-qr-code-voucher%2F)
+
 eSIM 不會替旅行解決所有問題，但出發前先裝好、落地前確認行動數據切換方式，會讓抵達那一刻少掉很多手忙腳亂。
 
 ## 相關閱讀
