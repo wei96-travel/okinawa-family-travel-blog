@@ -46,6 +46,48 @@ export const readingPaths: Record<string, ReadingPathItem[]> = {
       reason: "還沒決定住宿區域的話，先看這篇會更好安排整趟租車路線。"
     }
   ],
+  "okinawa-baby-supplies-shopping-guide": [
+    {
+      slug: "okinawa-summer-family-packing-list",
+      reason: "先把第一天和隨身包要帶的東西分開，尿布、奶粉和替換衣物才不會全塞進行李箱。"
+    },
+    {
+      slug: "okinawa-family-stroller-guide",
+      reason: "如果正在想推車要不要帶，這篇會把孩子午睡、租車空間與景點借用一起判斷。"
+    },
+    {
+      slug: "okinawa-family-medicine-sunscreen-repellent",
+      reason: "採買用品之外，孩子常備藥、防曬與防蚊要先依年齡和使用情境準備。"
+    }
+  ],
+  "okinawa-souvenir-customs-taiwan": [
+    {
+      slug: "okinawa-souvenir-packing-guide",
+      reason: "買之前先看怎麼裝進行李、液體怎麼分，回程整理會少掉一輪手忙腳亂。"
+    },
+    {
+      slug: "okinawa-summer-family-packing-list",
+      reason: "行李一開始就留出回程空間，伴手禮才不用在機場臨時拆箱重塞。"
+    },
+    {
+      slug: "okinawa-last-day-family-plan",
+      reason: "最後一天還有還車和機場時間要抓，把採買排回回程動線會比較穩。"
+    }
+  ],
+  "okinawa-family-stroller-guide": [
+    {
+      slug: "okinawa-car-seat-rental-guide",
+      reason: "汽座、推車與孩子體型要一起看，取車時才能一次核對清楚。"
+    },
+    {
+      slug: "okinawa-rental-car-luggage-stroller-guide",
+      reason: "已經決定要帶推車的話，下一步就是用收折尺寸確認行李和後車廂放不放得下。"
+    },
+    {
+      slug: "okinawa-summer-family-packing-list",
+      reason: "推車要帶不帶，最後都要回到隨身包、托運和每天真正用得到的用品。"
+    }
+  ],
   "how-to-choose-family-hotel": [
     {
       slug: "first-okinawa-where-to-stay",
