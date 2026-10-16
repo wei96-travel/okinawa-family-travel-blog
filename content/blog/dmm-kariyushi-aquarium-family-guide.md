@@ -2,7 +2,7 @@
 title: "DMM 水族館停留時間要多久？帶小孩抓 1.5～2 小時"
 description: "DMM Kariyushi 水族館的停留時間，第一次帶孩子抓 1.5 到 2 小時；只看重點缸約 1 小時，加上吃飯逛商場拉到 2.5 小時。另整理浮動票價、推車與尿布空間、館內用餐與機場交通。"
 date: "2026-08-06"
-updated: "2026-09-04"
+updated: "2026-10-16"
 category: "親子景點"
 tags: ["DMM 水族館", "沖繩親子景點", "那霸雨天景點", "沖繩親子行程"]
 coverImage: "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-stingray.jpg"
@@ -41,6 +41,10 @@ coverCaption: "館內水槽的魟魚。"
 截至 2026 年 8 月，成人（18 歲以上）票價依日期為 2,800、2,950 或 3,200 日圓；13～17 歲為 2,200、2,350 或 2,600 日圓；4～12 歲為 1,700、1,850 或 2,100 日圓，3 歲以下免費。官網可購買電子票，現場也有當日票，但最終仍以[官方票價與票券頁](https://kariyushi-aquarium.com/fee-ticket/)顯示的日期與價格為準。
 
 對親子旅行來說，與其提早很多天把行程鎖死，不如在天氣預報比較明朗時再確認。下雨天想臨時改行程，也先看當日的開館資訊與票種；館方公告可能因天候、營運或人潮調整。
+
+行程日期已確定、可接受到售票櫃檯兌換實體票券，再查看 Klook 當日方案、使用期限與取消規則。
+
+> [查看 Klook DMM Kariyushi 水族館當期票券方案](https://affiliate.klook.com/redirect?aid=128859&aff_adid=1503632&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F55241-dmm-kariyushi-aquarium-ticket-okinawa%2F)
 
 ## 推車、尿布與拍照：帶幼兒最常遇到的細節
 
@@ -98,5 +102,6 @@ iias Okinawa Toyosaki 約有 3,000 個免費停車位，自駕最直覺；機場
 - [交通與停車](https://kariyushi-aquarium.com/access/)
 - [KIRARA CAFE](https://kariyushi-aquarium.com/floor/shop/)
 - [館內行為規範](https://kariyushi-aquarium.com/code-conduct/)
+- [Klook：DMM Kariyushi 水族館門票](https://www.klook.com/zh-TW/activity/55241-dmm-kariyushi-aquarium-ticket-okinawa/)（票券方案於 2026 年 10 月 16 日核對）
 
-本文資訊最後核對：2026 年 8 月 6 日。票價、營業時間、菜單與現場拍攝規範可能調整，出發前請再以官方網站與現場公告為準。
+票券方案最後核對：2026 年 10 月 16 日；票價、營業時間、菜單與現場拍攝規範可能調整，出發前請再以官方網站與現場公告為準。
