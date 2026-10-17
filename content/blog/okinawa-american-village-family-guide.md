@@ -2,7 +2,7 @@
 title: "2026 沖繩美國村可以玩多久？停車免費嗎、要門票嗎、帶小孩怎麼排"
 description: "沖繩美國村帶小孩，逛街加吃一餐抓 2～3 小時；想看日落、吃晚餐再走抓 3～4 小時。整理免門票、免費停車場、尿布台與哺乳空間、10 月晚間活動，以及從那霸前往的交通提醒。"
 date: "2026-09-15"
-updated: "2026-10-07"
+updated: "2026-10-17"
 category: "親子景點"
 tags: ["沖繩美國村", "美國村停車", "北谷住宿", "沖繩親子景點", "沖繩中部"]
 coverImage: "/images/articles/okinawa-american-village-family-guide/american-village-cover.webp"
@@ -15,13 +15,21 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 帶小孩去，**逛街加吃一餐抓 2～3 小時；想在旁邊的海灘看夕陽、吃完晚餐再走，抓 3～4 小時**。只逛街、吃飯、看夕陽的話，最適合傍晚：美國村幾乎都是戶外動線，白天很曬，太陽下山前一兩個小時到，海風比較涼，也剛好接上晚餐。想下海玩水，就要在下午的遊泳時間內到，玩完再接晚餐。
 
-這篇寫給帶 0 到 12 歲孩子、第一次去美國村的家庭。內容依北谷町、觀光協會、商場、巴士與飯店的官方資料整理，不是實地走訪心得；營業時間、班次和價格會變動，出發前請再確認。
+這篇寫給帶 0 到 12 歲孩子、第一次去美國村的家庭。行程資訊依北谷町、觀光協會、商場、巴士與飯店的官方資料整理；文內煙火照片為本站實拍。營業時間、班次和價格會變動，出發前請再確認。
 
 ## 2026 年 10 月去美國村：晚上行程先看停車與活動公告
 
 美國村本身不用門票，最適合排在傍晚到晚上：先停車、吃飯，再沿海邊散步看日落。若孩子還有精神，才把海灘或逛街當成加碼，不要一開始就排成一定要走完全區。
 
-2026 年 Seaport Chatan Carnival 的煙火活動集中在 7 到 9 月；官方同時列出 10 月 9、16、23、30 日為備用日。若前面的場次因天候等因素延後，晚上 20:00 可能有約 3 分鐘的煙火，但不是每個週五都保證施放。當天中午先查看北谷町觀光協會的公告與 Instagram，再決定要不要為了煙火特地留到晚上。
+2026 年 Seaport Chatan Carnival 的煙火活動集中在 7 到 9 月；官方同時列出 10 月 2、9、16、23、30 日為備用日。若前面的場次因天候等因素延後，晚上 20:00 可能有約 3 分鐘的煙火，但不是每個週五都保證施放。當天中午先查看北谷町觀光協會的公告與 Instagram，再決定要不要為了煙火特地留到晚上。
+
+![美國村海邊夜空中的金色煙火，海面映出光影](/images/articles/okinawa-october-family-guide/american-village-fireworks-main.jpg "美國村海邊煙火。活動日期與施放狀況請以當期公告為準。")
+
+*美國村海邊煙火。本站實拍；活動日期與施放狀況請以當期公告為準。*
+
+![從沙灘望向美國村海邊的煙火與海面倒影](/images/articles/okinawa-october-family-guide/american-village-fireworks-beach.jpg "美國村海邊煙火與海面倒影。")
+
+*美國村海邊煙火與海面倒影。本站實拍。*
 
 開車的家庭，北谷町美濱公共停車場平常免費，但清晨 6:00 到 8:00 閉門；活動日也可能提早停止新車進入。若傍晚想看夕陽或煙火，先預留備案：北谷 Fisherina 停車場前兩小時免費，當日最高 500 日圓，且 24 小時開放。
 
@@ -205,7 +213,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 那霸機場與北谷之間的交通：[北谷町觀光協會 2026 年交通更新](https://chatantourism.com/info/%E3%80%90%E2%80%BB1-17%E3%83%90%E3%82%B9%E6%83%85%E5%A0%B1%E6%9B%B4%E6%96%B0%E3%80%91%E5%8C%97%E8%B0%B7%E3%81%A1%E3%82%83%E3%81%9F%E3%82%93%E2%87%94%E7%A9%BA%E6%B8%AF%E3%82%A2%E3%82%AF%E3%82%BB/)
 
 
-本文不是實地走訪心得，內容依官方資料整理。
+行程資訊依官方資料整理；文內煙火照片為本站實拍。
 
 - 北谷町觀光資訊中心：[美國村官網店家頁](https://www.okinawa-americanvillage.com/zh-hant/shop/information-center/)、[北谷町觀光協會「北谷日常」](https://love.chatan.jp/topic/chatan_information_center/)
 - 停車場、營業時間、哺乳空間：[Depot Island 官方 FAQ](https://www.depot-island.co.jp/faqlist/)、[北谷町營停車場施行規則](https://www.chatan.jp/reiki/reiki_honbun/q925RG00000451.html)、[沖繩ナビ 美國村親子整理](https://okinawa-navi.jp/magazine/american-village-kids/)、[北谷町公所公告](https://www.chatan.jp/smph/choseijoho/kankou/oshirase/cyatancyoucyoueicyuu.html)
