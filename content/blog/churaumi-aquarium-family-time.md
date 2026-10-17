@@ -2,7 +2,7 @@
 title: "2026 美麗海水族館停留時間抓多久？親子行程 2 小時、半天怎麼選"
 description: "官方平均參觀約 1.5 到 2 小時，但帶孩子還要算停車、移動與休息。整理美麗海水族館 2 小時、半天與那霸一日遊的安排方式。"
 date: "2026-07-10"
-updated: "2026-09-29"
+updated: "2026-10-17"
 category: "親子景點"
 tags: ["美麗海水族館", "沖繩親子景點", "沖繩北部", "家庭旅遊"]
 coverImage: "/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg"
@@ -66,6 +66,10 @@ coverLicenseUrl: "https://unsplash.com/license"
 
 美麗海水族館位在海洋博公園裡，周邊還有海豚劇場、海龜館、海牛館、翡翠海灘和兒童遊具區。這些不一定每個都要去，但它們會影響你停留多久。
 
+![美麗海水族館黑潮之海水槽內的鯨鯊與魚群](/images/articles/churaumi-aquarium-family-time/churaumi-kuroshio-whale-shark.jpg)
+
+*美麗海水族館「黑潮之海」水槽。本站實拍。*
+
 家庭旅行很常發生一件事：大人以為孩子會最愛巨大水槽，結果孩子反而在戶外區、商店或休息區停最久。
 
 所以不用先決定「全部都要走完」。進本館前先挑一個周邊備選，孩子還有體力再去，累了就直接收。
@@ -106,6 +110,10 @@ coverLicenseUrl: "https://unsplash.com/license"
 3. 進水族館本館，先看主要展區。
 4. 孩子還有體力，再走戶外區或周邊設施。
 5. 不硬撐到最後，保留回程精神。
+
+![美麗海水族館黑潮之海水槽與參觀人群](/images/articles/churaumi-aquarium-family-time/churaumi-kuroshio-wide-view.jpg)
+
+*美麗海水族館「黑潮之海」水槽。本站實拍。*
 
 家庭旅行常常累在「都來了就順便」。沖繩北部距離遠，順便太多，回程就會很累。
 
