@@ -2,7 +2,7 @@
 title: "沖繩北部親子一日遊怎麼排？美麗海、古宇利島、名護別全塞滿"
 description: "帶孩子跑沖繩北部，美麗海水族館和古宇利島能排同一天嗎？這篇依那霸、恩納與名護住宿位置，整理三種北部一日行程、午睡與雨天刪減方式。"
 date: "2026-07-20"
-updated: "2026-09-29"
+updated: "2026-10-17"
 category: "沖繩行程"
 tags: ["沖繩北部一日遊", "美麗海水族館", "古宇利島", "沖繩親子行程", "沖繩親子自駕"]
 coverImage: "/images/articles/okinawa-north-family-day-trip/north-family-drive-cover.webp"
@@ -41,7 +41,9 @@ coverCaption: "北部景點看起來集中，實際還要算長途車程、停�
 
 暑假期間水族館可能延長營業，但不代表一定要待到晚上。回那霸還有一段路，開車的人也需要保留精神。營業時間會依旺季和活動調整，出發當天要看官方公告。
 
-![美麗海水族館黑潮之海水槽前的鯨鯊與參觀人群](/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg "美麗海水族館黑潮之海水槽實景。照片：Rick Wallace／Unsplash，依 Unsplash License 使用")
+![美麗海水族館黑潮之海水槽中的鯨鯊與魚群](/images/articles/churaumi-aquarium-family-time/churaumi-kuroshio-wide-view.jpg "美麗海水族館黑潮之海水槽。本站實拍。")
+
+*美麗海水族館「黑潮之海」水槽。本站實拍。*
 
 水族館本館、海豚區、海龜池和公園內其他設施不必全部跑完。停留時間、推車與停車細節，可接著看[美麗海水族館安排幾小時？](/blog/churaumi-aquarium-family-time)。
 
@@ -53,7 +55,9 @@ coverCaption: "北部景點看起來集中，實際還要算長途車程、停�
 
 到了古宇利島，不用一口氣跑完整座島。親子家庭可以先抓古宇利大橋、橋邊海景和古宇利海灘；停留 1 到 2 小時後就回飯店。心形岩需要額外移動和走路，太熱、下雨、孩子睡著或大人已經累了，都可以直接刪掉。
 
-![從古宇利島岸邊望向海面與古宇利大橋](/images/articles/kouri-island-family-guide/kouri-bridge-real.jpg "古宇利島岸邊與古宇利大橋實景。照片：kaori kubota／Unsplash，依 Unsplash License 使用")
+![從古宇利島望向古宇利大橋與海面](/images/articles/kouri-island-family-guide/kouri-bridge-view.jpg "從古宇利島望向古宇利大橋。本站實拍。")
+
+*從古宇利島望向古宇利大橋。本站實拍。*
 
 官方旅遊資料指出，古宇利大橋約 2 公里，古宇利島繞島開車約 15 分鐘。這個時間只代表車子繞一圈，沒有包含停車、拍照、走到海邊、吃東西和孩子玩沙。想細看橋、海灘與心形岩的取捨，可以讀[古宇利島適合帶小孩去嗎？](/blog/kouri-island-family-guide)。
 
