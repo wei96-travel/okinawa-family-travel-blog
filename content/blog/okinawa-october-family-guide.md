@@ -2,6 +2,7 @@
 title: "2026 10月沖繩親子怎麼玩？穿什麼、還能玩水嗎、祭典與雨天備案"
 description: "10 月帶小孩去沖繩怎麼穿？還能不能玩水？整理親子家庭最需要的穿著、海灘、祭典、下雨與颱風備案，讓行程能跟著天氣調整。"
 date: "2026-10-01"
+updated: "2026-10-17"
 category: "沖繩行程"
 tags: ["10月沖繩", "沖繩親子旅遊", "沖繩天氣", "沖繩雨天備案", "沖繩祭典"]
 coverImage: "/images/articles/okinawa-october-family-guide/okinawa-october-family-cover.png"
@@ -53,6 +54,16 @@ coverCaption: "本站 AI 自製情境圖：10 月仍適合安排海邊，但帶�
 - 10 月 17 至 18 日：豐見城祭。
 - 10 月 25 日：空手道日，適合對沖繩文化有興趣的家庭安排空手道會館或相關活動。
 
+如果住在中部，也可以在出發前查一下美國村一帶是否剛好有煙火活動。北谷的煙火通常會依季節活動安排，並不是每天固定施放；日期、時間與是否因天候調整，都要以北谷町觀光協會當期公告為準。
+
+![美國村海邊夜空中的金色煙火，海面映出光影](/images/articles/okinawa-october-family-guide/american-village-fireworks-main.jpg "美國村海邊煙火。活動日期與施放狀況請以當期公告為準。")
+
+美國村海邊煙火。本站實拍；活動日期與施放狀況請以當期公告為準。
+
+![從沙灘望向美國村海邊的煙火與海面倒影](/images/articles/okinawa-october-family-guide/american-village-fireworks-beach.jpg "美國村海邊煙火與海面倒影。")
+
+美國村海邊煙火與海面倒影。本站實拍。
+
 ![從高處望向那霸市區，前景為住宅屋頂，天空有大片雲層](/images/articles/okinawa-october-family-guide/naha-city-2025.webp "那霸市區實景，非特定祭典現場。")
 
 照片：[Amos K／Unsplash](https://unsplash.com/photos/a-sprawling-cityscape-under-a-bright-blue-sky-6j2jeqZPago)，依 [Unsplash License](https://unsplash.com/license) 使用。
@@ -78,6 +89,7 @@ coverCaption: "本站 AI 自製情境圖：10 月仍適合安排海邊，但帶�
 
 - [沖繩官方：10 月的沖繩](https://visitokinawajapan.com/zh-hant/plan-your-trip/when-to-visit-climate-seasons/okinawa-october/)
 - [沖繩官方：活動行事曆](https://visitokinawajapan.com/discover/events/)
+- [北谷町觀光協會：Seaport Chatan Carnival 花火資訊](https://chatantourism.com/info/seaport-chatan-carnival/)
 - [沖繩官方：颱風注意事項](https://visitokinawajapan.com/plan-your-trip/useful-information/typhoon-precautions-okinawa/)
 
 資料查核日期：2026 年 10 月 1 日。天氣與活動資訊以官方與主辦單位最新公告為準。
