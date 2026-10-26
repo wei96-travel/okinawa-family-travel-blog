@@ -157,7 +157,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 5 歲以下自助早餐免費
 - 屋頂泳池有兒童池，客房脫鞋使用
 
-[查看 Vessel 花苑沖繩飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-705561/vessel-hotel-campana-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_vessel&trip_sub3=D19827215)
+> [查看 Vessel 花苑沖繩飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-705561/vessel-hotel-campana-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_vessel&trip_sub3=D19827215)
 
 ### 北谷沖繩海灘塔飯店（The Beach Tower Okinawa）
 
@@ -166,7 +166,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 餐廳自助餐有兒童區
 - 2024 年 10 月起飯店停車場改收費，JTB、阪急交通社等訂房網站寫每晚每台 1,000 日圓（JTB 另寫連住最多 3,000 日圓），訂房時再確認
 
-[查看北谷沖繩海灘塔飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-711312/the-beach-tower-of-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_beach_tower&trip_sub3=D19827250)
+> [查看北谷沖繩海灘塔飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-711312/the-beach-tower-of-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_beach_tower&trip_sub3=D19827250)
 
 ### 沖繩北谷希爾頓度假飯店（Hilton Okinawa Chatan Resort）
 
@@ -174,7 +174,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - 6 歲以上以大人計價，還沒上小學的孩子同床免費
 - 館內有泳池
 
-[查看沖繩北谷希爾頓度假飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-1779182/hilton-okinawa-chatan-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_hilton&trip_sub3=D19827285)
+> [查看沖繩北谷希爾頓度假飯店的房型與同日期總價](https://tw.trip.com/hotels/chatan-hotel-detail-1779182/hilton-okinawa-chatan-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_hilton&trip_sub3=D19827285)
 
 ## 行程裡放在哪一天
 
