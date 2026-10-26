@@ -91,7 +91,11 @@ OTS 官網公布的 24 小時定價（查核日期 2026 年 9 月 7 日）：
 
 帶孩子的家庭比較容易忽略的是第二層和第三層。基本費看起來便宜的方案，把 NOC 補償和兩張安全座椅加上去，總價順序常常就翻掉了。
 
-比價的正確做法是**固定日期、固定取還車地點、固定車型**，再逐項比。可以先用[沖繩租車列表](https://tw.trip.com/carhire/to-japan-78/okinawa-207/?Allianceid=8075670&SID=305605448&trip_sub1=blog_rental_car_guide&trip_sub3=D18913071)看整體價格帶——上面有 Times、ORIX、Nippon、Nissan 等品牌，但**沒有 OTS**，OTS 要回它自己的[繁體中文官網](https://www.otsinternational.jp/otsrentacar/cn/)訂。不論在哪裡訂，最後都要打開供應商條款核對保障範圍。
+比價的正確做法是**固定日期、固定取還車地點、固定車型**，再逐項比。
+
+> [比較沖繩租車的車型與總價](https://tw.trip.com/carhire/to-japan-78/okinawa-207/?Allianceid=8075670&SID=305605448&trip_sub1=blog_rental_car_guide_cta&trip_sub3=D18913071)
+
+比價頁可先看 Times、ORIX、Nippon、Nissan 等車型與總價；**OTS 沒有上架**，若晚班機抵達或已決定選 OTS，直接回它的[繁體中文官網](https://www.otsinternational.jp/otsrentacar/cn/)訂。不論在哪裡訂，最後都要打開供應商條款核對保障範圍。
 
 ## 三、出發前要辦好的：證件
 
