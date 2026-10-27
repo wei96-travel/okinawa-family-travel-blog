@@ -99,7 +99,6 @@ tags: ["沖繩住宿", "親子旅遊", "第一次去沖繩"]
 
 如果第一晚或最後幾晚打算住那霸，可以先從自己的需求挑，不用一開始就看幾十間：
 
-- 第一晚晚到、最後一天早走，或只是想找一間交通方便、價格比較好入手的房型，可以先看[那霸東急 REI 飯店的房型](https://tw.trip.com/hotels/naha-hotel-detail-974842/naha-tokyu-rei-hotel/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_tokyu_rei_naha&trip_sub3=D18951522)。房間偏精簡，帶推車或大件行李時要一起確認空間。
 - 連住兩晚以上，希望房內能洗衣、簡單加熱食物，可以先看[東急 STAY 沖繩那霸的房型](https://tw.trip.com/hotels/naha-hotel-detail-45987505/tokyu-stay-okinawa-naha/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_tokyu_stay_naha&trip_sub3=D18926539)。家庭房型、人數上限和停車條件要依日期確認。
 - 想靠近單軌站，或一家三口需要三人房，可以先看[美居沖繩那霸酒店的房型](https://tw.trip.com/hotels/naha-hotel-detail-1572595/mercure-okinawa-naha/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_mercure_naha&trip_sub3=D18926581)。國際通不是下樓就到，開車家庭也要把停車費算進去。
 
@@ -108,9 +107,9 @@ tags: ["沖繩住宿", "親子旅遊", "第一次去沖繩"]
 
 ## 資料來源與更新時間
 
-本文不是實住心得。內容依照沖繩本島區域位置、官方旅遊資料與家庭旅行需求整理。區域介紹參考 [VISIT OKINAWA JAPAN 沖繩本島介紹](https://visitokinawajapan.com/destinations/okinawa-main-island/)，交通方式參考 [VISIT OKINAWA JAPAN Getting Around Okinawa](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/)，住宿分類與設施提醒參考 [VISIT OKINAWA JAPAN Accommodations](https://visitokinawajapan.com/plan-your-trip/accommodations/)。指定飯店的房型與設備，另參考[那霸東急 REI 飯店官方資訊](https://www.tokyuhotels.co.jp/naha-r/)、[東急 STAY 沖繩那霸客房資訊](https://www.tokyustay.co.jp/hotel/ON/room/)與[美居沖繩那霸酒店官方資訊](https://all.accor.com/hotel/8725/index.en.shtml)。
+本文不是實住心得。內容依照沖繩本島區域位置、官方旅遊資料與家庭旅行需求整理。區域介紹參考 [VISIT OKINAWA JAPAN 沖繩本島介紹](https://visitokinawajapan.com/destinations/okinawa-main-island/)，交通方式參考 [VISIT OKINAWA JAPAN Getting Around Okinawa](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/)，住宿分類與設施提醒參考 [VISIT OKINAWA JAPAN Accommodations](https://visitokinawajapan.com/plan-your-trip/accommodations/)。指定飯店的房型與設備，另參考[東急 STAY 沖繩那霸客房資訊](https://www.tokyustay.co.jp/hotel/ON/room/)與[美居沖繩那霸酒店官方資訊](https://all.accor.com/hotel/8725/index.en.shtml)。
 
-最後更新：2026 年 9 月 10 日。實際飯店設施、停車規定、接駁與費用請以飯店官網為準。
+最後更新：2026 年 10 月 27 日。實際飯店設施、停車規定、接駁與費用請以飯店官網為準。
 
 ## 下一步閱讀
 
