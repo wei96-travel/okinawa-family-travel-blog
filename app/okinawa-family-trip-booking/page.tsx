@@ -8,7 +8,7 @@ import { TripDynamicHotelBanner } from "@/components/trip-dynamic-hotel-banner";
 export const metadata: Metadata = {
   title: "沖繩親子旅行怎麼訂｜住宿、租車、票券與用品整理",
   description:
-    "第一次帶孩子去沖繩，先依班機、作息和行程判斷住宿區，再處理租車、景點票券與行前用品。整理那霸、恩納住宿、沖繩租車、美麗海水族館票券及親子旅行用品入口。",
+    "第一次帶孩子去沖繩，先依班機、作息和行程判斷住宿區，再處理租車、景點票券與行前用品。整理那霸、恩納、本部美麗海住宿、沖繩租車、美麗海水族館票券及親子旅行用品入口。",
   alternates: {
     canonical: "/okinawa-family-trip-booking"
   },
@@ -32,7 +32,7 @@ const stayOptions = [
     imageAlt: "那霸國際通街景",
     bestFor: "晚班機抵達、最後一天早班機，或想把市區購物排在旅程前後幾晚",
     check: "停車費、房型床寬、兒童入住規定、從機場到飯店的交通與取車安排",
-    href:
+    searchHref:
       "https://tw.trip.com/hotels/naha-hotels-list-92573/?Allianceid=8075670&SID=305605448&trip_sub1=hub_stay_naha&trip_sub3=D18913050",
     articleHref: "/blog/naha-family-stay-guide",
     articleLabel: "先看那霸親子住宿判斷",
@@ -61,7 +61,7 @@ const stayOptions = [
     imageAlt: "沖繩海岸與恩納度假行程",
     bestFor: "想安排海邊、飯店設施與中北部行程，而且願意以租車為主要移動方式",
     check: "晚餐選擇、停車、海灘開放方式、泳池季節、接駁與兒童用品",
-    href:
+    searchHref:
       "https://tw.trip.com/hotels/onna-hotels-list-35725/?Allianceid=8075670&SID=305605448&trip_sub1=hub_stay_onna&trip_sub3=D18913057",
     articleHref: "/blog/onna-family-stay-guide",
     articleLabel: "先看恩納住兩晚是否適合",
@@ -89,6 +89,42 @@ const stayOptions = [
         reminder: "周邊較安靜，晚餐和採買要先跟當天行程一起規劃。",
         href:
           "https://tw.trip.com/hotels/onna-hotel-detail-704228/miyuki-beach-hotel-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=hotel_miyuki_onna&trip_sub3=D18926616"
+      }
+    ]
+  },
+  {
+    area: "本部 / 美麗海",
+    image: "/images/articles/churaumi-aquarium-family-time/churaumi-kuroshio-wide-view.jpg",
+    imageAlt: "美麗海水族館黑潮之海水槽與鯨鯊",
+    imageCaption: "作者拍攝的美麗海水族館行程情境照，非飯店實景",
+    bestFor: "美麗海水族館和海洋博公園是北部主行程，想把水族館、午睡與隔天行程拆得更鬆一點",
+    check: "房型可住人數、孩子是否計入上限、停車、早餐與取消條件；同一組日期再比總價",
+    articleHref: "/blog/okinawa-churaumi-nearby-family-stay",
+    articleLabel: "先看美麗海附近三間候選怎麼比",
+    hotels: [
+      {
+        name: "Royal View Hotel Churaumi",
+        buttonLabel: "查看 Royal View 房型",
+        fit: "水族館是北部主行程，想住得接近海洋博公園，或家庭需要較多人數房型。",
+        reminder: "實際步行時間、人數、床型與早餐規則要依入口與輸入日期後的條款確認。",
+        href:
+          "https://tw.trip.com/hotels/motobu-hotel-detail-1945610/royal-view-hotel-churaumi/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_royal_view&trip_sub3=D18973001"
+      },
+      {
+        name: "Hotel Mahaina Wellness Resorts Okinawa",
+        buttonLabel: "查看 Mahaina 房型",
+        fit: "想找和洋室與家庭房，孩子回房後還需要較多活動空間。",
+        reminder: "兒童同住、停車與設施開放方式會因房型和方案不同。",
+        href:
+          "https://tw.trip.com/hotels/motobu-hotel-detail-703608/hotel-mahaina-wellness-resorts-okinawa/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_mahaina&trip_sub3=D18973002"
+      },
+      {
+        name: "Wisteria Condominium Resort",
+        buttonLabel: "查看 Wisteria 房型",
+        fit: "海邊後要洗衣、想簡單料理，或一家人需要四人房的公寓式住宿。",
+        reminder: "自助入住流程與嬰幼兒是否計入住人數，訂房前都要再核對。",
+        href:
+          "https://tw.trip.com/hotels/motobu-hotel-detail-3898854/wisteria-condominium-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_churaumi_stay_wisteria&trip_sub3=D18973003"
       }
     ]
   }
@@ -219,7 +255,7 @@ export default function OkinawaFamilyTripBookingPage() {
               <p className="text-sm font-semibold text-[#9a6b43]">住宿</p>
               <h2 className="mt-2 text-3xl font-bold text-[#34302b]">先選住宿區，再開始找房</h2>
               <p className="mt-4 text-base leading-8 text-[#5f594f]">
-                如果還在比較北部、中部、南部或那霸，先看上方的完整區域攻略。如果選擇已經縮小到那霸和恩納，就從下面查看房型和空房，並回飯店官網核對兒童入住、停車、接駁與設施開放時間。
+                如果還在比較北部、中部、南部或那霸，先看上方的完整區域攻略。選擇縮小後，再從下面依行程情境查看房型和空房，並回飯店官網核對兒童入住、停車、接駁與設施開放時間。
               </p>
             </div>
 
@@ -235,7 +271,12 @@ export default function OkinawaFamilyTripBookingPage() {
                       src={option.image}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
-                    <p className="absolute bottom-4 left-5 text-xl font-bold text-white sm:left-7">{option.area}住宿</p>
+                    <div className="absolute bottom-4 left-5 sm:left-7">
+                      <p className="text-xl font-bold text-white">{option.area}住宿</p>
+                      {"imageCaption" in option ? (
+                        <p className="mt-1 text-xs text-white/85">{option.imageCaption}</p>
+                      ) : null}
+                    </div>
                   </div>
                   <div className="p-6 sm:p-7">
                     <h3 className="text-2xl font-bold text-[#34302b]">什麼家庭比較適合？</h3>
@@ -264,13 +305,15 @@ export default function OkinawaFamilyTripBookingPage() {
                     </div>
 
                     <div className="mt-6 flex flex-wrap items-center gap-4">
-                      <AffiliateServiceLink
-                        href={option.href}
-                        itemName={`${option.area}飯店列表`}
-                        label={`比較更多${option.area}住宿`}
-                        network="Trip.com"
-                        placement="area_search"
-                      />
+                      {"searchHref" in option ? (
+                        <AffiliateServiceLink
+                          href={option.searchHref}
+                          itemName={`${option.area}飯店列表`}
+                          label={`比較更多${option.area}住宿`}
+                          network="Trip.com"
+                          placement="area_search"
+                        />
+                      ) : null}
                       <Link
                         className="text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4"
                         href={option.articleHref}
