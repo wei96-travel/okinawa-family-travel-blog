@@ -8,13 +8,13 @@ import { TripDynamicHotelBanner } from "@/components/trip-dynamic-hotel-banner";
 export const metadata: Metadata = {
   title: "沖繩親子旅行怎麼訂｜住宿、租車、票券與用品整理",
   description:
-    "第一次帶孩子去沖繩，先依班機、作息和行程判斷住宿區，再處理租車、景點票券與行前用品。整理那霸、恩納、本部美麗海住宿、沖繩租車、美麗海水族館票券及親子旅行用品入口。",
+    "第一次帶孩子去沖繩，先依班機、作息和行程判斷住宿區，再處理租車、eSIM、景點票券與行前用品。整理那霸、恩納、本部美麗海住宿、沖繩租車、美麗海水族館票券及親子旅行用品入口。",
   alternates: {
     canonical: "/okinawa-family-trip-booking"
   },
   openGraph: {
     title: "沖繩親子旅行怎麼訂",
-    description: "照班機、孩子作息和主要行程，安排住宿、租車與行前用品。",
+    description: "照班機、孩子作息和主要行程，安排住宿、租車、eSIM 與行前用品。",
     url: "/okinawa-family-trip-booking",
     images: [
       {
@@ -164,6 +164,13 @@ const bookingPaths = [
     label: "查看租車重點"
   },
   {
+    step: "出發前處理",
+    title: "手機網路",
+    description: "先確認導航手機、熱點分享和安裝時機，再選 eSIM。",
+    href: "#esim",
+    label: "查看 eSIM 準備"
+  },
+  {
     step: "行程確定後",
     title: "景點票券",
     description: "先確認日期、票種與取消條件，再比較平台，不為了便宜買錯方案。",
@@ -188,16 +195,16 @@ export default function OkinawaFamilyTripBookingPage() {
         <div className="relative mx-auto flex min-h-[460px] max-w-6xl items-end px-5 pb-12 pt-24 sm:px-6 sm:pb-16 lg:px-8">
           <div className="max-w-2xl text-white">
             <p className="text-sm font-semibold">沖繩親子旅行預訂整理</p>
-            <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl">先訂住宿，再處理租車和門票</h1>
+            <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl">先訂住宿，再處理租車、網路和門票</h1>
             <p className="mt-5 max-w-xl text-lg leading-9 text-white/90">
-              不用一次開十幾個分頁。先決定住哪一區，再核對租車和票券，最後才整理用品，會比較不容易訂錯。
+              不用一次開十幾個分頁。先決定住哪一區，再核對租車、eSIM 和票券，最後才整理用品，會比較不容易訂錯。
             </p>
           </div>
         </div>
       </section>
 
       <section className="border-b border-[#eadfce] bg-[#fffdf8]">
-        <div className="mx-auto grid max-w-6xl gap-px bg-[#eadfce] sm:grid-cols-3">
+        <div className="mx-auto grid max-w-6xl gap-px bg-[#eadfce] sm:grid-cols-2 lg:grid-cols-4">
           {bookingPaths.map((path) => (
             <a
               className="group flex min-h-40 flex-col justify-between bg-[#fffdf8] px-5 py-6 transition-colors hover:bg-[#fbf6ee] focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[#694624] sm:px-6"
@@ -362,6 +369,40 @@ export default function OkinawaFamilyTripBookingPage() {
               >
                 先看親子租車完整攻略
               </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="scroll-mt-20 border-y border-[#eadfce] bg-[#f6efe4]" id="esim">
+          <div className="mx-auto grid max-w-6xl gap-9 px-5 py-12 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:px-8">
+            <div>
+              <p className="text-sm font-semibold text-[#9a6b43]">手機網路</p>
+              <h2 className="mt-2 text-3xl font-bold leading-tight text-[#34302b]">eSIM 先在出發前處理好</h2>
+            </div>
+            <div>
+              <p className="text-base leading-8 text-[#5f594f]">
+                抵達那霸後要找接駁車、領車或開導航時，才開始設定網路很容易手忙腳亂。先決定哪一支手機負責導航、兩位大人是否會分開行動，以及孩子的平板需不需要分享熱點，再選對應的天數和流量。
+              </p>
+              <ul className="mt-5 space-y-3 text-sm leading-7 text-[#5f594f]">
+                <li>只有一位大人需要導航：先看一張可分享熱點的方案是否足夠。</li>
+                <li>兩位大人可能分開行動：兩支手機各自有網路通常比較穩。</li>
+                <li>在台灣先用穩定 Wi-Fi 安裝，抵達日本後再依方案說明啟用。</li>
+              </ul>
+              <div className="mt-7 flex flex-wrap items-center gap-4">
+                <AffiliateServiceLink
+                  href="https://affiliate.klook.com/redirect?aid=128859&aff_adid=1503488&k_site=https%3A%2F%2Fwww.klook.com%2Fzh-TW%2Factivity%2F109393-japan-esim-high-speed-internet-qr-code-voucher%2F"
+                  itemName="日本 eSIM 方案"
+                  label="查看日本 eSIM 方案"
+                  network="Klook"
+                  placement="esim_booking_hub"
+                />
+                <Link
+                  className="text-sm font-semibold text-[#694624] underline decoration-[#d7c7af] underline-offset-4"
+                  href="/blog/okinawa-esim-klook-airalo-comparison"
+                >
+                  先看 Klook 與 Airalo 怎麼選
+                </Link>
+              </div>
             </div>
           </div>
         </section>
