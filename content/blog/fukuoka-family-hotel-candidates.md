@@ -106,6 +106,12 @@ coverLicenseUrl: "https://showcase.city.fukuoka.lg.jp/en/attention.html"
 
 > [查看 Hilton Fukuoka Sea Hawk 同日期房型與總價](https://tw.trip.com/hotels/fukuoka-hotel-detail-1861358/hilton-fukuoka-sea-hawk/?Allianceid=8075670&SID=305605448&trip_sub1=blog_fukuoka_family_hotel_hilton)
 
+## 再比較更多福岡親子住宿
+
+下方可用同一組日期、房數和孩子年齡，再篩更多福岡住宿。
+
+{{trip_dynamic_hotel_banner:fukuoka}}
+
 ## 資料來源與圖片說明
 
 - Hotel Nikko Fukuoka：官方 [飯店資訊](https://www.hotelnikko-fukuoka.com/guide/) 與 [住宿 FAQ](https://www.hotelnikko-fukuoka.com/stay/faq.html)
