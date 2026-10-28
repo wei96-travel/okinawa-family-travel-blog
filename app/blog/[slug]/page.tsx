@@ -39,6 +39,11 @@ const newsletterOfferBySlug: Record<string, NewsletterOffer> = {
   "okinawa-baby-supplies-shopping-guide": "okinawa_baby_supplies_shopping_card"
 };
 
+// 福岡文章不顯示沖繩專用的電子報表單。
+const newsletterExcludedSlugs = new Set([
+  "fukuoka-first-time-family-stay-guide"
+]);
+
 const protectedOriginalImagePathsBySlug: Record<string, string[]> = {
   "dmm-kariyushi-aquarium-family-guide": [
     "/images/articles/dmm-kariyushi-aquarium-family-guide/dmm-kariyushi-aquarium-stingray.jpg",
@@ -265,7 +270,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           回到旅行規劃入口
         </Link>
       </section>
-      <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} />
+      {!newsletterExcludedSlugs.has(post.slug) ? <NewsletterSignup offer={newsletterOfferBySlug[post.slug]} /> : null}
       <ReadingNextSteps currentSlug={post.slug} posts={allPosts} />
 
       {relatedPosts.length > 0 ? (

@@ -40,6 +40,13 @@ export const categoryDefinitions = [
     image: "/images/articles/okinawa-family-restaurant-dining-guide/restaurant-cover.jpg",
     description: "帶孩子吃沖繩料理、選餐廳與臨時用餐備案。",
     audience: "擔心孩子吃不慣、餐廳排隊，或需要處理食物過敏與外帶備案的家庭。"
+  },
+  {
+    name: "日本親子旅行",
+    slug: "japan-family-travel",
+    image: "/images/articles/fukuoka-first-time-family-stay-guide/fukuoka-rakusuien-garden-2025.jpg",
+    description: "從沖繩以外的日本城市開始，整理親子住宿區域、移動節奏與行程選擇。",
+    audience: "正在規劃第一次帶孩子去日本其他城市，想先把住宿和移動安排想清楚的家庭。"
   }
 ] as const;
 
