@@ -85,7 +85,7 @@ export default function StartPage() {
           <p className="text-sm font-semibold text-[#9a6b43]">還沒開始訂，也可以先做一件小事</p>
           <h2 className="mt-2 text-2xl font-bold text-[#34302b]">先把租車證件準備好</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-[#5f594f]">
-            留下 Email，我們會先寄租車證件檢查表；確認信點完才算訂閱，之後再依出發前的節奏寄幾封行前信。
+            留下 Email，完成確認後就能開啟租車證件檢查表；領取後不會自動加入多封行前信的寄送流程。
           </p>
           <div className="mt-6">
             <NewsletterSignup spacing="page" />

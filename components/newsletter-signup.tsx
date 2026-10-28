@@ -18,9 +18,9 @@ export const NEWSLETTER_OFFERS = {
       "把出發前、落地後與連不上網時最容易漏掉的設定排在一張表：手機支援、安裝時機、行動數據切換與數據漫遊。照著勾，抵達前就能先把風險排掉。",
     embeddedHeading: "沖繩 eSIM 出發前設定檢查表",
     embeddedButtonText: "免費拿 eSIM 檢查表",
-    embeddedDisclaimer: "完成確認後，檢查表會直接開啟；之後可隨時在信件最下方取消。",
+    embeddedDisclaimer: "完成確認後，檢查表會直接開啟。",
     subscriptionNote:
-      "我們會先寄一封確認信，點了信裡的連結才算完成訂閱；確認後會直接開啟檢查表。之後會收到沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
+      "我們會先寄一封確認信，點了信裡的連結才算完成訂閱；確認後會直接開啟檢查表。領取後不會自動加入多封行前信的寄送流程；日後可能不定期以 Email 寄送與本站內容相關的更新。你可隨時取消訂閱，Email 不會出售或提供給第三方作行銷使用。"
   },
   okinawa_rental_car_documents: {
     formUid: "03df8acb9a",
@@ -50,7 +50,7 @@ export const NEWSLETTER_OFFERS = {
     body:
       "把預約、取車和上路前最容易漏掉的事排在一起：孩子的身高體重、座椅類型與固定方式、推車和行李空間。到櫃檯照著看，不用靠記憶。",
     subscriptionNote:
-      "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
+      "送出後會直接開啟檢查表，並寄一封方便日後再看的信。領取後不會自動加入多封行前信的寄送流程；日後可能不定期以 Email 寄送與本站內容相關的更新。你可隨時取消訂閱，Email 不會出售或提供給第三方作行銷使用。"
   },
   okinawa_family_attractions_planner: {
     formUid: "39dd1e1d8a",
@@ -61,7 +61,7 @@ export const NEWSLETTER_OFFERS = {
     embeddedHeading: "免費取得沖繩親子景點安排檢查表",
     embeddedDisclaimer: "我們重視你的隱私；隨時可在信件最下方取消訂閱。",
     subscriptionNote:
-      "送出後會直接開啟檢查表，並寄一封方便日後再看的信。之後會收到每週一封沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"
+      "送出後會直接開啟檢查表，並寄一封方便日後再看的信。領取後不會自動加入多封行前信的寄送流程；日後可能不定期以 Email 寄送與本站內容相關的更新。你可隨時取消訂閱，Email 不會出售或提供給第三方作行銷使用。"
   },
   okinawa_kokusai_dori_family_route_card: {
     formUid: "cbe8daec20",
@@ -71,9 +71,9 @@ export const NEWSLETTER_OFFERS = {
       "把起點、休息備案、推車節奏和回程時機放進同一張卡。出門前存到手機，不用走到一半才開始找廁所、車站或停車場。",
     embeddedHeading: "沖繩國際通親子動線卡",
     embeddedButtonText: "免費領取動線卡",
-    embeddedDisclaimer: "填寫 Email 後，會收到動線卡連結與一封確認信。",
+    embeddedDisclaimer: "完成確認後，即可開啟動線卡。",
     subscriptionNote:
-      "送出後會寄一封確認信給您；完成確認後，即可從 Email 開啟動線卡。之後會收到沖繩親子旅行的實用內容信，以後可在信件最下方取消，Email 不會提供給第三方。"
+      "送出後會寄一封確認信給您；完成確認後，即可開啟動線卡。領取後不會自動加入多封行前信的寄送流程；日後可能不定期以 Email 寄送與本站內容相關的更新。你可隨時取消訂閱，Email 不會出售或提供給第三方作行銷使用。"
   },
   okinawa_baby_supplies_shopping_card: {
     formUid: "5303f198de",
@@ -83,9 +83,9 @@ export const NEWSLETTER_OFFERS = {
       "把奶粉、尿布、飯店嬰兒用品與當地補貨的判斷分開整理。打包前和抵達後各看一次，少花時間找錯店、買錯東西。",
     embeddedHeading: "沖繩嬰幼兒用品採買清單",
     embeddedButtonText: "免費領取採買清單",
-    embeddedDisclaimer: "填寫 Email 後，會收到採買清單連結與一封確認信。",
+    embeddedDisclaimer: "完成確認後，即可開啟採買清單。",
     subscriptionNote:
-      "送出後會寄一封確認信給您；完成確認後，即可從 Email 開啟採買清單。之後會收到沖繩親子旅行的實用內容信，以後可在信件最下方取消，Email 不會提供給第三方。"
+      "送出後會寄一封確認信給您；完成確認後，即可開啟採買清單。領取後不會自動加入多封行前信的寄送流程；日後可能不定期以 Email 寄送與本站內容相關的更新。你可隨時取消訂閱，Email 不會出售或提供給第三方作行銷使用。"
   }
 } as const;
 
@@ -233,7 +233,7 @@ export function NewsletterSignup({ spacing = "article", offer = "okinawa_rental_
       <p className="mt-4 text-xs leading-6 text-[#7c7466]">
         {"subscriptionNote" in config
           ? config.subscriptionNote
-          : "我們會先寄一封確認信，點了信裡的連結才算完成訂閱。之後會收到沖繩親子旅行的行前信，隨時可以在信件最下方取消，Email 不會提供給第三方。"}
+          : "我們會先寄一封確認信，點了信裡的連結才算完成訂閱。確認後會直接開啟檢查表；領取後不會自動加入多封行前信的寄送流程。日後可能不定期以 Email 寄送與本站內容相關的更新，你可隨時取消訂閱，Email 不會出售或提供給第三方作行銷使用。"}
       </p>
     </section>
   );
