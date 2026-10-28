@@ -2,7 +2,7 @@
 title: "2026 美麗海水族館停留時間抓多久？親子行程 2 小時、半天怎麼選"
 description: "官方平均參觀約 1.5 到 2 小時，但帶孩子還要算停車、移動與休息。整理美麗海水族館 2 小時、半天與那霸一日遊的安排方式。"
 date: "2026-07-10"
-updated: "2026-10-17"
+updated: "2026-10-28"
 category: "親子景點"
 tags: ["美麗海水族館", "沖繩親子景點", "沖繩北部", "家庭旅遊"]
 coverImage: "/images/articles/churaumi-aquarium-family-time/churaumi-aquarium-real.jpg"
@@ -98,6 +98,10 @@ coverLicenseUrl: "https://unsplash.com/license"
 從中北部出發，早上不需要那麼早起，也比較能避開下午孩子疲累的狀態。這也是為什麼不少家庭會把海邊飯店和水族館排在同一段旅程。
 
 如果你還在考慮住宿區域，可以先看[恩納村適合家庭住嗎？海邊飯店值得住兩晚嗎](/blog/onna-family-stay-guide)和[第一次去沖繩住哪裡？北部、中部、南部怎麼選](/blog/first-okinawa-where-to-stay)。
+
+如果不想把美麗海排成從那霸當天來回，住宿還沒訂時，先把本部列入比較。水族館、海洋博公園和孩子午睡能拆開處理，北部這天就不必一直趕路。不過，若是從那霸機場進出，第一天太晚抵達或最後一天要趕飛機時，還是不要把本部放在首末日。
+
+[查看本部／美麗海三種住宿情境與房型](/okinawa-family-trip-booking#stays)
 
 ## 帶孩子建議這樣排順序
 
