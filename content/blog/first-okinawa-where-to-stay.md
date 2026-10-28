@@ -118,7 +118,7 @@ tags: ["沖繩住宿", "親子旅遊", "第一次去沖繩"]
 
 本文不是實住心得。內容依照沖繩本島區域位置、官方旅遊資料與家庭旅行需求整理。區域介紹參考 [VISIT OKINAWA JAPAN 沖繩本島介紹](https://visitokinawajapan.com/destinations/okinawa-main-island/)，交通方式參考 [VISIT OKINAWA JAPAN Getting Around Okinawa](https://visitokinawajapan.com/plan-your-trip/getting-around-okinawa/)，住宿分類與設施提醒參考 [VISIT OKINAWA JAPAN Accommodations](https://visitokinawajapan.com/plan-your-trip/accommodations/)。指定飯店的房型與設備，另參考[東急 STAY 沖繩那霸客房資訊](https://www.tokyustay.co.jp/hotel/ON/room/)與[美居沖繩那霸酒店官方資訊](https://all.accor.com/hotel/8725/index.en.shtml)。
 
-最後更新：2026 年 10 月 27 日。實際飯店設施、停車規定、接駁與費用請以飯店官網為準。
+最後更新：2026 年 10 月 28 日。實際飯店設施、停車規定、接駁與費用請以飯店官網為準。
 
 ## 下一步閱讀
 
