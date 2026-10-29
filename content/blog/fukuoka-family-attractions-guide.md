@@ -4,11 +4,11 @@ description: "第一次帶孩子去福岡，親子景點怎麼挑才不會太趕
 date: "2026-10-29"
 category: "日本親子旅行"
 tags: ["福岡親子", "福岡親子景點", "福岡自由行", "福岡室內景點", "福岡水族館"]
-coverImage: "/images/articles/fukuoka-first-time-family-stay-guide/fukuoka-rakusuien-garden-2025.jpg"
-coverAlt: "福岡樂水園入口旁的樹木與石板步道"
-coverCaption: "圖庫圖名：Rakusuien Garden（2025）。"
+coverImage: "/images/articles/fukuoka-first-time-family-stay-guide/fukuoka-tower-2025.jpg"
+coverAlt: "夜間點燈的福岡塔"
+coverCaption: "圖庫圖名：Fukuoka Tower（2025）。"
 coverCreditText: "Photograph(s) provided by Fukuoka City"
-coverCreditUrl: "https://showcase.city.fukuoka.lg.jp/photo/img1537.html"
+coverCreditUrl: "https://showcase.city.fukuoka.lg.jp/photo/img1535.html"
 coverLicenseText: "圖片使用規範"
 coverLicenseUrl: "https://showcase.city.fukuoka.lg.jp/en/attention.html"
 ---

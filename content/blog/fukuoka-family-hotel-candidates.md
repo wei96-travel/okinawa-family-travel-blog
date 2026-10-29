@@ -4,11 +4,11 @@ description: "第一次帶孩子去福岡，不要先看飯店排名。依抵達
 date: "2026-10-28"
 category: "日本親子旅行"
 tags: ["福岡親子住宿", "福岡飯店", "博多住宿", "天神住宿", "百道住宿"]
-coverImage: "/images/articles/fukuoka-first-time-family-stay-guide/fukuoka-rakusuien-garden-2025.jpg"
-coverAlt: "福岡樂水園入口旁的樹木與石板步道"
-coverCaption: "圖庫圖名：Rakusuien Garden（2025）。"
+coverImage: "/images/articles/fukuoka-first-time-family-stay-guide/fukuoka-tenjin-area-2025.jpg"
+coverAlt: "天神商圈的 Solaria Plaza 與街景"
+coverCaption: "圖庫圖名：Tenjin Area（2025）。"
 coverCreditText: "Photograph(s) provided by Fukuoka City"
-coverCreditUrl: "https://showcase.city.fukuoka.lg.jp/photo/img1537.html"
+coverCreditUrl: "https://showcase.city.fukuoka.lg.jp/photo/img1538.html"
 coverLicenseText: "圖片使用規範"
 coverLicenseUrl: "https://showcase.city.fukuoka.lg.jp/en/attention.html"
 ---

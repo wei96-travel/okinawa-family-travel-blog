@@ -4,11 +4,11 @@ description: "第一次帶孩子去福岡自由行，4 天 3 夜怎麼排才不�
 date: "2026-10-29"
 category: "日本親子旅行"
 tags: ["福岡親子", "福岡自由行", "福岡行程", "福岡 4 天 3 夜", "福岡住宿"]
-coverImage: "/images/articles/fukuoka-first-time-family-stay-guide/fukuoka-rakusuien-garden-2025.jpg"
-coverAlt: "福岡樂水園入口旁的樹木與石板步道"
-coverCaption: "圖庫圖名：Rakusuien Garden（2025）。"
+coverImage: "/images/articles/fukuoka-first-time-family-stay-guide/fukuoka-hakata-port-tower-2025.jpg"
+coverAlt: "傍晚點燈的博多港塔與港灣"
+coverCaption: "圖庫圖名：Hakata Port Tower（2025）。"
 coverCreditText: "Photograph(s) provided by Fukuoka City"
-coverCreditUrl: "https://showcase.city.fukuoka.lg.jp/photo/img1537.html"
+coverCreditUrl: "https://showcase.city.fukuoka.lg.jp/photo/img1532.html"
 coverLicenseText: "圖片使用規範"
 coverLicenseUrl: "https://showcase.city.fukuoka.lg.jp/en/attention.html"
 ---
