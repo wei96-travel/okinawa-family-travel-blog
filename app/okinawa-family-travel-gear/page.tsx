@@ -4,9 +4,9 @@ import { AffiliateDisclosureNotice } from "@/components/affiliate-disclosure-not
 import { AffiliateProductLink } from "@/components/affiliate-product-link";
 
 export const metadata: Metadata = {
-  title: "沖繩親子旅行用品清單｜奶瓶清潔、車上整理與自駕備案",
+  title: "沖繩親子旅行用品清單｜雨天、奶瓶清潔與自駕備案",
   description:
-    "整理帶小孩去沖繩時真正派得上用場的用品：奶瓶清潔、車上整理、臨時如廁、推車托運與回程收納。每項都說明用途、限制與購買前要注意的地方。",
+    "整理帶小孩去沖繩時真正派得上用場的用品：雨天與海邊收納、奶瓶清潔、車上整理、臨時如廁、推車托運與回程收納。每項都說明用途、限制與購買前要注意的地方。",
   alternates: {
     canonical: "/okinawa-family-travel-gear"
   },
@@ -85,6 +85,27 @@ const productGroups = [
         href: "https://s.shopee.tw/1qah6zZhJB",
         articleHref: "/blog/okinawa-convenience-store-family-shopping-guide",
         articleLabel: "先看親子自駕採買情境"
+      }
+    ]
+  },
+  {
+    id: "wet-items",
+    eyebrow: "海邊或下雨後",
+    title: "濕衣物先分開，別讓行李箱最後全受牽連",
+    summary:
+      "海邊玩完、下雨淋濕或想把鞋子先隔開時，讓濕的東西有一個獨立位置。它不是完全密封的防水保險箱，電子產品與會滲漏的物品仍要另外處理。",
+    products: [
+      {
+        category: "乾濕分離收納包",
+        problem: "泳衣、濕衣物和鞋子一放進行李箱，就和乾淨衣物混在一起",
+        name: "Reddot 紅點生活乾濕分離透明防水分層收納包",
+        reason:
+          "酷澎商品頁核對時列出 PU + PVC 材質、透明隔層與獨立鞋倉；頁面顯示 43 筆商品評價、近一個月超過 100 人購入。這款由酷澎直售並提供火箭配送，當下售價為 $119，後台顯示分潤率 10%。",
+        caution:
+          "商品頁標示的防水與隔絕濕氣屬於賣場規格，不是本站實測。它適合先隔開泳衣、濕衣物或鞋子；手機、相機、護照與真的會漏水的物品，仍要用獨立密封袋保護。",
+        href: "https://coupa.ng/cqv2lF",
+        articleHref: "/blog/okinawa-family-beach-packing-list",
+        articleLabel: "先看海邊親子行李清單"
       }
     ]
   },
@@ -278,7 +299,7 @@ export default function OkinawaFamilyTravelGearPage() {
         <h2 className="text-2xl font-bold text-[#34302b]">下單前再確認</h2>
         <div className="mt-5 space-y-4 text-base leading-8 text-[#5f594f]">
           <p>價格、庫存、尺寸和材質都可能調整，請以你打開商品頁當下看到的資料為準。推車袋、收納袋這類用品，先量自己的物品尺寸再選，不要只看「通用」兩個字。</p>
-          <p>這批資料核對於 2026 年 7 月 22～26 日。商品頁寫的「防水」、「不漏」或其他宣傳文字，不代表任何情況都能完全防水；文章中列出的限制仍要一起看。</p>
+          <p>原有蝦皮用品資料核對於 2026 年 7 月 22～26 日；酷澎收納包資料核對於 2026 年 10 月 29 日。商品頁寫的「防水」、「不漏」或其他宣傳文字，不代表任何情況都能完全防水；文章中列出的限制仍要一起看。</p>
         </div>
       </section>
     </div>

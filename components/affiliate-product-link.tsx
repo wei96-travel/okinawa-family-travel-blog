@@ -4,12 +4,27 @@ type AffiliateProductLinkProps = {
   href: string;
   itemName: string;
   placement: string;
+  affiliateNetwork?: "Shopee" | "Coupang";
 };
 
-export function AffiliateProductLink({ href, itemName, placement }: AffiliateProductLinkProps) {
+const networkLabels = {
+  Shopee: "查看蝦皮商品",
+  Coupang: "查看酷澎商品"
+} as const;
+
+export function AffiliateProductLink({
+  href,
+  itemName,
+  placement,
+  affiliateNetwork
+}: AffiliateProductLinkProps) {
+  const network =
+    affiliateNetwork ??
+    (href.includes("coupa.ng") || href.includes("coupang.com") ? "Coupang" : "Shopee");
+
   function trackAffiliateClick() {
     window.gtag?.("event", "affiliate_click", {
-      affiliate_network: "Shopee",
+      affiliate_network: network,
       content_group: "travel_gear_hub",
       item_name: itemName,
       link_placement: placement,
@@ -27,7 +42,7 @@ export function AffiliateProductLink({ href, itemName, placement }: AffiliatePro
       rel="sponsored noopener noreferrer"
       target="_blank"
     >
-      查看蝦皮商品
+      {networkLabels[network]}
     </a>
   );
 }
