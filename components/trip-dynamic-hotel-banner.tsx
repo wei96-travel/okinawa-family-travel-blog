@@ -1,5 +1,5 @@
 type TripDynamicHotelBannerProps = {
-  destination?: "naha" | "fukuoka";
+  destination?: "naha" | "onna" | "fukuoka";
   placement: string;
 };
 
@@ -10,6 +10,13 @@ const bannerByDestination = {
     source:
       "https://tw.trip.com/partners/ad/DB20416881?Allianceid=8075670&SID=305605448&trip_sub1=hub_naha_dynamic",
     title: "那霸飯店即時房型"
+  },
+  onna: {
+    ariaLabel: "Trip.com 恩納飯店即時房型",
+    description: "還沒鎖定恩納哪一間時，可以先看 Trip.com 當下顯示的房型與價格；空房和價格會依入住日變動。",
+    source:
+      "https://tw.trip.com/partners/ad/DB20802959?Allianceid=8075670&SID=305605448&trip_sub1=blog_onna_dynamic",
+    title: "恩納飯店即時房型"
   },
   fukuoka: {
     ariaLabel: "Trip.com 福岡飯店即時房型",

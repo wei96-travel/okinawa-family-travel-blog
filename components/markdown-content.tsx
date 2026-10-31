@@ -191,10 +191,10 @@ export function MarkdownContent({ content, protectedImagePaths = [] }: MarkdownC
           );
         }
 
-        const dynamicHotelBannerMatch = block.match(/^\{\{trip_dynamic_hotel_banner:(naha|fukuoka)\}\}$/);
+        const dynamicHotelBannerMatch = block.match(/^\{\{trip_dynamic_hotel_banner:(naha|onna|fukuoka)\}\}$/);
 
         if (dynamicHotelBannerMatch) {
-          const destination = dynamicHotelBannerMatch[1] as "naha" | "fukuoka";
+          const destination = dynamicHotelBannerMatch[1] as "naha" | "onna" | "fukuoka";
 
           return (
             <div className="not-prose my-8 border-y border-[#e2d4bf] bg-white px-2 py-6 sm:px-7 sm:py-8" key={index}>
