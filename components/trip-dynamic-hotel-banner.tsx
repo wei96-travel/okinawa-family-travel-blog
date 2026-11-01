@@ -1,5 +1,5 @@
 type TripDynamicHotelBannerProps = {
-  destination?: "naha" | "onna" | "fukuoka";
+  destination?: "naha" | "onna" | "chatan" | "fukuoka";
   placement: string;
 };
 
@@ -17,6 +17,13 @@ const bannerByDestination = {
     source:
       "https://tw.trip.com/partners/ad/DB20802959?Allianceid=8075670&SID=305605448&trip_sub1=blog_onna_dynamic",
     title: "恩納飯店即時房型"
+  },
+  chatan: {
+    ariaLabel: "Trip.com 北谷與美國村附近飯店即時房型",
+    description: "先用照片、房型和當下價格縮小北谷住宿範圍；顯示的房源、空房和價格會依入住日變動。",
+    source:
+      "https://tw.trip.com/partners/ad/DB20836293?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_dynamic",
+    title: "北谷與美國村附近飯店即時房型"
   },
   fukuoka: {
     ariaLabel: "Trip.com 福岡飯店即時房型",
