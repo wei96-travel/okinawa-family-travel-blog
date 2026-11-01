@@ -207,7 +207,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 ## 資料來源與查核日期
 
-本次 2026 年 10 月更新特別核對以下官方資料：
+本次 2026 年 11 月更新特別核對以下官方資料：
 
 - 2026 年晚間活動與停車資訊：[Seaport Chatan Carnival 官方公告](https://www.okinawa-americanvillage.com/seaport-chatan-carnival%E9%96%8B%E5%82%AC%EF%BC%81/)
 - 那霸機場與北谷之間的交通：[北谷町觀光協會 2026 年交通更新](https://chatantourism.com/info/%E3%80%90%E2%80%BB1-17%E3%83%90%E3%82%B9%E6%83%85%E5%A0%B1%E6%9B%B4%E6%96%B0%E3%80%91%E5%8C%97%E8%B0%B7%E3%81%A1%E3%82%83%E3%81%9F%E3%82%93%E2%87%94%E7%A9%BA%E6%B8%AF%E3%82%A2%E3%82%AF%E3%82%BB/)
@@ -226,7 +226,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - AEON 北谷店：[永旺琉球官方店鋪頁](https://www.aeon-ryukyu.jp/store/aeon/chatan/)
 - 飯店：[Vessel 花苑沖繩飯店](https://www.vessel-hotel.jp/campana/okinawa/service/family/)、[北谷沖繩海灘塔飯店](https://dormy-hotels.com/resort/hotels/okinawa/kids/)（停車費：[JTB](https://www.jtb.co.jp/kokunai-hotel/htl/8713001/)、[阪急交通社](https://www.hankyu-travel.com/kokunai/facility/detail/htl1535.php)）、[沖繩北谷希爾頓度假飯店停車公告](https://chatan.hiltonjapan.co.jp/news/detail/6344)
 
-最後查核：2026 年 10 月 7 日。本文依官方與業者資料查核，部分資訊另以其他來源交叉比對。營業時間、班次、票價與飯店規定會變動，出發前請以官方公告為準。
+最後查核：2026 年 11 月 1 日。本文依官方與業者資料查核，部分資訊另以其他來源交叉比對。營業時間、班次、票價與飯店規定會變動，出發前請以官方公告為準。
 
 ## 下一步閱讀
 
