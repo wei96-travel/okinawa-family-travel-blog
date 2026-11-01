@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { TrackedAffiliateLink } from "@/components/tracked-affiliate-link";
 import { ProtectedOriginalImage } from "@/components/protected-original-image";
+import { ChatanHotelCarousel } from "@/components/chatan-hotel-carousel";
 import { TripDynamicHotelBanner } from "@/components/trip-dynamic-hotel-banner";
 import { getAffiliateNetwork } from "@/lib/affiliate";
 import { getImageSize } from "@/lib/image-size";
@@ -202,6 +203,14 @@ export function MarkdownContent({ content, protectedImagePaths = [] }: MarkdownC
                 destination={destination}
                 placement={`${destination}_dynamic_banner`}
               />
+            </div>
+          );
+        }
+
+        if (block === "{{chatan_hotel_carousel}}") {
+          return (
+            <div className="not-prose my-8 border-y border-[#e2d4bf] bg-white px-2 py-6 sm:px-7 sm:py-8" key={index}>
+              <ChatanHotelCarousel />
             </div>
           );
         }

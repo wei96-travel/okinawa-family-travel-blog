@@ -150,6 +150,8 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 下面 3 間都在美國村官方地圖的範圍內，依官網整理和孩子有關的條件。房價依日期和人數變動很大，不寫哪間比較便宜；同床、早餐的規定訂房時再確認一次。
 
+{{chatan_hotel_carousel}}
+
 ### Vessel 花苑沖繩飯店（Vessel Hotel Campana Okinawa）
 
 - 就在美國村裡，官方寫有免費停車場
