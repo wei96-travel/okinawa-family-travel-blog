@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TrackedAffiliateLink } from "@/components/tracked-affiliate-link";
 
 const hotels = [
@@ -44,6 +44,20 @@ const hotels = [
 export function ChatanHotelCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
   const hotel = hotels[activeIndex];
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+    if (mediaQuery.matches) {
+      return;
+    }
+
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % hotels.length);
+    }, 5000);
+
+    return () => window.clearInterval(timer);
+  }, [activeIndex]);
 
   function showPrevious() {
     setActiveIndex((current) => (current - 1 + hotels.length) % hotels.length);
