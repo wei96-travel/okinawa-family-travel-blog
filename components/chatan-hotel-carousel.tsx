@@ -24,6 +24,20 @@ const hotels = [
     name: "沖繩北谷希爾頓度假飯店",
     note: "想找度假飯店感、館內泳池和較完整設施，可先用同日期總價比較。",
     tag: "度假設施"
+  },
+  {
+    href:
+      "https://tw.trip.com/hotels/chatan-hotel-detail-52769968/lequ-okinawa-chatan-spa-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_lequ&trip_sub3=D19827431",
+    name: "LeQu 沖繩北谷 Spa & Resort",
+    note: "想把屋頂泳池和天然溫泉排進住宿，可先看這間；12 歲以下使用泳池要有成人陪同。",
+    tag: "泳池與溫泉"
+  },
+  {
+    href:
+      "https://tw.trip.com/hotels/chatan-hotel-detail-16034317/doubletree-by-hilton-okinawa-chatan-resort/?Allianceid=8075670&SID=305605448&trip_sub1=blog_american_village_doubletree&trip_sub3=D19827432",
+    name: "沖繩北谷希爾頓逸林度假飯店",
+    note: "有室外泳池、嬰兒床、兒童餐與連通房；需要兩間相連房的家庭可以先比房型。",
+    tag: "連通房選項"
   }
 ] as const;
 
@@ -44,7 +58,7 @@ export function ChatanHotelCarousel() {
       <div className="flex items-baseline justify-between gap-4">
         <div>
           <p className="text-sm font-bold text-[#34302b]">美國村親子飯店快速比較</p>
-          <p className="mt-2 text-sm leading-7 text-[#5f594f]">先切換比較 3 間，再看入住日的實際總價。</p>
+          <p className="mt-2 text-sm leading-7 text-[#5f594f]">先切換比較 5 間，再看入住日的實際總價。</p>
         </div>
         <span aria-live="polite" className="shrink-0 text-xs text-[#736b60]">
           {activeIndex + 1} / {hotels.length}
