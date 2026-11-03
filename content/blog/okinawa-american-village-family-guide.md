@@ -2,7 +2,7 @@
 title: "2026 沖繩美國村停車場免費嗎？可以玩多久、營業到幾點、親子怎麼排"
 description: "美國村免費停車場在哪、通常開到幾點？帶小孩逛街吃飯抓 2～3 小時，看日落加晚餐抓 3～4 小時。整理活動日停車提醒、尿布台、推車與那霸交通。"
 date: "2026-09-15"
-updated: "2026-11-01"
+updated: "2026-11-03"
 category: "親子景點"
 tags: ["沖繩美國村", "美國村停車", "北谷住宿", "沖繩親子景點", "沖繩中部"]
 coverImage: "/images/articles/okinawa-american-village-family-guide/american-village-cover.webp"
@@ -31,7 +31,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 *美國村海邊煙火與海面倒影。本站實拍。*
 
-開車的家庭，北谷町美濱公共停車場平常免費，但清晨 6:00 到 8:00 閉門；活動日也可能提早停止新車進入。若傍晚想看夕陽或煙火，先預留備案：北谷 Fisherina 停車場前兩小時免費，當日最高 500 日圓，且 24 小時開放。
+開車的家庭，北谷町美濱公共停車場平常免費，但清晨 6:00 到 8:00 閉門；活動日也可能提早停止新車進入。若傍晚想看夕陽或煙火，先預留備案：北谷 Fisherina 第 1 公共停車場前兩小時免費，當日最高 400 日圓，且 24 小時開放。
 
 不開車的話，抵達點可先認「北谷 Gateway」。它位在美濱公共停車場 A 區，從北谷觀光資訊中心往 AEON 北谷方向步行約 5 分鐘。官方目前列有那霸機場／國際通直達接駁、43 與 143 號公車、機場利木津巴士等選項；班次與停靠點會變動，出發前仍要以官方時刻表為準。
 
@@ -78,12 +78,33 @@ coverCreditText: "本站 AI 生成情境示意圖"
 
 店家營業時間各自不同。Depot Island 官方 FAQ 的說法是商店大多開到 21 點左右、餐廳大多到 23 點左右，想去的店先查那一家的時間。冬天有燈飾活動，近幾年大約從 11 月中下旬點到隔年 2、3 月，每天傍晚 5 點到半夜 12 點，確切日期每年公布。
 
-## 停車：町營停車場免費，偶爾提早關門
+## 停車：先看你要逛哪一側，不要只找最近的空位
 
-- 北谷町營美濱停車場：Depot Island 官方 FAQ 列為免費停車場，在 AEON 北谷店超市對面，開放時間 8:00 到隔天 6:00。
-- **有時會提早關門**：北谷町公所公告，2024 年 3、4、6 月因為停車場被不當使用，縮短過開放時間，之後再發生還會提早關門。活動日也可能提早關入口，例如 2025 年 6 月 28 日三個入口 20:00 就關了，西側出口照常開到隔天 6 點。傍晚才要去的話，先看一下北谷町觀光協會網站有沒有公告。
-- 要去海灘玩水：北谷公園停車場也免費，官方寫有 450 個車位。
-- AEON 北谷店：官方公布 2,150 個車位，是給購物顧客停的。
+美國村不是一棟商場，停哪裡會直接影響帶孩子走路的距離。北谷町觀光協會建議遊客使用周邊公共停車場；第一次去可以先用下面方式判斷。
+
+| 這次的安排 | 先看哪個停車場 | 原因 |
+| --- | --- | --- |
+| 想逛 Depot Island、AEON 北谷店，或只是吃飯散步 | 北谷町美濱公共停車場 | 免費，位置就在 AEON 北谷店超市對面，走進美國村主區較順 |
+| 想走海邊、看日落，晚一點才離開 | 北谷 Fisherina 第 1 公共停車場 | 24 小時開放，前 2 小時免費，當日最高 400 日圓，不必把回程壓在美濱停車場早上閉門前 |
+| 下午要去日落海灘玩水 | 北谷公園停車場 | 靠近海灘；玩水結束後再步行往美國村吃晚餐 |
+
+### 第一選擇：美濱公共停車場
+
+北谷町美濱公共停車場約有 1,500 個車位，平常免費。它每天早上 6:00 到 8:00 閉門，所以不適合把車留到隔天早上才取。
+
+傍晚抵達、只打算吃飯和散步的家庭，先往這裡找最合理。停好後不用急著把整個美國村走完，先確認晚餐的位置，再沿海邊慢慢走。
+
+### 想待到晚上：把 Fisherina 當備案
+
+如果美濱公共停車場入口已經塞車，或你本來就想走到海邊看日落，改看 Fisherina 第 1 公共停車場會比較乾脆。它不是完全免費，但前兩小時免費、當日最高 400 日圓，而且 24 小時開放。
+
+這個選擇比較適合「看完日落再吃晚餐」的安排。比起為了省停車費繞很久，孩子已經累了時，少走一段路通常更重要。
+
+### 活動日別賭最後一個入口
+
+美濱在萬聖節或大型活動日可能提早關閉部分入口。北谷町 2026 年萬聖節公告就曾把東、西、北側入口提前到晚上 8:00 關閉，西側出口則維持到隔天 6:00。
+
+出發前只要看一次北谷町或北谷觀光協會的最新公告即可。若公告提到管制，直接把 Fisherina 或北谷公園停車場當第一選擇，不要開到現場才一圈一圈找。
 
 沖繩停車場怎麼找、投幣式怎麼用，看[沖繩親子自駕停車攻略](/blog/okinawa-family-parking-guide)。
 
@@ -218,7 +239,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 行程資訊依官方資料整理；文內煙火照片為本站實拍。
 
 - 北谷町觀光資訊中心：[美國村官網店家頁](https://www.okinawa-americanvillage.com/zh-hant/shop/information-center/)、[北谷町觀光協會「北谷日常」](https://love.chatan.jp/topic/chatan_information_center/)
-- 停車場、營業時間、哺乳空間：[Depot Island 官方 FAQ](https://www.depot-island.co.jp/faqlist/)、[北谷町營停車場施行規則](https://www.chatan.jp/reiki/reiki_honbun/q925RG00000451.html)、[沖繩ナビ 美國村親子整理](https://okinawa-navi.jp/magazine/american-village-kids/)、[北谷町公所公告](https://www.chatan.jp/smph/choseijoho/kankou/oshirase/cyatancyoucyoueicyuu.html)
+- 停車場、營業時間、哺乳空間：[北谷町觀光協會交通指引](https://love.chatan.jp/access/)、[Depot Island 官方 FAQ](https://www.depot-island.co.jp/faqlist/)、[北谷町營停車場施行規則](https://www.chatan.jp/reiki/reiki_honbun/q925RG00000451.html)、[北谷町公所公告](https://www.chatan.jp/smph/choseijoho/kankou/oshirase/cyatancyoucyoueicyuu.html)
 - 燈飾活動：[北谷町觀光協會](https://chatantourism.com/)、[北谷日常](https://love.chatan.jp/)
 - 北谷公園游泳池：[北谷町都市公園條例（收費表）](https://www.chatan.jp/reiki/reiki_honbun/q925RG00000454.html)、[北谷町 入場方式公告](https://www.chatan.jp/seikatsuguide/koen_doro/oshirase/1111.html)
 - 日落海灘：[北谷町觀光協會](https://chatantourism.com/spot/sunset-beach/)、[海灘管理業者官網](https://dormy-hotels.com/resort/hotels/okinawa/sunsetbeach/beach-and-pool/)
@@ -228,7 +249,7 @@ coverCreditText: "本站 AI 生成情境示意圖"
 - AEON 北谷店：[永旺琉球官方店鋪頁](https://www.aeon-ryukyu.jp/store/aeon/chatan/)
 - 飯店：[Vessel 花苑沖繩飯店](https://www.vessel-hotel.jp/campana/okinawa/service/family/)、[北谷沖繩海灘塔飯店](https://dormy-hotels.com/resort/hotels/okinawa/kids/)（停車費：[JTB](https://www.jtb.co.jp/kokunai-hotel/htl/8713001/)、[阪急交通社](https://www.hankyu-travel.com/kokunai/facility/detail/htl1535.php)）、[沖繩北谷希爾頓度假飯店停車公告](https://chatan.hiltonjapan.co.jp/news/detail/6344)
 
-最後查核：2026 年 11 月 1 日。本文依官方與業者資料查核，部分資訊另以其他來源交叉比對。營業時間、班次、票價與飯店規定會變動，出發前請以官方公告為準。
+最後查核：2026 年 11 月 3 日。本文依官方與業者資料查核，部分資訊另以其他來源交叉比對。營業時間、班次、票價與飯店規定會變動，出發前請以官方公告為準。
 
 ## 下一步閱讀
 
