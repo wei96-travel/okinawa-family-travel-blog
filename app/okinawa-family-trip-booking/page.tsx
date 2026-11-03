@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AffiliateDisclosureNotice } from "@/components/affiliate-disclosure-notice";
 import { AffiliateServiceLink } from "@/components/affiliate-service-link";
-import { TripDynamicHotelBanner } from "@/components/trip-dynamic-hotel-banner";
+import { TripHotelAreaSelector } from "@/components/trip-hotel-area-selector";
 
 export const metadata: Metadata = {
   title: "沖繩親子旅行怎麼訂｜住宿、租車、票券與用品整理",
@@ -333,7 +333,7 @@ export default function OkinawaFamilyTripBookingPage() {
               ))}
             </div>
             <div className="mt-8 border-y border-[#e2d4bf] bg-white px-2 py-6 sm:px-7 sm:py-8">
-              <TripDynamicHotelBanner placement="naha_dynamic_banner" />
+              <TripHotelAreaSelector />
             </div>
           </div>
         </section>
