@@ -2,7 +2,7 @@
 title: "2026 沖繩租車怎麼選？三家接駁、營業時間與費用比較"
 description: "沖繩租車前要決定的其實只有三件事：哪一家、花多少、證件齊不齊。三家門市接駁差 15 分鐘、Times 那霸機場店 18:00 後抵達的班機不受理，這些訂車頁上不會提醒你。"
 date: "2026-07-03"
-updated: "2026-09-23"
+updated: "2026-11-15"
 category: "租車交通"
 tags: ["沖繩租車", "租車交通", "沖繩自由行", "親子旅遊"]
 coverImage: "/images/articles/okinawa-rental-car-family-guide/rental-car-coastal-road.webp"
@@ -68,6 +68,10 @@ Times、ORIX、Nippon、Nissan 在 Trip.com 這類比價平台都訂得到，但
 
 所以順序是：**先決定要哪一家，再決定去哪裡訂**，不要反過來被平台的排序牽著走。
 
+已經排除 OTS，或只是想先知道同一天的車型與總價，可以直接帶入取還車日期比較；不要只看第一個跳出的日租價。
+
+> [輸入日期，比 Times、ORIX、Nippon、Nissan 的車型與總價](https://tw.trip.com/carhire/to-japan-78/okinawa-207/?Allianceid=8075670&SID=305605448&trip_sub1=blog_rental_car_guide_cta&trip_sub3=D18913071)
+
 ## 二、費用大概是多少
 
 沖繩租車的帳單通常是四層疊起來的，只看第一層會低估：
@@ -91,11 +95,7 @@ OTS 官網公布的 24 小時定價（查核日期 2026 年 9 月 7 日）：
 
 帶孩子的家庭比較容易忽略的是第二層和第三層。基本費看起來便宜的方案，把 NOC 補償和兩張安全座椅加上去，總價順序常常就翻掉了。
 
-比價的正確做法是**固定日期、固定取還車地點、固定車型**，再逐項比。
-
-> [比較沖繩租車的車型與總價](https://tw.trip.com/carhire/to-japan-78/okinawa-207/?Allianceid=8075670&SID=305605448&trip_sub1=blog_rental_car_guide_cta&trip_sub3=D18913071)
-
-比價頁可先看 Times、ORIX、Nippon、Nissan 等車型與總價；**OTS 沒有上架**，若晚班機抵達或已決定選 OTS，直接回它的[繁體中文官網](https://www.otsinternational.jp/otsrentacar/cn/)訂。不論在哪裡訂，最後都要打開供應商條款核對保障範圍。
+比價的正確做法是**固定日期、固定取還車地點、固定車型**，再逐項比。上面的比價入口可先看 Times、ORIX、Nippon、Nissan 等車型與總價；**OTS 沒有上架**，若晚班機抵達或已決定選 OTS，直接回它的[繁體中文官網](https://www.otsinternational.jp/otsrentacar/cn/)訂。不論在哪裡訂，最後都要打開供應商條款核對保障範圍。
 
 ## 三、出發前要辦好的：證件
 
